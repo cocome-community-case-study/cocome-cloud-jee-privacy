@@ -22,4 +22,19 @@
             genModel="model/privacy.genmodel"/>
    </extension>
 
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated pcmprivacy -->
+      <package
+            uri="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1/Privacy"
+            class="org.palladiosimulator.pcm.core.resourceenvironmentprivacy.ResourceenvironmentPackage"
+            genModel="model/pcmprivacy.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated pcmprivacy -->
+      <package
+            uri="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.1/Privacy"
+            class="org.palladiosimulator.pcm.core.compositionprivacy.CompositionPackage"
+            genModel="model/pcmprivacy.genmodel"/>
+   </extension>
 </plugin>
