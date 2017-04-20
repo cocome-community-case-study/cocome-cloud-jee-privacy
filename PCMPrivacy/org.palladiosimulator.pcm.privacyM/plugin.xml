@@ -26,7 +26,7 @@
       <!-- @generated pcmprivacy -->
       <package
             uri="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1/Privacy"
-            class="org.palladiosimulator.pcm.core.resourceenvironmentprivacy.ResourceenvironmentPackage"
+            class="org.palladiosimulator.pcm.resourceenvironmentprivacy.ResourceenvironmentPrivacyPackage"
             genModel="model/pcmprivacy.genmodel"/>
    </extension>
 
@@ -34,7 +34,7 @@
       <!-- @generated pcmprivacy -->
       <package
             uri="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.1/Privacy"
-            class="org.palladiosimulator.pcm.core.compositionprivacy.CompositionPackage"
+            class="org.palladiosimulator.pcm.compositionprivacy.CompositionPrivacyPackage"
             genModel="model/pcmprivacy.genmodel"/>
    </extension>
 </plugin>

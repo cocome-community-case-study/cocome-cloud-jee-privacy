@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ Copyright 2005-2017 by palladiosimulator.org
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated pcmprivacy -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="org.palladiosimulator.pcm.resourceenvironmentprivacy.presentation.ResourceenvironmentPrivacyModelWizardID"
+            name="%_UI_ResourceenvironmentPrivacyModelWizard_label"
+            class="org.palladiosimulator.pcm.resourceenvironmentprivacy.presentation.ResourceenvironmentPrivacyModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ResourceenvironmentPrivacyModelFile.gif">
+         <description>%_UI_ResourceenvironmentPrivacyModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated pcmprivacy -->
+      <editor
+            id="org.palladiosimulator.pcm.resourceenvironmentprivacy.presentation.ResourceenvironmentPrivacyEditorID"
+            name="%_UI_ResourceenvironmentPrivacyEditor_label"
+            icon="icons/full/obj16/ResourceenvironmentPrivacyModelFile.gif"
+            extensions="resourceenvironmentprivacy"
+            class="org.palladiosimulator.pcm.resourceenvironmentprivacy.presentation.ResourceenvironmentPrivacyEditor"
+            contributorClass="org.palladiosimulator.pcm.resourceenvironmentprivacy.presentation.ResourceenvironmentPrivacyActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated pcmprivacy -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="org.palladiosimulator.pcm.compositionprivacy.presentation.CompositionPrivacyModelWizardID"
+            name="%_UI_CompositionPrivacyModelWizard_label"
+            class="org.palladiosimulator.pcm.compositionprivacy.presentation.CompositionPrivacyModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/CompositionPrivacyModelFile.gif">
+         <description>%_UI_CompositionPrivacyModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated pcmprivacy -->
+      <editor
+            id="org.palladiosimulator.pcm.compositionprivacy.presentation.CompositionPrivacyEditorID"
+            name="%_UI_CompositionPrivacyEditor_label"
+            icon="icons/full/obj16/CompositionPrivacyModelFile.gif"
+            extensions="compositionprivacy"
+            class="org.palladiosimulator.pcm.compositionprivacy.presentation.CompositionPrivacyEditor"
+            contributorClass="org.palladiosimulator.pcm.compositionprivacy.presentation.CompositionPrivacyActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
