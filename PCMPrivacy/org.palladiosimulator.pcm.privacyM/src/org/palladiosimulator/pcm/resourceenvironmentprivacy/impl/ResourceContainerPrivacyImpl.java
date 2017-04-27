@@ -25,16 +25,6 @@ import org.palladiosimulator.pcm.resourceenvironmentprivacy.ResourceenvironmentP
  */
 public class ResourceContainerPrivacyImpl extends ResourceContainerImpl implements ResourceContainerPrivacy {
 	/**
-	 * The default value of the '{@link #getGeolocation() <em>Geolocation</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getGeolocation()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final int GEOLOCATION_EDEFAULT = 0;
-
-	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -60,8 +50,7 @@ public class ResourceContainerPrivacyImpl extends ResourceContainerImpl implemen
 	 */
 	@Override
 	public int getGeolocation() {
-		return (Integer) eDynamicGet(ResourceenvironmentPrivacyPackage.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION,
-				ResourceenvironmentPrivacyPackage.Literals.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION, true, true);
+		return (Integer) eGet(ResourceenvironmentPrivacyPackage.Literals.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION, true);
 	}
 
 	/**
@@ -71,66 +60,7 @@ public class ResourceContainerPrivacyImpl extends ResourceContainerImpl implemen
 	 */
 	@Override
 	public void setGeolocation(int newGeolocation) {
-		eDynamicSet(ResourceenvironmentPrivacyPackage.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION,
-				ResourceenvironmentPrivacyPackage.Literals.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION, newGeolocation);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Object eGet(int featureID, boolean resolve, boolean coreType) {
-		switch (featureID) {
-		case ResourceenvironmentPrivacyPackage.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION:
-			return getGeolocation();
-		}
-		return super.eGet(featureID, resolve, coreType);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void eSet(int featureID, Object newValue) {
-		switch (featureID) {
-		case ResourceenvironmentPrivacyPackage.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION:
-			setGeolocation((Integer) newValue);
-			return;
-		}
-		super.eSet(featureID, newValue);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void eUnset(int featureID) {
-		switch (featureID) {
-		case ResourceenvironmentPrivacyPackage.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION:
-			setGeolocation(GEOLOCATION_EDEFAULT);
-			return;
-		}
-		super.eUnset(featureID);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public boolean eIsSet(int featureID) {
-		switch (featureID) {
-		case ResourceenvironmentPrivacyPackage.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION:
-			return getGeolocation() != GEOLOCATION_EDEFAULT;
-		}
-		return super.eIsSet(featureID);
+		eSet(ResourceenvironmentPrivacyPackage.Literals.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION, newGeolocation);
 	}
 
 } //ResourceContainerPrivacyImpl
