@@ -33,7 +33,8 @@ import org.palladiosimulator.pcm.resourceenvironmentprivacy.util.Resourceenviron
  * <!-- end-user-doc -->
  * @generated
  */
-public class ResourceenvironmentPrivacyItemProviderAdapterFactory extends ResourceenvironmentPrivacyAdapterFactory implements ComposeableAdapterFactory, IChangeNotifier, IDisposable {
+public class ResourceenvironmentPrivacyItemProviderAdapterFactory extends ResourceenvironmentPrivacyAdapterFactory
+		implements ComposeableAdapterFactory, IChangeNotifier, IDisposable {
 	/**
 	 * This keeps track of the root adapter factory that delegates to this adapter factory.
 	 * <!-- begin-user-doc -->
@@ -101,6 +102,7 @@ public class ResourceenvironmentPrivacyItemProviderAdapterFactory extends Resour
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ComposeableAdapterFactory getRootAdapterFactory() {
 		return parentAdapterFactory == null ? this : parentAdapterFactory.getRootAdapterFactory();
 	}
@@ -111,6 +113,7 @@ public class ResourceenvironmentPrivacyItemProviderAdapterFactory extends Resour
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setParentAdapterFactory(ComposedAdapterFactory parentAdapterFactory) {
 		this.parentAdapterFactory = parentAdapterFactory;
 	}
@@ -145,7 +148,7 @@ public class ResourceenvironmentPrivacyItemProviderAdapterFactory extends Resour
 	public Object adapt(Object object, Object type) {
 		if (isFactoryForType(type)) {
 			Object adapter = super.adapt(object, type);
-			if (!(type instanceof Class<?>) || (((Class<?>)type).isInstance(adapter))) {
+			if (!(type instanceof Class<?>) || (((Class<?>) type).isInstance(adapter))) {
 				return adapter;
 			}
 		}
@@ -159,6 +162,7 @@ public class ResourceenvironmentPrivacyItemProviderAdapterFactory extends Resour
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void addListener(INotifyChangedListener notifyChangedListener) {
 		changeNotifier.addListener(notifyChangedListener);
 	}
@@ -169,6 +173,7 @@ public class ResourceenvironmentPrivacyItemProviderAdapterFactory extends Resour
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void removeListener(INotifyChangedListener notifyChangedListener) {
 		changeNotifier.removeListener(notifyChangedListener);
 	}
@@ -179,6 +184,7 @@ public class ResourceenvironmentPrivacyItemProviderAdapterFactory extends Resour
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void fireNotifyChanged(Notification notification) {
 		changeNotifier.fireNotifyChanged(notification);
 
@@ -193,8 +199,10 @@ public class ResourceenvironmentPrivacyItemProviderAdapterFactory extends Resour
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void dispose() {
-		if (resourceContainerPrivacyItemProvider != null) resourceContainerPrivacyItemProvider.dispose();
+		if (resourceContainerPrivacyItemProvider != null)
+			resourceContainerPrivacyItemProvider.dispose();
 	}
 
 }

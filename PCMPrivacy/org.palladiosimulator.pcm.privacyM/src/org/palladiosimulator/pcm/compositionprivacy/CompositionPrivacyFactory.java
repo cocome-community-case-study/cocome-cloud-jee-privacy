@@ -20,7 +20,8 @@ public interface CompositionPrivacyFactory extends EFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	CompositionPrivacyFactory eINSTANCE = org.palladiosimulator.pcm.compositionprivacy.impl.CompositionPrivacyFactoryImpl.init();
+	CompositionPrivacyFactory eINSTANCE = org.palladiosimulator.pcm.compositionprivacy.impl.CompositionPrivacyFactoryImpl
+			.init();
 
 	/**
 	 * Returns a new object of class '<em>Assembly Connector Privacy</em>'.

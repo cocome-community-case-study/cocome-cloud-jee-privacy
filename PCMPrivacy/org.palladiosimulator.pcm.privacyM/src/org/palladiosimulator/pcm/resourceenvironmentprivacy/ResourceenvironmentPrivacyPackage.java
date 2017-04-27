@@ -58,7 +58,8 @@ public interface ResourceenvironmentPrivacyPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	ResourceenvironmentPrivacyPackage eINSTANCE = org.palladiosimulator.pcm.resourceenvironmentprivacy.impl.ResourceenvironmentPrivacyPackageImpl.init();
+	ResourceenvironmentPrivacyPackage eINSTANCE = org.palladiosimulator.pcm.resourceenvironmentprivacy.impl.ResourceenvironmentPrivacyPackageImpl
+			.init();
 
 	/**
 	 * The meta object id for the '{@link org.palladiosimulator.pcm.resourceenvironmentprivacy.impl.ResourceContainerPrivacyImpl <em>Resource Container Privacy</em>}' class.
@@ -150,7 +151,6 @@ public interface ResourceenvironmentPrivacyPackage extends EPackage {
 	 * @ordered
 	 */
 	int RESOURCE_CONTAINER_PRIVACY_FEATURE_COUNT = ResourceenvironmentPackage.RESOURCE_CONTAINER_FEATURE_COUNT + 1;
-
 
 	/**
 	 * Returns the meta object for class '{@link org.palladiosimulator.pcm.resourceenvironmentprivacy.ResourceContainerPrivacy <em>Resource Container Privacy</em>}'.

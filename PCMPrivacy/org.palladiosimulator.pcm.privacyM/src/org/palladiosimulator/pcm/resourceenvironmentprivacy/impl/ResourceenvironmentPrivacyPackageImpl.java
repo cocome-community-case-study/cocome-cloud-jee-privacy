@@ -74,10 +74,14 @@ public class ResourceenvironmentPrivacyPackageImpl extends EPackageImpl implemen
 	 * @generated
 	 */
 	public static ResourceenvironmentPrivacyPackage init() {
-		if (isInited) return (ResourceenvironmentPrivacyPackage)EPackage.Registry.INSTANCE.getEPackage(ResourceenvironmentPrivacyPackage.eNS_URI);
+		if (isInited)
+			return (ResourceenvironmentPrivacyPackage) EPackage.Registry.INSTANCE
+					.getEPackage(ResourceenvironmentPrivacyPackage.eNS_URI);
 
 		// Obtain or create and register package
-		ResourceenvironmentPrivacyPackageImpl theResourceenvironmentPrivacyPackage = (ResourceenvironmentPrivacyPackageImpl)(EPackage.Registry.INSTANCE.get(eNS_URI) instanceof ResourceenvironmentPrivacyPackageImpl ? EPackage.Registry.INSTANCE.get(eNS_URI) : new ResourceenvironmentPrivacyPackageImpl());
+		ResourceenvironmentPrivacyPackageImpl theResourceenvironmentPrivacyPackage = (ResourceenvironmentPrivacyPackageImpl) (EPackage.Registry.INSTANCE
+				.get(eNS_URI) instanceof ResourceenvironmentPrivacyPackageImpl ? EPackage.Registry.INSTANCE.get(eNS_URI)
+						: new ResourceenvironmentPrivacyPackageImpl());
 
 		isInited = true;
 
@@ -85,7 +89,10 @@ public class ResourceenvironmentPrivacyPackageImpl extends EPackageImpl implemen
 		PcmPackage.eINSTANCE.eClass();
 
 		// Obtain or create and register interdependencies
-		CompositionPrivacyPackageImpl theCompositionPrivacyPackage = (CompositionPrivacyPackageImpl)(EPackage.Registry.INSTANCE.getEPackage(CompositionPrivacyPackage.eNS_URI) instanceof CompositionPrivacyPackageImpl ? EPackage.Registry.INSTANCE.getEPackage(CompositionPrivacyPackage.eNS_URI) : CompositionPrivacyPackage.eINSTANCE);
+		CompositionPrivacyPackageImpl theCompositionPrivacyPackage = (CompositionPrivacyPackageImpl) (EPackage.Registry.INSTANCE
+				.getEPackage(CompositionPrivacyPackage.eNS_URI) instanceof CompositionPrivacyPackageImpl
+						? EPackage.Registry.INSTANCE.getEPackage(CompositionPrivacyPackage.eNS_URI)
+						: CompositionPrivacyPackage.eINSTANCE);
 
 		// Create package meta-data objects
 		theResourceenvironmentPrivacyPackage.createPackageContents();
@@ -98,7 +105,6 @@ public class ResourceenvironmentPrivacyPackageImpl extends EPackageImpl implemen
 		// Mark meta-data to indicate it can't be changed
 		theResourceenvironmentPrivacyPackage.freeze();
 
-  
 		// Update the registry and return the package
 		EPackage.Registry.INSTANCE.put(ResourceenvironmentPrivacyPackage.eNS_URI, theResourceenvironmentPrivacyPackage);
 		return theResourceenvironmentPrivacyPackage;
@@ -109,6 +115,7 @@ public class ResourceenvironmentPrivacyPackageImpl extends EPackageImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getResourceContainerPrivacy() {
 		return resourceContainerPrivacyEClass;
 	}
@@ -118,8 +125,9 @@ public class ResourceenvironmentPrivacyPackageImpl extends EPackageImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getResourceContainerPrivacy_Geolocation() {
-		return (EAttribute)resourceContainerPrivacyEClass.getEStructuralFeatures().get(0);
+		return (EAttribute) resourceContainerPrivacyEClass.getEStructuralFeatures().get(0);
 	}
 
 	/**
@@ -127,8 +135,9 @@ public class ResourceenvironmentPrivacyPackageImpl extends EPackageImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ResourceenvironmentPrivacyFactory getResourceenvironmentPrivacyFactory() {
-		return (ResourceenvironmentPrivacyFactory)getEFactoryInstance();
+		return (ResourceenvironmentPrivacyFactory) getEFactoryInstance();
 	}
 
 	/**
@@ -146,7 +155,8 @@ public class ResourceenvironmentPrivacyPackageImpl extends EPackageImpl implemen
 	 * @generated
 	 */
 	public void createPackageContents() {
-		if (isCreated) return;
+		if (isCreated)
+			return;
 		isCreated = true;
 
 		// Create classes and their features
@@ -169,7 +179,8 @@ public class ResourceenvironmentPrivacyPackageImpl extends EPackageImpl implemen
 	 * @generated
 	 */
 	public void initializePackageContents() {
-		if (isInitialized) return;
+		if (isInitialized)
+			return;
 		isInitialized = true;
 
 		// Initialize package
@@ -178,7 +189,8 @@ public class ResourceenvironmentPrivacyPackageImpl extends EPackageImpl implemen
 		setNsURI(eNS_URI);
 
 		// Obtain other dependent packages
-		ResourceenvironmentPackage theResourceenvironmentPackage = (ResourceenvironmentPackage)EPackage.Registry.INSTANCE.getEPackage(ResourceenvironmentPackage.eNS_URI);
+		ResourceenvironmentPackage theResourceenvironmentPackage = (ResourceenvironmentPackage) EPackage.Registry.INSTANCE
+				.getEPackage(ResourceenvironmentPackage.eNS_URI);
 
 		// Create type parameters
 
@@ -188,8 +200,11 @@ public class ResourceenvironmentPrivacyPackageImpl extends EPackageImpl implemen
 		resourceContainerPrivacyEClass.getESuperTypes().add(theResourceenvironmentPackage.getResourceContainer());
 
 		// Initialize classes and features; add operations and parameters
-		initEClass(resourceContainerPrivacyEClass, ResourceContainerPrivacy.class, "ResourceContainerPrivacy", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getResourceContainerPrivacy_Geolocation(), ecorePackage.getEInt(), "Geolocation", "0", 1, 1, ResourceContainerPrivacy.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, !IS_ORDERED);
+		initEClass(resourceContainerPrivacyEClass, ResourceContainerPrivacy.class, "ResourceContainerPrivacy",
+				!IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getResourceContainerPrivacy_Geolocation(), ecorePackage.getEInt(), "Geolocation", "0", 1, 1,
+				ResourceContainerPrivacy.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID,
+				IS_UNIQUE, !IS_DERIVED, !IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);

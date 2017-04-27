@@ -20,7 +20,8 @@ public interface ResourceenvironmentPrivacyFactory extends EFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	ResourceenvironmentPrivacyFactory eINSTANCE = org.palladiosimulator.pcm.resourceenvironmentprivacy.impl.ResourceenvironmentPrivacyFactoryImpl.init();
+	ResourceenvironmentPrivacyFactory eINSTANCE = org.palladiosimulator.pcm.resourceenvironmentprivacy.impl.ResourceenvironmentPrivacyFactoryImpl
+			.init();
 
 	/**
 	 * Returns a new object of class '<em>Resource Container Privacy</em>'.

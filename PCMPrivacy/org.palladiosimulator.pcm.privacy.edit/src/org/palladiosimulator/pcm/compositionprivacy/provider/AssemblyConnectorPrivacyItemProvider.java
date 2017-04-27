@@ -3,7 +3,6 @@
  */
 package org.palladiosimulator.pcm.compositionprivacy.provider;
 
-
 import java.util.Collection;
 import java.util.List;
 
@@ -64,19 +63,13 @@ public class AssemblyConnectorPrivacyItemProvider extends AssemblyConnectorItemP
 	 * @generated
 	 */
 	protected void addPrivacyLevelPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_AssemblyConnectorPrivacy_PrivacyLevel_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_AssemblyConnectorPrivacy_PrivacyLevel_feature", "_UI_AssemblyConnectorPrivacy_type"),
-				 CompositionPrivacyPackage.Literals.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL,
-				 true,
-				 false,
-				 false,
-				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-				 null,
-				 null));
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_AssemblyConnectorPrivacy_PrivacyLevel_feature"),
+				getString("_UI_PropertyDescriptor_description", "_UI_AssemblyConnectorPrivacy_PrivacyLevel_feature",
+						"_UI_AssemblyConnectorPrivacy_type"),
+				CompositionPrivacyPackage.Literals.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL, true, false, false,
+				ItemPropertyDescriptor.GENERIC_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -98,12 +91,10 @@ public class AssemblyConnectorPrivacyItemProvider extends AssemblyConnectorItemP
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((AssemblyConnectorPrivacy)object).getId();
-		return label == null || label.length() == 0 ?
-			getString("_UI_AssemblyConnectorPrivacy_type") :
-			getString("_UI_AssemblyConnectorPrivacy_type") + " " + label;
+		String label = ((AssemblyConnectorPrivacy) object).getId();
+		return label == null || label.length() == 0 ? getString("_UI_AssemblyConnectorPrivacy_type")
+				: getString("_UI_AssemblyConnectorPrivacy_type") + " " + label;
 	}
-	
 
 	/**
 	 * This handles model notifications by calling {@link #updateChildren} to update any cached
@@ -117,9 +108,9 @@ public class AssemblyConnectorPrivacyItemProvider extends AssemblyConnectorItemP
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(AssemblyConnectorPrivacy.class)) {
-			case CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL:
-				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
-				return;
+		case CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL:
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
+			return;
 		}
 		super.notifyChanged(notification);
 	}

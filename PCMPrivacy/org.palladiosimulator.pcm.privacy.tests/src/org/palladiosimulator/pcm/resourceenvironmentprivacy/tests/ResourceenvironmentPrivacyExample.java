@@ -42,34 +42,31 @@ public class ResourceenvironmentPrivacyExample {
 		// Create a resource set to hold the resources.
 		//
 		ResourceSet resourceSet = new ResourceSetImpl();
-		
+
 		// Register the appropriate resource factory to handle all file extensions.
 		//
-		resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put
-			(Resource.Factory.Registry.DEFAULT_EXTENSION, 
-			 new XMIResourceFactoryImpl());
+		resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap()
+				.put(Resource.Factory.Registry.DEFAULT_EXTENSION, new XMIResourceFactoryImpl());
 
 		// Register the package to ensure it is available during loading.
 		//
-		resourceSet.getPackageRegistry().put
-			(ResourceenvironmentPrivacyPackage.eNS_URI, 
-			 ResourceenvironmentPrivacyPackage.eINSTANCE);
-        
+		resourceSet.getPackageRegistry().put(ResourceenvironmentPrivacyPackage.eNS_URI,
+				ResourceenvironmentPrivacyPackage.eINSTANCE);
+
 		// If there are no arguments, emit an appropriate usage message.
 		//
 		if (args.length == 0) {
 			System.out.println("Enter a list of file paths or URIs that have content like this:");
 			try {
 				Resource resource = resourceSet.createResource(URI.createURI("http:///My.resourceenvironmentprivacy"));
-				ResourceContainerPrivacy root = ResourceenvironmentPrivacyFactory.eINSTANCE.createResourceContainerPrivacy();
-				resource.getContents().add((EObject)root);
+				ResourceContainerPrivacy root = ResourceenvironmentPrivacyFactory.eINSTANCE
+						.createResourceContainerPrivacy();
+				resource.getContents().add(root);
 				resource.save(System.out, null);
-			}
-			catch (IOException exception) {
+			} catch (IOException exception) {
 				exception.printStackTrace();
 			}
-		}
-		else {
+		} else {
 			// Iterate over all the arguments.
 			//
 			for (int i = 0; i < args.length; ++i) {
@@ -78,7 +75,7 @@ public class ResourceenvironmentPrivacyExample {
 				// Otherwise, it's directly treated as a URL.
 				//
 				File file = new File(args[i]);
-				URI uri = file.isFile() ? URI.createFileURI(file.getAbsolutePath()): URI.createURI(args[i]);
+				URI uri = file.isFile() ? URI.createFileURI(file.getAbsolutePath()) : URI.createURI(args[i]);
 
 				try {
 					// Demand load resource for this file.
@@ -94,15 +91,14 @@ public class ResourceenvironmentPrivacyExample {
 							printDiagnostic(diagnostic, "");
 						}
 					}
-				}
-				catch (RuntimeException exception) {
+				} catch (RuntimeException exception) {
 					System.out.println("Problem loading " + uri);
 					exception.printStackTrace();
 				}
 			}
 		}
 	}
-	
+
 	/**
 	 * <!-- begin-user-doc -->
 	 * Prints diagnostics with indentation.

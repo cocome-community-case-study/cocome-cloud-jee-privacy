@@ -59,7 +59,8 @@ public interface CompositionPrivacyPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	CompositionPrivacyPackage eINSTANCE = org.palladiosimulator.pcm.compositionprivacy.impl.CompositionPrivacyPackageImpl.init();
+	CompositionPrivacyPackage eINSTANCE = org.palladiosimulator.pcm.compositionprivacy.impl.CompositionPrivacyPackageImpl
+			.init();
 
 	/**
 	 * The meta object id for the '{@link org.palladiosimulator.pcm.compositionprivacy.impl.AssemblyConnectorPrivacyImpl <em>Assembly Connector Privacy</em>}' class.
@@ -161,7 +162,6 @@ public interface CompositionPrivacyPackage extends EPackage {
 	 * @generated
 	 */
 	int DATA_PRIVACY_LVL = 1;
-
 
 	/**
 	 * Returns the meta object for class '{@link org.palladiosimulator.pcm.compositionprivacy.AssemblyConnectorPrivacy <em>Assembly Connector Privacy</em>}'.

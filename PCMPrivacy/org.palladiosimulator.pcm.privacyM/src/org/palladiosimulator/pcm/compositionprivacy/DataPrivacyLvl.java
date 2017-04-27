@@ -100,12 +100,7 @@ public enum DataPrivacyLvl implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	private static final DataPrivacyLvl[] VALUES_ARRAY =
-		new DataPrivacyLvl[] {
-			PERSONAL,
-			DEPERSONALIZED,
-			ANONYMIZED,
-		};
+	private static final DataPrivacyLvl[] VALUES_ARRAY = new DataPrivacyLvl[] { PERSONAL, DEPERSONALIZED, ANONYMIZED, };
 
 	/**
 	 * A public read-only list of all the '<em><b>Data Privacy Lvl</b></em>' enumerators.
@@ -161,9 +156,12 @@ public enum DataPrivacyLvl implements Enumerator {
 	 */
 	public static DataPrivacyLvl get(int value) {
 		switch (value) {
-			case PERSONAL_VALUE: return PERSONAL;
-			case DEPERSONALIZED_VALUE: return DEPERSONALIZED;
-			case ANONYMIZED_VALUE: return ANONYMIZED;
+		case PERSONAL_VALUE:
+			return PERSONAL;
+		case DEPERSONALIZED_VALUE:
+			return DEPERSONALIZED;
+		case ANONYMIZED_VALUE:
+			return ANONYMIZED;
 		}
 		return null;
 	}
@@ -206,8 +204,9 @@ public enum DataPrivacyLvl implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public int getValue() {
-	  return value;
+		return value;
 	}
 
 	/**
@@ -215,8 +214,9 @@ public enum DataPrivacyLvl implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getName() {
-	  return name;
+		return name;
 	}
 
 	/**
@@ -224,8 +224,9 @@ public enum DataPrivacyLvl implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public String getLiteral() {
-	  return literal;
+		return literal;
 	}
 
 	/**
@@ -238,5 +239,5 @@ public enum DataPrivacyLvl implements Enumerator {
 	public String toString() {
 		return literal;
 	}
-	
+
 } //DataPrivacyLvl

@@ -28,12 +28,12 @@ public class ResourceenvironmentPrivacyFactoryImpl extends EFactoryImpl implemen
 	 */
 	public static ResourceenvironmentPrivacyFactory init() {
 		try {
-			ResourceenvironmentPrivacyFactory theResourceenvironmentPrivacyFactory = (ResourceenvironmentPrivacyFactory)EPackage.Registry.INSTANCE.getEFactory(ResourceenvironmentPrivacyPackage.eNS_URI);
+			ResourceenvironmentPrivacyFactory theResourceenvironmentPrivacyFactory = (ResourceenvironmentPrivacyFactory) EPackage.Registry.INSTANCE
+					.getEFactory(ResourceenvironmentPrivacyPackage.eNS_URI);
 			if (theResourceenvironmentPrivacyFactory != null) {
 				return theResourceenvironmentPrivacyFactory;
 			}
-		}
-		catch (Exception exception) {
+		} catch (Exception exception) {
 			EcorePlugin.INSTANCE.log(exception);
 		}
 		return new ResourceenvironmentPrivacyFactoryImpl();
@@ -57,9 +57,10 @@ public class ResourceenvironmentPrivacyFactoryImpl extends EFactoryImpl implemen
 	@Override
 	public EObject create(EClass eClass) {
 		switch (eClass.getClassifierID()) {
-			case ResourceenvironmentPrivacyPackage.RESOURCE_CONTAINER_PRIVACY: return (EObject)createResourceContainerPrivacy();
-			default:
-				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
+		case ResourceenvironmentPrivacyPackage.RESOURCE_CONTAINER_PRIVACY:
+			return createResourceContainerPrivacy();
+		default:
+			throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
 	}
 
@@ -68,6 +69,7 @@ public class ResourceenvironmentPrivacyFactoryImpl extends EFactoryImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ResourceContainerPrivacy createResourceContainerPrivacy() {
 		ResourceContainerPrivacyImpl resourceContainerPrivacy = new ResourceContainerPrivacyImpl();
 		return resourceContainerPrivacy;
@@ -78,8 +80,9 @@ public class ResourceenvironmentPrivacyFactoryImpl extends EFactoryImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public ResourceenvironmentPrivacyPackage getResourceenvironmentPrivacyPackage() {
-		return (ResourceenvironmentPrivacyPackage)getEPackage();
+		return (ResourceenvironmentPrivacyPackage) getEPackage();
 	}
 
 	/**

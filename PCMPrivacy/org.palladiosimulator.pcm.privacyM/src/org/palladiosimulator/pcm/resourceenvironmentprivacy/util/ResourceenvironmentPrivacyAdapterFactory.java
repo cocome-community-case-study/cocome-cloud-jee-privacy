@@ -62,7 +62,7 @@ public class ResourceenvironmentPrivacyAdapterFactory extends AdapterFactoryImpl
 			return true;
 		}
 		if (object instanceof EObject) {
-			return ((EObject)object).eClass().getEPackage() == modelPackage;
+			return ((EObject) object).eClass().getEPackage() == modelPackage;
 		}
 		return false;
 	}
@@ -73,33 +73,37 @@ public class ResourceenvironmentPrivacyAdapterFactory extends AdapterFactoryImpl
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected ResourceenvironmentPrivacySwitch<Adapter> modelSwitch =
-		new ResourceenvironmentPrivacySwitch<Adapter>() {
-			@Override
-			public Adapter caseResourceContainerPrivacy(ResourceContainerPrivacy object) {
-				return createResourceContainerPrivacyAdapter();
-			}
-			@Override
-			public Adapter caseIdentifier(Identifier object) {
-				return createIdentifierAdapter();
-			}
-			@Override
-			public Adapter caseNamedElement(NamedElement object) {
-				return createNamedElementAdapter();
-			}
-			@Override
-			public Adapter caseEntity(Entity object) {
-				return createEntityAdapter();
-			}
-			@Override
-			public Adapter caseResourceContainer(ResourceContainer object) {
-				return createResourceContainerAdapter();
-			}
-			@Override
-			public Adapter defaultCase(EObject object) {
-				return createEObjectAdapter();
-			}
-		};
+	protected ResourceenvironmentPrivacySwitch<Adapter> modelSwitch = new ResourceenvironmentPrivacySwitch<Adapter>() {
+		@Override
+		public Adapter caseResourceContainerPrivacy(ResourceContainerPrivacy object) {
+			return createResourceContainerPrivacyAdapter();
+		}
+
+		@Override
+		public Adapter caseIdentifier(Identifier object) {
+			return createIdentifierAdapter();
+		}
+
+		@Override
+		public Adapter caseNamedElement(NamedElement object) {
+			return createNamedElementAdapter();
+		}
+
+		@Override
+		public Adapter caseEntity(Entity object) {
+			return createEntityAdapter();
+		}
+
+		@Override
+		public Adapter caseResourceContainer(ResourceContainer object) {
+			return createResourceContainerAdapter();
+		}
+
+		@Override
+		public Adapter defaultCase(EObject object) {
+			return createEObjectAdapter();
+		}
+	};
 
 	/**
 	 * Creates an adapter for the <code>target</code>.
@@ -111,9 +115,8 @@ public class ResourceenvironmentPrivacyAdapterFactory extends AdapterFactoryImpl
 	 */
 	@Override
 	public Adapter createAdapter(Notifier target) {
-		return modelSwitch.doSwitch((EObject)target);
+		return modelSwitch.doSwitch((EObject) target);
 	}
-
 
 	/**
 	 * Creates a new adapter for an object of class '{@link org.palladiosimulator.pcm.resourceenvironmentprivacy.ResourceContainerPrivacy <em>Resource Container Privacy</em>}'.

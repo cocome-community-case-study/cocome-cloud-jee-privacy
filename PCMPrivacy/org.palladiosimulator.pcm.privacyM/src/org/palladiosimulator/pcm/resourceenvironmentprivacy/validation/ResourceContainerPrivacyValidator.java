@@ -4,7 +4,6 @@
  */
 package org.palladiosimulator.pcm.resourceenvironmentprivacy.validation;
 
-
 /**
  * A sample validator interface for {@link org.palladiosimulator.pcm.resourceenvironmentprivacy.ResourceContainerPrivacy}.
  * This doesn't really do anything, and it's not a real EMF artifact.

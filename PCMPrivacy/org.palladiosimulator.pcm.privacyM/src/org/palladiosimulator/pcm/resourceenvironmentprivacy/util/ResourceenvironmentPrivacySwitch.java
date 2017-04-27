@@ -74,17 +74,23 @@ public class ResourceenvironmentPrivacySwitch<T> extends Switch<T> {
 	@Override
 	protected T doSwitch(int classifierID, EObject theEObject) {
 		switch (classifierID) {
-			case ResourceenvironmentPrivacyPackage.RESOURCE_CONTAINER_PRIVACY: {
-				ResourceContainerPrivacy resourceContainerPrivacy = (ResourceContainerPrivacy)theEObject;
-				T result = caseResourceContainerPrivacy(resourceContainerPrivacy);
-				if (result == null) result = caseResourceContainer(resourceContainerPrivacy);
-				if (result == null) result = caseEntity(resourceContainerPrivacy);
-				if (result == null) result = caseIdentifier(resourceContainerPrivacy);
-				if (result == null) result = caseNamedElement(resourceContainerPrivacy);
-				if (result == null) result = defaultCase(theEObject);
-				return result;
-			}
-			default: return defaultCase(theEObject);
+		case ResourceenvironmentPrivacyPackage.RESOURCE_CONTAINER_PRIVACY: {
+			ResourceContainerPrivacy resourceContainerPrivacy = (ResourceContainerPrivacy) theEObject;
+			T result = caseResourceContainerPrivacy(resourceContainerPrivacy);
+			if (result == null)
+				result = caseResourceContainer(resourceContainerPrivacy);
+			if (result == null)
+				result = caseEntity(resourceContainerPrivacy);
+			if (result == null)
+				result = caseIdentifier(resourceContainerPrivacy);
+			if (result == null)
+				result = caseNamedElement(resourceContainerPrivacy);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
+		default:
+			return defaultCase(theEObject);
 		}
 	}
 

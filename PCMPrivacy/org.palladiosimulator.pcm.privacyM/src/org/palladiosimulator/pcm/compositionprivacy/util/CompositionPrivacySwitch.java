@@ -75,18 +75,25 @@ public class CompositionPrivacySwitch<T> extends Switch<T> {
 	@Override
 	protected T doSwitch(int classifierID, EObject theEObject) {
 		switch (classifierID) {
-			case CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY: {
-				AssemblyConnectorPrivacy assemblyConnectorPrivacy = (AssemblyConnectorPrivacy)theEObject;
-				T result = caseAssemblyConnectorPrivacy(assemblyConnectorPrivacy);
-				if (result == null) result = caseAssemblyConnector(assemblyConnectorPrivacy);
-				if (result == null) result = caseConnector(assemblyConnectorPrivacy);
-				if (result == null) result = caseEntity(assemblyConnectorPrivacy);
-				if (result == null) result = caseIdentifier(assemblyConnectorPrivacy);
-				if (result == null) result = caseNamedElement(assemblyConnectorPrivacy);
-				if (result == null) result = defaultCase(theEObject);
-				return result;
-			}
-			default: return defaultCase(theEObject);
+		case CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY: {
+			AssemblyConnectorPrivacy assemblyConnectorPrivacy = (AssemblyConnectorPrivacy) theEObject;
+			T result = caseAssemblyConnectorPrivacy(assemblyConnectorPrivacy);
+			if (result == null)
+				result = caseAssemblyConnector(assemblyConnectorPrivacy);
+			if (result == null)
+				result = caseConnector(assemblyConnectorPrivacy);
+			if (result == null)
+				result = caseEntity(assemblyConnectorPrivacy);
+			if (result == null)
+				result = caseIdentifier(assemblyConnectorPrivacy);
+			if (result == null)
+				result = caseNamedElement(assemblyConnectorPrivacy);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
+		default:
+			return defaultCase(theEObject);
 		}
 	}
 

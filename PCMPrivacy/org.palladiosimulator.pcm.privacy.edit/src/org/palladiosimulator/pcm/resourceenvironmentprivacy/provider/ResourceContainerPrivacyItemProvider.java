@@ -3,7 +3,6 @@
  */
 package org.palladiosimulator.pcm.resourceenvironmentprivacy.provider;
 
-
 import java.util.Collection;
 import java.util.List;
 
@@ -65,19 +64,13 @@ public class ResourceContainerPrivacyItemProvider extends ResourceContainerItemP
 	 * @generated
 	 */
 	protected void addGeolocationPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_ResourceContainerPrivacy_Geolocation_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_ResourceContainerPrivacy_Geolocation_feature", "_UI_ResourceContainerPrivacy_type"),
-				 ResourceenvironmentPrivacyPackage.Literals.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION,
-				 true,
-				 false,
-				 false,
-				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
-				 null,
-				 null));
+		itemPropertyDescriptors.add(createItemPropertyDescriptor(
+				((ComposeableAdapterFactory) adapterFactory).getRootAdapterFactory(), getResourceLocator(),
+				getString("_UI_ResourceContainerPrivacy_Geolocation_feature"),
+				getString("_UI_PropertyDescriptor_description", "_UI_ResourceContainerPrivacy_Geolocation_feature",
+						"_UI_ResourceContainerPrivacy_type"),
+				ResourceenvironmentPrivacyPackage.Literals.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION, true, false, false,
+				ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE, null, null));
 	}
 
 	/**
@@ -99,12 +92,10 @@ public class ResourceContainerPrivacyItemProvider extends ResourceContainerItemP
 	 */
 	@Override
 	public String getText(Object object) {
-		String label = ((ResourceContainerPrivacy)object).getId();
-		return label == null || label.length() == 0 ?
-			getString("_UI_ResourceContainerPrivacy_type") :
-			getString("_UI_ResourceContainerPrivacy_type") + " " + label;
+		String label = ((ResourceContainerPrivacy) object).getId();
+		return label == null || label.length() == 0 ? getString("_UI_ResourceContainerPrivacy_type")
+				: getString("_UI_ResourceContainerPrivacy_type") + " " + label;
 	}
-	
 
 	/**
 	 * This handles model notifications by calling {@link #updateChildren} to update any cached
@@ -118,9 +109,9 @@ public class ResourceContainerPrivacyItemProvider extends ResourceContainerItemP
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(ResourceContainerPrivacy.class)) {
-			case ResourceenvironmentPrivacyPackage.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION:
-				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
-				return;
+		case ResourceenvironmentPrivacyPackage.RESOURCE_CONTAINER_PRIVACY__GEOLOCATION:
+			fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
+			return;
 		}
 		super.notifyChanged(notification);
 	}
@@ -136,10 +127,9 @@ public class ResourceContainerPrivacyItemProvider extends ResourceContainerItemP
 	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 
-		newChildDescriptors.add
-			(createChildParameter
-				(ResourceenvironmentPackage.Literals.RESOURCE_CONTAINER__NESTED_RESOURCE_CONTAINERS_RESOURCE_CONTAINER,
-				 ResourceenvironmentPrivacyFactory.eINSTANCE.createResourceContainerPrivacy()));
+		newChildDescriptors.add(createChildParameter(
+				ResourceenvironmentPackage.Literals.RESOURCE_CONTAINER__NESTED_RESOURCE_CONTAINERS_RESOURCE_CONTAINER,
+				ResourceenvironmentPrivacyFactory.eINSTANCE.createResourceContainerPrivacy()));
 	}
 
 	/**

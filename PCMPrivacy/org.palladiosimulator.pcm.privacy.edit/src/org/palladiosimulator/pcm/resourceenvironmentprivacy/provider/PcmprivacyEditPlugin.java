@@ -47,14 +47,8 @@ public final class PcmprivacyEditPlugin extends EMFPlugin {
 	 * @generated
 	 */
 	public PcmprivacyEditPlugin() {
-		super
-		  (new ResourceLocator [] {
-		     PalladioComponentModelEditPlugin.INSTANCE,
-		     ProbabilityFunctionEditPlugin.INSTANCE,
-		     StoexEditPlugin.INSTANCE,
-		     UnitsEditPlugin.INSTANCE,
-		     IdentifierEditPlugin.INSTANCE,
-		   });
+		super(new ResourceLocator[] { PalladioComponentModelEditPlugin.INSTANCE, ProbabilityFunctionEditPlugin.INSTANCE,
+				StoexEditPlugin.INSTANCE, UnitsEditPlugin.INSTANCE, IdentifierEditPlugin.INSTANCE, });
 	}
 
 	/**

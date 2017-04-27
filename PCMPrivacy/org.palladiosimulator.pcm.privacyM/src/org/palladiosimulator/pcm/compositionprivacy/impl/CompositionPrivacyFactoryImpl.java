@@ -29,12 +29,12 @@ public class CompositionPrivacyFactoryImpl extends EFactoryImpl implements Compo
 	 */
 	public static CompositionPrivacyFactory init() {
 		try {
-			CompositionPrivacyFactory theCompositionPrivacyFactory = (CompositionPrivacyFactory)EPackage.Registry.INSTANCE.getEFactory(CompositionPrivacyPackage.eNS_URI);
+			CompositionPrivacyFactory theCompositionPrivacyFactory = (CompositionPrivacyFactory) EPackage.Registry.INSTANCE
+					.getEFactory(CompositionPrivacyPackage.eNS_URI);
 			if (theCompositionPrivacyFactory != null) {
 				return theCompositionPrivacyFactory;
 			}
-		}
-		catch (Exception exception) {
+		} catch (Exception exception) {
 			EcorePlugin.INSTANCE.log(exception);
 		}
 		return new CompositionPrivacyFactoryImpl();
@@ -58,9 +58,10 @@ public class CompositionPrivacyFactoryImpl extends EFactoryImpl implements Compo
 	@Override
 	public EObject create(EClass eClass) {
 		switch (eClass.getClassifierID()) {
-			case CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY: return (EObject)createAssemblyConnectorPrivacy();
-			default:
-				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
+		case CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY:
+			return createAssemblyConnectorPrivacy();
+		default:
+			throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
 	}
 
@@ -72,10 +73,10 @@ public class CompositionPrivacyFactoryImpl extends EFactoryImpl implements Compo
 	@Override
 	public Object createFromString(EDataType eDataType, String initialValue) {
 		switch (eDataType.getClassifierID()) {
-			case CompositionPrivacyPackage.DATA_PRIVACY_LVL:
-				return createDataPrivacyLvlFromString(eDataType, initialValue);
-			default:
-				throw new IllegalArgumentException("The datatype '" + eDataType.getName() + "' is not a valid classifier");
+		case CompositionPrivacyPackage.DATA_PRIVACY_LVL:
+			return createDataPrivacyLvlFromString(eDataType, initialValue);
+		default:
+			throw new IllegalArgumentException("The datatype '" + eDataType.getName() + "' is not a valid classifier");
 		}
 	}
 
@@ -87,10 +88,10 @@ public class CompositionPrivacyFactoryImpl extends EFactoryImpl implements Compo
 	@Override
 	public String convertToString(EDataType eDataType, Object instanceValue) {
 		switch (eDataType.getClassifierID()) {
-			case CompositionPrivacyPackage.DATA_PRIVACY_LVL:
-				return convertDataPrivacyLvlToString(eDataType, instanceValue);
-			default:
-				throw new IllegalArgumentException("The datatype '" + eDataType.getName() + "' is not a valid classifier");
+		case CompositionPrivacyPackage.DATA_PRIVACY_LVL:
+			return convertDataPrivacyLvlToString(eDataType, instanceValue);
+		default:
+			throw new IllegalArgumentException("The datatype '" + eDataType.getName() + "' is not a valid classifier");
 		}
 	}
 
@@ -99,6 +100,7 @@ public class CompositionPrivacyFactoryImpl extends EFactoryImpl implements Compo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public AssemblyConnectorPrivacy createAssemblyConnectorPrivacy() {
 		AssemblyConnectorPrivacyImpl assemblyConnectorPrivacy = new AssemblyConnectorPrivacyImpl();
 		return assemblyConnectorPrivacy;
@@ -111,7 +113,9 @@ public class CompositionPrivacyFactoryImpl extends EFactoryImpl implements Compo
 	 */
 	public DataPrivacyLvl createDataPrivacyLvlFromString(EDataType eDataType, String initialValue) {
 		DataPrivacyLvl result = DataPrivacyLvl.get(initialValue);
-		if (result == null) throw new IllegalArgumentException("The value '" + initialValue + "' is not a valid enumerator of '" + eDataType.getName() + "'");
+		if (result == null)
+			throw new IllegalArgumentException(
+					"The value '" + initialValue + "' is not a valid enumerator of '" + eDataType.getName() + "'");
 		return result;
 	}
 
@@ -129,8 +133,9 @@ public class CompositionPrivacyFactoryImpl extends EFactoryImpl implements Compo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompositionPrivacyPackage getCompositionPrivacyPackage() {
-		return (CompositionPrivacyPackage)getEPackage();
+		return (CompositionPrivacyPackage) getEPackage();
 	}
 
 	/**

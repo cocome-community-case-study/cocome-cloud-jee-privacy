@@ -59,8 +59,10 @@ public class AssemblyConnectorPrivacyImpl extends AssemblyConnectorImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public DataPrivacyLvl getPrivacyLevel() {
-		return (DataPrivacyLvl)eDynamicGet(CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL, CompositionPrivacyPackage.Literals.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL, true, true);
+		return (DataPrivacyLvl) eDynamicGet(CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL,
+				CompositionPrivacyPackage.Literals.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL, true, true);
 	}
 
 	/**
@@ -68,8 +70,10 @@ public class AssemblyConnectorPrivacyImpl extends AssemblyConnectorImpl implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public void setPrivacyLevel(DataPrivacyLvl newPrivacyLevel) {
-		eDynamicSet(CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL, CompositionPrivacyPackage.Literals.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL, newPrivacyLevel);
+		eDynamicSet(CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL,
+				CompositionPrivacyPackage.Literals.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL, newPrivacyLevel);
 	}
 
 	/**
@@ -80,8 +84,8 @@ public class AssemblyConnectorPrivacyImpl extends AssemblyConnectorImpl implemen
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
-			case CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL:
-				return getPrivacyLevel();
+		case CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL:
+			return getPrivacyLevel();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -94,9 +98,9 @@ public class AssemblyConnectorPrivacyImpl extends AssemblyConnectorImpl implemen
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-			case CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL:
-				setPrivacyLevel((DataPrivacyLvl)newValue);
-				return;
+		case CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL:
+			setPrivacyLevel((DataPrivacyLvl) newValue);
+			return;
 		}
 		super.eSet(featureID, newValue);
 	}
@@ -109,9 +113,9 @@ public class AssemblyConnectorPrivacyImpl extends AssemblyConnectorImpl implemen
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
-			case CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL:
-				setPrivacyLevel(PRIVACY_LEVEL_EDEFAULT);
-				return;
+		case CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL:
+			setPrivacyLevel(PRIVACY_LEVEL_EDEFAULT);
+			return;
 		}
 		super.eUnset(featureID);
 	}
@@ -124,8 +128,8 @@ public class AssemblyConnectorPrivacyImpl extends AssemblyConnectorImpl implemen
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
-			case CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL:
-				return getPrivacyLevel() != PRIVACY_LEVEL_EDEFAULT;
+		case CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL:
+			return getPrivacyLevel() != PRIVACY_LEVEL_EDEFAULT;
 		}
 		return super.eIsSet(featureID);
 	}

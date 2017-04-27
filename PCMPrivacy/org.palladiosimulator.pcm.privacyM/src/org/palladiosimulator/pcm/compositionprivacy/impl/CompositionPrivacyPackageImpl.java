@@ -83,10 +83,14 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 	 * @generated
 	 */
 	public static CompositionPrivacyPackage init() {
-		if (isInited) return (CompositionPrivacyPackage)EPackage.Registry.INSTANCE.getEPackage(CompositionPrivacyPackage.eNS_URI);
+		if (isInited)
+			return (CompositionPrivacyPackage) EPackage.Registry.INSTANCE
+					.getEPackage(CompositionPrivacyPackage.eNS_URI);
 
 		// Obtain or create and register package
-		CompositionPrivacyPackageImpl theCompositionPrivacyPackage = (CompositionPrivacyPackageImpl)(EPackage.Registry.INSTANCE.get(eNS_URI) instanceof CompositionPrivacyPackageImpl ? EPackage.Registry.INSTANCE.get(eNS_URI) : new CompositionPrivacyPackageImpl());
+		CompositionPrivacyPackageImpl theCompositionPrivacyPackage = (CompositionPrivacyPackageImpl) (EPackage.Registry.INSTANCE
+				.get(eNS_URI) instanceof CompositionPrivacyPackageImpl ? EPackage.Registry.INSTANCE.get(eNS_URI)
+						: new CompositionPrivacyPackageImpl());
 
 		isInited = true;
 
@@ -94,7 +98,10 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 		PcmPackage.eINSTANCE.eClass();
 
 		// Obtain or create and register interdependencies
-		ResourceenvironmentPrivacyPackageImpl theResourceenvironmentPrivacyPackage = (ResourceenvironmentPrivacyPackageImpl)(EPackage.Registry.INSTANCE.getEPackage(ResourceenvironmentPrivacyPackage.eNS_URI) instanceof ResourceenvironmentPrivacyPackageImpl ? EPackage.Registry.INSTANCE.getEPackage(ResourceenvironmentPrivacyPackage.eNS_URI) : ResourceenvironmentPrivacyPackage.eINSTANCE);
+		ResourceenvironmentPrivacyPackageImpl theResourceenvironmentPrivacyPackage = (ResourceenvironmentPrivacyPackageImpl) (EPackage.Registry.INSTANCE
+				.getEPackage(ResourceenvironmentPrivacyPackage.eNS_URI) instanceof ResourceenvironmentPrivacyPackageImpl
+						? EPackage.Registry.INSTANCE.getEPackage(ResourceenvironmentPrivacyPackage.eNS_URI)
+						: ResourceenvironmentPrivacyPackage.eINSTANCE);
 
 		// Create package meta-data objects
 		theCompositionPrivacyPackage.createPackageContents();
@@ -107,7 +114,6 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 		// Mark meta-data to indicate it can't be changed
 		theCompositionPrivacyPackage.freeze();
 
-  
 		// Update the registry and return the package
 		EPackage.Registry.INSTANCE.put(CompositionPrivacyPackage.eNS_URI, theCompositionPrivacyPackage);
 		return theCompositionPrivacyPackage;
@@ -118,6 +124,7 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EClass getAssemblyConnectorPrivacy() {
 		return assemblyConnectorPrivacyEClass;
 	}
@@ -127,8 +134,9 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EAttribute getAssemblyConnectorPrivacy_PrivacyLevel() {
-		return (EAttribute)assemblyConnectorPrivacyEClass.getEStructuralFeatures().get(0);
+		return (EAttribute) assemblyConnectorPrivacyEClass.getEStructuralFeatures().get(0);
 	}
 
 	/**
@@ -136,6 +144,7 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public EEnum getDataPrivacyLvl() {
 		return dataPrivacyLvlEEnum;
 	}
@@ -145,8 +154,9 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@Override
 	public CompositionPrivacyFactory getCompositionPrivacyFactory() {
-		return (CompositionPrivacyFactory)getEFactoryInstance();
+		return (CompositionPrivacyFactory) getEFactoryInstance();
 	}
 
 	/**
@@ -164,7 +174,8 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 	 * @generated
 	 */
 	public void createPackageContents() {
-		if (isCreated) return;
+		if (isCreated)
+			return;
 		isCreated = true;
 
 		// Create classes and their features
@@ -190,7 +201,8 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 	 * @generated
 	 */
 	public void initializePackageContents() {
-		if (isInitialized) return;
+		if (isInitialized)
+			return;
 		isInitialized = true;
 
 		// Initialize package
@@ -199,7 +211,8 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 		setNsURI(eNS_URI);
 
 		// Obtain other dependent packages
-		CompositionPackage theCompositionPackage = (CompositionPackage)EPackage.Registry.INSTANCE.getEPackage(CompositionPackage.eNS_URI);
+		CompositionPackage theCompositionPackage = (CompositionPackage) EPackage.Registry.INSTANCE
+				.getEPackage(CompositionPackage.eNS_URI);
 
 		// Create type parameters
 
@@ -209,8 +222,11 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 		assemblyConnectorPrivacyEClass.getESuperTypes().add(theCompositionPackage.getAssemblyConnector());
 
 		// Initialize classes and features; add operations and parameters
-		initEClass(assemblyConnectorPrivacyEClass, AssemblyConnectorPrivacy.class, "AssemblyConnectorPrivacy", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getAssemblyConnectorPrivacy_PrivacyLevel(), this.getDataPrivacyLvl(), "PrivacyLevel", "Personal", 0, 1, AssemblyConnectorPrivacy.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, !IS_UNIQUE, !IS_DERIVED, !IS_ORDERED);
+		initEClass(assemblyConnectorPrivacyEClass, AssemblyConnectorPrivacy.class, "AssemblyConnectorPrivacy",
+				!IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getAssemblyConnectorPrivacy_PrivacyLevel(), this.getDataPrivacyLvl(), "PrivacyLevel", "Personal",
+				0, 1, AssemblyConnectorPrivacy.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE,
+				!IS_ID, !IS_UNIQUE, !IS_DERIVED, !IS_ORDERED);
 
 		// Initialize enums and add enum literals
 		initEEnum(dataPrivacyLvlEEnum, DataPrivacyLvl.class, "DataPrivacyLvl");

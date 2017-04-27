@@ -33,7 +33,7 @@ public final class PcmprivacyEditorPlugin extends EMFPlugin {
 	 * @generated
 	 */
 	public static final PcmprivacyEditorPlugin INSTANCE = new PcmprivacyEditorPlugin();
-	
+
 	/**
 	 * Keep track of the singleton.
 	 * <!-- begin-user-doc -->
@@ -49,14 +49,8 @@ public final class PcmprivacyEditorPlugin extends EMFPlugin {
 	 * @generated
 	 */
 	public PcmprivacyEditorPlugin() {
-		super
-			(new ResourceLocator [] {
-				PalladioComponentModelEditPlugin.INSTANCE,
-				ProbabilityFunctionEditPlugin.INSTANCE,
-				StoexEditPlugin.INSTANCE,
-				UnitsEditPlugin.INSTANCE,
-				IdentifierEditPlugin.INSTANCE,
-			});
+		super(new ResourceLocator[] { PalladioComponentModelEditPlugin.INSTANCE, ProbabilityFunctionEditPlugin.INSTANCE,
+				StoexEditPlugin.INSTANCE, UnitsEditPlugin.INSTANCE, IdentifierEditPlugin.INSTANCE, });
 	}
 
 	/**
@@ -70,7 +64,7 @@ public final class PcmprivacyEditorPlugin extends EMFPlugin {
 	public ResourceLocator getPluginResourceLocator() {
 		return plugin;
 	}
-	
+
 	/**
 	 * Returns the singleton instance of the Eclipse plugin.
 	 * <!-- begin-user-doc -->
@@ -81,7 +75,7 @@ public final class PcmprivacyEditorPlugin extends EMFPlugin {
 	public static Implementation getPlugin() {
 		return plugin;
 	}
-	
+
 	/**
 	 * The actual implementation of the Eclipse <b>Plugin</b>.
 	 * <!-- begin-user-doc -->
@@ -97,7 +91,7 @@ public final class PcmprivacyEditorPlugin extends EMFPlugin {
 		 */
 		public Implementation() {
 			super();
-	
+
 			// Remember the static instance.
 			//
 			plugin = this;

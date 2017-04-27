@@ -63,7 +63,7 @@ public class CompositionPrivacyAdapterFactory extends AdapterFactoryImpl {
 			return true;
 		}
 		if (object instanceof EObject) {
-			return ((EObject)object).eClass().getEPackage() == modelPackage;
+			return ((EObject) object).eClass().getEPackage() == modelPackage;
 		}
 		return false;
 	}
@@ -74,37 +74,42 @@ public class CompositionPrivacyAdapterFactory extends AdapterFactoryImpl {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected CompositionPrivacySwitch<Adapter> modelSwitch =
-		new CompositionPrivacySwitch<Adapter>() {
-			@Override
-			public Adapter caseAssemblyConnectorPrivacy(AssemblyConnectorPrivacy object) {
-				return createAssemblyConnectorPrivacyAdapter();
-			}
-			@Override
-			public Adapter caseIdentifier(Identifier object) {
-				return createIdentifierAdapter();
-			}
-			@Override
-			public Adapter caseNamedElement(NamedElement object) {
-				return createNamedElementAdapter();
-			}
-			@Override
-			public Adapter caseEntity(Entity object) {
-				return createEntityAdapter();
-			}
-			@Override
-			public Adapter caseConnector(Connector object) {
-				return createConnectorAdapter();
-			}
-			@Override
-			public Adapter caseAssemblyConnector(AssemblyConnector object) {
-				return createAssemblyConnectorAdapter();
-			}
-			@Override
-			public Adapter defaultCase(EObject object) {
-				return createEObjectAdapter();
-			}
-		};
+	protected CompositionPrivacySwitch<Adapter> modelSwitch = new CompositionPrivacySwitch<Adapter>() {
+		@Override
+		public Adapter caseAssemblyConnectorPrivacy(AssemblyConnectorPrivacy object) {
+			return createAssemblyConnectorPrivacyAdapter();
+		}
+
+		@Override
+		public Adapter caseIdentifier(Identifier object) {
+			return createIdentifierAdapter();
+		}
+
+		@Override
+		public Adapter caseNamedElement(NamedElement object) {
+			return createNamedElementAdapter();
+		}
+
+		@Override
+		public Adapter caseEntity(Entity object) {
+			return createEntityAdapter();
+		}
+
+		@Override
+		public Adapter caseConnector(Connector object) {
+			return createConnectorAdapter();
+		}
+
+		@Override
+		public Adapter caseAssemblyConnector(AssemblyConnector object) {
+			return createAssemblyConnectorAdapter();
+		}
+
+		@Override
+		public Adapter defaultCase(EObject object) {
+			return createEObjectAdapter();
+		}
+	};
 
 	/**
 	 * Creates an adapter for the <code>target</code>.
@@ -116,9 +121,8 @@ public class CompositionPrivacyAdapterFactory extends AdapterFactoryImpl {
 	 */
 	@Override
 	public Adapter createAdapter(Notifier target) {
-		return modelSwitch.doSwitch((EObject)target);
+		return modelSwitch.doSwitch((EObject) target);
 	}
-
 
 	/**
 	 * Creates a new adapter for an object of class '{@link org.palladiosimulator.pcm.compositionprivacy.AssemblyConnectorPrivacy <em>Assembly Connector Privacy</em>}'.
