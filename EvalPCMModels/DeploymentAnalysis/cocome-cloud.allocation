@@ -11,7 +11,7 @@
     <assemblyContext_AllocationContext href="cocome-cloud.system#_cDcAwDPLEeeiB5i_nmvERA"/>
   </allocationContexts_Allocation>
   <allocationContexts_Allocation id="_CEH3sDPOEeeiB5i_nmvERA" entityName="AllocCon_C">
-    <resourceContainer_AllocationContext href="cocome-cloud.resourceenvironment#_-5Q84K2UEeaxN4gXuIkS2A"/>
+    <resourceContainer_AllocationContext href="cocome-cloud.resourceenvironment#_BgmykK2VEeaxN4gXuIkS2A"/>
     <assemblyContext_AllocationContext href="cocome-cloud.system#_goF3sDPLEeeiB5i_nmvERA"/>
   </allocationContexts_Allocation>
   <allocationContexts_Allocation id="_ClOZoDPOEeeiB5i_nmvERA" entityName="AllocCon_D">
