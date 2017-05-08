@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1" xmlns:resourceenvironmentprivacy="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1/Privacy" entityName="PrivacyTempResources">
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_FM6FMK2VEeaxN4gXuIkS2A" entityName="server-1_personal" Geolocation="840">
+    <activeResourceSpecifications_ResourceContainer id="_WV4YUK2VEeaxN4gXuIkS2A">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="1.0"/>
+    </activeResourceSpecifications_ResourceContainer>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_-5Q84K2UEeaxN4gXuIkS2A" entityName="server-2_depersonal" Geolocation="276">
+    <activeResourceSpecifications_ResourceContainer id="_TboNsK2VEeaxN4gXuIkS2A">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="1.0"/>
+    </activeResourceSpecifications_ResourceContainer>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_BgmykK2VEeaxN4gXuIkS2A" entityName="server-3_depersonal" Geolocation="276">
+    <activeResourceSpecifications_ResourceContainer id="_U0oA8K2VEeaxN4gXuIkS2A">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="1.0"/>
+    </activeResourceSpecifications_ResourceContainer>
+  </resourceContainer_ResourceEnvironment>
+</resourceenvironment:ResourceEnvironment>
