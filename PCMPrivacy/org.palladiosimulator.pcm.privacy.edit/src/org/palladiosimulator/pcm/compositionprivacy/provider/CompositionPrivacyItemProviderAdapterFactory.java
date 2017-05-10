@@ -97,6 +97,29 @@ public class CompositionPrivacyItemProviderAdapterFactory extends CompositionPri
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link org.palladiosimulator.pcm.compositionprivacy.AssemblyContextPrivacy} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected AssemblyContextPrivacyItemProvider assemblyContextPrivacyItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link org.palladiosimulator.pcm.compositionprivacy.AssemblyContextPrivacy}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createAssemblyContextPrivacyAdapter() {
+		if (assemblyContextPrivacyItemProvider == null) {
+			assemblyContextPrivacyItemProvider = new AssemblyContextPrivacyItemProvider(this);
+		}
+
+		return assemblyContextPrivacyItemProvider;
+	}
+
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -203,6 +226,8 @@ public class CompositionPrivacyItemProviderAdapterFactory extends CompositionPri
 	public void dispose() {
 		if (assemblyConnectorPrivacyItemProvider != null)
 			assemblyConnectorPrivacyItemProvider.dispose();
+		if (assemblyContextPrivacyItemProvider != null)
+			assemblyContextPrivacyItemProvider.dispose();
 	}
 
 }

@@ -13,6 +13,7 @@ import org.eclipse.emf.ecore.impl.EPackageImpl;
 import org.palladiosimulator.pcm.PcmPackage;
 
 import org.palladiosimulator.pcm.compositionprivacy.AssemblyConnectorPrivacy;
+import org.palladiosimulator.pcm.compositionprivacy.AssemblyContextPrivacy;
 import org.palladiosimulator.pcm.compositionprivacy.CompositionPrivacyFactory;
 import org.palladiosimulator.pcm.compositionprivacy.CompositionPrivacyPackage;
 import org.palladiosimulator.pcm.compositionprivacy.DataPrivacyLvl;
@@ -36,6 +37,13 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 	 * @generated
 	 */
 	private EClass assemblyConnectorPrivacyEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass assemblyContextPrivacyEClass = null;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -145,6 +153,26 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 	 * @generated
 	 */
 	@Override
+	public EClass getAssemblyContextPrivacy() {
+		return assemblyContextPrivacyEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getAssemblyContextPrivacy_PrivacyLevel() {
+		return (EAttribute) assemblyContextPrivacyEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EEnum getDataPrivacyLvl() {
 		return dataPrivacyLvlEEnum;
 	}
@@ -181,6 +209,9 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 		// Create classes and their features
 		assemblyConnectorPrivacyEClass = createEClass(ASSEMBLY_CONNECTOR_PRIVACY);
 		createEAttribute(assemblyConnectorPrivacyEClass, ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL);
+
+		assemblyContextPrivacyEClass = createEClass(ASSEMBLY_CONTEXT_PRIVACY);
+		createEAttribute(assemblyContextPrivacyEClass, ASSEMBLY_CONTEXT_PRIVACY__PRIVACY_LEVEL);
 
 		// Create enums
 		dataPrivacyLvlEEnum = createEEnum(DATA_PRIVACY_LVL);
@@ -220,6 +251,7 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 
 		// Add supertypes to classes
 		assemblyConnectorPrivacyEClass.getESuperTypes().add(theCompositionPackage.getAssemblyConnector());
+		assemblyContextPrivacyEClass.getESuperTypes().add(theCompositionPackage.getAssemblyContext());
 
 		// Initialize classes and features; add operations and parameters
 		initEClass(assemblyConnectorPrivacyEClass, AssemblyConnectorPrivacy.class, "AssemblyConnectorPrivacy",
@@ -228,11 +260,18 @@ public class CompositionPrivacyPackageImpl extends EPackageImpl implements Compo
 				0, 1, AssemblyConnectorPrivacy.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE,
 				!IS_ID, !IS_UNIQUE, !IS_DERIVED, !IS_ORDERED);
 
+		initEClass(assemblyContextPrivacyEClass, AssemblyContextPrivacy.class, "AssemblyContextPrivacy", !IS_ABSTRACT,
+				!IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getAssemblyContextPrivacy_PrivacyLevel(), this.getDataPrivacyLvl(), "PrivacyLevel", "Unknown", 0,
+				1, AssemblyContextPrivacy.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID,
+				!IS_UNIQUE, !IS_DERIVED, !IS_ORDERED);
+
 		// Initialize enums and add enum literals
 		initEEnum(dataPrivacyLvlEEnum, DataPrivacyLvl.class, "DataPrivacyLvl");
 		addEEnumLiteral(dataPrivacyLvlEEnum, DataPrivacyLvl.PERSONAL);
 		addEEnumLiteral(dataPrivacyLvlEEnum, DataPrivacyLvl.DEPERSONALIZED);
 		addEEnumLiteral(dataPrivacyLvlEEnum, DataPrivacyLvl.ANONYMIZED);
+		addEEnumLiteral(dataPrivacyLvlEEnum, DataPrivacyLvl.UNKNOWN);
 
 		// Create resource
 		createResource(eNS_URI);

@@ -15,6 +15,7 @@ import org.eclipse.emf.ecore.EObject;
 import org.palladiosimulator.pcm.compositionprivacy.*;
 
 import org.palladiosimulator.pcm.core.composition.AssemblyConnector;
+import org.palladiosimulator.pcm.core.composition.AssemblyContext;
 import org.palladiosimulator.pcm.core.composition.Connector;
 
 import org.palladiosimulator.pcm.core.entity.Entity;
@@ -81,6 +82,11 @@ public class CompositionPrivacyAdapterFactory extends AdapterFactoryImpl {
 		}
 
 		@Override
+		public Adapter caseAssemblyContextPrivacy(AssemblyContextPrivacy object) {
+			return createAssemblyContextPrivacyAdapter();
+		}
+
+		@Override
 		public Adapter caseIdentifier(Identifier object) {
 			return createIdentifierAdapter();
 		}
@@ -103,6 +109,11 @@ public class CompositionPrivacyAdapterFactory extends AdapterFactoryImpl {
 		@Override
 		public Adapter caseAssemblyConnector(AssemblyConnector object) {
 			return createAssemblyConnectorAdapter();
+		}
+
+		@Override
+		public Adapter caseAssemblyContext(AssemblyContext object) {
+			return createAssemblyContextAdapter();
 		}
 
 		@Override
@@ -135,6 +146,20 @@ public class CompositionPrivacyAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createAssemblyConnectorPrivacyAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link org.palladiosimulator.pcm.compositionprivacy.AssemblyContextPrivacy <em>Assembly Context Privacy</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see org.palladiosimulator.pcm.compositionprivacy.AssemblyContextPrivacy
+	 * @generated
+	 */
+	public Adapter createAssemblyContextPrivacyAdapter() {
 		return null;
 	}
 
@@ -205,6 +230,20 @@ public class CompositionPrivacyAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createAssemblyConnectorAdapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link org.palladiosimulator.pcm.core.composition.AssemblyContext <em>Assembly Context</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see org.palladiosimulator.pcm.core.composition.AssemblyContext
+	 * @generated
+	 */
+	public Adapter createAssemblyContextAdapter() {
 		return null;
 	}
 

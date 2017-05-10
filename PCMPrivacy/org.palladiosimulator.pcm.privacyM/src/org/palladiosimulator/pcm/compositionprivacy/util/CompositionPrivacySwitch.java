@@ -13,6 +13,7 @@ import org.eclipse.emf.ecore.util.Switch;
 import org.palladiosimulator.pcm.compositionprivacy.*;
 
 import org.palladiosimulator.pcm.core.composition.AssemblyConnector;
+import org.palladiosimulator.pcm.core.composition.AssemblyContext;
 import org.palladiosimulator.pcm.core.composition.Connector;
 
 import org.palladiosimulator.pcm.core.entity.Entity;
@@ -92,6 +93,21 @@ public class CompositionPrivacySwitch<T> extends Switch<T> {
 				result = defaultCase(theEObject);
 			return result;
 		}
+		case CompositionPrivacyPackage.ASSEMBLY_CONTEXT_PRIVACY: {
+			AssemblyContextPrivacy assemblyContextPrivacy = (AssemblyContextPrivacy) theEObject;
+			T result = caseAssemblyContextPrivacy(assemblyContextPrivacy);
+			if (result == null)
+				result = caseAssemblyContext(assemblyContextPrivacy);
+			if (result == null)
+				result = caseEntity(assemblyContextPrivacy);
+			if (result == null)
+				result = caseIdentifier(assemblyContextPrivacy);
+			if (result == null)
+				result = caseNamedElement(assemblyContextPrivacy);
+			if (result == null)
+				result = defaultCase(theEObject);
+			return result;
+		}
 		default:
 			return defaultCase(theEObject);
 		}
@@ -109,6 +125,21 @@ public class CompositionPrivacySwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseAssemblyConnectorPrivacy(AssemblyConnectorPrivacy object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Assembly Context Privacy</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Assembly Context Privacy</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseAssemblyContextPrivacy(AssemblyContextPrivacy object) {
 		return null;
 	}
 
@@ -184,6 +215,21 @@ public class CompositionPrivacySwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseAssemblyConnector(AssemblyConnector object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Assembly Context</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Assembly Context</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseAssemblyContext(AssemblyContext object) {
 		return null;
 	}
 

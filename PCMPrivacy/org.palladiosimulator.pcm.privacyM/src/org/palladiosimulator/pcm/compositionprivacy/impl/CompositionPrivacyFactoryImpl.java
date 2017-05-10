@@ -60,6 +60,8 @@ public class CompositionPrivacyFactoryImpl extends EFactoryImpl implements Compo
 		switch (eClass.getClassifierID()) {
 		case CompositionPrivacyPackage.ASSEMBLY_CONNECTOR_PRIVACY:
 			return createAssemblyConnectorPrivacy();
+		case CompositionPrivacyPackage.ASSEMBLY_CONTEXT_PRIVACY:
+			return createAssemblyContextPrivacy();
 		default:
 			throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -104,6 +106,17 @@ public class CompositionPrivacyFactoryImpl extends EFactoryImpl implements Compo
 	public AssemblyConnectorPrivacy createAssemblyConnectorPrivacy() {
 		AssemblyConnectorPrivacyImpl assemblyConnectorPrivacy = new AssemblyConnectorPrivacyImpl();
 		return assemblyConnectorPrivacy;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public AssemblyContextPrivacy createAssemblyContextPrivacy() {
+		AssemblyContextPrivacyImpl assemblyContextPrivacy = new AssemblyContextPrivacyImpl();
+		return assemblyContextPrivacy;
 	}
 
 	/**

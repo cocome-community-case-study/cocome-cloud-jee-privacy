@@ -29,10 +29,15 @@
       <eLiterals name="Personal" literal="Personal"/>
       <eLiterals name="Depersonalized" value="10" literal="Depersonalized"/>
       <eLiterals name="Anonymized" value="20"/>
+      <eLiterals name="Unknown" value="9999" literal="Unknown"/>
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="AssemblyConnectorPrivacy" eSuperTypes="../../org.palladiosimulator.pcm/model/pcm.ecore#//core/composition/AssemblyConnector">
       <eStructuralFeatures xsi:type="ecore:EAttribute" name="PrivacyLevel" ordered="false"
           unique="false" eType="#//compositionprivacy/DataPrivacyLvl" defaultValueLiteral="Personal"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="AssemblyContextPrivacy" eSuperTypes="../../org.palladiosimulator.pcm/model/pcm.ecore#//core/composition/AssemblyContext">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="PrivacyLevel" ordered="false"
+          unique="false" eType="#//compositionprivacy/DataPrivacyLvl" defaultValueLiteral="Unknown"/>
     </eClassifiers>
   </eSubpackages>
 </ecore:EPackage>

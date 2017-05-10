@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:compositionprivacy="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.1/Privacy" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.1" id="_yBTmILF9EeaCwqxzEIieVA" entityName="CoCoME-Cloud">
-  <assemblyContexts__ComposedStructure id="_Btzw0DPLEeeiB5i_nmvERA" entityName="AC_A">
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_Btzw0DPLEeeiB5i_nmvERA" entityName="AC_A">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_cDcAwDPLEeeiB5i_nmvERA" entityName="AC_B">
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_cDcAwDPLEeeiB5i_nmvERA" entityName="AC_B">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_goF3sDPLEeeiB5i_nmvERA" entityName="AC_C">
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_goF3sDPLEeeiB5i_nmvERA" entityName="AC_C">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_hRtccDPLEeeiB5i_nmvERA" entityName="AC_D">
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_hRtccDPLEeeiB5i_nmvERA" entityName="AC_D">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_hkhqwDPLEeeiB5i_nmvERA" entityName="AC_E">
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_hkhqwDPLEeeiB5i_nmvERA" entityName="AC_E">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_iFZjMDPLEeeiB5i_nmvERA" entityName="AC_F">
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_iFZjMDPLEeeiB5i_nmvERA" entityName="AC_F">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
   </assemblyContexts__ComposedStructure>
   <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_5YsDgDPLEeeiB5i_nmvERA" entityName="Connector AC_B -> AC_A" requiringAssemblyContext_AssemblyConnector="_cDcAwDPLEeeiB5i_nmvERA" providingAssemblyContext_AssemblyConnector="_Btzw0DPLEeeiB5i_nmvERA">

@@ -33,6 +33,15 @@ public interface CompositionPrivacyFactory extends EFactory {
 	AssemblyConnectorPrivacy createAssemblyConnectorPrivacy();
 
 	/**
+	 * Returns a new object of class '<em>Assembly Context Privacy</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Assembly Context Privacy</em>'.
+	 * @generated
+	 */
+	AssemblyContextPrivacy createAssemblyContextPrivacy();
+
+	/**
 	 * Returns the package supported by this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

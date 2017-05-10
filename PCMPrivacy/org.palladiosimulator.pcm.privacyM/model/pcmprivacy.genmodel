@@ -26,9 +26,13 @@
         <genEnumLiterals ecoreEnumLiteral="pcmprivacy.ecore#//compositionprivacy/DataPrivacyLvl/Personal"/>
         <genEnumLiterals ecoreEnumLiteral="pcmprivacy.ecore#//compositionprivacy/DataPrivacyLvl/Depersonalized"/>
         <genEnumLiterals ecoreEnumLiteral="pcmprivacy.ecore#//compositionprivacy/DataPrivacyLvl/Anonymized"/>
+        <genEnumLiterals ecoreEnumLiteral="pcmprivacy.ecore#//compositionprivacy/DataPrivacyLvl/Unknown"/>
       </genEnums>
       <genClasses ecoreClass="pcmprivacy.ecore#//compositionprivacy/AssemblyConnectorPrivacy">
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute pcmprivacy.ecore#//compositionprivacy/AssemblyConnectorPrivacy/PrivacyLevel"/>
+      </genClasses>
+      <genClasses ecoreClass="pcmprivacy.ecore#//compositionprivacy/AssemblyContextPrivacy">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute pcmprivacy.ecore#//compositionprivacy/AssemblyContextPrivacy/PrivacyLevel"/>
       </genClasses>
     </nestedGenPackages>
   </genPackages>

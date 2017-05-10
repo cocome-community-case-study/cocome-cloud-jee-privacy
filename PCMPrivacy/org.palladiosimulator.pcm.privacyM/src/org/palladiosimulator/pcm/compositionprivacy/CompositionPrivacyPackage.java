@@ -154,6 +154,79 @@ public interface CompositionPrivacyPackage extends EPackage {
 	int ASSEMBLY_CONNECTOR_PRIVACY_FEATURE_COUNT = CompositionPackage.ASSEMBLY_CONNECTOR_FEATURE_COUNT + 1;
 
 	/**
+	 * The meta object id for the '{@link org.palladiosimulator.pcm.compositionprivacy.impl.AssemblyContextPrivacyImpl <em>Assembly Context Privacy</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.palladiosimulator.pcm.compositionprivacy.impl.AssemblyContextPrivacyImpl
+	 * @see org.palladiosimulator.pcm.compositionprivacy.impl.CompositionPrivacyPackageImpl#getAssemblyContextPrivacy()
+	 * @generated
+	 */
+	int ASSEMBLY_CONTEXT_PRIVACY = 1;
+
+	/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ASSEMBLY_CONTEXT_PRIVACY__ID = CompositionPackage.ASSEMBLY_CONTEXT__ID;
+
+	/**
+	 * The feature id for the '<em><b>Entity Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ASSEMBLY_CONTEXT_PRIVACY__ENTITY_NAME = CompositionPackage.ASSEMBLY_CONTEXT__ENTITY_NAME;
+
+	/**
+	 * The feature id for the '<em><b>Parent Structure Assembly Context</b></em>' container reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ASSEMBLY_CONTEXT_PRIVACY__PARENT_STRUCTURE_ASSEMBLY_CONTEXT = CompositionPackage.ASSEMBLY_CONTEXT__PARENT_STRUCTURE_ASSEMBLY_CONTEXT;
+
+	/**
+	 * The feature id for the '<em><b>Encapsulated Component Assembly Context</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ASSEMBLY_CONTEXT_PRIVACY__ENCAPSULATED_COMPONENT_ASSEMBLY_CONTEXT = CompositionPackage.ASSEMBLY_CONTEXT__ENCAPSULATED_COMPONENT_ASSEMBLY_CONTEXT;
+
+	/**
+	 * The feature id for the '<em><b>Config Parameter Usages Assembly Context</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ASSEMBLY_CONTEXT_PRIVACY__CONFIG_PARAMETER_USAGES_ASSEMBLY_CONTEXT = CompositionPackage.ASSEMBLY_CONTEXT__CONFIG_PARAMETER_USAGES_ASSEMBLY_CONTEXT;
+
+	/**
+	 * The feature id for the '<em><b>Privacy Level</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ASSEMBLY_CONTEXT_PRIVACY__PRIVACY_LEVEL = CompositionPackage.ASSEMBLY_CONTEXT_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of structural features of the '<em>Assembly Context Privacy</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ASSEMBLY_CONTEXT_PRIVACY_FEATURE_COUNT = CompositionPackage.ASSEMBLY_CONTEXT_FEATURE_COUNT + 1;
+
+	/**
 	 * The meta object id for the '{@link org.palladiosimulator.pcm.compositionprivacy.DataPrivacyLvl <em>Data Privacy Lvl</em>}' enum.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -161,7 +234,7 @@ public interface CompositionPrivacyPackage extends EPackage {
 	 * @see org.palladiosimulator.pcm.compositionprivacy.impl.CompositionPrivacyPackageImpl#getDataPrivacyLvl()
 	 * @generated
 	 */
-	int DATA_PRIVACY_LVL = 1;
+	int DATA_PRIVACY_LVL = 2;
 
 	/**
 	 * Returns the meta object for class '{@link org.palladiosimulator.pcm.compositionprivacy.AssemblyConnectorPrivacy <em>Assembly Connector Privacy</em>}'.
@@ -183,6 +256,27 @@ public interface CompositionPrivacyPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getAssemblyConnectorPrivacy_PrivacyLevel();
+
+	/**
+	 * Returns the meta object for class '{@link org.palladiosimulator.pcm.compositionprivacy.AssemblyContextPrivacy <em>Assembly Context Privacy</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Assembly Context Privacy</em>'.
+	 * @see org.palladiosimulator.pcm.compositionprivacy.AssemblyContextPrivacy
+	 * @generated
+	 */
+	EClass getAssemblyContextPrivacy();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.palladiosimulator.pcm.compositionprivacy.AssemblyContextPrivacy#getPrivacyLevel <em>Privacy Level</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Privacy Level</em>'.
+	 * @see org.palladiosimulator.pcm.compositionprivacy.AssemblyContextPrivacy#getPrivacyLevel()
+	 * @see #getAssemblyContextPrivacy()
+	 * @generated
+	 */
+	EAttribute getAssemblyContextPrivacy_PrivacyLevel();
 
 	/**
 	 * Returns the meta object for enum '{@link org.palladiosimulator.pcm.compositionprivacy.DataPrivacyLvl <em>Data Privacy Lvl</em>}'.
@@ -233,6 +327,24 @@ public interface CompositionPrivacyPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute ASSEMBLY_CONNECTOR_PRIVACY__PRIVACY_LEVEL = eINSTANCE.getAssemblyConnectorPrivacy_PrivacyLevel();
+
+		/**
+		 * The meta object literal for the '{@link org.palladiosimulator.pcm.compositionprivacy.impl.AssemblyContextPrivacyImpl <em>Assembly Context Privacy</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.palladiosimulator.pcm.compositionprivacy.impl.AssemblyContextPrivacyImpl
+		 * @see org.palladiosimulator.pcm.compositionprivacy.impl.CompositionPrivacyPackageImpl#getAssemblyContextPrivacy()
+		 * @generated
+		 */
+		EClass ASSEMBLY_CONTEXT_PRIVACY = eINSTANCE.getAssemblyContextPrivacy();
+
+		/**
+		 * The meta object literal for the '<em><b>Privacy Level</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ASSEMBLY_CONTEXT_PRIVACY__PRIVACY_LEVEL = eINSTANCE.getAssemblyContextPrivacy_PrivacyLevel();
 
 		/**
 		 * The meta object literal for the '{@link org.palladiosimulator.pcm.compositionprivacy.DataPrivacyLvl <em>Data Privacy Lvl</em>}' enum.

@@ -47,7 +47,17 @@ public enum DataPrivacyLvl implements Enumerator {
 	 * @generated
 	 * @ordered
 	 */
-	ANONYMIZED(20, "Anonymized", "Anonymized");
+	ANONYMIZED(20, "Anonymized", "Anonymized"),
+
+	/**
+	 * The '<em><b>Unknown</b></em>' literal object.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #UNKNOWN_VALUE
+	 * @generated
+	 * @ordered
+	 */
+	UNKNOWN(9999, "Unknown", "Unknown");
 
 	/**
 	 * The '<em><b>Personal</b></em>' literal value.
@@ -95,12 +105,28 @@ public enum DataPrivacyLvl implements Enumerator {
 	public static final int ANONYMIZED_VALUE = 20;
 
 	/**
+	 * The '<em><b>Unknown</b></em>' literal value.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of '<em><b>Unknown</b></em>' literal object isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @see #UNKNOWN
+	 * @model name="Unknown"
+	 * @generated
+	 * @ordered
+	 */
+	public static final int UNKNOWN_VALUE = 9999;
+
+	/**
 	 * An array of all the '<em><b>Data Privacy Lvl</b></em>' enumerators.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	private static final DataPrivacyLvl[] VALUES_ARRAY = new DataPrivacyLvl[] { PERSONAL, DEPERSONALIZED, ANONYMIZED, };
+	private static final DataPrivacyLvl[] VALUES_ARRAY = new DataPrivacyLvl[] { PERSONAL, DEPERSONALIZED, ANONYMIZED,
+			UNKNOWN, };
 
 	/**
 	 * A public read-only list of all the '<em><b>Data Privacy Lvl</b></em>' enumerators.
@@ -162,6 +188,8 @@ public enum DataPrivacyLvl implements Enumerator {
 			return DEPERSONALIZED;
 		case ANONYMIZED_VALUE:
 			return ANONYMIZED;
+		case UNKNOWN_VALUE:
+			return UNKNOWN;
 		}
 		return null;
 	}
