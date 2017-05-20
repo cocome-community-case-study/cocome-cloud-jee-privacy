@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" id="_j1pecNYgEeWrM-HnT5f_ug" entityName="org.cocome.cloud">
+  <components__Repository xsi:type="repository:BasicComponent" id="_RLr7cDPIEeeiB5i_nmvERA" entityName="Component_A">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_vYnNETPIEeeiB5i_nmvERA" entityName="PersonalProvided&lt;A-B>" providedInterface__OperationProvidedRole="_DbBA5zPIEeeiB5i_nmvERA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0fDicTPIEeeiB5i_nmvERA" entityName="DePersonalProvided&lt;A-B>" providedInterface__OperationProvidedRole="_K9ladzPIEeeiB5i_nmvERA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_4OAgcTPIEeeiB5i_nmvERA" entityName="AnonymizedProvided&lt;A-B>" providedInterface__OperationProvidedRole="_NqP1ADPIEeeiB5i_nmvERA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ZYcsETPJEeeiB5i_nmvERA" entityName="AnonymizedProvided&lt;A-C>" providedInterface__OperationProvidedRole="_NqP1ADPIEeeiB5i_nmvERA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_gQZbVTPJEeeiB5i_nmvERA" entityName="DePersonalRequired&lt;A-E>" requiredInterface__OperationRequiredRole="_K9ladzPIEeeiB5i_nmvERA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_kxWeBTPJEeeiB5i_nmvERA" entityName="AnonymizedRequired&lt;A-E>" requiredInterface__OperationRequiredRole="_NqP1ADPIEeeiB5i_nmvERA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_7c_k8DPIEeeiB5i_nmvERA" entityName="Component_B">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_t2oAcTPJEeeiB5i_nmvERA" entityName="DePersonalProvided&lt;B-D>" providedInterface__OperationProvidedRole="_K9ladzPIEeeiB5i_nmvERA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="___-n9TPIEeeiB5i_nmvERA" entityName="PersonalRequired&lt;A-B>" requiredInterface__OperationRequiredRole="_DbBA5zPIEeeiB5i_nmvERA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_DsiZRTPJEeeiB5i_nmvERA" entityName="DePersonalRequired&lt;A-B>" requiredInterface__OperationRequiredRole="_K9ladzPIEeeiB5i_nmvERA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_EVPYBTPJEeeiB5i_nmvERA" entityName="AnonymizedRequired&lt;A-B>" requiredInterface__OperationRequiredRole="_NqP1ADPIEeeiB5i_nmvERA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_TGp94DPJEeeiB5i_nmvERA" entityName="Component_C">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_2PqH9TPJEeeiB5i_nmvERA" entityName="AnonymizedRequired&lt;A-C>" requiredInterface__OperationRequiredRole="_NqP1ADPIEeeiB5i_nmvERA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_Z0DipTPMEeeiB5i_nmvERA" entityName="AnonymizedRequired&lt;C-F>" requiredInterface__OperationRequiredRole="_NqP1ADPIEeeiB5i_nmvERA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IJTDADPKEeeiB5i_nmvERA" entityName="Component_D">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_yU2CxTPKEeeiB5i_nmvERA" entityName="DePersonalRequired&lt;B-D>" requiredInterface__OperationRequiredRole="_K9ladzPIEeeiB5i_nmvERA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_4b_AJTPKEeeiB5i_nmvERA" entityName="DePersonalRequired&lt;D-E>" requiredInterface__OperationRequiredRole="_K9ladzPIEeeiB5i_nmvERA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_J-6g0DPKEeeiB5i_nmvERA" entityName="Component_E">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_e8d40TPKEeeiB5i_nmvERA" entityName="AnonymizedProvided&lt;A-E>" providedInterface__OperationProvidedRole="_NqP1ADPIEeeiB5i_nmvERA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_f8HX8TPKEeeiB5i_nmvERA" entityName="DePersonalProvided&lt;A-E>" providedInterface__OperationProvidedRole="_K9ladzPIEeeiB5i_nmvERA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_t_wR0TPKEeeiB5i_nmvERA" entityName="DePersonalProvided&lt;D-E>" providedInterface__OperationProvidedRole="_K9ladzPIEeeiB5i_nmvERA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_XvCo1TPKEeeiB5i_nmvERA" entityName="DePersonalRequired&lt;E-F>" requiredInterface__OperationRequiredRole="_K9ladzPIEeeiB5i_nmvERA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_MEDoYDPKEeeiB5i_nmvERA" entityName="Component_F">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_OEyxETPKEeeiB5i_nmvERA" entityName="AnonymizedProvided&lt;C-F>" providedInterface__OperationProvidedRole="_NqP1ADPIEeeiB5i_nmvERA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_PNdCQTPKEeeiB5i_nmvERA" entityName="DePersonalProvided&lt;E-F>" providedInterface__OperationProvidedRole="_K9ladzPIEeeiB5i_nmvERA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_ZBDT0D1NEeeLyqBPYqk0zw" entityName="Component_F2">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gtxu8T1NEeeLyqBPYqk0zw" entityName="AnonymizedProvided&lt;C-F>" providedInterface__OperationProvidedRole="_NqP1ADPIEeeiB5i_nmvERA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_mRvGwT1NEeeLyqBPYqk0zw" entityName="DePersonalProvided&lt;E-F>" providedInterface__OperationProvidedRole="_K9ladzPIEeeiB5i_nmvERA"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_DbBA5zPIEeeiB5i_nmvERA" entityName="IPersonal"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_K9ladzPIEeeiB5i_nmvERA" entityName="IDePersonalized"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_NqP1ADPIEeeiB5i_nmvERA" entityName="IAnonymized"/>
+</repository:Repository>
