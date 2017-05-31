@@ -10,7 +10,7 @@
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated pcmprivacy -->
       <factory
-            uri="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1/Privacy"
+            uri="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2/Privacy"
             class="org.palladiosimulator.pcm.resourceenvironmentprivacy.provider.ResourceenvironmentPrivacyItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
@@ -23,7 +23,7 @@
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated pcmprivacy -->
       <factory
-            uri="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.1/Privacy"
+            uri="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2/Privacy"
             class="org.palladiosimulator.pcm.compositionprivacy.provider.CompositionPrivacyItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider

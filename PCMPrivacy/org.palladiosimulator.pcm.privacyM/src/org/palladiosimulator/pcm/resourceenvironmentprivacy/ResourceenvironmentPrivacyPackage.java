@@ -42,7 +42,7 @@ public interface ResourceenvironmentPrivacyPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNS_URI = "http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1/Privacy";
+	String eNS_URI = "http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2/Privacy";
 
 	/**
 	 * The package namespace name.

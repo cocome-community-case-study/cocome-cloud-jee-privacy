@@ -25,7 +25,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated pcmprivacy -->
       <package
-            uri="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.1/Privacy"
+            uri="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2/Privacy"
             class="org.palladiosimulator.pcm.resourceenvironmentprivacy.ResourceenvironmentPrivacyPackage"
             genModel="model/pcmprivacy.genmodel"/>
    </extension>
@@ -33,7 +33,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated pcmprivacy -->
       <package
-            uri="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.1/Privacy"
+            uri="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2/Privacy"
             class="org.palladiosimulator.pcm.compositionprivacy.CompositionPrivacyPackage"
             genModel="model/pcmprivacy.genmodel"/>
    </extension>

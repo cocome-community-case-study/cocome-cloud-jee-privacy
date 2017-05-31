@@ -43,7 +43,7 @@ public interface CompositionPrivacyPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNS_URI = "http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.1/Privacy";
+	String eNS_URI = "http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2/Privacy";
 
 	/**
 	 * The package namespace name.

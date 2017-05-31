@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:compositionprivacy="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.1/Privacy" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.1" id="_yBTmILF9EeaCwqxzEIieVA" entityName="CoCoME-Cloud">
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:compositionprivacy="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2/Privacy" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_yBTmILF9EeaCwqxzEIieVA" entityName="CoCoME-Cloud">
   <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_Btzw0DPLEeeiB5i_nmvERA" entityName="AC_A">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
   </assemblyContexts__ComposedStructure>

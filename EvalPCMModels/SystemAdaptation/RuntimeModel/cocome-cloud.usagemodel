@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="ASCII"?>
-<usagemodel:UsageModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:usagemodel="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.1">
+<usagemodel:UsageModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:usagemodel="http://palladiosimulator.org/PalladioComponentModel/UsageModel/5.2">
 </usagemodel:UsageModel>

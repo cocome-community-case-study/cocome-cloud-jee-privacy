@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.1" id="_j1pecNYgEeWrM-HnT5f_ug" entityName="org.cocome.cloud">
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_j1pecNYgEeWrM-HnT5f_ug" entityName="org.cocome.cloud">
   <components__Repository xsi:type="repository:BasicComponent" id="_RLr7cDPIEeeiB5i_nmvERA" entityName="Component_A">
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_vYnNETPIEeeiB5i_nmvERA" entityName="PersonalProvided&lt;A-B>" providedInterface__OperationProvidedRole="_DbBA5zPIEeeiB5i_nmvERA"/>
     <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0fDicTPIEeeiB5i_nmvERA" entityName="DePersonalProvided&lt;A-B>" providedInterface__OperationProvidedRole="_K9ladzPIEeeiB5i_nmvERA"/>
