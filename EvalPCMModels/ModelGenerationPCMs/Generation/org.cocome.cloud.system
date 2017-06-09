@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="ASCII"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:compositionprivacy="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2/Privacy" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_IzJEgEwkEeemf_xdrPA9cQ" entityName="org.cocome.cloud">
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_IzRAUEwkEeemf_xdrPA9cQ" entityName="0_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_IzS1gEwkEeemf_xdrPA9cQ" entityName="1_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0pgYUwkEeemf_xdrPA9cQ" entityName="2_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0qHcUwkEeemf_xdrPA9cQ" entityName="3_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0qHc0wkEeemf_xdrPA9cQ" entityName="4_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0qHdEwkEeemf_xdrPA9cQ" entityName="5_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0qHdUwkEeemf_xdrPA9cQ" entityName="6_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0qHd0wkEeemf_xdrPA9cQ" entityName="7_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0quhEwkEeemf_xdrPA9cQ" entityName="8_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0quhkwkEeemf_xdrPA9cQ" entityName="9_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0rVkkwkEeemf_xdrPA9cQ" entityName="10_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0rVlEwkEeemf_xdrPA9cQ" entityName="11_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0rVlkwkEeemf_xdrPA9cQ" entityName="12_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0rVl0wkEeemf_xdrPA9cQ" entityName="13_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0r8oUwkEeemf_xdrPA9cQ" entityName="14_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0r8pEwkEeemf_xdrPA9cQ" entityName="15_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0r8pkwkEeemf_xdrPA9cQ" entityName="16_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0r8qkwkEeemf_xdrPA9cQ" entityName="17_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0r8rEwkEeemf_xdrPA9cQ" entityName="18_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0sjskwkEeemf_xdrPA9cQ" entityName="19_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0sjtEwkEeemf_xdrPA9cQ" entityName="20_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0sjtkwkEeemf_xdrPA9cQ" entityName="21_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0sjuEwkEeemf_xdrPA9cQ" entityName="22_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0sjukwkEeemf_xdrPA9cQ" entityName="23_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0sjvEwkEeemf_xdrPA9cQ" entityName="24_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0tKwEwkEeemf_xdrPA9cQ" entityName="25_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0tKwkwkEeemf_xdrPA9cQ" entityName="26_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0tKxEwkEeemf_xdrPA9cQ" entityName="27_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0tx0EwkEeemf_xdrPA9cQ" entityName="28_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0tx0kwkEeemf_xdrPA9cQ" entityName="29_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0tx10wkEeemf_xdrPA9cQ" entityName="30_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0uY4EwkEeemf_xdrPA9cQ" entityName="31_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0uY4kwkEeemf_xdrPA9cQ" entityName="32_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0uY5kwkEeemf_xdrPA9cQ" entityName="33_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0uY6UwkEeemf_xdrPA9cQ" entityName="34_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0u_8kwkEeemf_xdrPA9cQ" entityName="35_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0u_80wkEeemf_xdrPA9cQ" entityName="36_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0u_9UwkEeemf_xdrPA9cQ" entityName="37_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0u_-EwkEeemf_xdrPA9cQ" entityName="38_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0vnAEwkEeemf_xdrPA9cQ" entityName="39_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0vnAkwkEeemf_xdrPA9cQ" entityName="40_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0vnBEwkEeemf_xdrPA9cQ" entityName="41_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0vnBUwkEeemf_xdrPA9cQ" entityName="42_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0vnB0wkEeemf_xdrPA9cQ" entityName="43_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0vnDEwkEeemf_xdrPA9cQ" entityName="44_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0vnDUwkEeemf_xdrPA9cQ" entityName="45_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0vnD0wkEeemf_xdrPA9cQ" entityName="46_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0vnEUwkEeemf_xdrPA9cQ" entityName="47_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0vnEkwkEeemf_xdrPA9cQ" entityName="48_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0wOE0wkEeemf_xdrPA9cQ" entityName="49_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0wOF0wkEeemf_xdrPA9cQ" entityName="50_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0wOHEwkEeemf_xdrPA9cQ" entityName="51_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0w1I0wkEeemf_xdrPA9cQ" entityName="52_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0w1JUwkEeemf_xdrPA9cQ" entityName="53_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0w1J0wkEeemf_xdrPA9cQ" entityName="54_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0w1KUwkEeemf_xdrPA9cQ" entityName="55_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0xcMEwkEeemf_xdrPA9cQ" entityName="56_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0xcNUwkEeemf_xdrPA9cQ" entityName="57_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0xcN0wkEeemf_xdrPA9cQ" entityName="58_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0xcOEwkEeemf_xdrPA9cQ" entityName="59_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0xcPEwkEeemf_xdrPA9cQ" entityName="60_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0yDQkwkEeemf_xdrPA9cQ" entityName="61_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0yDREwkEeemf_xdrPA9cQ" entityName="62_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0yDRkwkEeemf_xdrPA9cQ" entityName="63_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0yDR0wkEeemf_xdrPA9cQ" entityName="64_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0yDSUwkEeemf_xdrPA9cQ" entityName="65_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0yDS0wkEeemf_xdrPA9cQ" entityName="66_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0yDTEwkEeemf_xdrPA9cQ" entityName="67_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0yDTkwkEeemf_xdrPA9cQ" entityName="68_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0yDUEwkEeemf_xdrPA9cQ" entityName="69_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0yqUUwkEeemf_xdrPA9cQ" entityName="70_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0yqVkwkEeemf_xdrPA9cQ" entityName="71_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0yqWEwkEeemf_xdrPA9cQ" entityName="72_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0yqXUwkEeemf_xdrPA9cQ" entityName="73_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0zRY0wkEeemf_xdrPA9cQ" entityName="74_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0zRZUwkEeemf_xdrPA9cQ" entityName="75_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0zRakwkEeemf_xdrPA9cQ" entityName="76_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0zRa0wkEeemf_xdrPA9cQ" entityName="77_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0zRbEwkEeemf_xdrPA9cQ" entityName="78_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0z4cEwkEeemf_xdrPA9cQ" entityName="79_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0z4ckwkEeemf_xdrPA9cQ" entityName="80_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0z4d0wkEeemf_xdrPA9cQ" entityName="81_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0z4e0wkEeemf_xdrPA9cQ" entityName="82_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0z4fUwkEeemf_xdrPA9cQ" entityName="83_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I00fgkwkEeemf_xdrPA9cQ" entityName="84_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I00fhEwkEeemf_xdrPA9cQ" entityName="85_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I00fhkwkEeemf_xdrPA9cQ" entityName="86_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I00fi0wkEeemf_xdrPA9cQ" entityName="87_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I01Gk0wkEeemf_xdrPA9cQ" entityName="88_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I01toEwkEeemf_xdrPA9cQ" entityName="89_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I01tokwkEeemf_xdrPA9cQ" entityName="90_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I01tpEwkEeemf_xdrPA9cQ" entityName="91_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I01tpkwkEeemf_xdrPA9cQ" entityName="92_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I01tqEwkEeemf_xdrPA9cQ" entityName="93_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I01trUwkEeemf_xdrPA9cQ" entityName="94_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I02Us0wkEeemf_xdrPA9cQ" entityName="95_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I02UtEwkEeemf_xdrPA9cQ" entityName="96_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I02UtkwkEeemf_xdrPA9cQ" entityName="97_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I02UuEwkEeemf_xdrPA9cQ" entityName="98_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I02UvEwkEeemf_xdrPA9cQ" entityName="99_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I02UwEwkEeemf_xdrPA9cQ" entityName="100_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I02UwkwkEeemf_xdrPA9cQ" entityName="101_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I02Ux0wkEeemf_xdrPA9cQ" entityName="102_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I027wEwkEeemf_xdrPA9cQ" entityName="103_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I027xEwkEeemf_xdrPA9cQ" entityName="104_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I027xkwkEeemf_xdrPA9cQ" entityName="105_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I027x0wkEeemf_xdrPA9cQ" entityName="106_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I027ykwkEeemf_xdrPA9cQ" entityName="107_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I027zkwkEeemf_xdrPA9cQ" entityName="108_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I0270UwkEeemf_xdrPA9cQ" entityName="109_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I03i0EwkEeemf_xdrPA9cQ" entityName="110_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I03i00wkEeemf_xdrPA9cQ" entityName="111_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I03i1UwkEeemf_xdrPA9cQ" entityName="112_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I03i2UwkEeemf_xdrPA9cQ" entityName="113_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I03i3EwkEeemf_xdrPA9cQ" entityName="114_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I03i30wkEeemf_xdrPA9cQ" entityName="115_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I03i40wkEeemf_xdrPA9cQ" entityName="116_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I03i5EwkEeemf_xdrPA9cQ" entityName="117_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I03i50wkEeemf_xdrPA9cQ" entityName="118_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04J4UwkEeemf_xdrPA9cQ" entityName="119_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04J5UwkEeemf_xdrPA9cQ" entityName="120_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04J5kwkEeemf_xdrPA9cQ" entityName="121_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04J50wkEeemf_xdrPA9cQ" entityName="122_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04J6UwkEeemf_xdrPA9cQ" entityName="123_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04J6kwkEeemf_xdrPA9cQ" entityName="124_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04J7kwkEeemf_xdrPA9cQ" entityName="125_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04J8EwkEeemf_xdrPA9cQ" entityName="126_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04J8kwkEeemf_xdrPA9cQ" entityName="127_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04J9EwkEeemf_xdrPA9cQ" entityName="128_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04w8EwkEeemf_xdrPA9cQ" entityName="129_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04w9UwkEeemf_xdrPA9cQ" entityName="130_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04w90wkEeemf_xdrPA9cQ" entityName="131_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04w-UwkEeemf_xdrPA9cQ" entityName="132_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04w-0wkEeemf_xdrPA9cQ" entityName="133_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I04w_UwkEeemf_xdrPA9cQ" entityName="134_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I05YAkwkEeemf_xdrPA9cQ" entityName="135_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I05_GkwkEeemf_xdrPA9cQ" entityName="149_AC_Component_B">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_7c_k8DPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I05YBUwkEeemf_xdrPA9cQ" entityName="137_AC_Component_E">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_J-6g0DPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I05YB0wkEeemf_xdrPA9cQ" entityName="138_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I05YCUwkEeemf_xdrPA9cQ" entityName="139_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I05YC0wkEeemf_xdrPA9cQ" entityName="140_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I05YDUwkEeemf_xdrPA9cQ" entityName="141_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I05YD0wkEeemf_xdrPA9cQ" entityName="142_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I05YEEwkEeemf_xdrPA9cQ" entityName="143_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I05_EUwkEeemf_xdrPA9cQ" entityName="144_AC_Component_D">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_IJTDADPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I05_E0wkEeemf_xdrPA9cQ" entityName="145_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I05_FUwkEeemf_xdrPA9cQ" entityName="146_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I05_F0wkEeemf_xdrPA9cQ" entityName="147_AC_Component_A">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_RLr7cDPIEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I06mIEwkEeemf_xdrPA9cQ" entityName="0__AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_I070QEwkEeemf_xdrPA9cQ" entityName="1__AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_IzUDoEwkEeemf_xdrPA9cQ" entityName="0_AC_Component_B -> 1_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_IzRAUEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_IzS1gEwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0pgYEwkEeemf_xdrPA9cQ" entityName="0_AC_Component_B -> 1_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_IzRAUEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_IzS1gEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0pgYkwkEeemf_xdrPA9cQ" entityName="0_AC_Component_B -> 2_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_IzRAUEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0pgYUwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0qHcEwkEeemf_xdrPA9cQ" entityName="2_AC_Component_A -> 0_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I0pgYUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_IzRAUEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0qHckwkEeemf_xdrPA9cQ" entityName="3_AC_Component_D -> 2_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0qHcUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0pgYUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0qHdkwkEeemf_xdrPA9cQ" entityName="6_AC_Component_A -> 5_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0qHdUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0qHdEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0qugEwkEeemf_xdrPA9cQ" entityName="7_AC_Component_C -> 4_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0qHd0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0qHc0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0qugUwkEeemf_xdrPA9cQ" entityName="7_AC_Component_C -> 5_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0qHd0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0qHdEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0qugkwkEeemf_xdrPA9cQ" entityName="7_AC_Component_C -> 2_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0qHd0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0pgYUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0qug0wkEeemf_xdrPA9cQ" entityName="7_AC_Component_C -> 1_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0qHd0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_IzS1gEwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0quhUwkEeemf_xdrPA9cQ" entityName="8_AC_Component_E -> 6_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0quhEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0qHdUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0quh0wkEeemf_xdrPA9cQ" entityName="9_AC_Component_C -> 8_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0quhkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0quhEwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0quiEwkEeemf_xdrPA9cQ" entityName="9_AC_Component_C -> 6_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0quhkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0qHdUwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0rVkEwkEeemf_xdrPA9cQ" entityName="9_AC_Component_C -> 4_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0quhkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0qHc0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0rVkUwkEeemf_xdrPA9cQ" entityName="9_AC_Component_C -> 8_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0quhkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0quhEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0rVk0wkEeemf_xdrPA9cQ" entityName="10_AC_Component_E -> 5_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0rVkkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0qHdEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0rVlUwkEeemf_xdrPA9cQ" entityName="11_AC_Component_D -> 10_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0rVlEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0rVkkwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0rVmEwkEeemf_xdrPA9cQ" entityName="13_AC_Component_B -> 6_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0rVl0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0qHdUwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0rVmUwkEeemf_xdrPA9cQ" entityName="13_AC_Component_B -> 4_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0rVl0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0qHc0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0r8oEwkEeemf_xdrPA9cQ" entityName="13_AC_Component_B -> 6_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0rVl0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0qHdUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0r8okwkEeemf_xdrPA9cQ" entityName="14_AC_Component_B -> 13_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I0r8oUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0rVl0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0r8o0wkEeemf_xdrPA9cQ" entityName="14_AC_Component_B -> 2_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0r8oUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0pgYUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0r8pUwkEeemf_xdrPA9cQ" entityName="15_AC_Component_E -> 10_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0r8pEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0rVkkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0r8p0wkEeemf_xdrPA9cQ" entityName="16_AC_Component_C -> 15_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0r8pkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0r8pEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0r8qEwkEeemf_xdrPA9cQ" entityName="16_AC_Component_C -> 12_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0r8pkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0rVlkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0r8qUwkEeemf_xdrPA9cQ" entityName="16_AC_Component_C -> 14_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I0r8pkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0r8oUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0r8q0wkEeemf_xdrPA9cQ" entityName="17_AC_Component_E -> 12_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0r8qkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0rVlkwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0sjsEwkEeemf_xdrPA9cQ" entityName="18_AC_Component_C -> 15_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0r8rEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0r8pEwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0sjsUwkEeemf_xdrPA9cQ" entityName="18_AC_Component_C -> 17_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0r8rEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0r8qkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0sjs0wkEeemf_xdrPA9cQ" entityName="19_AC_Component_B -> 12_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0sjskwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0rVlkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0sjtUwkEeemf_xdrPA9cQ" entityName="18_AC_Component_C -> 20_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0r8rEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0sjtEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0sjt0wkEeemf_xdrPA9cQ" entityName="21_AC_Component_E -> 17_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0sjtkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0r8qkwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0sjuUwkEeemf_xdrPA9cQ" entityName="22_AC_Component_B -> 19_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I0sjuEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0sjskwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0sju0wkEeemf_xdrPA9cQ" entityName="23_AC_Component_E -> 22_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I0sjukwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0sjuEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0sjvUwkEeemf_xdrPA9cQ" entityName="16_AC_Component_C -> 24_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0r8pkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0sjvEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0tKwUwkEeemf_xdrPA9cQ" entityName="25_AC_Component_B -> 24_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0tKwEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0sjvEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0tKw0wkEeemf_xdrPA9cQ" entityName="26_AC_Component_D -> 20_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0tKwkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0sjtEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0tKxUwkEeemf_xdrPA9cQ" entityName="25_AC_Component_B -> 27_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0tKwEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0tKxEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0tx0UwkEeemf_xdrPA9cQ" entityName="22_AC_Component_B -> 28_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0sjuEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0tx0EwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0tx00wkEeemf_xdrPA9cQ" entityName="25_AC_Component_B -> 29_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0tKwEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0tx0kwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0tx1EwkEeemf_xdrPA9cQ" entityName="19_AC_Component_B -> 29_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0sjskwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0tx0kwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0tx1UwkEeemf_xdrPA9cQ" entityName="18_AC_Component_C -> 29_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0r8rEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0tx0kwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0tx1kwkEeemf_xdrPA9cQ" entityName="29_AC_Component_A -> 23_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0tx0kwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0sjukwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0tx2EwkEeemf_xdrPA9cQ" entityName="30_AC_Component_E -> 23_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0tx10wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0sjukwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0uY4UwkEeemf_xdrPA9cQ" entityName="31_AC_Component_B -> 25_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I0uY4EwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0tKwEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0uY40wkEeemf_xdrPA9cQ" entityName="19_AC_Component_B -> 32_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0sjskwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0uY4kwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0uY5EwkEeemf_xdrPA9cQ" entityName="31_AC_Component_B -> 32_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0uY4EwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0uY4kwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0uY5UwkEeemf_xdrPA9cQ" entityName="32_AC_Component_A -> 27_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0uY4kwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0tKxEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0uY50wkEeemf_xdrPA9cQ" entityName="14_AC_Component_B -> 33_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0r8oUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0uY5kwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0uY6EwkEeemf_xdrPA9cQ" entityName="33_AC_Component_A -> 27_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0uY5kwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0tKxEwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0u_8EwkEeemf_xdrPA9cQ" entityName="22_AC_Component_B -> 34_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0sjuEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0uY6UwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0u_8UwkEeemf_xdrPA9cQ" entityName="34_AC_Component_A -> 33_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0uY6UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0uY5kwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0u_9EwkEeemf_xdrPA9cQ" entityName="36_AC_Component_E -> 24_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0u_80wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0sjvEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0u_9kwkEeemf_xdrPA9cQ" entityName="31_AC_Component_B -> 37_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0uY4EwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0u_9UwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0u_90wkEeemf_xdrPA9cQ" entityName="37_AC_Component_A -> 21_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0u_9UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0sjtkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0vnAUwkEeemf_xdrPA9cQ" entityName="39_AC_Component_A -> 28_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0vnAEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0tx0EwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0vnA0wkEeemf_xdrPA9cQ" entityName="40_AC_Component_A -> 32_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0vnAkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0uY4kwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0vnBkwkEeemf_xdrPA9cQ" entityName="42_AC_Component_A -> 30_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0vnBUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0tx10wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0vnCEwkEeemf_xdrPA9cQ" entityName="43_AC_Component_C -> 37_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0vnB0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0u_9UwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0vnCUwkEeemf_xdrPA9cQ" entityName="43_AC_Component_C -> 32_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0vnB0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0uY4kwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0vnCkwkEeemf_xdrPA9cQ" entityName="43_AC_Component_C -> 37_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0vnB0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0u_9UwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0vnC0wkEeemf_xdrPA9cQ" entityName="43_AC_Component_C -> 40_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0vnB0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnAkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0vnDkwkEeemf_xdrPA9cQ" entityName="45_AC_Component_D -> 41_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0vnDUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnBEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0vnEEwkEeemf_xdrPA9cQ" entityName="46_AC_Component_D -> 39_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0vnD0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnAEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0vnE0wkEeemf_xdrPA9cQ" entityName="48_AC_Component_C -> 36_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0vnEkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0u_80wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0wOEEwkEeemf_xdrPA9cQ" entityName="48_AC_Component_C -> 35_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0vnEkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0u_8kwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0wOEUwkEeemf_xdrPA9cQ" entityName="48_AC_Component_C -> 40_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0vnEkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnAkwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0wOEkwkEeemf_xdrPA9cQ" entityName="48_AC_Component_C -> 31_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I0vnEkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0uY4EwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0wOFEwkEeemf_xdrPA9cQ" entityName="49_AC_Component_B -> 40_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0wOE0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnAkwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0wOFUwkEeemf_xdrPA9cQ" entityName="49_AC_Component_B -> 38_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0wOE0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0u_-EwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0wOFkwkEeemf_xdrPA9cQ" entityName="49_AC_Component_B -> 34_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0wOE0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0uY6UwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0wOGEwkEeemf_xdrPA9cQ" entityName="50_AC_Component_C -> 38_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0wOF0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0u_-EwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0wOGUwkEeemf_xdrPA9cQ" entityName="50_AC_Component_C -> 33_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0wOF0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0uY5kwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0wOGkwkEeemf_xdrPA9cQ" entityName="50_AC_Component_C -> 41_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0wOF0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnBEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0wOG0wkEeemf_xdrPA9cQ" entityName="50_AC_Component_C -> 47_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0wOF0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnEUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0wOHUwkEeemf_xdrPA9cQ" entityName="51_AC_Component_C -> 34_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0wOHEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0uY6UwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0w1IEwkEeemf_xdrPA9cQ" entityName="51_AC_Component_C -> 42_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0wOHEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnBUwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0w1IUwkEeemf_xdrPA9cQ" entityName="51_AC_Component_C -> 34_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0wOHEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0uY6UwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0w1IkwkEeemf_xdrPA9cQ" entityName="51_AC_Component_C -> 21_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0wOHEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0sjtkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0w1JEwkEeemf_xdrPA9cQ" entityName="52_AC_Component_D -> 36_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0w1I0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0u_80wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0w1JkwkEeemf_xdrPA9cQ" entityName="53_AC_Component_A -> 35_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0w1JUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0u_8kwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0w1KEwkEeemf_xdrPA9cQ" entityName="54_AC_Component_D -> 35_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0w1J0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0u_8kwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0w1KkwkEeemf_xdrPA9cQ" entityName="55_AC_Component_C -> 47_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0w1KUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnEUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0w1K0wkEeemf_xdrPA9cQ" entityName="55_AC_Component_C -> 40_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0w1KUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnAkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0w1LEwkEeemf_xdrPA9cQ" entityName="55_AC_Component_C -> 39_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0w1KUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnAEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0w1LUwkEeemf_xdrPA9cQ" entityName="55_AC_Component_C -> 28_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0w1KUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0tx0EwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0xcMUwkEeemf_xdrPA9cQ" entityName="56_AC_Component_C -> 29_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0xcMEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0tx0kwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0xcMkwkEeemf_xdrPA9cQ" entityName="56_AC_Component_C -> 47_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0xcMEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnEUwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0xcM0wkEeemf_xdrPA9cQ" entityName="56_AC_Component_C -> 33_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0xcMEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0uY5kwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0xcNEwkEeemf_xdrPA9cQ" entityName="56_AC_Component_C -> 20_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0xcMEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0sjtEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0xcNkwkEeemf_xdrPA9cQ" entityName="57_AC_Component_E -> 30_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0xcNUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0tx10wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0xcOUwkEeemf_xdrPA9cQ" entityName="59_AC_Component_B -> 42_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0xcOEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnBUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0xcOkwkEeemf_xdrPA9cQ" entityName="59_AC_Component_B -> 58_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0xcOEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0xcN0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0xcO0wkEeemf_xdrPA9cQ" entityName="59_AC_Component_B -> 53_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0xcOEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0w1JUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0xcPUwkEeemf_xdrPA9cQ" entityName="60_AC_Component_C -> 57_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0xcPEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0xcNUwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0xcPkwkEeemf_xdrPA9cQ" entityName="60_AC_Component_C -> 58_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0xcPEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0xcN0wkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yDQEwkEeemf_xdrPA9cQ" entityName="60_AC_Component_C -> 42_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0xcPEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnBUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yDQUwkEeemf_xdrPA9cQ" entityName="60_AC_Component_C -> 44_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0xcPEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnDEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yDQ0wkEeemf_xdrPA9cQ" entityName="61_AC_Component_D -> 58_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0yDQkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0xcN0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yDRUwkEeemf_xdrPA9cQ" entityName="62_AC_Component_A -> 53_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0yDREwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0w1JUwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yDSEwkEeemf_xdrPA9cQ" entityName="64_AC_Component_E -> 57_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0yDR0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0xcNUwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yDSkwkEeemf_xdrPA9cQ" entityName="65_AC_Component_A -> 42_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0yDSUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnBUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yDTUwkEeemf_xdrPA9cQ" entityName="67_AC_Component_E -> 66_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0yDTEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDS0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yDT0wkEeemf_xdrPA9cQ" entityName="68_AC_Component_A -> 64_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0yDTkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDR0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yqUEwkEeemf_xdrPA9cQ" entityName="69_AC_Component_E -> 63_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0yDUEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDRkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yqUkwkEeemf_xdrPA9cQ" entityName="70_AC_Component_C -> 69_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0yqUUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDUEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yqU0wkEeemf_xdrPA9cQ" entityName="70_AC_Component_C -> 39_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0yqUUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnAEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yqVEwkEeemf_xdrPA9cQ" entityName="70_AC_Component_C -> 63_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0yqUUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDRkwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yqVUwkEeemf_xdrPA9cQ" entityName="70_AC_Component_C -> 64_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0yqUUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDR0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yqV0wkEeemf_xdrPA9cQ" entityName="71_AC_Component_A -> 68_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0yqVkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDTkwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yqWUwkEeemf_xdrPA9cQ" entityName="72_AC_Component_C -> 69_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0yqWEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDUEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yqWkwkEeemf_xdrPA9cQ" entityName="72_AC_Component_C -> 66_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0yqWEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDS0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yqW0wkEeemf_xdrPA9cQ" entityName="72_AC_Component_C -> 38_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0yqWEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0u_-EwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0yqXEwkEeemf_xdrPA9cQ" entityName="72_AC_Component_C -> 67_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0yqWEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDTEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0zRYEwkEeemf_xdrPA9cQ" entityName="73_AC_Component_B -> 39_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0yqXUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnAEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0zRYUwkEeemf_xdrPA9cQ" entityName="73_AC_Component_B -> 71_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0yqXUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yqVkwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0zRYkwkEeemf_xdrPA9cQ" entityName="73_AC_Component_B -> 62_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0yqXUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDREwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0zRZEwkEeemf_xdrPA9cQ" entityName="74_AC_Component_E -> 49_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I0zRY0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0wOE0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0zRZkwkEeemf_xdrPA9cQ" entityName="75_AC_Component_C -> 41_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0zRZUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnBEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0zRZ0wkEeemf_xdrPA9cQ" entityName="75_AC_Component_C -> 53_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0zRZUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0w1JUwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0zRaEwkEeemf_xdrPA9cQ" entityName="75_AC_Component_C -> 37_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0zRZUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0u_9UwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0zRaUwkEeemf_xdrPA9cQ" entityName="75_AC_Component_C -> 66_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0zRZUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDS0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0zRbUwkEeemf_xdrPA9cQ" entityName="78_AC_Component_E -> 74_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0zRbEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0zRY0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0z4cUwkEeemf_xdrPA9cQ" entityName="79_AC_Component_D -> 44_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0z4cEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnDEwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0z4c0wkEeemf_xdrPA9cQ" entityName="80_AC_Component_C -> 77_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0z4ckwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0zRa0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0z4dEwkEeemf_xdrPA9cQ" entityName="80_AC_Component_C -> 68_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0z4ckwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDTkwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0z4dUwkEeemf_xdrPA9cQ" entityName="80_AC_Component_C -> 71_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0z4ckwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yqVkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0z4dkwkEeemf_xdrPA9cQ" entityName="80_AC_Component_C -> 65_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0z4ckwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDSUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0z4eEwkEeemf_xdrPA9cQ" entityName="81_AC_Component_B -> 53_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0z4d0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0w1JUwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0z4eUwkEeemf_xdrPA9cQ" entityName="81_AC_Component_B -> 62_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0z4d0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDREwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0z4ekwkEeemf_xdrPA9cQ" entityName="81_AC_Component_B -> 77_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0z4d0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0zRa0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0z4fEwkEeemf_xdrPA9cQ" entityName="82_AC_Component_A -> 81_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I0z4e0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0z4d0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0z4fkwkEeemf_xdrPA9cQ" entityName="83_AC_Component_C -> 73_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I0z4fUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yqXUwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0z4f0wkEeemf_xdrPA9cQ" entityName="83_AC_Component_C -> 82_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0z4fUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0z4e0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I00fgEwkEeemf_xdrPA9cQ" entityName="83_AC_Component_C -> 65_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I0z4fUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDSUwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I00fgUwkEeemf_xdrPA9cQ" entityName="83_AC_Component_C -> 76_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I0z4fUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0zRakwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I00fg0wkEeemf_xdrPA9cQ" entityName="84_AC_Component_E -> 76_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I00fgkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0zRakwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I00fhUwkEeemf_xdrPA9cQ" entityName="85_AC_Component_A -> 67_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I00fhEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDTEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I00fh0wkEeemf_xdrPA9cQ" entityName="86_AC_Component_C -> 78_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I00fhkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0zRbEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I00fiEwkEeemf_xdrPA9cQ" entityName="86_AC_Component_C -> 85_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I00fhkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I00fhEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I00fiUwkEeemf_xdrPA9cQ" entityName="86_AC_Component_C -> 82_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I00fhkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0z4e0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I00fikwkEeemf_xdrPA9cQ" entityName="86_AC_Component_C -> 63_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I00fhkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDRkwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I00fjEwkEeemf_xdrPA9cQ" entityName="87_AC_Component_C -> 85_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I00fi0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I00fhEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I01GkEwkEeemf_xdrPA9cQ" entityName="87_AC_Component_C -> 65_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I00fi0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDSUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I01GkUwkEeemf_xdrPA9cQ" entityName="87_AC_Component_C -> 44_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I00fi0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0vnDEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I01GkkwkEeemf_xdrPA9cQ" entityName="87_AC_Component_C -> 59_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I00fi0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0xcOEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I01GlEwkEeemf_xdrPA9cQ" entityName="88_AC_Component_A -> 82_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I01Gk0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0z4e0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I01toUwkEeemf_xdrPA9cQ" entityName="89_AC_Component_A -> 84_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I01toEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I00fgkwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I01to0wkEeemf_xdrPA9cQ" entityName="90_AC_Component_A -> 77_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I01tokwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0zRa0wkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I01tpUwkEeemf_xdrPA9cQ" entityName="91_AC_Component_E -> 90_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I01tpEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I01tokwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I01tp0wkEeemf_xdrPA9cQ" entityName="92_AC_Component_D -> 91_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I01tpkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I01tpEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I01tqUwkEeemf_xdrPA9cQ" entityName="93_AC_Component_C -> 88_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I01tqEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I01Gk0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I01tqkwkEeemf_xdrPA9cQ" entityName="93_AC_Component_C -> 85_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I01tqEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I00fhEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I01tq0wkEeemf_xdrPA9cQ" entityName="93_AC_Component_C -> 71_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I01tqEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yqVkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I01trEwkEeemf_xdrPA9cQ" entityName="93_AC_Component_C -> 84_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I01tqEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I00fgkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I01trkwkEeemf_xdrPA9cQ" entityName="94_AC_Component_C -> 78_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I01trUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0zRbEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02UsEwkEeemf_xdrPA9cQ" entityName="94_AC_Component_C -> 88_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I01trUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I01Gk0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02UsUwkEeemf_xdrPA9cQ" entityName="94_AC_Component_C -> 89_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I01trUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I01toEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02UskwkEeemf_xdrPA9cQ" entityName="94_AC_Component_C -> 91_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I01trUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I01tpEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02UtUwkEeemf_xdrPA9cQ" entityName="96_AC_Component_D -> 95_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I02UtEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I02Us0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02Ut0wkEeemf_xdrPA9cQ" entityName="97_AC_Component_D -> 95_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I02UtkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I02Us0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02UuUwkEeemf_xdrPA9cQ" entityName="98_AC_Component_B -> 65_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I02UuEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDSUwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02UukwkEeemf_xdrPA9cQ" entityName="98_AC_Component_B -> 89_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I02UuEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I01toEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02Uu0wkEeemf_xdrPA9cQ" entityName="98_AC_Component_B -> 90_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I02UuEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I01tokwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02UvUwkEeemf_xdrPA9cQ" entityName="99_AC_Component_B -> 88_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I02UvEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I01Gk0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02UvkwkEeemf_xdrPA9cQ" entityName="99_AC_Component_B -> 74_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I02UvEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0zRY0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02Uv0wkEeemf_xdrPA9cQ" entityName="99_AC_Component_B -> 89_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I02UvEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I01toEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02UwUwkEeemf_xdrPA9cQ" entityName="100_AC_Component_E -> 99_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I02UwEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I02UvEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02Uw0wkEeemf_xdrPA9cQ" entityName="101_AC_Component_C -> 98_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I02UwkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I02UuEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02UxEwkEeemf_xdrPA9cQ" entityName="101_AC_Component_C -> 88_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I02UwkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I01Gk0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02UxUwkEeemf_xdrPA9cQ" entityName="101_AC_Component_C -> 76_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I02UwkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0zRakwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02UxkwkEeemf_xdrPA9cQ" entityName="101_AC_Component_C -> 100_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I02UwkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I02UwEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I02UyEwkEeemf_xdrPA9cQ" entityName="102_AC_Component_A -> 100_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I02Ux0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I02UwEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I027wUwkEeemf_xdrPA9cQ" entityName="103_AC_Component_C -> 102_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I027wEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I02Ux0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I027wkwkEeemf_xdrPA9cQ" entityName="103_AC_Component_C -> 95_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I027wEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I02Us0wkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I027w0wkEeemf_xdrPA9cQ" entityName="103_AC_Component_C -> 68_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I027wEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDTkwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I027xUwkEeemf_xdrPA9cQ" entityName="103_AC_Component_C -> 104_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I027wEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I027xEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I027yEwkEeemf_xdrPA9cQ" entityName="106_AC_Component_C -> 102_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I027x0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I02Ux0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I027yUwkEeemf_xdrPA9cQ" entityName="106_AC_Component_C -> 90_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I027x0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I01tokwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I027y0wkEeemf_xdrPA9cQ" entityName="104_AC_Component_A -> 107_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I027xEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I027ykwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I027zEwkEeemf_xdrPA9cQ" entityName="107_AC_Component_B -> 62_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I027ykwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDREwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I027zUwkEeemf_xdrPA9cQ" entityName="107_AC_Component_B -> 104_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I027ykwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I027xEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I027z0wkEeemf_xdrPA9cQ" entityName="106_AC_Component_C -> 108_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I027x0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I027zkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0270EwkEeemf_xdrPA9cQ" entityName="106_AC_Component_C -> 108_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I027x0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I027zkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I0270kwkEeemf_xdrPA9cQ" entityName="105_AC_Component_D -> 109_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I027xkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0270UwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I03i0UwkEeemf_xdrPA9cQ" entityName="107_AC_Component_B -> 110_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I027ykwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I03i0EwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I03i0kwkEeemf_xdrPA9cQ" entityName="109_AC_Component_A -> 110_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I0270UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I03i0EwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I03i1EwkEeemf_xdrPA9cQ" entityName="110_AC_Component_E -> 111_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I03i0EwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I03i00wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I03i1kwkEeemf_xdrPA9cQ" entityName="112_AC_Component_C -> 111_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I03i1UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I03i00wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I03i10wkEeemf_xdrPA9cQ" entityName="112_AC_Component_C -> 102_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I03i1UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I02Ux0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I03i2EwkEeemf_xdrPA9cQ" entityName="112_AC_Component_C -> 108_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I03i1UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I027zkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I03i2kwkEeemf_xdrPA9cQ" entityName="113_AC_Component_C -> 104_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I03i2UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I027xEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I03i20wkEeemf_xdrPA9cQ" entityName="113_AC_Component_C -> 109_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I03i2UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0270UwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I03i3UwkEeemf_xdrPA9cQ" entityName="113_AC_Component_C -> 114_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I03i2UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I03i3EwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I03i3kwkEeemf_xdrPA9cQ" entityName="112_AC_Component_C -> 114_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I03i1UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I03i3EwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I03i4EwkEeemf_xdrPA9cQ" entityName="113_AC_Component_C -> 115_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I03i2UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I03i30wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I03i4UwkEeemf_xdrPA9cQ" entityName="115_AC_Component_B -> 68_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I03i30wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0yDTkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I03i4kwkEeemf_xdrPA9cQ" entityName="115_AC_Component_B -> 114_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I03i30wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I03i3EwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I03i5UwkEeemf_xdrPA9cQ" entityName="115_AC_Component_B -> 117_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I03i30wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I03i5EwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I03i5kwkEeemf_xdrPA9cQ" entityName="116_AC_Component_D -> 117_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I03i40wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I03i5EwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04J4EwkEeemf_xdrPA9cQ" entityName="117_AC_Component_E -> 118_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I03i5EwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I03i50wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04J4kwkEeemf_xdrPA9cQ" entityName="119_AC_Component_B -> 102_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I04J4UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I02Ux0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04J40wkEeemf_xdrPA9cQ" entityName="119_AC_Component_B -> 118_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I04J4UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I03i50wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04J5EwkEeemf_xdrPA9cQ" entityName="119_AC_Component_B -> 118_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I04J4UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I03i50wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04J6EwkEeemf_xdrPA9cQ" entityName="122_AC_Component_A -> 120_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I04J50wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J5UwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04J60wkEeemf_xdrPA9cQ" entityName="124_AC_Component_B -> 109_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I04J6kwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0270UwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04J7EwkEeemf_xdrPA9cQ" entityName="124_AC_Component_B -> 123_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I04J6kwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J6UwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04J7UwkEeemf_xdrPA9cQ" entityName="124_AC_Component_B -> 121_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I04J6kwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J5kwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04J70wkEeemf_xdrPA9cQ" entityName="125_AC_Component_E -> 121_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I04J7kwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J5kwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04J8UwkEeemf_xdrPA9cQ" entityName="126_AC_Component_D -> 125_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I04J8EwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J7kwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04J80wkEeemf_xdrPA9cQ" entityName="127_AC_Component_A -> 124_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I04J8kwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J6kwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04J9UwkEeemf_xdrPA9cQ" entityName="128_AC_Component_E -> 125_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I04J9EwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J7kwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04w8UwkEeemf_xdrPA9cQ" entityName="129_AC_Component_C -> 128_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I04w8EwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J9EwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04w8kwkEeemf_xdrPA9cQ" entityName="129_AC_Component_C -> 122_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I04w8EwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J50wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04w80wkEeemf_xdrPA9cQ" entityName="129_AC_Component_C -> 123_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I04w8EwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J6UwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04w9EwkEeemf_xdrPA9cQ" entityName="129_AC_Component_C -> 128_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I04w8EwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J9EwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04w9kwkEeemf_xdrPA9cQ" entityName="130_AC_Component_E -> 119_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I04w9UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J4UwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04w-EwkEeemf_xdrPA9cQ" entityName="131_AC_Component_A -> 127_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I04w90wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J8kwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04w-kwkEeemf_xdrPA9cQ" entityName="132_AC_Component_E -> 121_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I04w-UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J5kwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04w_EwkEeemf_xdrPA9cQ" entityName="133_AC_Component_D -> 130_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I04w-0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04w9UwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I04w_kwkEeemf_xdrPA9cQ" entityName="134_AC_Component_B -> 82_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I04w_UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0z4e0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05YAEwkEeemf_xdrPA9cQ" entityName="134_AC_Component_B -> 131_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I04w_UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04w90wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05YAUwkEeemf_xdrPA9cQ" entityName="134_AC_Component_B -> 109_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I04w_UwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I0270UwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05YA0wkEeemf_xdrPA9cQ" entityName="135_AC_Component_E -> 130_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I05YAkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04w9UwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05YBkwkEeemf_xdrPA9cQ" entityName="137_AC_Component_E -> 134_AC_Component_B" requiringAssemblyContext_AssemblyConnector="_I05YBUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04w_UwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_t2oAcTPJEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_XvCo1TPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05YCEwkEeemf_xdrPA9cQ" entityName="138_AC_Component_D -> 123_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I05YB0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J6UwkEeemf_xdrPA9cQ">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05YCkwkEeemf_xdrPA9cQ" entityName="139_AC_Component_D -> 135_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I05YCUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I05YAkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05YDEwkEeemf_xdrPA9cQ" entityName="140_AC_Component_A -> 135_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I05YC0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I05YAkwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05YDkwkEeemf_xdrPA9cQ" entityName="141_AC_Component_D -> 120_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I05YDUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J5UwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05_EEwkEeemf_xdrPA9cQ" entityName="143_AC_Component_A -> 132_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I05YEEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04w-UwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05_EkwkEeemf_xdrPA9cQ" entityName="144_AC_Component_D -> 122_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I05_EUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04J50wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_yU2CxTPKEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05_FEwkEeemf_xdrPA9cQ" entityName="145_AC_Component_A -> 142_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I05_E0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I05YD0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05_FkwkEeemf_xdrPA9cQ" entityName="146_AC_Component_A -> 143_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I05_FUwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I05YEEwkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05_GEwkEeemf_xdrPA9cQ" entityName="147_AC_Component_A -> 142_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I05_F0wkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I05YD0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_gQZbVTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05_G0wkEeemf_xdrPA9cQ" entityName="149_AC_Component_B -> 89_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I05_GkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I01toEwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_vYnNETPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#___-n9TPIEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05_HEwkEeemf_xdrPA9cQ" entityName="149_AC_Component_B -> 132_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I05_GkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I04w-UwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_DsiZRTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I05_HUwkEeemf_xdrPA9cQ" entityName="149_AC_Component_B -> 111_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I05_GkwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I03i00wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_EVPYBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I06mIUwkEeemf_xdrPA9cQ" entityName="0__AC_Component_C -> 137_AC_Component_E" requiringAssemblyContext_AssemblyConnector="_I06mIEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I05YBUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_e8d40TPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I06mIkwkEeemf_xdrPA9cQ" entityName="0__AC_Component_C -> 142_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_I06mIEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I05YD0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I07NMEwkEeemf_xdrPA9cQ" entityName="0__AC_Component_C -> 140_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I06mIEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I05YC0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I07NMUwkEeemf_xdrPA9cQ" entityName="0__AC_Component_C -> 145_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I06mIEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I05_E0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I070QUwkEeemf_xdrPA9cQ" entityName="1__AC_Component_C -> 146_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I070QEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I05_FUwkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I070QkwkEeemf_xdrPA9cQ" entityName="1__AC_Component_C -> 147_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I070QEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I05_F0wkEeemf_xdrPA9cQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I070Q0wkEeemf_xdrPA9cQ" entityName="1__AC_Component_C -> 145_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I070QEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I05_E0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_4OAgcTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_I070REwkEeemf_xdrPA9cQ" entityName="1__AC_Component_C -> 147_AC_Component_A" requiringAssemblyContext_AssemblyConnector="_I070QEwkEeemf_xdrPA9cQ" providingAssemblyContext_AssemblyConnector="_I05_F0wkEeemf_xdrPA9cQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="cocome-cloud.repository#_0fDicTPIEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="cocome-cloud.repository#_kxWeBTPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+</system:System>
