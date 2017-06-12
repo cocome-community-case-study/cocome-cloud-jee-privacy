@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="ASCII"?>
+<designdecision:Candidates xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:designdecision="http://sdq.ipd.uka.de/DesignDecision/3.0">
+  <candidate>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="4">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.0"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="11">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.1"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="2">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.2"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="8">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.3"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="6">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.4"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="1">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.5"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="9">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.6"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="1">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.7"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="7">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.8"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="6">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.9"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="9">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.10"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="3">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.11"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="3">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.12"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="7">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.13"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="11">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.14"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="9">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.15"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="10">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.16"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="9">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.17"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="4">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.18"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="8">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.19"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="1">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.20"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="2">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.21"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="3">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.22"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="1">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.23"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="4">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.24"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="1">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.25"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="2">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.26"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="2">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.27"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="10">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.28"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="11">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.29"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="10">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.30"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="3">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.31"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="7">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.32"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="4">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.33"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="1">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.34"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="7">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.35"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="8">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.36"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="6">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.37"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="4">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.38"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="1">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.39"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="11">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.40"/>
+    </choices>
+    <choices xsi:type="designdecision:DiscreteRangeChoice" chosenValue="11">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.41"/>
+    </choices>
+    <choices xsi:type="designdecision:ClassChoice">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.42"/>
+      <chosenValue href="../cocome-cloud.resourceenvironment#_foJgy0z9Eee72NurJpQ0mw"/>
+    </choices>
+    <choices xsi:type="designdecision:ClassChoice">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.43"/>
+      <chosenValue href="../cocome-cloud.resourceenvironment#_foKH0Uz9Eee72NurJpQ0mw"/>
+    </choices>
+    <choices xsi:type="designdecision:ClassChoice">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.44"/>
+      <chosenValue href="../cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E7Q"/>
+    </choices>
+    <choices xsi:type="designdecision:ClassChoice">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.45"/>
+      <chosenValue href="../cocome-cloud.resourceenvironment#_foI5uUz9Eee72NurJpQ0mw"/>
+    </choices>
+    <choices xsi:type="designdecision:ClassChoice">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.46"/>
+      <chosenValue href="../cocome-cloud.resourceenvironment#_foLV9Uz9Eee72NurJpQ0mw"/>
+    </choices>
+    <choices xsi:type="designdecision:ClassChoice">
+      <degreeOfFreedomInstance href="../cocome-cloud.designdecision#//@degreesOfFreedom.47"/>
+      <chosenValue href="../cocome-cloud.resourceenvironment#_xXFAY0cNEeejdItUNd5E7Q"/>
+    </choices>
+  </candidate>
+  <problem href="../cocome-cloud.designdecision#_63jwMTmoEeeScpGFWAyG3Q"/>
+</designdecision:Candidates>

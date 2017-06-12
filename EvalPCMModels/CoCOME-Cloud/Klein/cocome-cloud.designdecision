@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="ASCII"?>
+<designdecision:DecisionSpace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:designdecision="http://sdq.ipd.uka.de/DesignDecision/3.0" xmlns:specific="http://sdq.ipd.uka.de/DesignDecision/Specific/3.0" id="_63jwMTmoEeeScpGFWAyG3Q" name="cocome-cloud">
+  <degreesOfFreedom xsi:type="specific:ResourceContainerReplicationDegree" entityName="org.cocome.cloud.web_aws-ec2_eu-west-1_m3.large_ReplicationDegree" to="11" from="1">
+    <primaryChanged href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E8Q"/>
+    <changeableElements href="cocome-cloud.allocation#_630O4DmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6301_TmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_631dCDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EEDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EKTmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6335RjmoEeeScpGFWAyG3Q"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:ResourceContainerReplicationDegree" entityName="org.cocome.cloud.web_aws-ec2_eu-west-1_m4.2xlarge_ReplicationDegree" to="11" from="1">
+    <primaryChanged href="cocome-cloud.resourceenvironment#_OngasU0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.allocation#_630O4DmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6301_TmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_631dCDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EEDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EKTmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6335RjmoEeeScpGFWAyG3Q"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:ResourceContainerReplicationDegree" entityName="org.cocome.tradingsystem.inventory_aws-ec2_eu-west-1_m3.large_ReplicationDegree" to="11" from="1">
+    <primaryChanged href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E7Q"/>
+    <changeableElements href="cocome-cloud.allocation#_630O4DmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6301_TmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_631dCDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EEDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EKTmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6335RjmoEeeScpGFWAyG3Q"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:ResourceContainerReplicationDegree" entityName="org.cocome.tradingsystem.inventory_aws-ec2_eu-west-1_m4.2xlarge_ReplicationDegree" to="11" from="1">
+    <primaryChanged href="cocome-cloud.resourceenvironment#_Onho0U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.allocation#_630O4DmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6301_TmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_631dCDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EEDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EKTmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6335RjmoEeeScpGFWAyG3Q"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:ResourceContainerReplicationDegree" entityName="org.cocome.cloud.logic.webservice.cashdeskline.cashdeskservice_aws-ec2_eu-west-1_m3.large_ReplicationDegree" to="11" from="1">
+    <primaryChanged href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E9Q"/>
+    <changeableElements href="cocome-cloud.allocation#_630O4DmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6301_TmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_631dCDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EEDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EKTmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6335RjmoEeeScpGFWAyG3Q"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:ResourceContainerReplicationDegree" entityName="org.cocome.cloud.logic.webservice.cashdeskline.cashdeskservice_aws-ec2_eu-west-1_m4.2xlarge_ReplicationDegree" to="11" from="1">
+    <primaryChanged href="cocome-cloud.resourceenvironment#_Onho1U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.allocation#_630O4DmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6301_TmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_631dCDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EEDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EKTmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6335RjmoEeeScpGFWAyG3Q"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:ResourceContainerReplicationDegree" entityName="org.cocome.cloud.webservice.inventory_aws-ec2_eu-west-1_m3.large_ReplicationDegree" to="11" from="1">
+    <primaryChanged href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E7Q"/>
+    <changeableElements href="cocome-cloud.allocation#_630O4DmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6301_TmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_631dCDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EEDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EKTmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6335RjmoEeeScpGFWAyG3Q"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:ResourceContainerReplicationDegree" entityName="org.cocome.cloud.webservice.inventory_aws-ec2_eu-west-1_m4.2xlarge_ReplicationDegree" to="11" from="1">
+    <primaryChanged href="cocome-cloud.resourceenvironment#_OniP4U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.allocation#_630O4DmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6301_TmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_631dCDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EEDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EKTmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6335RjmoEeeScpGFWAyG3Q"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:ResourceContainerReplicationDegree" entityName="org.cocome.tradingsystem.cashdeskline_aws-ec2_eu-west-1_m3.large_ReplicationDegree" to="11" from="1">
+    <primaryChanged href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E9Q"/>
+    <changeableElements href="cocome-cloud.allocation#_630O4DmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6301_TmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_631dCDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EEDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EKTmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6335RjmoEeeScpGFWAyG3Q"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:ResourceContainerReplicationDegree" entityName="org.cocome.tradingsystem.cashdeskline_aws-ec2_eu-west-1_m4.2xlarge_ReplicationDegree" to="11" from="1">
+    <primaryChanged href="cocome-cloud.resourceenvironment#_OniP5U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.allocation#_630O4DmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6301_TmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_631dCDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EEDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EKTmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6335RjmoEeeScpGFWAyG3Q"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:ResourceContainerReplicationDegree" entityName="org.cocome.tradingsystem.external.Bank_aws-ec2_eu-west-1_m3.large_ReplicationDegree" to="11" from="1">
+    <primaryChanged href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E9Q"/>
+    <changeableElements href="cocome-cloud.allocation#_630O4DmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6301_TmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_631dCDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EEDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EKTmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6335RjmoEeeScpGFWAyG3Q"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:ResourceContainerReplicationDegree" entityName="org.cocome.tradingsystem.external.Bank_aws-ec2_eu-west-1_m4.2xlarge_ReplicationDegree" to="11" from="1">
+    <primaryChanged href="cocome-cloud.resourceenvironment#_Oni28U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.allocation#_630O4DmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6301_TmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_631dCDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EEDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_632EKTmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.allocation#_6335RjmoEeeScpGFWAyG3Q"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AllocationDegree" entityName="org.cocome.cloud.web_aws-ec2_eu-west-1_m3.large_AllocationDegree">
+    <primaryChanged href="cocome-cloud.allocation#_630O4DmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E8Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OngasU0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E7Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Onho0U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E9Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Onho1U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OniP4U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OniP5U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Oni28U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E8Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OngasU0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E7Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Onho0U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E9Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Onho1U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OniP4U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OniP5U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Oni28U0zEeeC7LTrM96O2A"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AllocationDegree" entityName="org.cocome.tradingsystem.inventory_aws-ec2_eu-west-1_m3.large_AllocationDegree">
+    <primaryChanged href="cocome-cloud.allocation#_6301_TmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E8Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OngasU0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E7Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Onho0U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E9Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Onho1U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OniP4U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OniP5U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Oni28U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E8Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OngasU0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E7Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Onho0U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E9Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Onho1U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OniP4U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OniP5U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Oni28U0zEeeC7LTrM96O2A"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AllocationDegree" entityName="org.cocome.cloud.logic.webservice.cashdeskline.cashdeskservice_aws-ec2_eu-west-1_m3.large_AllocationDegree">
+    <primaryChanged href="cocome-cloud.allocation#_631dCDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E8Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OngasU0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E7Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Onho0U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E9Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Onho1U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OniP4U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OniP5U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Oni28U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E8Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OngasU0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E7Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Onho0U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E9Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Onho1U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OniP4U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OniP5U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Oni28U0zEeeC7LTrM96O2A"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AllocationDegree" entityName="org.cocome.cloud.webservice.inventory_aws-ec2_eu-west-1_m3.large_AllocationDegree">
+    <primaryChanged href="cocome-cloud.allocation#_632EEDmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E8Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OngasU0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E7Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Onho0U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E9Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Onho1U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OniP4U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OniP5U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Oni28U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E8Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OngasU0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E7Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Onho0U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E9Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Onho1U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OniP4U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OniP5U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Oni28U0zEeeC7LTrM96O2A"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AllocationDegree" entityName="org.cocome.tradingsystem.cashdeskline_aws-ec2_eu-west-1_m3.large_AllocationDegree">
+    <primaryChanged href="cocome-cloud.allocation#_632EKTmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E8Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OngasU0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E7Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Onho0U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E9Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Onho1U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OniP4U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OniP5U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Oni28U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E8Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OngasU0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E7Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Onho0U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E9Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Onho1U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OniP4U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OniP5U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Oni28U0zEeeC7LTrM96O2A"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AllocationDegree" entityName="org.cocome.tradingsystem.external.Bank_aws-ec2_eu-west-1_m3.large_AllocationDegree">
+    <primaryChanged href="cocome-cloud.allocation#_6335RjmoEeeScpGFWAyG3Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E8Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OngasU0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E7Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Onho0U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E9Q"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Onho1U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OniP4U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_OniP5U0zEeeC7LTrM96O2A"/>
+    <changeableElements href="cocome-cloud.resourceenvironment#_Oni28U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E8Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OngasU0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E7Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Onho0U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_xWr-wUcNEeejdItUNd5E9Q"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Onho1U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OniP4U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_OniP5U0zEeeC7LTrM96O2A"/>
+    <classDesignOptions href="cocome-cloud.resourceenvironment#_Oni28U0zEeeC7LTrM96O2A"/>
+  </degreesOfFreedom>
+</designdecision:DecisionSpace>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.palladiosimulator="http://palladiosimulator.org/PalladioComponentModel/5.2/Cloud/ResourceEnvironment" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" entityName="defaultResourceEnv">
-  <linkingResources__ResourceEnvironment id="_xXDyMEcNEeejdItUNd5E7Q" entityName="Internet" connectedResourceContainers_LinkingResource="_xWr-wUcNEeejdItUNd5E7Q _xXEZQ0cNEeejdItUNd5E7Q _xXFAUUcNEeejdItUNd5E7Q _xXFAV0cNEeejdItUNd5E7Q _xXFAXUcNEeejdItUNd5E7Q _xXFAY0cNEeejdItUNd5E7Q _GZCIcUcUEeeUVZiqkeu_jA _GZe0YUcUEeeUVZiqkeu_jA _GZe0Z0cUEeeUVZiqkeu_jA _GZfbc0cUEeeUVZiqkeu_jA _GZfbeUcUEeeUVZiqkeu_jA _GZfbf0cUEeeUVZiqkeu_jA">
+  <linkingResources__ResourceEnvironment id="_xXDyMEcNEeejdItUNd5E7Q" entityName="Internet" connectedResourceContainers_LinkingResource="_xWr-wUcNEeejdItUNd5E7Q _foCzEUz9Eee72NurJpQ0mw _foEBMUz9Eee72NurJpQ0mw _foEBNUz9Eee72NurJpQ0mw _foEoQUz9Eee72NurJpQ0mw _foEoRUz9Eee72NurJpQ0mw _foFPUUz9Eee72NurJpQ0mw _xXEZQ0cNEeejdItUNd5E7Q _foFPVUz9Eee72NurJpQ0mw _foF2YUz9Eee72NurJpQ0mw _foF2ZUz9Eee72NurJpQ0mw _foGdcUz9Eee72NurJpQ0mw _foGddUz9Eee72NurJpQ0mw _foGdeUz9Eee72NurJpQ0mw _xXFAV0cNEeejdItUNd5E7Q _foHEgUz9Eee72NurJpQ0mw _foHEhUz9Eee72NurJpQ0mw _foHEiUz9Eee72NurJpQ0mw _foHrkUz9Eee72NurJpQ0mw _foHrlUz9Eee72NurJpQ0mw _foHrmUz9Eee72NurJpQ0mw _foISoUz9Eee72NurJpQ0mw _foISpUz9Eee72NurJpQ0mw _foISqUz9Eee72NurJpQ0mw _foI5sUz9Eee72NurJpQ0mw _foI5tUz9Eee72NurJpQ0mw _foI5uUz9Eee72NurJpQ0mw _xXFAXUcNEeejdItUNd5E7Q _foI5vUz9Eee72NurJpQ0mw _foJgw0z9Eee72NurJpQ0mw _foJgx0z9Eee72NurJpQ0mw _foJgy0z9Eee72NurJpQ0mw _foKH0Uz9Eee72NurJpQ0mw _foKH1Uz9Eee72NurJpQ0mw _xXFAY0cNEeejdItUNd5E7Q _foKu4Uz9Eee72NurJpQ0mw _foKu5Uz9Eee72NurJpQ0mw _foKu6Uz9Eee72NurJpQ0mw _foLV8Uz9Eee72NurJpQ0mw _foLV9Uz9Eee72NurJpQ0mw _foL9AUz9Eee72NurJpQ0mw">
     <communicationLinkResourceSpecifications_LinkingResource id="_xXDyMUcNEeejdItUNd5E7Q" failureProbability="0.1">
       <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
       <latency_CommunicationLinkResourceSpecification specification="0.5"/>
       <throughput_CommunicationLinkResourceSpecification specification="1.0E8"/>
     </communicationLinkResourceSpecifications_LinkingResource>
   </linkingResources__ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xWr-wUcNEeejdItUNd5E7Q" entityName="m4.large">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xWr-wUcNEeejdItUNd5E7Q" entityName="org.cocome.cloud.web_aws-ec2_eu-west-1_m4.large" groupName="org.cocome.cloud.web_aws-ec2_eu-west-1_m4.large">
     <activeResourceSpecifications_ResourceContainer id="_xXEZQUcNEeejdItUNd5E7Q" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -15,7 +15,55 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.0"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xXEZQ0cNEeejdItUNd5E7Q" entityName="m4.xlarge">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foCzEUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.web_aws-ec2_eu-west-1_m4.xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foDaIUz9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.1"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foEBMUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.web_aws-ec2_eu-west-1_m3.medium">
+    <activeResourceSpecifications_ResourceContainer id="_foEBM0z9Eee72NurJpQ0mw" requiredByContainer="true">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.2"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foEBNUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.web_aws-ec2_eu-west-1_m3.large">
+    <activeResourceSpecifications_ResourceContainer id="_foEBN0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.3"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foEoQUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.web_aws-ec2_eu-west-1_m3.xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foEoQ0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.4"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foEoRUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.web_aws-ec2_eu-west-1_m3.2xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foEoR0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.5"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foFPUUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.web_aws-ec2_eu-west-1_m4.2xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foFPU0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.6"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xXEZQ0cNEeejdItUNd5E7Q" entityName="org.cocome.tradingsystem.inventory_aws-ec2_eu-west-1_m4.xlarge" groupName="org.cocome.tradingsystem.inventory_aws-ec2_eu-west-1_m4.xlarge">
     <activeResourceSpecifications_ResourceContainer id="_xXEZR0cNEeejdItUNd5E7Q" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -23,15 +71,55 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.1"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xXFAUUcNEeejdItUNd5E7Q" entityName="m3.medium">
-    <activeResourceSpecifications_ResourceContainer id="_xXFAVUcNEeejdItUNd5E7Q" requiredByContainer="true">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foFPVUz9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.inventory_aws-ec2_eu-west-1_m4.large">
+    <activeResourceSpecifications_ResourceContainer id="_foFPV0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.0"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foF2YUz9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.inventory_aws-ec2_eu-west-1_m3.medium">
+    <activeResourceSpecifications_ResourceContainer id="_foF2Y0z9Eee72NurJpQ0mw" requiredByContainer="true">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
       <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.2"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xXFAV0cNEeejdItUNd5E7Q" entityName="m3.large">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foF2ZUz9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.inventory_aws-ec2_eu-west-1_m3.large">
+    <activeResourceSpecifications_ResourceContainer id="_foF2Z0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.3"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foGdcUz9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.inventory_aws-ec2_eu-west-1_m3.xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foGdc0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.4"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foGddUz9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.inventory_aws-ec2_eu-west-1_m3.2xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foGdd0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.5"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foGdeUz9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.inventory_aws-ec2_eu-west-1_m4.2xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foGde0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.6"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xXFAV0cNEeejdItUNd5E7Q" entityName="org.cocome.cloud.webservice.inventory_aws-ec2_eu-west-1_m3.large" groupName="org.cocome.cloud.webservice.inventory_aws-ec2_eu-west-1_m3.large">
     <activeResourceSpecifications_ResourceContainer id="_xXFAW0cNEeejdItUNd5E7Q" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -39,7 +127,103 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.3"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xXFAXUcNEeejdItUNd5E7Q" entityName="m3.xlarge">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHEgUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.logic.webservice.cashdeskline.cashdeskservice_aws-ec2_eu-west-1_m4.large">
+    <activeResourceSpecifications_ResourceContainer id="_foHEg0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.0"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHEhUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.logic.webservice.cashdeskline.cashdeskservice_aws-ec2_eu-west-1_m4.xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foHEh0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.1"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHEiUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.logic.webservice.cashdeskline.cashdeskservice_aws-ec2_eu-west-1_m3.medium">
+    <activeResourceSpecifications_ResourceContainer id="_foHEi0z9Eee72NurJpQ0mw" requiredByContainer="true">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.2"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHrkUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.logic.webservice.cashdeskline.cashdeskservice_aws-ec2_eu-west-1_m3.xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foHrk0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.4"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHrlUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.logic.webservice.cashdeskline.cashdeskservice_aws-ec2_eu-west-1_m3.2xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foHrl0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.5"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHrmUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.logic.webservice.cashdeskline.cashdeskservice_aws-ec2_eu-west-1_m4.2xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foHrm0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.6"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foISoUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.webservice.inventory_aws-ec2_eu-west-1_m4.large">
+    <activeResourceSpecifications_ResourceContainer id="_foISo0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.0"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foISpUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.webservice.inventory_aws-ec2_eu-west-1_m4.xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foISp0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.1"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foISqUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.webservice.inventory_aws-ec2_eu-west-1_m3.medium">
+    <activeResourceSpecifications_ResourceContainer id="_foISq0z9Eee72NurJpQ0mw" requiredByContainer="true">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.2"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foI5sUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.webservice.inventory_aws-ec2_eu-west-1_m3.xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foI5s0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.4"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foI5tUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.webservice.inventory_aws-ec2_eu-west-1_m3.2xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foI5t0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.5"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foI5uUz9Eee72NurJpQ0mw" entityName="org.cocome.cloud.webservice.inventory_aws-ec2_eu-west-1_m4.2xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foI5u0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.6"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xXFAXUcNEeejdItUNd5E7Q" entityName="org.cocome.tradingsystem.cashdeskline_aws-ec2_eu-west-1_m3.xlarge" groupName="org.cocome.tradingsystem.cashdeskline_aws-ec2_eu-west-1_m3.xlarge">
     <activeResourceSpecifications_ResourceContainer id="_xXFAYUcNEeejdItUNd5E7Q" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -47,7 +231,55 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.4"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xXFAY0cNEeejdItUNd5E7Q" entityName="m3.2xlarge">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foI5vUz9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.cashdeskline_aws-ec2_eu-west-1_m4.large">
+    <activeResourceSpecifications_ResourceContainer id="_foJgwUz9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.0"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foJgw0z9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.cashdeskline_aws-ec2_eu-west-1_m4.xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foJgxUz9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.1"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foJgx0z9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.cashdeskline_aws-ec2_eu-west-1_m3.medium">
+    <activeResourceSpecifications_ResourceContainer id="_foJgyUz9Eee72NurJpQ0mw" requiredByContainer="true">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.2"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foJgy0z9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.cashdeskline_aws-ec2_eu-west-1_m3.large">
+    <activeResourceSpecifications_ResourceContainer id="_foJgzUz9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.3"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foKH0Uz9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.cashdeskline_aws-ec2_eu-west-1_m3.2xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foKH00z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.5"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foKH1Uz9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.cashdeskline_aws-ec2_eu-west-1_m4.2xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foKH10z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
+      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
+    </activeResourceSpecifications_ResourceContainer>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.6"/>
+  </resourceContainer_ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xXFAY0cNEeejdItUNd5E7Q" entityName="org.cocome.tradingsystem.external.Bank_aws-ec2_eu-west-1_m3.2xlarge" groupName="org.cocome.tradingsystem.external.Bank_aws-ec2_eu-west-1_m3.2xlarge">
     <activeResourceSpecifications_ResourceContainer id="_xXFAZ0cNEeejdItUNd5E7Q" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -55,52 +287,52 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.5"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_GZCIcUcUEeeUVZiqkeu_jA" entityName="m4.large">
-    <activeResourceSpecifications_ResourceContainer id="_GZeNU0cUEeeUVZiqkeu_jA" requiredByContainer="true" numberOfReplicas="2">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foKu4Uz9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.external.Bank_aws-ec2_eu-west-1_m4.large">
+    <activeResourceSpecifications_ResourceContainer id="_foKu40z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
       <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.0"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_GZe0YUcUEeeUVZiqkeu_jA" entityName="m4.xlarge">
-    <activeResourceSpecifications_ResourceContainer id="_GZe0ZUcUEeeUVZiqkeu_jA" requiredByContainer="true" numberOfReplicas="4">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foKu5Uz9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.external.Bank_aws-ec2_eu-west-1_m4.xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foKu50z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
       <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.1"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_GZe0Z0cUEeeUVZiqkeu_jA" entityName="m3.medium">
-    <activeResourceSpecifications_ResourceContainer id="_GZfbcUcUEeeUVZiqkeu_jA" requiredByContainer="true">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foKu6Uz9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.external.Bank_aws-ec2_eu-west-1_m3.medium">
+    <activeResourceSpecifications_ResourceContainer id="_foKu60z9Eee72NurJpQ0mw" requiredByContainer="true">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
       <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.2"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_GZfbc0cUEeeUVZiqkeu_jA" entityName="m3.large">
-    <activeResourceSpecifications_ResourceContainer id="_GZfbd0cUEeeUVZiqkeu_jA" requiredByContainer="true" numberOfReplicas="2">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foLV8Uz9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.external.Bank_aws-ec2_eu-west-1_m3.large">
+    <activeResourceSpecifications_ResourceContainer id="_foLV80z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
       <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.3"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_GZfbeUcUEeeUVZiqkeu_jA" entityName="m3.xlarge">
-    <activeResourceSpecifications_ResourceContainer id="_GZfbfUcUEeeUVZiqkeu_jA" requiredByContainer="true" numberOfReplicas="4">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foLV9Uz9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.external.Bank_aws-ec2_eu-west-1_m3.xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foLV90z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
       <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.4"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_GZfbf0cUEeeUVZiqkeu_jA" entityName="m3.2xlarge">
-    <activeResourceSpecifications_ResourceContainer id="_GZfbg0cUEeeUVZiqkeu_jA" requiredByContainer="true" numberOfReplicas="8">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foL9AUz9Eee72NurJpQ0mw" entityName="org.cocome.tradingsystem.external.Bank_aws-ec2_eu-west-1_m4.2xlarge">
+    <activeResourceSpecifications_ResourceContainer id="_foL9A0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
-    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.5"/>
+    <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.6"/>
   </resourceContainer_ResourceEnvironment>
 </resourceenvironment:ResourceEnvironment>
