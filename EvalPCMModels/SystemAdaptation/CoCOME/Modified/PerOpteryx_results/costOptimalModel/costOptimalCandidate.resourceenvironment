@@ -7,275 +7,275 @@
       <throughput_CommunicationLinkResourceSpecification specification="1.0E8"/>
     </communicationLinkResourceSpecifications_LinkingResource>
   </linkingResources__ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xWr-wUcNEeejdItUNd5E7Q" entityName="server-1" Geolocation="840" groupName="org.cocome.cloud.web_aws-ec2_eu-west-1_m4.large">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xWr-wUcNEeejdItUNd5E7Q" entityName="server-1" Geolocation="276" groupName="org.cocome.cloud.web_aws-ec2_eu-west-1_m4.large">
     <activeResourceSpecifications_ResourceContainer id="_xXEZQUcNEeejdItUNd5E7Q" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="3.4760802267118144E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.0"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foCzEUz9Eee72NurJpQ0mw" entityName="server-2" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foCzEUz9Eee72NurJpQ0mw" entityName="server-2" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foDaIUz9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="2.770526796759136E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.1"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foEBMUz9Eee72NurJpQ0mw" entityName="server-3" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foEBMUz9Eee72NurJpQ0mw" entityName="server-3" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foEBM0z9Eee72NurJpQ0mw" requiredByContainer="true">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="4.916782964820626E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.2"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foEBNUz9Eee72NurJpQ0mw" entityName="server-4" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foEBNUz9Eee72NurJpQ0mw" entityName="server-4" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foEBN0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="4.680733773974131E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.3"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foEoQUz9Eee72NurJpQ0mw" entityName="server-5" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foEoQUz9Eee72NurJpQ0mw" entityName="server-5" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foEoQ0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="1.9860624843297417E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.4"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foEoRUz9Eee72NurJpQ0mw" entityName="server-6" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foEoRUz9Eee72NurJpQ0mw" entityName="server-6" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foEoR0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="4.311271357435996E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.5"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foFPUUz9Eee72NurJpQ0mw" entityName="server-7" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foFPUUz9Eee72NurJpQ0mw" entityName="server-7" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foFPU0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="3.2754577525528626E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="platform:/resource/Modified/cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.6"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xXEZQ0cNEeejdItUNd5E7Q" entityName="server-8" Geolocation="840" groupName="org.cocome.tradingsystem.inventory_aws-ec2_eu-west-1_m4.xlarge">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xXEZQ0cNEeejdItUNd5E7Q" entityName="server-8" Geolocation="276" groupName="org.cocome.tradingsystem.inventory_aws-ec2_eu-west-1_m4.xlarge">
     <activeResourceSpecifications_ResourceContainer id="_xXEZR0cNEeejdItUNd5E7Q" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="2.4616948735070014E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.1"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foFPVUz9Eee72NurJpQ0mw" entityName="server-9" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foFPVUz9Eee72NurJpQ0mw" entityName="server-9" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foFPV0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="4.587874121563438E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.0"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foF2YUz9Eee72NurJpQ0mw" entityName="server-10" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foF2YUz9Eee72NurJpQ0mw" entityName="server-10" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foF2Y0z9Eee72NurJpQ0mw" requiredByContainer="true">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="4.2283631547755485E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.2"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foF2ZUz9Eee72NurJpQ0mw" entityName="server-11" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foF2ZUz9Eee72NurJpQ0mw" entityName="server-11" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foF2Z0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="2.2256741785681696E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.3"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foGdcUz9Eee72NurJpQ0mw" entityName="server-12" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foGdcUz9Eee72NurJpQ0mw" entityName="server-12" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foGdc0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="1.6954894287121859E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.4"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foGddUz9Eee72NurJpQ0mw" entityName="server-13" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foGddUz9Eee72NurJpQ0mw" entityName="server-13" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foGdd0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="1.963929689553751E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.5"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foGdeUz9Eee72NurJpQ0mw" entityName="server-14" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foGdeUz9Eee72NurJpQ0mw" entityName="server-14" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foGde0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="2.9793228677164288E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="platform:/resource/Modified/cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.6"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xXFAV0cNEeejdItUNd5E7Q" entityName="server-15" Geolocation="840" groupName="org.cocome.cloud.webservice.inventory_aws-ec2_eu-west-1_m3.large">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xXFAV0cNEeejdItUNd5E7Q" entityName="server-15" Geolocation="276" groupName="org.cocome.cloud.webservice.inventory_aws-ec2_eu-west-1_m3.large">
     <activeResourceSpecifications_ResourceContainer id="_xXFAW0cNEeejdItUNd5E7Q" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="4.1895342863764386E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.3"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHEgUz9Eee72NurJpQ0mw" entityName="server-16" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHEgUz9Eee72NurJpQ0mw" entityName="server-16" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foHEg0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="2.0628643842508385E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.0"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHEhUz9Eee72NurJpQ0mw" entityName="server-17" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHEhUz9Eee72NurJpQ0mw" entityName="server-17" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foHEh0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="3.947260342708552E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.1"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHEiUz9Eee72NurJpQ0mw" entityName="server-18" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHEiUz9Eee72NurJpQ0mw" entityName="server-18" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foHEi0z9Eee72NurJpQ0mw" requiredByContainer="true">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="1.6447259553890595E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.2"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHrkUz9Eee72NurJpQ0mw" entityName="server-19" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHrkUz9Eee72NurJpQ0mw" entityName="server-19" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foHrk0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="1.44844477426684E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.4"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHrlUz9Eee72NurJpQ0mw" entityName="server-20" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHrlUz9Eee72NurJpQ0mw" entityName="server-20" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foHrl0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="1.3068978867431407E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.5"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHrmUz9Eee72NurJpQ0mw" entityName="server-21" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foHrmUz9Eee72NurJpQ0mw" entityName="server-21" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foHrm0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="3.2383738065605726E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="platform:/resource/Modified/cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.6"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foISoUz9Eee72NurJpQ0mw" entityName="server-22" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foISoUz9Eee72NurJpQ0mw" entityName="server-22" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foISo0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="2.0626940100183754E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.0"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foISpUz9Eee72NurJpQ0mw" entityName="server-23" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foISpUz9Eee72NurJpQ0mw" entityName="server-23" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foISp0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="4.0272472977848425E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.1"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foISqUz9Eee72NurJpQ0mw" entityName="server-24" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foISqUz9Eee72NurJpQ0mw" entityName="server-24" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foISq0z9Eee72NurJpQ0mw" requiredByContainer="true">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="2.497404945927878E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.2"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foI5sUz9Eee72NurJpQ0mw" entityName="server-25" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foI5sUz9Eee72NurJpQ0mw" entityName="server-25" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foI5s0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="4.86172452826894E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.4"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foI5tUz9Eee72NurJpQ0mw" entityName="server-26" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foI5tUz9Eee72NurJpQ0mw" entityName="server-26" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foI5t0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="4.456862285701641E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.5"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foI5uUz9Eee72NurJpQ0mw" entityName="server-27" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foI5uUz9Eee72NurJpQ0mw" entityName="server-27" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foI5u0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="2.979479582295305E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="platform:/resource/Modified/cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.6"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xXFAXUcNEeejdItUNd5E7Q" entityName="server-28" Geolocation="840" groupName="org.cocome.tradingsystem.cashdeskline_aws-ec2_eu-west-1_m3.xlarge">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_xXFAXUcNEeejdItUNd5E7Q" entityName="server-28" Geolocation="276" groupName="org.cocome.tradingsystem.cashdeskline_aws-ec2_eu-west-1_m3.xlarge">
     <activeResourceSpecifications_ResourceContainer id="_xXFAYUcNEeejdItUNd5E7Q" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="4.204871356853328E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.4"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foI5vUz9Eee72NurJpQ0mw" entityName="server-29" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foI5vUz9Eee72NurJpQ0mw" entityName="server-29" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foJgwUz9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="4.1817268933601403E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.0"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foJgw0z9Eee72NurJpQ0mw" entityName="server-30" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foJgw0z9Eee72NurJpQ0mw" entityName="server-30" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foJgxUz9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="3.932854166276037E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.1"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foJgx0z9Eee72NurJpQ0mw" entityName="server-31" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foJgx0z9Eee72NurJpQ0mw" entityName="server-31" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foJgyUz9Eee72NurJpQ0mw" requiredByContainer="true">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="3.394625975976443E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.2"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foJgy0z9Eee72NurJpQ0mw" entityName="server-32" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foJgy0z9Eee72NurJpQ0mw" entityName="server-32" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foJgzUz9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="2.2164730757369237E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.3"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foKH0Uz9Eee72NurJpQ0mw" entityName="server-33" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foKH0Uz9Eee72NurJpQ0mw" entityName="server-33" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foKH00z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="4.261132633364681E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.5"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foKH1Uz9Eee72NurJpQ0mw" entityName="server-34" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foKH1Uz9Eee72NurJpQ0mw" entityName="server-34" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foKH10z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="4.327622627257561E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="platform:/resource/Modified/cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.6"/>
   </resourceContainer_ResourceEnvironment>
@@ -283,55 +283,55 @@
     <activeResourceSpecifications_ResourceContainer id="_xXFAZ0cNEeejdItUNd5E7Q" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="1.4727628584029877E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.5"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foKu4Uz9Eee72NurJpQ0mw" entityName="server-36" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foKu4Uz9Eee72NurJpQ0mw" entityName="server-36" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foKu40z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="3.171173501480692E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.0"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foKu5Uz9Eee72NurJpQ0mw" entityName="server-37" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foKu5Uz9Eee72NurJpQ0mw" entityName="server-37" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foKu50z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="1.4228157455257294E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.1"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foKu6Uz9Eee72NurJpQ0mw" entityName="server-38" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foKu6Uz9Eee72NurJpQ0mw" entityName="server-38" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foKu60z9Eee72NurJpQ0mw" requiredByContainer="true">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="2.5455310448867645E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.2"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foLV8Uz9Eee72NurJpQ0mw" entityName="server-39" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foLV8Uz9Eee72NurJpQ0mw" entityName="server-39" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foLV80z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="2.8851102119402657E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.3"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foLV9Uz9Eee72NurJpQ0mw" entityName="server-40" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foLV9Uz9Eee72NurJpQ0mw" entityName="server-40" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foLV90z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="2.683622584876565E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.5E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.4"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foL9AUz9Eee72NurJpQ0mw" entityName="server-41" Geolocation="840">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_foL9AUz9Eee72NurJpQ0mw" entityName="server-41" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_foL9A0z9Eee72NurJpQ0mw" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="costOptimalCandidate.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="costOptimalCandidate.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification specification="2.5940309257817693E9"/>
+      <processingRate_ProcessingResourceSpecification specification="2.3E9"/>
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="platform:/resource/Modified/cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.6"/>
   </resourceContainer_ResourceEnvironment>
