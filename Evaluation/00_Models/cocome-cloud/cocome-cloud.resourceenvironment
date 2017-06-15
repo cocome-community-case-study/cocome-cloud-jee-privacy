@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.palladiosimulator="http://palladiosimulator.org/PalladioComponentModel/5.2/Cloud/ResourceEnvironment" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" entityName="defaultResourceEnv">
-  <linkingResources__ResourceEnvironment id="_UW51YE_DEeeZ1eAuq05odg" entityName="Internet" connectedResourceContainers_LinkingResource="_UVlmwU_DEeeZ1eAuq05odg _UW8RoU_DEeeZ1eAuq05odg _UW8RpU_DEeeZ1eAuq05odg _UW8RqU_DEeeZ1eAuq05odg _UW8RrU_DEeeZ1eAuq05odg _UW8RsU_DEeeZ1eAuq05odg">
+  <linkingResources__ResourceEnvironment id="_UW51YE_DEeeZ1eAuq05odg" entityName="Internet" connectedResourceContainers_LinkingResource="_UVlmwU_DEeeZ1eAuq05odg _UW8RoU_DEeeZ1eAuq05odg _UW8RpU_DEeeZ1eAuq05odg _UW8RqU_DEeeZ1eAuq05odg _UW8RrU_DEeeZ1eAuq05odg _UW8RsU_DEeeZ1eAuq05odg _UVlmwU_DEeeZ1eAuq05od2 _UW8RoU_DEeeZ1eAuq05od2 _UW8RpU_DEeeZ1eAuq05od2 _UW8RqU_DEeeZ1eAuq05od2 _UW8RrU_DEeeZ1eAuq05od2 _UW8RsU_DEeeZ1eAuq05od2">
     <communicationLinkResourceSpecifications_LinkingResource id="_UW51YU_DEeeZ1eAuq05odg" failureProbability="0.001">
       <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
       <latency_CommunicationLinkResourceSpecification specification="0.1"/>
       <throughput_CommunicationLinkResourceSpecification specification="1.0E8"/>
     </communicationLinkResourceSpecifications_LinkingResource>
   </linkingResources__ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UVlmwU_DEeeZ1eAuq05odg" entityName="Server1-EU" GeoLocation="276">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UVlmwU_DEeeZ1eAuq05odg" entityName="Server1-EU" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_UW7DgU_DEeeZ1eAuq05odg" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -15,7 +15,7 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.0"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UVlmwU_DEeeZ1eAuq05od2" entityName="Server1-NonEU" GeoLocation="804">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UVlmwU_DEeeZ1eAuq05od2" entityName="Server1-NonEU" Geolocation="804">
     <activeResourceSpecifications_ResourceContainer id="_UW7DgU_DEeeZ1eAuq05od2" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -23,7 +23,7 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.0"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RoU_DEeeZ1eAuq05odg" entityName="Server2-EU" GeoLocation="276">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RoU_DEeeZ1eAuq05odg" entityName="Server2-EU" Geolocation="276">
     <activeResourceSpecifications_ResourceContainer id="_UW8Ro0_DEeeZ1eAuq05odg" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -31,7 +31,7 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.1"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RoU_DEeeZ1eAuq05od2" entityName="Server2-NonEU" GeoLocation="804">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RoU_DEeeZ1eAuq05od2" entityName="Server2-NonEU" Geolocation="804">
     <activeResourceSpecifications_ResourceContainer id="_UW8Ro0_DEeeZ1eAuq05od2" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -39,7 +39,7 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.1"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RpU_DEeeZ1eAuq05odg" entityName="Server3-EU" GeoLocation="250">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RpU_DEeeZ1eAuq05odg" entityName="Server3-EU" Geolocation="250">
     <activeResourceSpecifications_ResourceContainer id="_UW8Rp0_DEeeZ1eAuq05odg" requiredByContainer="true">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -47,7 +47,7 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.2"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RpU_DEeeZ1eAuq05od2" entityName="Server3-NonEU" GeoLocation="792">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RpU_DEeeZ1eAuq05od2" entityName="Server3-NonEU" Geolocation="792">
     <activeResourceSpecifications_ResourceContainer id="_UW8Rp0_DEeeZ1eAuq05od2" requiredByContainer="true">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -55,7 +55,7 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.2"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RqU_DEeeZ1eAuq05odg" entityName="Server4-EU" GeoLocation="250">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RqU_DEeeZ1eAuq05odg" entityName="Server4-EU" Geolocation="250">
     <activeResourceSpecifications_ResourceContainer id="_UW8Rq0_DEeeZ1eAuq05odg" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -63,7 +63,7 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.3"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RqU_DEeeZ1eAuq05od2" entityName="Server4-NonEU" GeoLocation="504">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RqU_DEeeZ1eAuq05od2" entityName="Server4-NonEU" Geolocation="504">
     <activeResourceSpecifications_ResourceContainer id="_UW8Rq0_DEeeZ1eAuq05od2" requiredByContainer="true" numberOfReplicas="2">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -71,7 +71,7 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.3"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RrU_DEeeZ1eAuq05odg" entityName="Server5-EU" GeoLocation="826">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RrU_DEeeZ1eAuq05odg" entityName="Server5-EU" Geolocation="826">
     <activeResourceSpecifications_ResourceContainer id="_UW8Rr0_DEeeZ1eAuq05odg" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -79,7 +79,7 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.4"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RrU_DEeeZ1eAuq05od2" entityName="Server5-NonEU" GeoLocation="112">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RrU_DEeeZ1eAuq05od2" entityName="Server5-NonEU" Geolocation="112">
     <activeResourceSpecifications_ResourceContainer id="_UW8Rr0_DEeeZ1eAuq05od2" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -87,7 +87,7 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.4"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RsU_DEeeZ1eAuq05odg" entityName="Server6-EU" GeoLocation="826">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RsU_DEeeZ1eAuq05odg" entityName="Server6-EU" Geolocation="826">
     <activeResourceSpecifications_ResourceContainer id="_UW8Rs0_DEeeZ1eAuq05odg" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
@@ -95,7 +95,7 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.5"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RsU_DEeeZ1eAuq05od2" entityName="Server6-NonEU" GeoLocation="112">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RsU_DEeeZ1eAuq05od2" entityName="Server6-NonEU" Geolocation="112">
     <activeResourceSpecifications_ResourceContainer id="_UW8Rs0_DEeeZ1eAuq05od2" requiredByContainer="true" numberOfReplicas="8">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>

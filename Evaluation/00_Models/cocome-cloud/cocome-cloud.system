@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="ASCII"?>
 <system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:compositionprivacy="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2/Privacy" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_35Lu0Ai5EeefyagWuy0aqA" entityName="CocomeCloud">
-  <assemblyContexts__ComposedStructure id="_UkO-AAi6EeefyagWuy0aqA" entityName="Assembly_org.cocome.cloud.web &lt;org.cocome.cloud.web>">
+  <assemblyContexts__ComposedStructure id="_UkO-AAi6EeefyagWuy0aqA" entityName="cloud.web">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="cocome-cloud.repository#_WxsrWK_-Eeal2oK95oef3A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_D9ZuoAi6EeefyagWuy0aqA" entityName="Assembly_org.cocome.tradingsystem.inventory &lt;org.cocome.tradingsystem.inventory>">
+  <assemblyContexts__ComposedStructure id="_D9ZuoAi6EeefyagWuy0aqA" entityName="tradingsystem.inventory">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="cocome-cloud.repository#_nrE4ra_9Eeal2oK95oef3A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_QYwcEAi6EeefyagWuy0aqA" entityName="Assembly_org.cocome.cloud.logic.webservice.cashdeskline.cashdeskservice &lt;org.cocome.cloud.logic.webservice.cashdeskline.cashdeskservice>">
+  <assemblyContexts__ComposedStructure id="_QYwcEAi6EeefyagWuy0aqA" entityName="logic.webservice.cashdeskline.cashdeskservice">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="cocome-cloud.repository#_AdUqWK_-Eeal2oK95oef3A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_Mj8GoAi6EeefyagWuy0aqA" entityName="Assembly_org.cocome.cloud.webservice.inventory &lt;org.cocome.cloud.webservice.inventory>">
+  <assemblyContexts__ComposedStructure id="_Mj8GoAi6EeefyagWuy0aqA" entityName="webservice.inventory">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="cocome-cloud.repository#_NUzyuLDFEea4bqS8ZK-LhA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_Og6wsAi6EeefyagWuy0aqA" entityName="Assembly_org.cocome.tradingsystem.cashdeskline &lt;org.cocome.tradingsystem.cashdeskline>">
+  <assemblyContexts__ComposedStructure id="_Og6wsAi6EeefyagWuy0aqA" entityName="tradingsystem.cashdeskline">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="cocome-cloud.repository#_-fymqK_9Eeal2oK95oef3A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_dkO2gAjIEeefyagWuy0aqA" entityName="Assembly_org.cocome.tradingsystem.external.Bank &lt;org.cocome.tradingsystem.external.Bank>">
+  <assemblyContexts__ComposedStructure id="_dkO2gAjIEeefyagWuy0aqA" entityName="tradingsystem.external.Bank">
     <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="cocome-cloud.repository#_j8OAg9YgEeWrM-HnT5f_ug"/>
   </assemblyContexts__ComposedStructure>
   <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_g3Wb0AjCEeefyagWuy0aqA" entityName="ProvDelegation Provided_IShowStockView -> Provided_IShowStockView" outerProvidedRole_ProvidedDelegationConnector="_eBx84AjCEeefyagWuy0aqA" assemblyContext_ProvidedDelegationConnector="_UkO-AAi6EeefyagWuy0aqA">
@@ -137,7 +137,7 @@
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_wwjBgLGAEeaCwqxzEIieVA"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_VdvMILDGEea4bqS8ZK-LhA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_RYsDgAjEEeefyagWuy0aqA" entityName="Connector Assembly_org.cocome.cloud.webservice.inventory &lt;org.cocome.cloud.webservice.inventory> -> Assembly_org.cocome.tradingsystem.inventory &lt;org.cocome.tradingsystem.inventory>" requiringAssemblyContext_AssemblyConnector="_Mj8GoAi6EeefyagWuy0aqA" providingAssemblyContext_AssemblyConnector="_D9ZuoAi6EeefyagWuy0aqA" PrivacyLevel="Personal">
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_RYsDgAjEEeefyagWuy0aqA" entityName="Connector Assembly_org.cocome.cloud.webservice.inventory &lt;org.cocome.cloud.webservice.inventory> -> Assembly_org.cocome.tradingsystem.inventory &lt;org.cocome.tradingsystem.inventory>" requiringAssemblyContext_AssemblyConnector="_Mj8GoAi6EeefyagWuy0aqA" providingAssemblyContext_AssemblyConnector="_D9ZuoAi6EeefyagWuy0aqA">
     <providedRole_AssemblyConnector href="cocome-cloud.repository#_yCX1wLGAEeaCwqxzEIieVA"/>
     <requiredRole_AssemblyConnector href="cocome-cloud.repository#_UBJ5YLDGEea4bqS8ZK-LhA"/>
   </connectors__ComposedStructure>

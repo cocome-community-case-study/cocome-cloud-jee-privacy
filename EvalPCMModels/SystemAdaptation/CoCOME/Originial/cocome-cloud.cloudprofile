@@ -7,6 +7,5 @@
     <cloudResources xsi:type="org.palladiosimulator:VMType" pricePerHour="0.158" location="eu-west-1" name="m3.large" provider="//@cloudProviders.0" maxCores="2" maxRAM="7.5" minProcessingRate="2.5" maxProcessingRate="2.6"/>
     <cloudResources xsi:type="org.palladiosimulator:VMType" pricePerHour="0.315" location="eu-west-1" name="m3.xlarge" provider="//@cloudProviders.0" maxCores="4" maxRAM="15.0" minProcessingRate="2.5" maxProcessingRate="2.6"/>
     <cloudResources xsi:type="org.palladiosimulator:VMType" pricePerHour="0.632" location="eu-west-1" name="m3.2xlarge" provider="//@cloudProviders.0" maxCores="8" maxRAM="30.0" minProcessingRate="2.5" maxProcessingRate="2.6"/>
-    <cloudResources xsi:type="org.palladiosimulator:VMType" pricePerHour="0.48" location="eu-west-1" name="m4.2xlarge" provider="//@cloudProviders.0" maxCores="8" maxRAM="32.0" minProcessingRate="2.3" maxProcessingRate="2.4"/>
   </cloudProviders>
 </org.palladiosimulator:CloudProfile>
