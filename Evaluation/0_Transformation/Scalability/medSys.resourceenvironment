@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" xmlns:resourceenvironmentprivacy="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2/Privacy" entityName="defaultResourceEnv">
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_sbeLYVJlEee2WfXZtWV2gQ" entityName="Server1-EU" Geolocation="276"/>
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_s2HgAVJlEee2WfXZtWV2gQ" entityName="Server1-NonEU" Geolocation="276"/>
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_tIPx0VJlEee2WfXZtWV2gQ" entityName="Server2-EU" Geolocation="276"/>
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_MX8vEVJmEee2WfXZtWV2gQ" entityName="Server2-NonEU" Geolocation="276"/>
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_go11YVJmEee2WfXZtWV2gQ" entityName="Server3-EU" Geolocation="276"/>
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_hFJ98VJmEee2WfXZtWV2gQ" entityName="Server3-NonEU" Geolocation="276"/>
+</resourceenvironment:ResourceEnvironment>

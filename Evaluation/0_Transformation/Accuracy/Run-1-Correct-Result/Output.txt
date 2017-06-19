@@ -1,0 +1,18 @@
+Analysis configuration
+Analysis start
+INFO  | 2017-06-19 10:43:44 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: tradingsystem.external.Bank	 ->	Server6-EU
+INFO  | 2017-06-19 10:43:48 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: tradingsystem.cashdeskline	 ->	Server4-EU
+INFO  | 2017-06-19 10:43:48 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: cloud.web	 ->	Server1-EU
+INFO  | 2017-06-19 10:43:48 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: webservice.inventory	 ->	Server1-EU
+INFO  | 2017-06-19 10:43:48 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: tradingsystem.inventory	 ->	Server2-EU
+INFO  | 2017-06-19 10:43:48 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: logic.webservice.cashdeskline.cashdeskservice	 ->	Server3-EU
+INFO  | 2017-06-19 10:43:48 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server1-EU	 ->	276
+INFO  | 2017-06-19 10:43:48 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server2-EU	 ->	276
+INFO  | 2017-06-19 10:43:48 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server3-EU	 ->	250
+INFO  | 2017-06-19 10:43:48 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server4-EU	 ->	250
+INFO  | 2017-06-19 10:43:48 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server5-EU	 ->	826
+INFO  | 2017-06-19 10:43:48 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server6-EU	 ->	826
+INFO  | 2017-06-19 10:43:48 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: cloud.web	 ->	Server1-EU
+INFO  | 2017-06-19 10:43:48 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: cloud.web	 ->	Server1-NonEU
+INFO  | 2017-06-19 10:43:48 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server1-NonEU	 ->	804
+Anaylsis complete

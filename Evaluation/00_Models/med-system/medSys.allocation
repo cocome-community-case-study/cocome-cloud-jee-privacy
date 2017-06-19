@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_UH6O8FJnEee2WfXZtWV2gQ" entityName="MedSys">
+  <targetResourceEnvironment_Allocation href="medSys.resourceenvironment#/"/>
+  <system_Allocation href="medSys.system#_YfsrYFJjEee2WfXZtWV2gQ"/>
+  <allocationContexts_Allocation id="_qfriMFJnEee2WfXZtWV2gQ" entityName="AlC_DataManager">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_hSevoFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_q2yaoFJnEee2WfXZtWV2gQ" entityName="AlC_OnlineServices">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_kSQTcFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_rJ15gFJnEee2WfXZtWV2gQ" entityName="AlC_MarketingAnalysis">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_s2HgAVJlEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_Z6cLEFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_rdIB4FJnEee2WfXZtWV2gQ" entityName="AlC_GovStatistics">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_mdp0AFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_ryWD8FJnEee2WfXZtWV2gQ" entityName="AlC_AccountingService">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_pm7SEFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_sGeg4FJnEee2WfXZtWV2gQ" entityName="AlC_TreatmentAnalysis">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_s_1HkFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_QLLeMFJoEee2WfXZtWV2gQ" entityName="AlC_CourseAnalysis">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_vd-lAFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_Qe2BEFJoEee2WfXZtWV2gQ" entityName="AlC_ErrorDetection">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_xY9rAFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

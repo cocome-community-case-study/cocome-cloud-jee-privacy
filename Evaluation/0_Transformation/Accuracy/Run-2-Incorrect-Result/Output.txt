@@ -1,0 +1,56 @@
+Analysis configuration
+Analysis start
+INFO  | 2017-06-19 11:49:16 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: tradingsystem.external.Bank	 ->	Server6-EU
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: tradingsystem.cashdeskline	 ->	Server4-EU
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: cloud.web	 ->	Server1-EU
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: webservice.inventory	 ->	Server1-EU
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: tradingsystem.inventory	 ->	Server2-EU
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: logic.webservice.cashdeskline.cashdeskservice	 ->	Server3-EU
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server1-EU	 ->	276
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server2-EU	 ->	276
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server3-EU	 ->	250
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server4-EU	 ->	250
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server5-EU	 ->	826
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server6-EU	 ->	826
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: cloud.web	 ->	Server1-EU
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: cloud.web	 ->	Server1-NonEU
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server1-NonEU	 ->	804
+
+		Deployment & cloud.web on Server1-EU*\\
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: cloud.web	 ->	Server1-EU
+WARN  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:245) - The AssemblyContext 'cloud.web' is already deployed! Ignoring event!
+
+		UnDeployment & cloud.web from Server1-NonEU\\
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: cloud.web	 ->	Server1-NonEU
+
+		UnDeployment & cloud.web from Server1-NonEU*\\
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: cloud.web	 ->	Server1-NonEU
+WARN  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:207) - AllocationContext for 'cloud.web' at 'Server1-NonEU' not found! Ignoring event!
+
+		Deployment & cloud.web on Server7-EU*\\
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: cloud.web	 ->	Server7-EU
+WARN  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:164) - No correspondent found for Server7-EU
+
+		Deployment & IllegalComonent on Server1-EU*\\
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: IllegalComonent	 ->	Server1-EU
+WARN  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:222) - The AssemblyContext 'IllegalComonent' does not exist! Ignoring event!
+
+		UnDeployment & IllegalComonent from Server1-EU*\\
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: IllegalComonent	 ->	Server1-EU
+WARN  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:210) - AssemblyContext for Server1-EUnot found! 
+
+		UnDeployment & tradingsystem.inventory from Server2-NonEU*\\
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: tradingsystem.inventory	 ->	Server2-NonEU
+
+		GeoLocation & Server7-EU on 826 (GBR)*\\
+INFO  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server7-EU	 ->	826
+WARN  | 2017-06-19 11:49:17 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:67) - Server 'Server7-EU' was not found!
+Anaylsis complete
+
+
+
+
+
+
+
+		

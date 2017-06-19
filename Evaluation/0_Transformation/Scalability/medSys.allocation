@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_UH6O8FJnEee2WfXZtWV2gQ" entityName="MedSys">
+  <targetResourceEnvironment_Allocation href="medSys.resourceenvironment#/"/>
+  <system_Allocation href="medSys.system#_YfsrYFJjEee2WfXZtWV2gQ"/>
+</allocation:Allocation>

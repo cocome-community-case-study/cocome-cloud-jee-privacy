@@ -1,0 +1,47 @@
+Analysis configuration
+Analysis start
+INFO  | 2017-06-19 17:13:00 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server2	 ->	112
+INFO  | 2017-06-19 17:13:00 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-19 17:13:00 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:33) - Creating graph 	Model: C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-19 17:13:00 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:38) - Creating Model Providers
+INFO  | 2017-06-19 17:13:00 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:40) - DONE!
+INFO  | 2017-06-19 17:13:00 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:238) - The PCM model seams to be incomplete! Is every AssemblyContext allocated? Does every ResourceContainer exist?
+INFO  | 2017-06-19 17:13:00 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-19 17:13:00 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:32) - Analysing graph
+INFO  | 2017-06-19 17:13:00 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:36) - Initial Categorization
+INFO  | 2017-06-19 17:13:01 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:37) - 
+Server: _go11YVJmEee2WfXZtWV2gQ	-- Location: 826 (GBR)	-- Name: Server4
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Z6cLEFJjEee2WfXZtWV2gQ	Depersonalized	0	2	1	AsC_MarketingAnalysis
+Server: _MX8vEVJmEee2WfXZtWV2gQ	-- Location: 804 (UKR)	-- Name: Server3
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_xY9rAFJjEee2WfXZtWV2gQ	Depersonalized	0	2	1	AsC_ErrorDetection
+	_s_1HkFJjEee2WfXZtWV2gQ	Depersonalized	0	2	1	AsC_TreatmentAnalysis
+Server: _tIPx0VJlEee2WfXZtWV2gQ	-- Location: 112 (BLR)	-- Name: Server2
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_vd-lAFJjEee2WfXZtWV2gQ	Depersonalized	0	3	1	AsC_CourseAnalysis
+Server: _sbeLYVJlEee2WfXZtWV2gQ	-- Location: 276 (DEU)	-- Name: Server1
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_kSQTcFJjEee2WfXZtWV2gQ	Personal	1	1	1	AsC_OnlineServices
+	_pm7SEFJjEee2WfXZtWV2gQ	Personal	1	2	1	AsC_AccountingService
+	_hSevoFJjEee2WfXZtWV2gQ	Personal	2	2	2	AsC_DataManager
+
+INFO  | 2017-06-19 17:13:01 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:42) - Classification Analysis
+INFO  | 2017-06-19 17:13:01 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:43) - 
+Server: _go11YVJmEee2WfXZtWV2gQ	-- Location: 826 (GBR)	-- Name: Server4
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Z6cLEFJjEee2WfXZtWV2gQ	Personal	0	2	1	AsC_MarketingAnalysis
+Server: _MX8vEVJmEee2WfXZtWV2gQ	-- Location: 804 (UKR)	-- Name: Server3
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_xY9rAFJjEee2WfXZtWV2gQ	Depersonalized	0	2	1	AsC_ErrorDetection
+	_s_1HkFJjEee2WfXZtWV2gQ	Depersonalized	0	2	1	AsC_TreatmentAnalysis
+Server: _tIPx0VJlEee2WfXZtWV2gQ	-- Location: 112 (BLR)	-- Name: Server2
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_vd-lAFJjEee2WfXZtWV2gQ	Depersonalized	0	3	1	AsC_CourseAnalysis
+Server: _sbeLYVJlEee2WfXZtWV2gQ	-- Location: 276 (DEU)	-- Name: Server1
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_kSQTcFJjEee2WfXZtWV2gQ	Personal	1	1	1	AsC_OnlineServices
+	_pm7SEFJjEee2WfXZtWV2gQ	Personal	1	2	1	AsC_AccountingService
+	_hSevoFJjEee2WfXZtWV2gQ	Personal	2	2	2	AsC_DataManager
+
+INFO  | 2017-06-19 17:13:01 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:49) - Legal Deployment
