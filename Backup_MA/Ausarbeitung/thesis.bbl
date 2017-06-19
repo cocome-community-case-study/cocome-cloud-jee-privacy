@@ -1,0 +1,902 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{Binz.2014}{article}{}
+      \name{author}{4}{}{%
+        {{hash=162f6297727d8d492359888afe818257}{%
+           family={Binz},
+           familyi={B\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6bf3e162cc740698f710dc1f92932fa8}{%
+           family={Breitenbücher},
+           familyi={B\bibinitperiod},
+           given={Uwe},
+           giveni={U\bibinitperiod}}}%
+        {{hash=66e9a4c1ac28ec669367039a98d9d321}{%
+           family={Kopp},
+           familyi={K\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+        {{hash=415e2bec5763afbeeeadd2e0c4bd0696}{%
+           family={Leymann},
+           familyi={L\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{34c47973bdd77e8c3c76f807264109b4}
+      \strng{fullhash}{8975978711169a39fe7e2e729e1fee04}
+      \strng{authornamehash}{34c47973bdd77e8c3c76f807264109b4}
+      \strng{authorfullhash}{8975978711169a39fe7e2e729e1fee04}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1611-2776}
+      \field{journaltitle}{it - Information Technology}
+      \field{number}{3}
+      \field{title}{Migration of enterprise applications to the cloud}
+      \field{volume}{56}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1515/itit-2013-1032
+      \endverb
+    \endentry
+    \entry{personaldata.2011}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=98c06dae2d0bfa432cb40e87f146ac9f}{%
+           family={COMM/JUST/01},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Brussels}%
+      }
+      \strng{namehash}{98c06dae2d0bfa432cb40e87f146ac9f}
+      \strng{fullhash}{98c06dae2d0bfa432cb40e87f146ac9f}
+      \strng{authornamehash}{98c06dae2d0bfa432cb40e87f146ac9f}
+      \strng{authorfullhash}{98c06dae2d0bfa432cb40e87f146ac9f}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Data protection and fundamental rights, protection of personal data, European union, European Commission, Personal data, protection, EU}
+      \field{title}{Protection of personal data}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2017}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://ec.europa.eu/justice/data-protection/
+      \endverb
+      \keyw{calendar;commissioners;contact;eu;europa;european commission;european union;institutions;news;organisation;president;recruitment;services}
+    \endentry
+    \entry{DavidChernicoff.2015}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=34a0544fec807279a250c877e898fd0e}{%
+           family={{David Chernicoff}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \strng{namehash}{34a0544fec807279a250c877e898fd0e}
+      \strng{fullhash}{34a0544fec807279a250c877e898fd0e}
+      \strng{authornamehash}{34a0544fec807279a250c877e898fd0e}
+      \strng{authorfullhash}{34a0544fec807279a250c877e898fd0e}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Netflix closes data centers and goes to public cloud}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2017}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.datacenterdynamics.com/content-tracks/colo-cloud/netflix-closes-data-centers-and-goes-to-public-cloud/94615.fullarticle
+      \endverb
+    \endentry
+    \entry{Dinger.2008}{book}{}
+      \name{author}{2}{}{%
+        {{hash=48a93ee84a514e967deeb4246746270a}{%
+           family={Dinger},
+           familyi={D\bibinitperiod},
+           given={Jochen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4eb1825c8150c2f23424f1c147cdf88b}{%
+           family={Hartenstein},
+           familyi={H\bibinitperiod},
+           given={Hannes},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Karlsruhe}%
+      }
+      \list{publisher}{1}{%
+        {Univ.-Verl. Karlsruhe}%
+      }
+      \strng{namehash}{e9e2e6f8945958af780a970f4a44e7b1}
+      \strng{fullhash}{e9e2e6f8945958af780a970f4a44e7b1}
+      \strng{authornamehash}{e9e2e6f8945958af780a970f4a44e7b1}
+      \strng{authorfullhash}{e9e2e6f8945958af780a970f4a44e7b1}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{3866442092}
+      \field{title}{Netzwerk- und IT-Sicherheitsmanagement: Eine Einführung}
+      \field{year}{2008}
+      \keyw{Computersicherheit;Datensicherung;Internet;Kryptosystem;Rechnernetz;Sicherheitsprotokoll;Systemverwaltung}
+    \endentry
+    \entry{Enck.2014}{article}{}
+      \name{author}{7}{}{%
+        {{hash=723230c856c5e4798ec2a9edfa54406e}{%
+           family={Enck},
+           familyi={E\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=fbfdf3d9c67e4b792f5de105f3b642ed}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7bad6423d0a52ffdcae8f1dfe55b0818}{%
+           family={Chun},
+           familyi={C\bibinitperiod},
+           given={Byung-Gon},
+           giveni={B\bibinithyphendelim G\bibinitperiod}}}%
+        {{hash=65887fdbd2c8215fe93ee7a4a11f11b3}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={Landon\bibnamedelima P.},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=abd232ace1c44dcb3765fc975b9269ea}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Jaeyeon},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d011e9ddf088732101fe34c710b24617}{%
+           family={McDaniel},
+           familyi={M\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=56bcde082f6296a1539c9cfdc7865066}{%
+           family={Sheth},
+           familyi={S\bibinitperiod},
+           given={Anmol\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf1d7868426f7c243bc99c22e3517e27}
+      \strng{fullhash}{a18fe2829ac76fb111c51292958bf7c8}
+      \strng{authornamehash}{bf1d7868426f7c243bc99c22e3517e27}
+      \strng{authorfullhash}{a18fe2829ac76fb111c51292958bf7c8}
+      \field{sortinit}{E}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00010782}
+      \field{journaltitle}{Communications of the ACM}
+      \field{number}{3}
+      \field{title}{TaintDroid}
+      \field{volume}{57}
+      \field{year}{2014}
+      \field{pages}{99\bibrangedash 106}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/2494522
+      \endverb
+    \endentry
+    \entry{Heinrich.2016b}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3560bc0cad59a19a23274e4da94b8d57}{%
+           family={Heinrich},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3560bc0cad59a19a23274e4da94b8d57}
+      \strng{fullhash}{3560bc0cad59a19a23274e4da94b8d57}
+      \strng{authornamehash}{3560bc0cad59a19a23274e4da94b8d57}
+      \strng{authorfullhash}{3560bc0cad59a19a23274e4da94b8d57}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{01635999}
+      \field{journaltitle}{ACM SIGMETRICS Performance Evaluation Review}
+      \field{number}{4}
+      \field{title}{Architectural Run-time Models for Performance and Privacy Analysis in Dynamic Cloud Applications?}
+      \field{volume}{43}
+      \field{year}{2016}
+      \field{pages}{13\bibrangedash 22}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2897356.2897359
+      \endverb
+    \endentry
+    \entry{Heinrich.2016}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3560bc0cad59a19a23274e4da94b8d57}{%
+           family={Heinrich},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=64815314ff936804d28755158ac7ebb0}{%
+           family={SDQ-Wiki},
+           familyi={S\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Karlsruhe}%
+      }
+      \strng{namehash}{3560bc0cad59a19a23274e4da94b8d57}
+      \strng{fullhash}{3560bc0cad59a19a23274e4da94b8d57}
+      \strng{authornamehash}{3560bc0cad59a19a23274e4da94b8d57}
+      \strng{authorfullhash}{3560bc0cad59a19a23274e4da94b8d57}
+      \strng{editornamehash}{64815314ff936804d28755158ac7ebb0}
+      \strng{editorfullhash}{64815314ff936804d28755158ac7ebb0}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{iObserve}
+      \field{urlday}{17}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://sdqweb.ipd.kit.edu/wiki/IObserve
+      \endverb
+    \endentry
+    \entry{Heinrich.2015}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=3560bc0cad59a19a23274e4da94b8d57}{%
+           family={Heinrich},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ab68717488be3a8f4c10352b86777474}{%
+           family={Gärtner},
+           familyi={G\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b7473d82a18ea6a6ecbc74770805ad4f}{%
+           family={Hesse},
+           familyi={H\bibinitperiod},
+           given={Tom-Michael},
+           giveni={T\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=7ec6eca2f7d9aaaffb9e7f986d1d875d}{%
+           family={Ruhroth},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4e41ac50a44ea2d2e0fbdd12c485c1b2}{%
+           family={Reussner},
+           familyi={R\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cc3856096be0d05910556cb15a446be2}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Kurt},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a7fe8baebbbb4703da4daaadd4dfb248}{%
+           family={Paech},
+           familyi={P\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cc77b32c90f29ef1b08b6603fc345e45}{%
+           family={Jürjens},
+           familyi={J\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {KSI Research Inc. and Knowledge Systems Institute Graduate School}%
+      }
+      \strng{namehash}{80d21b592519f42099c81c2943da64da}
+      \strng{fullhash}{9cfa9a5864c353c7baad1ab2b9d12a74}
+      \strng{authornamehash}{80d21b592519f42099c81c2943da64da}
+      \strng{authorfullhash}{9cfa9a5864c353c7baad1ab2b9d12a74}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The 27th International Conference on Software Engineering and Knowledge Engineering}
+      \field{series}{International Conferences on Software Engineering and Knowledge Engineering}
+      \field{title}{A Platform for Empirical Research on Information System Evolution}
+      \field{year}{2015}
+      \field{pages}{415\bibrangedash 420}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.18293/SEKE2015-066
+      \endverb
+    \endentry
+    \entry{Jambunathan.February2016}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=f3900a7abbf3fcb3bec67cd018d3f894}{%
+           family={Jambunathan},
+           familyi={J\bibinitperiod},
+           given={Baskaran},
+           giveni={B\bibinitperiod}}}%
+        {{hash=122fff8dc67c72d9fa63e3cc01ed8f89}{%
+           family={Kalpana},
+           familyi={K\bibinitperiod},
+           given={Dr.Y.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=8895f2ee8af3972bc85413fe416c4ee2}{%
+           family={{International Journal of Engineering and Technology}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ccae873be5fcb8e9ba35c86ee2f969e}
+      \strng{fullhash}{1ccae873be5fcb8e9ba35c86ee2f969e}
+      \strng{authornamehash}{1ccae873be5fcb8e9ba35c86ee2f969e}
+      \strng{authorfullhash}{1ccae873be5fcb8e9ba35c86ee2f969e}
+      \strng{editornamehash}{8895f2ee8af3972bc85413fe416c4ee2}
+      \strng{editorfullhash}{8895f2ee8af3972bc85413fe416c4ee2}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{Vol 8 No 1 Feb-Mar 2016}
+      \field{title}{Multi Cloud Deploymentwith Containers}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2016}
+      \field{year}{}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{JuliaBahr.20150923}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=fa03840b5d950261498395dc926803f3}{%
+           family={{Julia Bähr}},
+           familyi={J\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f09eed41114173d92f44d8c7de94fafa}{%
+           family={{Frankfurter Allgemeine Zeitung}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Frankfurt am Main}%
+      }
+      \strng{namehash}{fa03840b5d950261498395dc926803f3}
+      \strng{fullhash}{fa03840b5d950261498395dc926803f3}
+      \strng{authornamehash}{fa03840b5d950261498395dc926803f3}
+      \strng{authorfullhash}{fa03840b5d950261498395dc926803f3}
+      \strng{editornamehash}{f09eed41114173d92f44d8c7de94fafa}
+      \strng{editorfullhash}{f09eed41114173d92f44d8c7de94fafa}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Schrems' jahrelanger Kampf gegen Facebook}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2017}
+      \field{year}{2015-09-23}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.faz.net/aktuell/feuilleton/medien/max-schrems-jahrelanger-kampf-gegen-facebook-13819522.html
+      \endverb
+    \endentry
+    \entry{Jung.2008}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=abd232ace1c44dcb3765fc975b9269ea}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Jaeyeon},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a8756150691ccbec76929509573c2db4}{%
+           family={Sheth},
+           familyi={S\bibinitperiod},
+           given={Anmol},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7860a04dc0eb9b2178d2e481455106de}{%
+           family={Greenstein},
+           familyi={G\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ed3fc532903c051209e0750c2c89f2ac}{%
+           family={Wetherall},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=286668737bc3fe5bd57a9ee3d65ceeac}{%
+           family={Maganis},
+           familyi={M\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ac531ee83558be0e3798db153ad74d17}{%
+           family={Kohno},
+           familyi={K\bibinitperiod},
+           given={Tadayoshi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=ac060b50fc38c4b5fe953185f3f9b728}{%
+           family={Ning},
+           familyi={N\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ab5ed679e78db4d6fd5091d79c026cd3}{%
+           family={Syverson},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=940ca4c2de6bee5757bbfe47cbff31bb}{%
+           family={Jha},
+           familyi={J\bibinitperiod},
+           given={Somesh},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{824e1966287fc505cef23fe761e28344}
+      \strng{fullhash}{765957339ab11bbd703bcb8e2593c5c3}
+      \strng{authornamehash}{824e1966287fc505cef23fe761e28344}
+      \strng{authorfullhash}{765957339ab11bbd703bcb8e2593c5c3}
+      \strng{editornamehash}{88978f37b171c3da75377c4e6d9d2c49}
+      \strng{editorfullhash}{88978f37b171c3da75377c4e6d9d2c49}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 15th ACM Conference on Computer and Communications Security}
+      \field{isbn}{9781595938107}
+      \field{title}{Privacy oracle}
+      \field{year}{2008}
+      \field{pages}{279}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1145/1455770.1455806
+      \endverb
+    \endentry
+    \entry{Martens.2010}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=7ebdc2baed2f52450eaef7d65750eeee}{%
+           family={Martens},
+           familyi={M\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ba7ecc5039717e22ccf225ab7421719b}{%
+           family={Koziolek},
+           familyi={K\bibinitperiod},
+           given={Heiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8deefb02d038861e0dd2e38fd1500e03}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2768d1cf3290b0ade34ff41f81aa1506}{%
+           family={Reussner},
+           familyi={R\bibinitperiod},
+           given={Ralf\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=e4770729926e546219d04247ac7947bf}{%
+           family={Adamson},
+           familyi={A\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d27609f9fed4a8cb3b57c2959ce0b324}{%
+           family={Bondi},
+           familyi={B\bibinitperiod},
+           given={Andre\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=3e98753e4c27314fc3f8dbfe66203f52}{%
+           family={Juiz},
+           familyi={J\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=04519d943e276eae6b29a1301451ec0d}{%
+           family={Squillante},
+           familyi={S\bibinitperiod},
+           given={Mark\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM, New York, NY, USA}%
+      }
+      \strng{namehash}{31b146c57c1f8696f810c071f68af3e6}
+      \strng{fullhash}{4247d5136130ca636dd44ddcf8a965d3}
+      \strng{authornamehash}{31b146c57c1f8696f810c071f68af3e6}
+      \strng{authorfullhash}{4247d5136130ca636dd44ddcf8a965d3}
+      \strng{editornamehash}{1ee49e48b6692e6d44b64808d8e8c8e5}
+      \strng{editorfullhash}{839d3fc96f9b3dffff458138eb815c0f}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quantitative prediction of quality properties (i.e. extra-functional properties such as performance, reliability, and cost) of software architectures during design supports a systematic software engineering approach. Designing architectures that exhibit a good trade-off between multiple quality criteria is hard, because even after a functional design has been created, many remaining degrees of freedom in the software architecture span a large, discontinuous design space. In current practice, software architects try to find solutions manually, which is time-consuming, can be error-prone and can lead to suboptimal designs. We propose an automated approach to search the design space for good solutions. Starting with a given initial architectural model, the approach iteratively modifies and evaluates architectural models. Our approach applies a multi-criteria genetic algorithm to software architectures modelled with the Palladio Component Model. It supports quantitative performance, reliability, and cost prediction and can be extended to other quantitative quality criteria of software architectures. We validate the applicability of our approach by applying it to an architecture model of a component-based business information system and analyse its quality criteria trade-offs by automatically investigating more than 1200 alternative design candidates.}
+      \field{booktitle}{Proceedings of the first joint WOSP/SIPEW international conference on Performance engineering}
+      \field{isbn}{978-1-60558-563-5}
+      \field{series}{WOSP/SIPEW '10}
+      \field{title}{Automatically Improve Software Models for Performance, Reliability and Cost Using Genetic Algorithms}
+      \field{year}{2010}
+      \field{pages}{105\bibrangedash 116}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1145/1712605.1712624
+      \endverb
+      \verb{url}
+      \verb http://www.inf.pucrs.br/wosp
+      \endverb
+    \endentry
+    \entry{OfficeforCivilRights.20130726}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8a9d984dc3431c567545ac8bfb44f19a}{%
+           family={{Office for Civil Rights}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington, D.C.}%
+      }
+      \strng{namehash}{8a9d984dc3431c567545ac8bfb44f19a}
+      \strng{fullhash}{8a9d984dc3431c567545ac8bfb44f19a}
+      \strng{authornamehash}{8a9d984dc3431c567545ac8bfb44f19a}
+      \strng{authorfullhash}{8a9d984dc3431c567545ac8bfb44f19a}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Summary of the HIPAA Security Rule}
+      \field{title}{Summary of the HIPAA Security Rule}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{year}{2013-07-26}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html
+      \endverb
+    \endentry
+    \entry{Sequeda.CWA}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=071d0b41e27db4c36dd6913d094cb694}{%
+           family={Ph.D.\bibnamedelimi Sequeda},
+           familyi={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Juan\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=0ddf8e1d903a8a2e4b41631b340c540c}{%
+           family={Datavercity},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{071d0b41e27db4c36dd6913d094cb694}
+      \strng{fullhash}{071d0b41e27db4c36dd6913d094cb694}
+      \strng{authornamehash}{071d0b41e27db4c36dd6913d094cb694}
+      \strng{authorfullhash}{071d0b41e27db4c36dd6913d094cb694}
+      \strng{editornamehash}{0ddf8e1d903a8a2e4b41631b340c540c}
+      \strng{editorfullhash}{0ddf8e1d903a8a2e4b41631b340c540c}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{If you are learning about the Semantic Web, one of the things you will hear is that the Semantic Web assumes the Open World. In this post, I will clarify the distinction between the Open World Assumption and the Closed World Assumption. The Closed World Assumption (CWA) is the assumption that what is not known $\ldots$}
+      \field{title}{Introduction to: Open World Assumption vs Closed World Assumption}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2017}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.dataversity.net/introduction-to-open-world-assumption-vs-closed-world-assumption/
+      \endverb
+    \endentry
+    \entry{Schmieders.}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=6e152b2c59aa7fee470dce6538c5aeb2}{%
+           family={Schmieders},
+           familyi={S\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=758358bf5a2b9975ed3b3d6c6d5ece42}{%
+           family={Metzger},
+           familyi={M\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f7ad85aae1881b93396a2b8c65130577}{%
+           family={Pohl},
+           familyi={P\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{65a36c6695638f7356058d659f591a8f}
+      \strng{fullhash}{65a36c6695638f7356058d659f591a8f}
+      \strng{authornamehash}{65a36c6695638f7356058d659f591a8f}
+      \strng{authorfullhash}{65a36c6695638f7356058d659f591a8f}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 IEEE/ACM 7th International Workshop on Principles of Engineering Service-Oriented and Cloud Systems (PESOS)}
+      \field{title}{Architectural Runtime Models for Privacy Checks of Cloud Applications}
+      \field{pages}{17\bibrangedash 23}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/PESOS.2015.11
+      \endverb
+    \endentry
+    \entry{Schmieders.2015}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=6e152b2c59aa7fee470dce6538c5aeb2}{%
+           family={Schmieders},
+           familyi={S\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=758358bf5a2b9975ed3b3d6c6d5ece42}{%
+           family={Metzger},
+           familyi={M\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f7ad85aae1881b93396a2b8c65130577}{%
+           family={Pohl},
+           familyi={P\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=7055baf0dcb1f4535afe5f20ce653686}{%
+           family={Barros},
+           familyi={B\bibinitperiod},
+           given={Alistair},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f4e06cb678a756d2bdf564e1de1c40a1}{%
+           family={Grigori},
+           familyi={G\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod}}}%
+        {{hash=669a6c7f3d99546c4409cf07d41b2c82}{%
+           family={Narendra},
+           familyi={N\bibinitperiod},
+           given={Nanjangud\bibnamedelima C.},
+           giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f89f374e8cafb7818789e63d501c45c5}{%
+           family={Dam},
+           familyi={D\bibinitperiod},
+           given={Hoa\bibnamedelima Khanh},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{65a36c6695638f7356058d659f591a8f}
+      \strng{fullhash}{65a36c6695638f7356058d659f591a8f}
+      \strng{authornamehash}{65a36c6695638f7356058d659f591a8f}
+      \strng{authorfullhash}{65a36c6695638f7356058d659f591a8f}
+      \strng{editornamehash}{167727a3ba6673556b604dff9908b0ee}
+      \strng{editorfullhash}{c5cfc3163ec694cd88215872e10aba30}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Service-Oriented Computing: 13th International Conference, ICSOC 2015, Goa, India, November 16-19, 2015, Proceedings}
+      \field{isbn}{978-3-662-48616-0}
+      \field{title}{Runtime Model-Based Privacy Checks of Big Data Cloud Services}
+      \field{year}{2015}
+      \field{pages}{71\bibrangedash 86}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/978-3-662-48616-0{\textunderscore }5
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-662-48616-0_5
+      \endverb
+    \endentry
+    \entry{Snelting.2014}{article}{}
+      \name{author}{7}{}{%
+        {{hash=20828927e3556800731f1b873e386107}{%
+           family={Snelting},
+           familyi={S\bibinitperiod},
+           given={Gregor},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7d718c300c2cf1c4fd5ebcb0a6991e0f}{%
+           family={Giffhorn},
+           familyi={G\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d492aa43906d500cd1cdbd19b3bb658e}{%
+           family={Graf},
+           familyi={G\bibinitperiod},
+           given={J?rgen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7ea0cd575eb8568613cd0af3aa2a3947}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7a3998888fd4b2740f3d44755fd96c2d}{%
+           family={Hecker},
+           familyi={H\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=965ad68e85f1aa33e86aafb3af0d3174}{%
+           family={Mohr},
+           familyi={M\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=30ab2cb2bac19baad392c0f37d6245d1}{%
+           family={Wasserrab},
+           familyi={W\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{44b51ea0b281acb00c61369bfbe78896}
+      \strng{fullhash}{3f5e221078ccc95d446c7084116ce8ca}
+      \strng{authornamehash}{44b51ea0b281acb00c61369bfbe78896}
+      \strng{authorfullhash}{3f5e221078ccc95d446c7084116ce8ca}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1611-2776}
+      \field{journaltitle}{it - Information Technology}
+      \field{number}{6}
+      \field{title}{Checking probabilistic noninterference using JOANA}
+      \field{volume}{56}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1515/itit-2014-1051
+      \endverb
+    \endentry
+    \entry{statista.com.2016}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=80e3a2e814cb584b6a0d81f1154b2336}{%
+           family={statista.com},
+           familyi={s\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=80e3a2e814cb584b6a0d81f1154b2336}{%
+           family={statista.com},
+           familyi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{80e3a2e814cb584b6a0d81f1154b2336}
+      \strng{fullhash}{80e3a2e814cb584b6a0d81f1154b2336}
+      \strng{authornamehash}{80e3a2e814cb584b6a0d81f1154b2336}
+      \strng{authorfullhash}{80e3a2e814cb584b6a0d81f1154b2336}
+      \strng{editornamehash}{80e3a2e814cb584b6a0d81f1154b2336}
+      \strng{editorfullhash}{80e3a2e814cb584b6a0d81f1154b2336}
+      \field{sortinit}{s}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Umsatz mit Cloud Computing** weltweit von 2009 bis 2016 (in Milliarden US-Dollar)}
+      \field{urlday}{5}
+      \field{urlmonth}{9}
+      \field{urlyear}{2016}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://de.statista.com/statistik/daten/studie/195760/umfrage/umsatz-mit-cloud-computing-weltweit-seit-2009/
+      \endverb
+    \endentry
+    \entry{Suh.2004}{article}{}
+      \name{author}{4}{}{%
+        {{hash=95a64c2a7fe5e330f0600c4fbfd6073d}{%
+           family={Suh},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi Edward},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=38b18d8ca3a96769421a345dce5dff54}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jae\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=94d314d7b645e07423926dfb8d939dc0}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4be4060700fa73556250f6feefb96f46}{%
+           family={Devadas},
+           familyi={D\bibinitperiod},
+           given={Srinivas},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{960a83247640d7e816cc99a03549830e}
+      \strng{fullhash}{6064c765867c8bab741914fe964adb18}
+      \strng{authornamehash}{960a83247640d7e816cc99a03549830e}
+      \strng{authorfullhash}{6064c765867c8bab741914fe964adb18}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{01635980}
+      \field{journaltitle}{ACM SIGOPS Operating Systems Review}
+      \field{number}{5}
+      \field{title}{Secure program execution via dynamic information flow tracking}
+      \field{volume}{38}
+      \field{year}{2004}
+      \field{pages}{85}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1145/1037949.1024404
+      \endverb
+    \endentry
+    \entry{teetime.16.05.2017}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dc85157f671fe1129df28f60a58fde8f}{%
+           family={teetime},
+           familyi={t\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc85157f671fe1129df28f60a58fde8f}
+      \strng{fullhash}{dc85157f671fe1129df28f60a58fde8f}
+      \strng{authornamehash}{dc85157f671fe1129df28f60a58fde8f}
+      \strng{authorfullhash}{dc85157f671fe1129df28f60a58fde8f}
+      \field{sortinit}{t}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{TeeTime Framework}
+      \field{urlday}{26}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{year}{2017-05-16}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://teetime-framework.github.io/
+      \endverb
+    \endentry
+    \entry{Wikipedia.ISO_3166}{misc}{}
+      \name{editor}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{ISO 3166}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{year}{2017-04-18}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/ISO_3166#ISO_3166-1
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

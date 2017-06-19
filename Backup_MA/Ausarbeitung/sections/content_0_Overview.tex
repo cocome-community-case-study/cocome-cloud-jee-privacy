@@ -1,0 +1,37 @@
+%% LaTeX2e class for student theses
+%% sections/content.tex
+%% 
+%% Karlsruhe Institute of Technology
+%% Institute for Program Structures and Data Organization
+%% Chair for Software Design and Quality (SDQ)
+%%
+%% Dr.-Ing. Erik Burger
+%% burger@kit.edu
+%%
+%% Version 1.3, 2016-12-29
+
+\chapter{Overview}
+\label{ch:Overview}
+
+In this chapter we will give an overview on the system developed during this thesis and the according research. The system is massively extending iObserve, while keeping its original purpose, see \autoref{sec:Foundations:iobserve} for the fundamentals. All extensions are made for accomplishing the goals, defined in \autoref{sec:Introduction:goals}. The extended iObserve is mostly referenced as \textit{iObserve Privacy} during this thesis. iObserve Privacys architecture is a filter pipeline, where each filter represents one stage of the MAPE feedback loop (\autoref{sec:Foundations:mape}).
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.99\textwidth]{pictures/pipeline}
+	\caption{iObserve Privacy pipeline}
+	\label{fig:pipeline}
+\end{figure}
+
+The initial step, monitoring, is provided by the original iObserve. However, it doesn't provide any information on the components geo-location. This extension are made directly in the original iObserve and Kieker. Upon detected geo-location changes, the runtime model gets updated and the next filter stage gets invoked. We determined the required data and proved a fitting transformation onto the PCM Privacy model.
+
+The compliance checker, mostly referenced as \textit{Privacy Analysis}, represents the analysis phase in the MAPE loop. It analyses the current runtime model for privacy violations. The fundamental principles were discussed in \autoref{ch:PrivacyConcept}. When a privacy violation is detected, the MAPE Planning phase gets activated.
+
+The planning stages task is to find a privacy compliant redeployment model. For this job PerOpteryx is used. PerOpteryx (\autoref{sec:Foundations:peropteryx}) is a complex model generation framework. PerOpteryx doesn't support deployment constraints and needs therefore extension. Further, an output model needs to be selected as the final redeployment candidate, which gets transmitted to the final pipeline filter stage.
+\todo{Add research accomplishments}
+
+The execute phase of the MAPE loop compares the redeployment model to the runtime model. Based on this, a migration plan gets calculated and finally executed. The execution exits of several parametrized function and script calls. After the stages execution the observed software system needs to be in privacy compliant state.
+\todo{Add research accomplishments}
+
+
+\todo{@Robert: Add actual implemented pipeline UML with details, like SnapshotBuilder?}

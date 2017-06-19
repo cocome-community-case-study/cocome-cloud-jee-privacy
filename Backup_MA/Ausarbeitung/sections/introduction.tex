@@ -1,0 +1,231 @@
+%% LaTeX2e class for student theses
+%% sections/content.tex
+%% 
+%% Karlsruhe Institute of Technology
+%% Institute for Program Structures and Data Organization
+%% Chair for Software Design and Quality (SDQ)
+%%
+%% Dr.-Ing. Erik Burger
+%% burger@kit.edu
+%%
+%% Version 1.3, 2016-12-29
+
+\chapter{Introduction}
+\label{ch:Introduction}
+
+
+\section{Motivation}
+\label{sec:Introduction:motivation}
+
+Over the last years, cloud computing has become more and more popular. This is a result of its business advantages, the continuing usage simplification and the abundance of own data centres. Netflix, for example, closed all its owned data centre in 2015 and moved completely to Amazons AWS\cite{DavidChernicoff.2015}. As a result of this trend, the expected revenue in 2016 is about 200 Billion \$\cite{statista.com.2016}. The high degree of elasticity, automation, self-service, flexibility in payment and, as a result, lower cost are only some of the many advantageous points of cloud computing.\cite{Binz.2014}
+
+However, many – especially European - companies fear dependencies, loss of data control, industrial espionage or privacy law violations. Precautionary measures like encryption or data splitting - among data centres - is not enough to prevent a public relations disaster, due to complex EU Data Protective Regulations\cite{personaldata.2011} or the US HIPAA act\cite{OfficeforCivilRights.20130726}. To tell the whole truth, the complexity, the hidden services usages and the therefore resulting unawareness of many EU citizens (and law enforcement institutes) makes it very unlikely for current law violators to face any consequences. Nevertheless, citizens start to be more aware and the law enforcements point of attention tends to change quickly, like the Max Schrems' "Facebook Process" showed\cite{JuliaBahr.20150923}. Further, in 2018 the "reform of EU data protection rules" will come into effect, which states severe punishments for privacy violations\cite{personaldata.2011}. As a result, in the future entrepreneurs, companies and institutions need to be more aware of privacy compliance to prevent major monetary and reputation losses. 
+
+The EU General Data Protection Regulations sets the legal boundaries for European companies. It defines multiple regulations about data handling, data trading, personal advertising and more. One rule sets the boundaries for personal data processing and saving. It states for example, that the processing of personal data is only allowed in data centres inside the EU or certain certified countries with equivalent privacy laws. As a result, software systems require a pre-deployment law compliance checking, considering especially the hosts geo-locations. The problem comes to a head with the ease of migration of whole cloud services during runtime with next to no downtime. With this in mind a potential privacy violation could occur even after the initial deployment was law compliant. This requires a non-stop observation of the applications geo-location and automatic, law compliant redeployment onto other cloud providers.
+
+
+\section{Problems}
+\label{sec:Introduction:problems}
+
+To create such a privacy aware system adaptor, a couple of non-trivial problems need to be solved. The major ones will be outlined shortly, categorized after the MAPE-K feedback loop:
+
+\begin{itemize}
+	\setlength\itemsep{0em}
+	\item \textbf{Monitoring}\newline
+	Acquiring and transforming geo-location information onto an architecture description language
+	\item \textbf{Analysing}\newline
+	Privacy compliance analysis on a software architecture basis
+	\item \textbf{Planning}\newline
+	Computation of constraint and privacy compliant redeployments
+	\item \textbf{Executing}\newline
+	Technology independent, dynamic adaptation routine computation, execution and evaluation
+\end{itemize}
+
+%Transformation for geo-location into ADL
+%Privacy analysis on architecture lvl
+%Privacy compliant system deployment calculation
+%System adaptation calculation
+%System adaptation execution
+
+%simple & efficient privacy concept for component based architecture
+%what information are required?
+%
+%
+%automatic migration with evaluation
+
+
+\section{Goals and Research Questions}
+\label{sec:Introduction:goals}
+
+This thesis' goal is to contribute a piece of software, that ensures continues privacy compliance, modelled after the MAPE-K feedback loop. Wrapped into this pipeline are several interesting research questions:
+
+\begin{itemize}
+	\setlength\itemsep{0em}
+	\item \textbf{Monitor}: How can information, required for privacy violation detection, be monitored? How can we transform this information onto our architecture model?
+	\item \textbf{Analyse}: How to analyse the model for privacy violation detection? And how good does this analysis scale?
+	\item \textbf{Plan}: How can the runtime model and analysis results be used to reacquire policy compliance?
+	\item \textbf{Execute}: How can the plan automatically be executed and policy compliance established? How much human interaction is necessary?
+\end{itemize}
+
+\todo{Individual goals for the MAPE loop? Feels redundant, doesn't it?}
+
+
+\section{Outline}
+
+The remainder of this thesis is structured as following: The thesis continues by introducing the foundations (\autoref{ch:Foundations}) and the related work (\autoref{ch:RelatedWork}) of this thesis. The main part starts with the privacy concept (\autoref{ch:PrivacyConcept}), leading into the system overview (\autoref{ch:Overview}), followed by the big conceptual work packages: Palladio modification (\autoref{ch:pcmExtension}), iObserve extension (\autoref{ch:iObserve}), privacy analysis (\autoref{ch:PrivacyAnalysis}), PerOpteryx extension (\autoref{ch:PerOpt}) and the system adaptation (\autoref{ch:SysAdap}). The thesis closes with the evaluation (\autoref{ch:Evaluation}) and finally the conclusion (\autoref{ch:Conclusion}).
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Foundations}
+\label{ch:Foundations}
+
+In this chapter we introduce applications and principles, this thesis is based on. This introduction aims for a general understanding. Some aspects my be discussed in more detail in the corresponding section of this thesis.
+
+\section{MAPE-K loop}
+\label{sec:Foundations:mape}
+
+MAPE-K or MAPE was first introduced by IBM for automatic computing and later discussed in the context of self-adaptive systems. A MAPE system is usually a stand alone application, which is specially build for optimizing and adapting a monitored system. MAPE-K is an acronym, consisting of the first letters of the loops stages: Monitor, Analyse, Plan, Execute and Knowledgebase. These stages are sequentially ordered in a pipeline structure, each one has a well defined task:
+
+\begin{itemize}
+	\setlength\itemsep{0em}
+	\item \textbf{Monitor}: Collects, aggregates, filters and correlates information about a monitored system.
+	\item \textbf{Analyse}: Performs (complex) data analysis and reasoning on the monitored data. The analysis is often supported by data from the knowledgebase. If changes are required, a change request is passed to the plan function.
+	\item \textbf{Plan}: Determines what kind of changes are required and develops a transformation which adapts the monitored system towards the desired state.
+	\item \textbf{Execute}: Executes the transformation calculated during the planning phase.
+	\item \textbf{Knowledgebase}: Additional or advanced information that are shared among all stages.
+\end{itemize}
+
+The monitored system runs independently from the MAPE application. However, the desired monitoring information are usually explicitly provided via specially designed APIs, intefaces or probes.
+
+
+\section{Palladio Component Model}
+\label{sec:Foundations:pcm}
+
+The Palladio Component Model (short PCM) is an Architecture Description Language (ADL) for component based software, originally designed to enable software architects to run pre-implementation performance analysis. The Palladio Simulator reports on "performance bottlenecks, scalability issues, reliability threats, and allows for a subsequent optimisation." The PCM is composed of several sub-models which depend on another. Each model represents a certain aspect of a component based software:
+
+\begin{itemize}
+	\setlength\itemsep{0em}
+	\item \textbf{Repository Model}: Defines Components with required and provided interfaces. Interfaces include function signatures. 
+	\item \textbf{System Model}: Defines the complete software system, by connecting components defined in the repository model.
+	\item \textbf{Usage Model}: Defines process workload, based on the systems interfaces.
+	\item \textbf{Resource Environment Model}: Defines available host environments with its provided performance.
+	\item \textbf{Allocation Model}: Defines the deployment of system components onto the provided hosts.
+\end{itemize}
+
+The separation of concern enables the system architect to manage the complexity of even bigger software systems and still gain meaningful results from the performance simulation.
+
+Since its initial release the Palladio Component Model was adapted and used in several research fields alongside the performance prediction like automated Dataflow Analysis and Application Monitoring. Due to its explicit representation of the software architecture and flexible component-host-mapping it is perfectly suited to model distributed cloud systems. Although, PCM was not designed to be used as a runtime model, it has proven to be suited for this task due to its versatile model elements.
+
+\section{Kieker}
+\label{sec:Foundations:Kieker}
+
+Kieker is a software system monitoring application with the goal of retrieving runtime information for performance evaluation, (self-)adaptation control and many other tasks. Kieker gains these information from the designated software by weaving probes into the systems source code during pre-compilation. Each probe has designated purpose and gathers data accordingly, for example hardware utilization, stack trace or host geo-location. Kieker uses event-based probes, as well as periodic-based probes.
+
+
+\section{iObserve}
+\label{sec:Foundations:iobserve}
+
+iObserve is based on Kieker and therefore also a software monitoring application. However, iObserve uses the monitored information to update the systems Palladio model during execution, making it a runtime model. Further, iObserve and the extended Kieker version are deigned to support distributed cloud systems. Key features are the transformation form the gathered information onto the model update. Using the stack trace information the PCM usage model can be updated and more precise performance simulations created. 
+
+Currently, iObserve goes as far as updating the model, representing the first stage "Monitoring" of the MAPE-K loop. iObserve uses the Teetime framework, a pipeline-filter-framework with signal based state invocation.\cite{Heinrich.2016}
+
+\section{PerOpertyx}
+\label{sec:Foundations:peropteryx}
+
+"PerOpteryx is an optimization framework to improve component-based software architecture". Optimization uses model-based quality prediction techniques. Starting from an input model, the framework generates multiple pareto optimal alternative deployments, based on given simulation and alternation algorithms. PerOpteryx make architecture adjustments via multiple approaches like alternating components multiplicity, runtime parameters or changing component allocations. The Pareto optimality models are calculated through multiple iterations via a series of stages. Initially a variance of candidates is created though evolutionary algorithm and random generation/mutation. In the next step, the candidates get analysed for the desired quality marks and ranked accordingly. The iteration concludes with the elimination of poorly performing candidates. The framework terminates with a cost rating of all Pareto optimum candidates.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Related Work}
+\label{ch:RelatedWork}
+
+
+\section{Application Monitoring}
+\label{sec:RelatedWork:appl_mon}
+
+The monitoring of software systems is common task in many research fields. Automated data-flow analysis, software profiling and hardware utilization are only a small selection of groups, using this term. In the following, we use application monitoring in the sense of online extraction of runtime data form a (distributed cloud) application for architecture optimization.
+
+R-PRIS (\autoref{sec:RelatedWork:privacyanalysis}) and Kieker are application monitoring frameworks. While iObserve uses Kieker to extract the desired information, R-PRIS is independent from other programs. Neither of them uses a meaningful architecture description language (ADL) to process and store the gathered information. iObserve however gathers the transmitted data, processes them and stores them into a PCM model, enabling all sorts of PCM-based applications to use the gathered information.
+\todo{gather more details \& Refs} 
+
+
+\section{Privacy Analysis}
+\label{sec:RelatedWork:privacyanalysis}
+
+R-PRIS is a monitoring and analysing tool for distributed cloud systems. Like iObserve, R-PRIS updates a runtime model by monitoring the cloud systems. During the analysis phase the model is checked for (potential) privacy violations.
+
+R-PRIS combines push-based heartbeat monitoring with event processing, and graph grammars for efficiently updating those models.\cite{Schmieders.}
+\todo{Add more details?}
+
+R-PRIS uses a formal specification for geo-location policies. These consists of data classification $S$, data content types $T$ and geo-locations $L$. Every specified policy $p = (S, T, L)$ is forbidden.
+During privacy analysis R-PRIS checks whether a privacy protected information can be accessed from an non-privacy compliant location. This can be transformed into an st-connectivity problem, a standard problem in graph theory and analysis. Based on the runtime model (\autoref{fig:rpris_model}) - with its meta-model (\autoref{fig:rpris_metamodel}) - R-PRIS performs a reachability check.\cite{Schmieders.2015} 
+
+\begin{figure}[h]
+	\centering
+	\begin{minipage}[b]{0.48\textwidth}		\includegraphics[width=\textwidth]{pictures/rpris_metamodel.jpg}
+		\caption{R-PRIS meta-model}
+		\label{fig:rpris_metamodel}
+	\end{minipage}
+	\begin{minipage}[b]{0.48\textwidth}
+		\includegraphics[width=\textwidth]{pictures/rpris_model.jpg}
+		\caption{R-PRIS runtime model}
+		\label{fig:rpris_model}
+	\end{minipage}
+\end{figure}
+
+In terms of software, R-PRIS searches for communication paths in the distributed system, which can potentially transmit personal data to a non-privacy compliant geo-location. In order to detect these communication paths a policy $p$ must be specified, representing exactly this case, which however doesn't necessarily communicate private data. As a result, a lot of policies have to be specified, which as a result prohibits many potentially harmless communication paths.
+
+Based on their runtime model, Schmieders et al. identified four relevant migration-cases and extracted six required informations to detect a policy violation\cite{Schmieders.2015}:
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{r | l}
+		\hline
+		\textbf{\#} & \textbf{Required information to carry out runtime check}\\
+		\hline
+		R1 & Interactions of two components\\
+		R2 & Access of components to locally stored files\\
+		R3 & Meta-information of stored or processed data\\
+		R4 & Information on component deployments on physical resources \\
+		R5 & Geo-location information of physical resources\\
+		R6 & Explicit or implicit information on transitive data transfers\\
+		\hline
+	\end{tabular}
+	\caption{R-PRIS information for runtime privacy checks \cite{Schmieders.2015}}
+	\label{tab:rpris_information}
+\end{table}
+
+
+\section{Data-flow Analysis \& Rights Management}
+\label{sec:RelatedWork:dataflow}
+
+(Access) Rights Management, like the Bell-LaPadula Model or Role-based access control, are fundamentals in our modern information society. These systems restrict or allow access on certain entities with the intention of information protection. The fundamentals are well researched, so research currently is focused on resource and time efficient rights management in large scale systems like companies, as well as automated rights management on small, mobile devices \cite{Dinger.2008}.
+
+Data-flow Analysis is a hot research topic due to the omnipresence of cloud services and mobile devices with rich data sources. Applications like \textit{JOANA} \cite{Snelting.2014}, \textit{TaintDroid} \cite{Enck.2014}, \textit{Privacy Oracle}  \cite{Jung.2008} or \textit{automated privacy instrumentation} \cite{Suh.2004} are only some of many applications and approaches around data-tracking, data-flow analysis and leak detection. However, nearly all of these approaches are using actual code or information rich models.
+
+For our purposes we need automated data-flow analysis on architecture level, to determine if a system violates privacy regulations. This research is still in its fledgling stages and therefore not suited for applications with our designated level of complexity.
+
+
+\section{Privacy Analysis}
+\label{sec:RelatedWork:privacy_check}
+
+Most research in this field focuses on prevention of policy violation. “However, changes of data geo-locations imposed by migration or replication of the component storing the data are not considered. Data transfers between the client services and further services are not covered. Transitive data transfers that may lead to policy violations thus remain undetected.”\cite{Schmieders.2015}
+
+As mentioned in \autoref{sec:RelatedWork:privacyanalysis}, R-PRIS is searching for potential access violations in the application model, by using a st-connectivity analysis.\cite{Schmieders.2015}\cite{Schmieders.} This approach is overestimating the privacy aspects by not including which kind of data are actually communicated between components and geo-locations. This makes it impractical for many business applications due to likelihood of allowing only save-considered components deployment.
+
+
+
+\section{Automated Model Optimization \& Modification}
+\label{sec:RelatedWork:auto_model_opt}
+
+The research field of model analysis based performance optimizer can be roughly divided into two sections. First, the rule-based approaches, which apply a predefined rule, based on the detected problem, onto the system model. Second, metaheuristic-based approaches, which use a generic framework and evolutionary algorithms for multiple arbitrary quality criteria.\cite{Martens.2010}
+
+PerOpteryx (\autoref{sec:Foundations:peropteryx}) is a metaheuristic-based approach. However, PerOpteryx does not consider a hosts geo-location during its optimization process. This can be changed by adding an allocation constraint, preventing privacy violating deployments. 
+
+
+
+\section{Automated Cloud Migration}
+\label{sec:RelatedWork:cloud_migration}
+
+Since the start of cloud computing there has been plenty of research on how to migrate regular on premise applications and software into the cloud. Either software is cloud-enabled in the most automatic fashion possible or the software is cloud-native, meaning specially developed or redesigned, by developers, for running inside the cloud. While there has been good progress semi-automatically cloud-enabled software, the field of migrating cloud applications form one cloud provider to another is just beginning. One of the main issues is resulting in provider individual Cloud-APIs. Current, state of the art is the "Docker" or container-technology, which wraps the application like a VM and is suitable for many cloud provider. Nevertheless, many cloud provider offer special purpose solutions, where a docker solution is not viable. The technology side of cloud to cloud migration will be left out in this thesis. \cite{Jambunathan.February2016}\cite{Binz.2014} 
