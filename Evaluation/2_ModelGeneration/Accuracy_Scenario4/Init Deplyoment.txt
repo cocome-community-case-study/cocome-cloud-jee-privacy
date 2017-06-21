@@ -1,0 +1,11 @@
+INFO  | 2017-06-21 13:19:51 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:26) - Analysing graph
+INFO  | 2017-06-21 13:19:51 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:46) - Legal Deployment
+INFO  | 2017-06-21 13:19:51 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:47) - 
+Server: _UVlmwU_DEeeZ1eAuq05odg	-- Location: 276 (DEU)	-- Name: Server1-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank

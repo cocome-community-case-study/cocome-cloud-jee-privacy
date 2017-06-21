@@ -1,0 +1,469 @@
+INFO  | 2017-06-20 18:18:50 | [main] cli.AnalysisMain (AnalysisMain.java:102) - Starting iObserve Privacy
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/Philipp/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/9865cf6994f9ff13fce0bf93f2054ef6c65bb462/logback-classic-1.1.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/Philipp/.gradle/caches/3.2.1/generated-gradle-jars/gradle-api-3.2.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+18:19:04,835 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+18:19:04,835 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+18:19:04,835 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/GitRepositorys/iobserve-analysis/analysis/bin/logback.xml]
+18:19:04,836 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+18:19:04,836 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/Philipp/.gradle/caches/modules-2/files-2.1/net.sourceforge.teetime-stages/teetime-stages/3.0-SNAPSHOT/5ede583ac3ca81117aa7441d55be0b0635566464/teetime-stages-3.0-SNAPSHOT.jar!/logback.xml]
+18:19:04,836 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/C:/GitRepositorys/iobserve-analysis/analysis/bin/logback.xml]
+18:19:04,895 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+18:19:04,904 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+18:19:04,907 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+18:19:04,915 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:19:04,960 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+18:19:04,962 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+18:19:04,963 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:19:04,966 |-INFO in ch.qos.logback.core.FileAppender[FILE] - File property is set to [log/jclouds.log]
+18:19:04,968 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+18:19:04,968 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [WIREFILE]
+18:19:04,970 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:19:04,970 |-INFO in ch.qos.logback.core.FileAppender[WIREFILE] - File property is set to [log/jclouds-wire.log]
+18:19:04,971 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+18:19:04,971 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [COMPUTEFILE]
+18:19:04,971 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:19:04,971 |-INFO in ch.qos.logback.core.FileAppender[COMPUTEFILE] - File property is set to [log/jclouds-compute.log]
+18:19:04,972 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+18:19:04,972 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [SSHFILE]
+18:19:04,972 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:19:04,972 |-INFO in ch.qos.logback.core.FileAppender[SSHFILE] - File property is set to [log/jclouds-ssh.log]
+18:19:04,973 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to INFO
+18:19:04,974 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - org.jclouds level set to DEBUG
+18:19:04,974 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[org.jclouds]
+18:19:04,975 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.compute level set to DEBUG
+18:19:04,975 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [COMPUTEFILE] to Logger[jclouds.compute]
+18:19:04,975 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.wire level set to DEBUG
+18:19:04,975 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [WIREFILE] to Logger[jclouds.wire]
+18:19:04,975 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.headers level set to DEBUG
+18:19:04,975 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [WIREFILE] to Logger[jclouds.headers]
+18:19:04,975 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.ssh level set to DEBUG
+18:19:04,975 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [SSHFILE] to Logger[jclouds.ssh]
+18:19:04,975 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - net.schmizz level set to DEBUG
+18:19:04,975 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [SSHFILE] to Logger[net.schmizz]
+18:19:04,975 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+18:19:04,976 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@7726e185 - Registering current configuration as safe fallback point
+
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+INFO  | 2017-06-20 18:19:05 | [main] cli.AnalysisMain (AnalysisMain.java:138) - Analysis configuration
+INFO  | 2017-06-20 18:19:05 | [main] cli.AnalysisMain (AnalysisMain.java:140) - Analysis start
+INFO  | 2017-06-20 18:19:05 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server4-EU	 ->	804
+INFO  | 2017-06-20 18:19:05 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-20 18:19:05 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:34) - Creating graph 	Model: C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-20 18:19:05 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:40) - Creating Model Providers
+INFO  | 2017-06-20 18:19:14 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:42) - DONE!
+INFO  | 2017-06-20 18:19:14 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-20 18:19:14 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:26) - Analysing graph
+ERROR | 2017-06-20 18:19:14 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:50) - ILLEGAL Deployment
+INFO  | 2017-06-20 18:19:14 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:52) - 
+Server: _UVlmwU_DEeeZ1eAuq05odg	-- Location: 276 (DEU)	-- Name: Server1-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+Server: _UW8RoU_DEeeZ1eAuq05odg	-- Location: 804 (UKR)	-- Name: Server2-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+Server: _UW8RsU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server6-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank
+Server: _UW8RrU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server5-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+Server: _UW8RpU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server3-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+Server: _UW8RqU_DEeeZ1eAuq05odg	-- Location: 804 (UKR)	-- Name: Server4-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+
+INFO  | 2017-06-20 18:19:14 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:55) - Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+INFO  | 2017-06-20 18:19:14 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:55) - Server: 	Server4-EU @ UKR	 -> 	webservice.inventory
+INFO  | 2017-06-20 18:19:14 | [Thread for InitialElementProducer-0] planning.ModelProcessing (ModelProcessing.java:45) - Model Processing
+INFO  | 2017-06-20 18:19:14 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel
+INFO  | 2017-06-20 18:19:14 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:25) - Model Optimizing
+INFO  | 2017-06-20 18:19:14 | [Thread for InitialElementProducer-0] peropteryx.ExecutionWrapper (ExecutionWrapper.java:83) - Starting optimization process...
+INFO  | 2017-06-20 18:19:14 | [Thread for InitialElementProducer-0] peropteryx.ExecutionWrapper (ExecutionWrapper.java:104) - Environment PATH: C:\Program Files (x86)\LQN Solvers;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\OpenVPN\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Programme\R\R-2.12.0\bin\i386;C:\Programme\R\R-2.12.0\library\rJava\libs\i386;C:\Programme\R\R-2.12.0\library\rJava\jri\i386;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Users\Philipp\.dnx\bin;C:\Users\Philipp\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\LQN Solvers;C:\Eclipse Neon Model 2\eclipse;
+Starting Watcher Thread!
+PerOpteryx Output: [2017-06-20 18:19:17,709] INFO     0[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxHeadless.configureInternalWorkspace(PerOpteryxHeadless.java:93) - Workspace root: C:/GitRepositorys/cocome/cocome-cloud-jee-privacy/PerOpteryxHeadlessRCP/eclipse/workspace
+PerOpteryx Output: Jun 20, 2017 6:19:18 PM org.palladiosimulator.edp2.EDP2Plugin initializeRepositories
+PerOpteryx Output: WARNUNG: No preexisting EDP2 dataset configuration file. Resetting configuration...
+PerOpteryx Output: [2017-06-20 18:19:18,336] INFO   627[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.getModelFilePath(PerOpteryxLaunchConfigurationBuilder.java:69) - Retrieved model file with path platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.allocation
+PerOpteryx Output: [2017-06-20 18:19:18,337] INFO   628[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.setDefaultConfigFiles(PerOpteryxLaunchConfigurationBuilder.java:303) - Allocation file: platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.allocation
+PerOpteryx Output: [2017-06-20 18:19:18,337] INFO   628[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.setDefaultConfigFiles(PerOpteryxLaunchConfigurationBuilder.java:307) - Output folder: platform:/resource/output
+PerOpteryx Output: [2017-06-20 18:19:18,338] INFO   629[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.getModelFilePath(PerOpteryxLaunchConfigurationBuilder.java:69) - Retrieved model file with path platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.repository
+PerOpteryx Output: [2017-06-20 18:19:18,338] INFO   629[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.setDefaultConfigFiles(PerOpteryxLaunchConfigurationBuilder.java:311) - Repository file: platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.repository
+PerOpteryx Output: [2017-06-20 18:19:18,339] INFO   630[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.getModelFilePath(PerOpteryxLaunchConfigurationBuilder.java:69) - Retrieved model file with path platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.resourceenvironment
+PerOpteryx Output: [2017-06-20 18:19:18,339] INFO   630[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.setDefaultConfigFiles(PerOpteryxLaunchConfigurationBuilder.java:315) - Resourceenvironment file: platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.resourceenvironment
+PerOpteryx Output: [2017-06-20 18:19:18,339] INFO   630[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.getModelFilePath(PerOpteryxLaunchConfigurationBuilder.java:69) - Retrieved model file with path platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.system
+PerOpteryx Output: [2017-06-20 18:19:18,340] INFO   631[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.setDefaultConfigFiles(PerOpteryxLaunchConfigurationBuilder.java:319) - System file: platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.system
+PerOpteryx Output: [2017-06-20 18:19:18,340] INFO   631[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.setDefaultConfigFiles(PerOpteryxLaunchConfigurationBuilder.java:325) - Temp folder: platform:/resource/temporary
+PerOpteryx Output: [2017-06-20 18:19:18,341] INFO   632[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.getModelFilePath(PerOpteryxLaunchConfigurationBuilder.java:69) - Retrieved model file with path platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.usagemodel
+PerOpteryx Output: [2017-06-20 18:19:18,341] INFO   632[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.setDefaultConfigFiles(PerOpteryxLaunchConfigurationBuilder.java:329) - Usage file: platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.usagemodel
+PerOpteryx Output: [2017-06-20 18:19:18,342] INFO   633[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.getModelFilePath(PerOpteryxLaunchConfigurationBuilder.java:69) - Retrieved model file with path platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.cost
+PerOpteryx Output: [2017-06-20 18:19:18,342] INFO   633[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.setDefaultConfigFiles(PerOpteryxLaunchConfigurationBuilder.java:339) - Cost file: platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.cost
+PerOpteryx Output: [2017-06-20 18:19:18,343] INFO   634[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.getModelFilePath(PerOpteryxLaunchConfigurationBuilder.java:69) - Retrieved model file with path platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.designdecision
+PerOpteryx Output: [2017-06-20 18:19:18,343] INFO   634[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.setDefaultConfigFiles(PerOpteryxLaunchConfigurationBuilder.java:343) - Designdecision file: platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.designdecision
+PerOpteryx Output: [2017-06-20 18:19:18,343] INFO   634[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.getModelFilePath(PerOpteryxLaunchConfigurationBuilder.java:69) - Retrieved model file with path platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.qmldeclarations
+PerOpteryx Output: [2017-06-20 18:19:18,344] INFO   635[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.setDefaultConfigFiles(PerOpteryxLaunchConfigurationBuilder.java:347) - QMLDeclarations file: platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.qmldeclarations
+PerOpteryx Output: [2017-06-20 18:19:18,344] INFO   635[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.setDefaultConfigFiles(PerOpteryxLaunchConfigurationBuilder.java:350) - Privacy legal geo file: C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\LegalGeoLocations.txt
+PerOpteryx Output: [2017-06-20 18:19:18,347] INFO   638[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.setLQNSDefaultOptions(PerOpteryxLaunchConfigurationBuilder.java:159) - sourceModelDir: C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel
+PerOpteryx Output: [2017-06-20 18:19:18,416] INFO   707[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxLaunchConfigurationBuilder.getDefaultLaunchConfiguration(PerOpteryxLaunchConfigurationBuilder.java:100) - Using launch configuration with attributes: {systemFile=platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.system, Number of candidates per allocation level=10, numberOfEvaluatedSystemStatesEnabled=false, optimisationOnly=true, Increase processing rate factor=0.25, output=XML Output, allCandidates=, lqnPragmas=, markovModelStorageEnabled=false, SREUseInputModel=false, LINEOutputDir=C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/line_out, number of DSE iterations=4, designDecisionsOnly=false, accuracyQualityAnnotationFile=, Use processing rate heuristic=false, eventMiddlewareRepositoryFile=pathmap://PCM_MODELS/default_event_middleware.repository, markovModelReduction=true, underCoeff=0.5, cacheInstances=, clientOutpath=platform:/resource/output, numberOfExactDecimalPlacesEnabled=false, Use server expansion heuristic=false, Reallocation threshold for utilisation difference=0.5, costFile=platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.cost, Proceesing rate threshold for low utilisation=0.2, Minimum number of resource containers=2, Server expansion threshold for high utilisation=0.7, Processing rate threshold for high utilisation=0.8, analysisMethodde.uka.ipd.sdq.dsexplore.security=none, Maximum number of resource containers=9, Server consolidation threshold for low utilisation=0.3, numberOfExactDecimalPlaces=1, Decrease processing rate factor=0.25, LQNS Stop On Message Loss=true, store results as EMF=true, Use starting population heuristic=false, analysisMethodde.uka.ipd.sdq.dsexplore.nqr=none, archiveCandidates=, outpath=platform:/resource/temporary, Use antipattern knowledge=false, SREOutputDir=C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/sre_out, iterationOverPhysicalSystemStatesEnabled=false, tactics probability when mating=0.6, Use server consolidation heuristic=false, singleResults=false, repositoryFile=platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.repository, Weight of server expansion heuristic=0.7, designDecisionFile=platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.designdecision, printInt=10, analysisMethodde.uka.ipd.sdq.dsexplore.reliability=none, doSensitivityAnalysis=false, predefinedInstances=, Weight of server consolidation heuristic=0.5, rmiRepositoryFile=pathmap://PCM_MODELS/Glassfish.repository, itLimit=50, Server expansion maximum number of reallocations=1, search method=Evolutionary search, markovModelFile=, featureConfig=pathmap://PCM_MODELS/ConnectorConfig.featureconfig, runTime=, markovModelTracesEnabled=false, solver=LQNS (Layered Queueing Network Solver), usageFile=platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.usagemodel, analysisMethodde.uka.ipd.sdq.dsexplore.cost=Cost Analysis, allocationFile=platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.allocation, Use Realocation for Link Usage Tactic=false, privacyFile=C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\LegalGeoLocations.txt, analysisMethodde.uka.ipd.sdq.dsexplore.performance=LQN Solver Analysis, solvingTimeLimitEnabled=false, samplingDist=1.0, Weight of processing rate heuristic=0.1, analysisMethodde.uka.ipd.sdq.dsexplore.privacy=Privacy Analysis, logFile=markov.log, psQuantum=0.001, simulateAccuracy=false, resourceEnvironmentFile=platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.resourceenvironment, crossover rate=0.5, markovEvaluationMode=SINGLE, Use reallocation heuristic=false, solvingTimeLimit=1, convValue=0.001, markovStatistics=false, Stop on initial failure=false, qmlDefinitionFile=platform:/resource/iObserve-PerOpteryx/working_dir/cocome-cloud.qmldeclarations, Activate Insignificant Pareto Front Change=true, indivPerGeneration=20, lqsimOutputDir=C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqsim_out, Weight of reallocation heuristic=1.0, blocks=, store results as CSV=true, numberOfEvaluatedSystemStates=1, LINEDebug=true, clear=true, infiniteTaskMultiplicity=true, LQSIM Stop On Message Loss=true, maxDomain=256, lqnsOutputDir=C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out, LINEPropFile=C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/LINE.properties}
+PerOpteryx Output: [2017-06-20 18:19:18,422] INFO   713[main] - org.iobserve.planning.peropteryx.plugin.PerOpteryxHeadless.launchPeropteryx(PerOpteryxHeadless.java:87) - Launching PerOpteryx...
+PerOpteryx Output: [2017-06-20 18:19:18,423] WARN   714[main] - de.uka.ipd.sdq.dsexplore.launch.DSELaunch.launch(DSELaunch.java:59) - Will start 4 analysis runs. Only first one may be visible on the console.
+PerOpteryx Output: [2017-06-20 18:19:18,712] INFO  1003[main] - org.palladiosimulator.analyzer.workflow.jobs.LoadPCMModelsJob.execute(LoadPCMModelsJob.java:56) - Loading PCM models
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server4-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server6-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-NonEU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server4-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deploment ist privacy compliant!
+PerOpteryx Output: [2017-06-20 18:19:27,477] WARN  9768[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:417) - Finished DSolver:		30 ms
+PerOpteryx Output: [2017-06-20 18:19:27,619] WARN  9910[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:430) - Finished PCM2LQN:		142 ms
+PerOpteryx Output: [2017-06-20 18:19:27,663] WARN  9954[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:244) - Calling LQN analysis tool with lqns -x -oC:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181927.out.lqxo C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181927.in.lqxo
+PerOpteryx Output: [2017-06-20 18:19:27,726] WARN 10017[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:271) - Finished Running lqns:		103 ms
+PerOpteryx Output: [2017-06-20 18:19:27,726] WARN 10017[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:274) - Completed Analysis:		275 ms overall
+PerOpteryx Output: [2017-06-20 18:19:27,726] WARN 10017[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:288) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181927.out.lqxo
+PerOpteryx Output: [2017-06-20 18:19:27,727] WARN 10018[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:291) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181927.out.lqxo
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-NonEU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server6-NonEU @ BLR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server4-NonEU @ MAR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: 	Server: 	Server5-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-NonEU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server4-NonEU @ MAR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server4-EU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server2-NonEU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server1-NonEU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server2-NonEU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server4-EU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server4-EU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deploment ist privacy compliant!
+PerOpteryx Output: [2017-06-20 18:19:28,364] WARN 10655[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:417) - Finished DSolver:		3 ms
+PerOpteryx Output: [2017-06-20 18:19:28,410] WARN 10701[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:430) - Finished PCM2LQN:		44 ms
+PerOpteryx Output: [2017-06-20 18:19:28,417] WARN 10708[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:244) - Calling LQN analysis tool with lqns -x -oC:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181928.out.lqxo C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181928.in.lqxo
+PerOpteryx Output: [2017-06-20 18:19:28,462] WARN 10753[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:271) - Finished Running lqns:		52 ms
+PerOpteryx Output: [2017-06-20 18:19:28,463] WARN 10754[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:274) - Completed Analysis:		99 ms overall
+PerOpteryx Output: [2017-06-20 18:19:28,463] WARN 10754[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:288) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181928.out.lqxo
+PerOpteryx Output: [2017-06-20 18:19:28,463] WARN 10754[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:291) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181928.out.lqxo
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deploment ist privacy compliant!
+PerOpteryx Output: [2017-06-20 18:19:28,566] WARN 10857[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:417) - Finished DSolver:		3 ms
+PerOpteryx Output: [2017-06-20 18:19:28,583] WARN 10874[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:430) - Finished PCM2LQN:		17 ms
+PerOpteryx Output: [2017-06-20 18:19:28,614] WARN 10905[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:244) - Calling LQN analysis tool with lqns -x -oC:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181928.out.lqxo C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181928.in.lqxo
+PerOpteryx Output: [2017-06-20 18:19:28,666] WARN 10957[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:271) - Finished Running lqns:		82 ms
+PerOpteryx Output: [2017-06-20 18:19:28,667] WARN 10958[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:274) - Completed Analysis:		102 ms overall
+PerOpteryx Output: [2017-06-20 18:19:28,667] WARN 10958[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:288) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181928.out.lqxo
+PerOpteryx Output: [2017-06-20 18:19:28,667] WARN 10958[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:291) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181928.out.lqxo
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server6-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server1-NonEU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: [2017-06-20 18:19:29,372] INFO 11663[main] - org.palladiosimulator.analyzer.workflow.jobs.LoadPCMModelsJob.execute(LoadPCMModelsJob.java:56) - Loading PCM models
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server4-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server5-NonEU @ BLR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server5-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server1-NonEU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-NonEU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server4-NonEU @ MAR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server4-NonEU @ MAR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deploment ist privacy compliant!
+PerOpteryx Output: [2017-06-20 18:19:35,033] WARN 17324[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:417) - Finished DSolver:		3 ms
+PerOpteryx Output: [2017-06-20 18:19:35,047] WARN 17338[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:430) - Finished PCM2LQN:		13 ms
+PerOpteryx Output: [2017-06-20 18:19:35,080] WARN 17371[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:244) - Calling LQN analysis tool with lqns -x -oC:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181935.out.lqxo C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181935.in.lqxo
+PerOpteryx Output: [2017-06-20 18:19:35,142] WARN 17433[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:271) - Finished Running lqns:		94 ms
+PerOpteryx Output: [2017-06-20 18:19:35,142] WARN 17433[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:274) - Completed Analysis:		110 ms overall
+PerOpteryx Output: [2017-06-20 18:19:35,142] WARN 17433[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:288) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181935.out.lqxo
+PerOpteryx Output: [2017-06-20 18:19:35,143] WARN 17434[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:291) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181935.out.lqxo
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server4-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server6-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server4-EU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-NonEU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server5-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deploment ist privacy compliant!
+PerOpteryx Output: [2017-06-20 18:19:35,344] WARN 17635[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:417) - Finished DSolver:		4 ms
+PerOpteryx Output: [2017-06-20 18:19:35,354] WARN 17645[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:430) - Finished PCM2LQN:		10 ms
+PerOpteryx Output: [2017-06-20 18:19:35,360] WARN 17651[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:244) - Calling LQN analysis tool with lqns -x -oC:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181935.out.lqxo C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181935.in.lqxo
+PerOpteryx Output: [2017-06-20 18:19:35,403] WARN 17694[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:271) - Finished Running lqns:		47 ms
+PerOpteryx Output: [2017-06-20 18:19:35,403] WARN 17694[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:274) - Completed Analysis:		61 ms overall
+PerOpteryx Output: [2017-06-20 18:19:35,403] WARN 17694[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:288) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181935.out.lqxo
+PerOpteryx Output: [2017-06-20 18:19:35,403] WARN 17694[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:291) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181935.out.lqxo
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server4-NonEU @ MAR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server6-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server5-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server4-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server5-NonEU @ BLR	 -> 	webservice.inventory
+PerOpteryx Output: 	Server: 	Server1-NonEU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deploment ist privacy compliant!
+PerOpteryx Output: [2017-06-20 18:19:35,534] WARN 17825[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:417) - Finished DSolver:		3 ms
+PerOpteryx Output: [2017-06-20 18:19:35,556] WARN 17847[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:430) - Finished PCM2LQN:		21 ms
+PerOpteryx Output: [2017-06-20 18:19:35,585] WARN 17876[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:244) - Calling LQN analysis tool with lqns -x -oC:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181935.out.lqxo C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181935.in.lqxo
+PerOpteryx Output: [2017-06-20 18:19:35,623] WARN 17914[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:271) - Finished Running lqns:		66 ms
+PerOpteryx Output: [2017-06-20 18:19:35,623] WARN 17914[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:274) - Completed Analysis:		90 ms overall
+PerOpteryx Output: [2017-06-20 18:19:35,623] WARN 17914[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:288) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181935.out.lqxo
+PerOpteryx Output: [2017-06-20 18:19:35,624] WARN 17915[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:291) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181935.out.lqxo
+PerOpteryx Output: [2017-06-20 18:19:36,019] INFO 18310[main] - org.palladiosimulator.analyzer.workflow.jobs.LoadPCMModelsJob.execute(LoadPCMModelsJob.java:56) - Loading PCM models
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server4-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deploment ist privacy compliant!
+PerOpteryx Output: [2017-06-20 18:19:41,248] WARN 23539[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:417) - Finished DSolver:		2 ms
+PerOpteryx Output: [2017-06-20 18:19:41,258] WARN 23549[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:430) - Finished PCM2LQN:		9 ms
+PerOpteryx Output: [2017-06-20 18:19:41,288] WARN 23579[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:244) - Calling LQN analysis tool with lqns -x -oC:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181941.out.lqxo C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181941.in.lqxo
+PerOpteryx Output: [2017-06-20 18:19:41,327] WARN 23618[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:271) - Finished Running lqns:		68 ms
+PerOpteryx Output: [2017-06-20 18:19:41,327] WARN 23618[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:274) - Completed Analysis:		79 ms overall
+PerOpteryx Output: [2017-06-20 18:19:41,327] WARN 23618[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:288) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181941.out.lqxo
+PerOpteryx Output: [2017-06-20 18:19:41,327] WARN 23618[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:291) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181941.out.lqxo
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server5-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server5-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server4-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server5-NonEU @ BLR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	webservice.inventory
+PerOpteryx Output: 	Server: 	Server2-NonEU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server4-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server2-NonEU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-NonEU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server5-NonEU @ BLR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server1-NonEU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: 	Server: 	Server6-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server6-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: 	Server: 	Server2-NonEU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server1-NonEU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deploment ist privacy compliant!
+PerOpteryx Output: [2017-06-20 18:19:41,632] WARN 23923[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:417) - Finished DSolver:		3 ms
+PerOpteryx Output: [2017-06-20 18:19:41,638] WARN 23929[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:430) - Finished PCM2LQN:		5 ms
+PerOpteryx Output: [2017-06-20 18:19:41,643] WARN 23934[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:244) - Calling LQN analysis tool with lqns -x -oC:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181941.out.lqxo C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181941.in.lqxo
+PerOpteryx Output: [2017-06-20 18:19:41,683] WARN 23974[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:271) - Finished Running lqns:		44 ms
+PerOpteryx Output: [2017-06-20 18:19:41,683] WARN 23974[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:274) - Completed Analysis:		52 ms overall
+PerOpteryx Output: [2017-06-20 18:19:41,683] WARN 23974[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:288) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181941.out.lqxo
+PerOpteryx Output: [2017-06-20 18:19:41,684] WARN 23975[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:291) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181941.out.lqxo
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server4-NonEU @ MAR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	webservice.inventory
+PerOpteryx Output: 	Server: 	Server4-NonEU @ MAR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-NonEU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server6-NonEU @ BLR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: [2017-06-20 18:19:42,096] INFO 24387[main] - org.palladiosimulator.analyzer.workflow.jobs.LoadPCMModelsJob.execute(LoadPCMModelsJob.java:56) - Loading PCM models
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server4-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server6-NonEU @ BLR	 -> 	webservice.inventory
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server6-NonEU @ BLR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deploment ist privacy compliant!
+PerOpteryx Output: [2017-06-20 18:19:47,494] WARN 29785[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:417) - Finished DSolver:		2 ms
+PerOpteryx Output: [2017-06-20 18:19:47,504] WARN 29795[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:430) - Finished PCM2LQN:		9 ms
+PerOpteryx Output: [2017-06-20 18:19:47,533] WARN 29824[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:244) - Calling LQN analysis tool with lqns -x -oC:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181947.out.lqxo C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181947.in.lqxo
+PerOpteryx Output: [2017-06-20 18:19:47,578] WARN 29869[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:271) - Finished Running lqns:		72 ms
+PerOpteryx Output: [2017-06-20 18:19:47,578] WARN 29869[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:274) - Completed Analysis:		83 ms overall
+PerOpteryx Output: [2017-06-20 18:19:47,578] WARN 29869[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:288) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181947.out.lqxo
+PerOpteryx Output: [2017-06-20 18:19:47,579] WARN 29870[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:291) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181947.out.lqxo
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-NonEU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: 	Server: 	Server6-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server4-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: 	Server: 	Server6-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server4-NonEU @ MAR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deploment ist privacy compliant!
+PerOpteryx Output: [2017-06-20 18:19:47,732] WARN 30023[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:417) - Finished DSolver:		1 ms
+PerOpteryx Output: [2017-06-20 18:19:47,740] WARN 30031[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.transform(Pcm2LqnStrategy.java:430) - Finished PCM2LQN:		7 ms
+PerOpteryx Output: [2017-06-20 18:19:47,771] WARN 30062[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:244) - Calling LQN analysis tool with lqns -x -oC:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181947.out.lqxo C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181947.in.lqxo
+PerOpteryx Output: [2017-06-20 18:19:47,824] WARN 30115[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:271) - Finished Running lqns:		84 ms
+PerOpteryx Output: [2017-06-20 18:19:47,825] WARN 30116[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:274) - Completed Analysis:		92 ms overall
+PerOpteryx Output: [2017-06-20 18:19:47,825] WARN 30116[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:288) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181947.out.lqxo
+PerOpteryx Output: [2017-06-20 18:19:47,825] WARN 30116[main] - org.palladiosimulator.solver.transformations.pcm2lqn.Pcm2LqnStrategy.solve(Pcm2LqnStrategy.java:291) - Analysis Result has been written to C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel/lqns_out\pcm2lqn-2017-06-20-181947.out.lqxo
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server5-NonEU @ BLR	 -> 	webservice.inventory
+PerOpteryx Output: 	Server: 	Server4-NonEU @ MAR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server5-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server1-NonEU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server1-NonEU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	webservice.inventory
+PerOpteryx Output: 	Server: 	Server6-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	tradingsystem.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server1-NonEU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server5-NonEU @ BLR	 -> 	tradingsystem.inventory
+PerOpteryx Output: 	Server: 	Server3-NonEU @ TUR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+PerOpteryx Output: Deployment is privacy INCOMPLIANT. See the errors:
+PerOpteryx Output: 	Server: 	Server2-EU @ UKR	 -> 	webservice.inventory
+PerOpteryx Output: Constraint: _a4PfRE9yEee9Q-95RSMoWg__B3WagPOlEeaug9KErHOn0Q was not met! Stopping the analysis run!
+Watcher Thread terminated
+INFO  | 2017-06-20 18:19:48 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:28) - Candiate Processing
+INFO  | 2017-06-20 18:19:57 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-20 18:19:57 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:48) - ReDeployment Model is legal!
+INFO  | 2017-06-20 18:19:57 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:52) - 
+Server: _UW8RqU_DEeeZ1eAuq05od2	-- Location: 504 (MAR)	-- Name: Server4-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+Server: _UW8RsU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server6-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+Server: _UVlmwU_DEeeZ1eAuq05odg	-- Location: 276 (DEU)	-- Name: Server1-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+Server: _UW8RrU_DEeeZ1eAuq05od2	-- Location: 112 (BLR)	-- Name: Server5-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank
+Server: _UW8RpU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server3-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+
+INFO  | 2017-06-20 18:19:57 | [main] cli.AnalysisMain (AnalysisMain.java:142) - Anaylsis complete
