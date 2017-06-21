@@ -1,0 +1,352 @@
+INFO  | 2017-06-21 15:54:35 | [main] cli.AnalysisMain (AnalysisMain.java:102) - Starting iObserve Privacy
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/Philipp/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/9865cf6994f9ff13fce0bf93f2054ef6c65bb462/logback-classic-1.1.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/Philipp/.gradle/caches/3.2.1/generated-gradle-jars/gradle-api-3.2.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+15:54:50,694 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+15:54:50,695 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+15:54:50,695 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/GitRepositorys/iobserve-analysis/analysis/bin/logback.xml]
+15:54:50,696 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+15:54:50,696 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/Philipp/.gradle/caches/modules-2/files-2.1/net.sourceforge.teetime-stages/teetime-stages/3.0-SNAPSHOT/5ede583ac3ca81117aa7441d55be0b0635566464/teetime-stages-3.0-SNAPSHOT.jar!/logback.xml]
+15:54:50,696 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/C:/GitRepositorys/iobserve-analysis/analysis/bin/logback.xml]
+15:54:50,756 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+15:54:50,769 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+15:54:50,774 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+15:54:50,785 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:54:50,831 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+15:54:50,833 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+15:54:50,834 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:54:50,837 |-INFO in ch.qos.logback.core.FileAppender[FILE] - File property is set to [log/jclouds.log]
+15:54:50,839 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+15:54:50,839 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [WIREFILE]
+15:54:50,839 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:54:50,840 |-INFO in ch.qos.logback.core.FileAppender[WIREFILE] - File property is set to [log/jclouds-wire.log]
+15:54:50,840 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+15:54:50,840 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [COMPUTEFILE]
+15:54:50,841 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:54:50,841 |-INFO in ch.qos.logback.core.FileAppender[COMPUTEFILE] - File property is set to [log/jclouds-compute.log]
+15:54:50,841 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+15:54:50,841 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [SSHFILE]
+15:54:50,842 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:54:50,842 |-INFO in ch.qos.logback.core.FileAppender[SSHFILE] - File property is set to [log/jclouds-ssh.log]
+15:54:50,843 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to INFO
+15:54:50,843 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - org.jclouds level set to DEBUG
+15:54:50,843 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[org.jclouds]
+15:54:50,844 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.compute level set to DEBUG
+15:54:50,844 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [COMPUTEFILE] to Logger[jclouds.compute]
+15:54:50,844 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.wire level set to DEBUG
+15:54:50,845 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [WIREFILE] to Logger[jclouds.wire]
+15:54:50,845 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.headers level set to DEBUG
+15:54:50,845 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [WIREFILE] to Logger[jclouds.headers]
+15:54:50,845 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.ssh level set to DEBUG
+15:54:50,845 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [SSHFILE] to Logger[jclouds.ssh]
+15:54:50,845 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - net.schmizz level set to DEBUG
+15:54:50,845 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [SSHFILE] to Logger[net.schmizz]
+15:54:50,845 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+15:54:50,846 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@7726e185 - Registering current configuration as safe fallback point
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+INFO  | 2017-06-21 15:54:50 | [main] cli.AnalysisMain (AnalysisMain.java:138) - Analysis configuration
+INFO  | 2017-06-21 15:54:50 | [main] cli.AnalysisMain (AnalysisMain.java:140) - Analysis start
+INFO  | 2017-06-21 15:54:50 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: webservice.inventory	 ->	Server4-EU
+INFO  | 2017-06-21 15:54:54 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: webservice.inventory	 ->	Server6-EU
+INFO  | 2017-06-21 15:54:54 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-21 15:54:54 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:34) - Creating graph 	Model: C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-21 15:54:54 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:40) - Creating Model Providers
+INFO  | 2017-06-21 15:55:03 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:42) - DONE!
+INFO  | 2017-06-21 15:55:03 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-21 15:55:03 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:26) - Analysing graph
+ERROR | 2017-06-21 15:55:03 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:50) - ILLEGAL Deployment
+INFO  | 2017-06-21 15:55:03 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:52) - 
+Server: _UW8RrU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server5-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+Server: _UW8RpU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server3-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+Server: _UW8RsU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server6-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+Server: _UW8RoU_DEeeZ1eAuq05odg	-- Location: 804 (UKR)	-- Name: Server2-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+Server: _UVlmwU_DEeeZ1eAuq05odg	-- Location: 276 (DEU)	-- Name: Server1-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+
+INFO  | 2017-06-21 15:55:03 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:55) - Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+INFO  | 2017-06-21 15:55:03 | [Thread for InitialElementProducer-0] planning.ModelProcessing (ModelProcessing.java:45) - Model Processing
+INFO  | 2017-06-21 15:55:03 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel
+INFO  | 2017-06-21 15:55:03 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:25) - Model Optimizing
+WARN  | 2017-06-21 15:55:03 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:33) - Skipping actual generation for evaluation purposes!
+WARN  | 2017-06-21 15:55:03 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:39) - Setting C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Test as geneartion output string
+INFO  | 2017-06-21 15:55:03 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:38) - Candiate Processing
+INFO  | 2017-06-21 15:55:13 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-21 15:55:13 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:72) - ReDeployment Model is legal!
+INFO  | 2017-06-21 15:55:13 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:81) - 
+Server: _UW8RpU_DEeeZ1eAuq05od2	-- Location: 792 (TUR)	-- Name: Server3-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank
+Server: _UW8RsU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server6-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+Server: _UW8RqU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server4-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+Server: _UVlmwU_DEeeZ1eAuq05odg	-- Location: 276 (DEU)	-- Name: Server1-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+Server: _UW8RoU_DEeeZ1eAuq05od2	-- Location: 804 (UKR)	-- Name: Server2-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+
+INFO  | 2017-06-21 15:55:13 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: tradingsystem.cashdeskline	 ->	Server5-EU
+INFO  | 2017-06-21 15:55:13 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: tradingsystem.cashdeskline	 ->	Server4-EU
+INFO  | 2017-06-21 15:55:13 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-21 15:55:13 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:34) - Creating graph 	Model: C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-21 15:55:13 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:40) - Creating Model Providers
+INFO  | 2017-06-21 15:55:22 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:42) - DONE!
+INFO  | 2017-06-21 15:55:22 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-21 15:55:22 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:26) - Analysing graph
+ERROR | 2017-06-21 15:55:22 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:50) - ILLEGAL Deployment
+INFO  | 2017-06-21 15:55:22 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:52) - 
+Server: _UW8RqU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server4-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+Server: _UW8RsU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server6-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank
+Server: _UW8RoU_DEeeZ1eAuq05odg	-- Location: 804 (UKR)	-- Name: Server2-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+Server: _UVlmwU_DEeeZ1eAuq05odg	-- Location: 276 (DEU)	-- Name: Server1-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+Server: _UW8RpU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server3-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+
+INFO  | 2017-06-21 15:55:22 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:55) - Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+INFO  | 2017-06-21 15:55:22 | [Thread for InitialElementProducer-0] planning.ModelProcessing (ModelProcessing.java:45) - Model Processing
+INFO  | 2017-06-21 15:55:22 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel
+INFO  | 2017-06-21 15:55:22 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:25) - Model Optimizing
+WARN  | 2017-06-21 15:55:22 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:33) - Skipping actual generation for evaluation purposes!
+WARN  | 2017-06-21 15:55:22 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:39) - Setting C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Test as geneartion output string
+INFO  | 2017-06-21 15:55:22 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:38) - Candiate Processing
+INFO  | 2017-06-21 15:55:31 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-21 15:55:31 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:72) - ReDeployment Model is legal!
+INFO  | 2017-06-21 15:55:31 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:81) - 
+Server: _UVlmwU_DEeeZ1eAuq05odg	-- Location: 276 (DEU)	-- Name: Server1-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+Server: _UW8RsU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server6-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+Server: _UW8RpU_DEeeZ1eAuq05od2	-- Location: 792 (TUR)	-- Name: Server3-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank
+Server: _UW8RqU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server4-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+Server: _UW8RoU_DEeeZ1eAuq05od2	-- Location: 804 (UKR)	-- Name: Server2-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+
+INFO  | 2017-06-21 15:55:31 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: tradingsystem.external.Bank	 ->	Server6-EU
+INFO  | 2017-06-21 15:55:31 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: tradingsystem.external.Bank	 ->	Server3-NonEU
+INFO  | 2017-06-21 15:55:31 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-21 15:55:31 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:34) - Creating graph 	Model: C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-21 15:55:31 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:40) - Creating Model Providers
+INFO  | 2017-06-21 15:55:40 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:42) - DONE!
+INFO  | 2017-06-21 15:55:40 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-21 15:55:40 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:26) - Analysing graph
+ERROR | 2017-06-21 15:55:40 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:50) - ILLEGAL Deployment
+INFO  | 2017-06-21 15:55:40 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:52) - 
+Server: _UW8RoU_DEeeZ1eAuq05odg	-- Location: 804 (UKR)	-- Name: Server2-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+Server: _UW8RsU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server6-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+Server: _UVlmwU_DEeeZ1eAuq05odg	-- Location: 276 (DEU)	-- Name: Server1-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+Server: _UW8RpU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server3-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+Server: _UW8RqU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server4-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+Server: _UW8RpU_DEeeZ1eAuq05od2	-- Location: 792 (TUR)	-- Name: Server3-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank
+
+INFO  | 2017-06-21 15:55:40 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:55) - Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+INFO  | 2017-06-21 15:55:40 | [Thread for InitialElementProducer-0] planning.ModelProcessing (ModelProcessing.java:45) - Model Processing
+INFO  | 2017-06-21 15:55:40 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel
+INFO  | 2017-06-21 15:55:40 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:25) - Model Optimizing
+WARN  | 2017-06-21 15:55:40 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:33) - Skipping actual generation for evaluation purposes!
+WARN  | 2017-06-21 15:55:40 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:39) - Setting C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Test as geneartion output string
+INFO  | 2017-06-21 15:55:40 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:38) - Candiate Processing
+INFO  | 2017-06-21 15:55:49 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-21 15:55:49 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:72) - ReDeployment Model is legal!
+INFO  | 2017-06-21 15:55:49 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:81) - 
+Server: _UW8RsU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server6-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+Server: _UVlmwU_DEeeZ1eAuq05odg	-- Location: 276 (DEU)	-- Name: Server1-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+Server: _UW8RoU_DEeeZ1eAuq05od2	-- Location: 804 (UKR)	-- Name: Server2-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+Server: _UW8RpU_DEeeZ1eAuq05od2	-- Location: 792 (TUR)	-- Name: Server3-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank
+Server: _UW8RqU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server4-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+
+INFO  | 2017-06-21 15:55:49 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: logic.webservice.cashdeskline.cashdeskservice	 ->	Server3-EU
+INFO  | 2017-06-21 15:55:49 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: logic.webservice.cashdeskline.cashdeskservice	 ->	Server2-NonEU
+INFO  | 2017-06-21 15:55:49 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-21 15:55:49 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:34) - Creating graph 	Model: C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-21 15:55:49 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:40) - Creating Model Providers
+INFO  | 2017-06-21 15:55:59 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:42) - DONE!
+INFO  | 2017-06-21 15:55:59 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-21 15:55:59 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:26) - Analysing graph
+ERROR | 2017-06-21 15:55:59 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:50) - ILLEGAL Deployment
+INFO  | 2017-06-21 15:55:59 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:52) - 
+Server: _UW8RoU_DEeeZ1eAuq05od2	-- Location: 804 (UKR)	-- Name: Server2-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+Server: _UW8RpU_DEeeZ1eAuq05od2	-- Location: 792 (TUR)	-- Name: Server3-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank
+Server: _UVlmwU_DEeeZ1eAuq05odg	-- Location: 276 (DEU)	-- Name: Server1-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+Server: _UW8RsU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server6-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+Server: _UW8RoU_DEeeZ1eAuq05odg	-- Location: 804 (UKR)	-- Name: Server2-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+Server: _UW8RqU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server4-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+
+INFO  | 2017-06-21 15:55:59 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:55) - Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+INFO  | 2017-06-21 15:55:59 | [Thread for InitialElementProducer-0] planning.ModelProcessing (ModelProcessing.java:45) - Model Processing
+INFO  | 2017-06-21 15:55:59 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel
+INFO  | 2017-06-21 15:55:59 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:25) - Model Optimizing
+WARN  | 2017-06-21 15:55:59 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:33) - Skipping actual generation for evaluation purposes!
+WARN  | 2017-06-21 15:55:59 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:39) - Setting C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Test as geneartion output string
+INFO  | 2017-06-21 15:55:59 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:38) - Candiate Processing
+INFO  | 2017-06-21 15:56:08 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-21 15:56:08 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:72) - ReDeployment Model is legal!
+INFO  | 2017-06-21 15:56:08 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:81) - 
+Server: _UW8RqU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server4-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+Server: _UW8RsU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server6-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+Server: _UVlmwU_DEeeZ1eAuq05odg	-- Location: 276 (DEU)	-- Name: Server1-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+Server: _UW8RoU_DEeeZ1eAuq05od2	-- Location: 804 (UKR)	-- Name: Server2-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+Server: _UW8RpU_DEeeZ1eAuq05od2	-- Location: 792 (TUR)	-- Name: Server3-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank
+
+INFO  | 2017-06-21 15:56:08 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: cloud.web	 ->	Server1-EU
+INFO  | 2017-06-21 15:56:08 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: cloud.web	 ->	Server6-EU
+INFO  | 2017-06-21 15:56:08 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-21 15:56:08 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:34) - Creating graph 	Model: C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-21 15:56:08 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:40) - Creating Model Providers
+INFO  | 2017-06-21 15:56:17 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:42) - DONE!
+INFO  | 2017-06-21 15:56:17 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-21 15:56:17 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:26) - Analysing graph
+ERROR | 2017-06-21 15:56:17 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:50) - ILLEGAL Deployment
+INFO  | 2017-06-21 15:56:17 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:52) - 
+Server: _UW8RpU_DEeeZ1eAuq05od2	-- Location: 792 (TUR)	-- Name: Server3-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank
+Server: _UW8RqU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server4-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+Server: _UW8RsU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server6-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+Server: _UW8RoU_DEeeZ1eAuq05od2	-- Location: 804 (UKR)	-- Name: Server2-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+Server: _UW8RoU_DEeeZ1eAuq05odg	-- Location: 804 (UKR)	-- Name: Server2-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+
+INFO  | 2017-06-21 15:56:17 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:55) - Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+INFO  | 2017-06-21 15:56:17 | [Thread for InitialElementProducer-0] planning.ModelProcessing (ModelProcessing.java:45) - Model Processing
+INFO  | 2017-06-21 15:56:17 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel
+INFO  | 2017-06-21 15:56:17 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:25) - Model Optimizing
+WARN  | 2017-06-21 15:56:17 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:33) - Skipping actual generation for evaluation purposes!
+WARN  | 2017-06-21 15:56:17 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:39) - Setting C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Test as geneartion output string
+INFO  | 2017-06-21 15:56:17 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:38) - Candiate Processing
+INFO  | 2017-06-21 15:56:26 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-21 15:56:26 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:72) - ReDeployment Model is legal!
+INFO  | 2017-06-21 15:56:26 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:81) - 
+Server: _UW8RoU_DEeeZ1eAuq05od2	-- Location: 804 (UKR)	-- Name: Server2-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+Server: _UVlmwU_DEeeZ1eAuq05odg	-- Location: 276 (DEU)	-- Name: Server1-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+Server: _UW8RpU_DEeeZ1eAuq05od2	-- Location: 792 (TUR)	-- Name: Server3-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank
+Server: _UW8RsU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server6-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+Server: _UW8RqU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server4-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+
+INFO  | 2017-06-21 15:56:26 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: tradingsystem.inventory	 ->	Server2-EU
+INFO  | 2017-06-21 15:56:26 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: tradingsystem.inventory	 ->	Server1-EU
+INFO  | 2017-06-21 15:56:26 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-21 15:56:26 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:34) - Creating graph 	Model: C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-21 15:56:26 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:40) - Creating Model Providers
+INFO  | 2017-06-21 15:56:35 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:42) - DONE!
+INFO  | 2017-06-21 15:56:35 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-21 15:56:35 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:26) - Analysing graph
+INFO  | 2017-06-21 15:56:35 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:46) - Legal Deployment
+INFO  | 2017-06-21 15:56:35 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:47) - 
+Server: _UW8RqU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server4-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+Server: _UW8RsU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server6-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+Server: _UVlmwU_DEeeZ1eAuq05odg	-- Location: 276 (DEU)	-- Name: Server1-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+Server: _UW8RoU_DEeeZ1eAuq05od2	-- Location: 804 (UKR)	-- Name: Server2-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+Server: _UW8RpU_DEeeZ1eAuq05od2	-- Location: 792 (TUR)	-- Name: Server3-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank
+
+INFO  | 2017-06-21 15:56:35 | [main] cli.AnalysisMain (AnalysisMain.java:142) - Anaylsis complete

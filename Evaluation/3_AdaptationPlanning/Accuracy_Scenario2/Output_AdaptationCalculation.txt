@@ -1,0 +1,122 @@
+INFO  | 2017-06-21 15:12:03 | [main] cli.AnalysisMain (AnalysisMain.java:102) - Starting iObserve Privacy
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/Philipp/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/9865cf6994f9ff13fce0bf93f2054ef6c65bb462/logback-classic-1.1.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/Philipp/.gradle/caches/3.2.1/generated-gradle-jars/gradle-api-3.2.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+15:12:18,480 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+15:12:18,480 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+15:12:18,480 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/GitRepositorys/iobserve-analysis/analysis/bin/logback.xml]
+15:12:18,482 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+15:12:18,482 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/Philipp/.gradle/caches/modules-2/files-2.1/net.sourceforge.teetime-stages/teetime-stages/3.0-SNAPSHOT/5ede583ac3ca81117aa7441d55be0b0635566464/teetime-stages-3.0-SNAPSHOT.jar!/logback.xml]
+15:12:18,482 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/C:/GitRepositorys/iobserve-analysis/analysis/bin/logback.xml]
+15:12:18,552 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+15:12:18,571 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+15:12:18,577 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+15:12:18,584 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:12:18,628 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+15:12:18,629 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+15:12:18,630 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:12:18,632 |-INFO in ch.qos.logback.core.FileAppender[FILE] - File property is set to [log/jclouds.log]
+15:12:18,633 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+15:12:18,633 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [WIREFILE]
+15:12:18,634 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:12:18,634 |-INFO in ch.qos.logback.core.FileAppender[WIREFILE] - File property is set to [log/jclouds-wire.log]
+15:12:18,634 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+15:12:18,634 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [COMPUTEFILE]
+15:12:18,635 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:12:18,635 |-INFO in ch.qos.logback.core.FileAppender[COMPUTEFILE] - File property is set to [log/jclouds-compute.log]
+15:12:18,636 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+15:12:18,636 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [SSHFILE]
+15:12:18,636 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+15:12:18,636 |-INFO in ch.qos.logback.core.FileAppender[SSHFILE] - File property is set to [log/jclouds-ssh.log]
+15:12:18,637 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to INFO
+15:12:18,638 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - org.jclouds level set to DEBUG
+15:12:18,638 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[org.jclouds]
+15:12:18,639 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.compute level set to DEBUG
+15:12:18,639 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [COMPUTEFILE] to Logger[jclouds.compute]
+15:12:18,639 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.wire level set to DEBUG
+15:12:18,639 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [WIREFILE] to Logger[jclouds.wire]
+15:12:18,639 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.headers level set to DEBUG
+15:12:18,639 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [WIREFILE] to Logger[jclouds.headers]
+15:12:18,639 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.ssh level set to DEBUG
+15:12:18,639 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [SSHFILE] to Logger[jclouds.ssh]
+15:12:18,639 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - net.schmizz level set to DEBUG
+15:12:18,639 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [SSHFILE] to Logger[net.schmizz]
+15:12:18,639 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+15:12:18,640 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@7726e185 - Registering current configuration as safe fallback point
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+INFO  | 2017-06-21 15:12:18 | [main] cli.AnalysisMain (AnalysisMain.java:138) - Analysis configuration
+INFO  | 2017-06-21 15:12:18 | [main] cli.AnalysisMain (AnalysisMain.java:140) - Analysis start
+INFO  | 2017-06-21 15:12:18 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server1-NonEU	 ->	112
+INFO  | 2017-06-21 15:12:18 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-21 15:12:18 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:34) - Creating graph 	Model: C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-21 15:12:18 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:40) - Creating Model Providers
+INFO  | 2017-06-21 15:12:28 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:42) - DONE!
+INFO  | 2017-06-21 15:12:28 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-21 15:12:28 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:26) - Analysing graph
+ERROR | 2017-06-21 15:12:28 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:50) - ILLEGAL Deployment
+INFO  | 2017-06-21 15:12:28 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:52) - 
+Server: _UW8RsU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server6-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank
+Server: _UW8RrU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server5-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+Server: _UW8RqU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server4-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+Server: _UW8RpU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server3-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+Server: _UW8RoU_DEeeZ1eAuq05odg	-- Location: 804 (UKR)	-- Name: Server2-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+Server: _UVlmwU_DEeeZ1eAuq05odg	-- Location: 276 (DEU)	-- Name: Server1-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+
+INFO  | 2017-06-21 15:12:28 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:55) - Server: 	Server2-EU @ UKR	 -> 	tradingsystem.inventory
+INFO  | 2017-06-21 15:12:28 | [Thread for InitialElementProducer-0] planning.ModelProcessing (ModelProcessing.java:45) - Model Processing
+INFO  | 2017-06-21 15:12:28 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel
+INFO  | 2017-06-21 15:12:28 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:25) - Model Optimizing
+WARN  | 2017-06-21 15:12:28 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:33) - Skipping actual generation for evaluation purposes!
+WARN  | 2017-06-21 15:12:28 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:39) - Setting C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Test as geneartion output string
+INFO  | 2017-06-21 15:12:28 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:38) - Candiate Processing
+INFO  | 2017-06-21 15:12:38 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-21 15:12:38 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:72) - ReDeployment Model is legal!
+INFO  | 2017-06-21 15:12:38 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:81) - 
+Server: _UW8RpU_DEeeZ1eAuq05od2	-- Location: 792 (TUR)	-- Name: Server3-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_dkO2gAjIEeefyagWuy0aqA	Depersonalized	0	1	0	tradingsystem.external.Bank
+Server: _UW8RqU_DEeeZ1eAuq05odg	-- Location: 250 (FRA)	-- Name: Server4-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Og6wsAi6EeefyagWuy0aqA	Depersonalized	0	3	7	tradingsystem.cashdeskline
+Server: _UW8RoU_DEeeZ1eAuq05od2	-- Location: 804 (UKR)	-- Name: Server2-NonEU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_QYwcEAi6EeefyagWuy0aqA	Depersonalized	0	4	10	logic.webservice.cashdeskline.cashdeskservice
+Server: _UW8RsU_DEeeZ1eAuq05odg	-- Location: 826 (GBR)	-- Name: Server6-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Mj8GoAi6EeefyagWuy0aqA	Personal	1	0	14	webservice.inventory
+	_UkO-AAi6EeefyagWuy0aqA	Depersonalized	0	2	7	cloud.web
+Server: _UVlmwU_DEeeZ1eAuq05odg	-- Location: 276 (DEU)	-- Name: Server1-EU
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_D9ZuoAi6EeefyagWuy0aqA	Personal	1	0	14	tradingsystem.inventory
+
+INFO  | 2017-06-21 15:12:38 | [Thread for InitialElementProducer-0] adaptation.AdaptationCalculation (AdaptationCalculation.java:61) - Calculating system adaptation
+INFO  | 2017-06-21 15:12:38 | [Thread for InitialElementProducer-0] adaptation.AdaptationPlanning (AdaptationPlanning.java:41) - Planning adaptation order
+INFO  | 2017-06-21 15:12:38 | [Thread for InitialElementProducer-0] adaptation.AdaptationPlanning (AdaptationPlanning.java:85) - Adaption sequence:
+0	Acquire:	Server3-NonEU	ID: _UW8RpU_DEeeZ1eAuq05od2
+1	Acquire:	Server2-NonEU	ID: _UW8RoU_DEeeZ1eAuq05od2
+2	Migrate:	webservice.inventory	ID: _Mj8GoAi6EeefyagWuy0aqA	Server4-EU	->	Server6-EU
+3	Migrate:	tradingsystem.cashdeskline	ID: _Og6wsAi6EeefyagWuy0aqA	Server5-EU	->	Server4-EU
+4	Migrate:	tradingsystem.external.Bank	ID: _dkO2gAjIEeefyagWuy0aqA	Server6-EU	->	Server3-NonEU
+5	Migrate:	logic.webservice.cashdeskline.cashdeskservice	ID: _QYwcEAi6EeefyagWuy0aqA	Server3-EU	->	Server2-NonEU
+6	Migrate:	cloud.web	ID: _UkO-AAi6EeefyagWuy0aqA	Server1-EU	->	Server6-EU
+7	Migrate:	tradingsystem.inventory	ID: _D9ZuoAi6EeefyagWuy0aqA	Server2-EU	->	Server1-EU
+8	Terminate:	Server3-EU	ID: _UW8RpU_DEeeZ1eAuq05odg
+9	Terminate:	Server2-EU	ID: _UW8RoU_DEeeZ1eAuq05odg
+10	Terminate:	Server5-EU	ID: _UW8RrU_DEeeZ1eAuq05odg
+
+INFO  | 2017-06-21 15:12:38 | [Thread for InitialElementProducer-0] adaptation.AdaptationExecution (AdaptationExecution.java:46) - Executing adaptation
+INFO  | 2017-06-21 15:12:38 | [main] cli.AnalysisMain (AnalysisMain.java:142) - Anaylsis complete
