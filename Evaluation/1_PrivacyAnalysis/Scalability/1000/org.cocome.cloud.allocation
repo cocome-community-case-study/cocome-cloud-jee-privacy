@@ -1,0 +1,2005 @@
+<?xml version="1.0" encoding="ASCII"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_FKQFIFWOEeebyPJPJ4DMqA" entityName="org.cocome.cloud">
+  <targetResourceEnvironment_Allocation href="org.cocome.cloud.resourceenvironment#/"/>
+  <system_Allocation href="org.cocome.cloud.system#_FGTZQFWOEeebyPJPJ4DMqA"/>
+  <allocationContexts_Allocation id="_FKQsMFWOEeebyPJPJ4DMqA" entityName="0_AC_Component_C @ 372_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O71WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FGbVEFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTQFWOEeebyPJPJ4DMqA" entityName="1_AC_Component_D @ 349_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O2FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FGdKQFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTQVWOEeebyPJPJ4DMqA" entityName="2_AC_Component_A @ 184_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n6FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FGdKQVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTQlWOEeebyPJPJ4DMqA" entityName="3_AC_Component_F2 @ 241_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1ObFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH8_EFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTQ1WOEeebyPJPJ4DMqA" entityName="4_AC_Component_A2 @ 16_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AUFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH8_E1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTRFWOEeebyPJPJ4DMqA" entityName="5_AC_Component_F2 @ 114_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nolWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH8_FVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTRVWOEeebyPJPJ4DMqA" entityName="6_AC_Component_D @ 342_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O0VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH8_GFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTRlWOEeebyPJPJ4DMqA" entityName="7_AC_Component_A2 @ 266_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OhVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH8_GVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTR1WOEeebyPJPJ4DMqA" entityName="8_AC_Component_F @ 143_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nv1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH9mIFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTSFWOEeebyPJPJ4DMqA" entityName="9_AC_Component_D @ 288_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Om1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH9mIlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTSVWOEeebyPJPJ4DMqA" entityName="10_AC_Component_C2 @ 60_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nbFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH9mI1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTSlWOEeebyPJPJ4DMqA" entityName="11_AC_Component_F2 @ 333_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OyFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH9mJlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTS1WOEeebyPJPJ4DMqA" entityName="12_AC_Component_A @ 351_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O2lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH9mKFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTTFWOEeebyPJPJ4DMqA" entityName="13_AC_Component_C @ 131_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ns1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH9mK1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTTVWOEeebyPJPJ4DMqA" entityName="14_AC_Component_F2 @ 285_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OmFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH-NMlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTTlWOEeebyPJPJ4DMqA" entityName="15_AC_Component_D @ 356_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O31WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH-NNFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTT1WOEeebyPJPJ4DMqA" entityName="16_AC_Component_E @ 489_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2ciVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH-NNVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTUFWOEeebyPJPJ4DMqA" entityName="17_AC_Component_E @ 169_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n2VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH-NOFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTUVWOEeebyPJPJ4DMqA" entityName="18_AC_Component_E @ 213_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oBVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH-NO1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTUlWOEeebyPJPJ4DMqA" entityName="19_AC_Component_B @ 364_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O51WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH-NPVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTU1WOEeebyPJPJ4DMqA" entityName="20_AC_Component_F2 @ 406_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11gVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH-0Q1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTVFWOEeebyPJPJ4DMqA" entityName="21_AC_Component_A @ 237_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OaFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH-0RFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTVVWOEeebyPJPJ4DMqA" entityName="22_AC_Component_D @ 53_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nZVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH-0R1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTVlWOEeebyPJPJ4DMqA" entityName="23_AC_Component_A @ 367_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O6lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH-0SVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTV1WOEeebyPJPJ4DMqA" entityName="24_AC_Component_F2 @ 62_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nblWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH_bUVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTWFWOEeebyPJPJ4DMqA" entityName="25_AC_Component_C @ 409_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11hFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH_bU1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTWVWOEeebyPJPJ4DMqA" entityName="26_AC_Component_B @ 322_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OvVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH_bVlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTWlWOEeebyPJPJ4DMqA" entityName="27_AC_Component_A @ 342_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O0VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FH_bWVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTW1WOEeebyPJPJ4DMqA" entityName="28_AC_Component_E @ 442_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11pVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIACYVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTXFWOEeebyPJPJ4DMqA" entityName="29_AC_Component_F @ 97_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nkVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIACYlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTXVWOEeebyPJPJ4DMqA" entityName="30_AC_Component_E @ 364_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O51WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIACZFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTXlWOEeebyPJPJ4DMqA" entityName="31_AC_Component_C @ 468_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11v1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIACZlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTX1WOEeebyPJPJ4DMqA" entityName="32_AC_Component_E @ 147_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nw1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIACaVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTYFWOEeebyPJPJ4DMqA" entityName="33_AC_Component_F @ 388_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O_1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIACa1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTYVWOEeebyPJPJ4DMqA" entityName="34_AC_Component_C2 @ 145_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nwVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIACbFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTYlWOEeebyPJPJ4DMqA" entityName="35_AC_Component_D @ 136_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nuFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIApclWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTY1WOEeebyPJPJ4DMqA" entityName="36_AC_Component_C @ 344_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O01WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIApdVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTZFWOEeebyPJPJ4DMqA" entityName="37_AC_Component_D @ 111_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nn1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIApeFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTZVWOEeebyPJPJ4DMqA" entityName="38_AC_Component_A2 @ 311_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OslWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIBQglWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTZlWOEeebyPJPJ4DMqA" entityName="39_AC_Component_F2 @ 127_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nr1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIBQhVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTZ1WOEeebyPJPJ4DMqA" entityName="40_AC_Component_F2 @ 445_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11qFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIBQhlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTaFWOEeebyPJPJ4DMqA" entityName="41_AC_Component_A @ 259_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OflWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIBQh1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTaVWOEeebyPJPJ4DMqA" entityName="42_AC_Component_F2 @ 272_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Oi1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIBQilWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTalWOEeebyPJPJ4DMqA" entityName="43_AC_Component_C2 @ 461_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11uFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIBQi1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTa1WOEeebyPJPJ4DMqA" entityName="44_AC_Component_E @ 158_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nzlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIB3kFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTbFWOEeebyPJPJ4DMqA" entityName="45_AC_Component_D @ 489_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2ciVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIB3klWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTbVWOEeebyPJPJ4DMqA" entityName="46_AC_Component_D @ 286_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OmVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIB3lVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTblWOEeebyPJPJ4DMqA" entityName="47_AC_Component_E @ 177_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n4VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIB3mFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTb1WOEeebyPJPJ4DMqA" entityName="48_AC_Component_C @ 139_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nu1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIB3mlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTcFWOEeebyPJPJ4DMqA" entityName="49_AC_Component_C2 @ 395_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11dlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FICeoFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTcVWOEeebyPJPJ4DMqA" entityName="50_AC_Component_A @ 263_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OglWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FICeo1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTclWOEeebyPJPJ4DMqA" entityName="51_AC_Component_F2 @ 25_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AWVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FICeplWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTc1WOEeebyPJPJ4DMqA" entityName="52_AC_Component_A @ 406_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11gVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FICep1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTdFWOEeebyPJPJ4DMqA" entityName="53_AC_Component_A2 @ 366_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O6VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FICeqlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTdVWOEeebyPJPJ4DMqA" entityName="54_AC_Component_A @ 348_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O11WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FICerVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTdlWOEeebyPJPJ4DMqA" entityName="55_AC_Component_F @ 319_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OulWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIDFsVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTd1WOEeebyPJPJ4DMqA" entityName="56_AC_Component_E @ 202_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n-lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIDFslWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTeFWOEeebyPJPJ4DMqA" entityName="57_AC_Component_C2 @ 19_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AU1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIDFtFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTeVWOEeebyPJPJ4DMqA" entityName="58_AC_Component_C2 @ 242_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1ObVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIDFt1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTelWOEeebyPJPJ4DMqA" entityName="59_AC_Component_D @ 390_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11cVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIDFulWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTe1WOEeebyPJPJ4DMqA" entityName="60_AC_Component_D @ 43_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nW1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIDFvVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTfFWOEeebyPJPJ4DMqA" entityName="61_AC_Component_D @ 67_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nc1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIDswVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTfVWOEeebyPJPJ4DMqA" entityName="62_AC_Component_F2 @ 391_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11clWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIDsw1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTflWOEeebyPJPJ4DMqA" entityName="63_AC_Component_A2 @ 160_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n0FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIDsxVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTf1WOEeebyPJPJ4DMqA" entityName="64_AC_Component_E @ 116_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0npFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIET0FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTgFWOEeebyPJPJ4DMqA" entityName="65_AC_Component_A @ 445_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11qFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIET01WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTgVWOEeebyPJPJ4DMqA" entityName="66_AC_Component_D @ 300_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Op1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIET1lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTglWOEeebyPJPJ4DMqA" entityName="67_AC_Component_C2 @ 210_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oAlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIET2FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTg1WOEeebyPJPJ4DMqA" entityName="68_AC_Component_F @ 15_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AT1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIET21WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRThFWOEeebyPJPJ4DMqA" entityName="69_AC_Component_A @ 251_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OdlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIET3VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRThVWOEeebyPJPJ4DMqA" entityName="70_AC_Component_F @ 459_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11tlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIE64FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRThlWOEeebyPJPJ4DMqA" entityName="71_AC_Component_C @ 92_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0njFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIE64lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTh1WOEeebyPJPJ4DMqA" entityName="72_AC_Component_C @ 220_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oDFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIE65VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTiFWOEeebyPJPJ4DMqA" entityName="73_AC_Component_C @ 498_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2cklWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIE66FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTiVWOEeebyPJPJ4DMqA" entityName="74_AC_Component_C @ 213_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oBVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIE661WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTilWOEeebyPJPJ4DMqA" entityName="75_AC_Component_C @ 246_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OcVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIE67lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTi1WOEeebyPJPJ4DMqA" entityName="76_AC_Component_F2 @ 247_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OclWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIFh8FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTjFWOEeebyPJPJ4DMqA" entityName="77_AC_Component_C2 @ 134_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ntlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIFh8VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTjVWOEeebyPJPJ4DMqA" entityName="78_AC_Component_D @ 405_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11gFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIGJAlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTjlWOEeebyPJPJ4DMqA" entityName="79_AC_Component_B @ 322_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OvVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIGJBVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTj1WOEeebyPJPJ4DMqA" entityName="80_AC_Component_F2 @ 84_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nhFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIGwEVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTkFWOEeebyPJPJ4DMqA" entityName="81_AC_Component_D @ 69_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ndVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIGwE1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTkVWOEeebyPJPJ4DMqA" entityName="82_AC_Component_F @ 354_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O3VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIGwFVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTklWOEeebyPJPJ4DMqA" entityName="83_AC_Component_A2 @ 235_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OZlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIGwF1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTk1WOEeebyPJPJ4DMqA" entityName="84_AC_Component_B @ 66_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nclWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIHXIFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTlFWOEeebyPJPJ4DMqA" entityName="85_AC_Component_C2 @ 204_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n_FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIHXJVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTlVWOEeebyPJPJ4DMqA" entityName="86_AC_Component_F @ 276_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Oj1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIHXKFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTllWOEeebyPJPJ4DMqA" entityName="87_AC_Component_D @ 463_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11ulWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIHXKVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTl1WOEeebyPJPJ4DMqA" entityName="88_AC_Component_F2 @ 86_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nhlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIHXK1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTmFWOEeebyPJPJ4DMqA" entityName="89_AC_Component_A2 @ 442_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11pVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIHXLVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTmVWOEeebyPJPJ4DMqA" entityName="90_AC_Component_C2 @ 344_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O01WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIH-MFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTmlWOEeebyPJPJ4DMqA" entityName="91_AC_Component_B @ 456_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11s1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIH-M1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTm1WOEeebyPJPJ4DMqA" entityName="92_AC_Component_E @ 315_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OtlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIH-OFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTnFWOEeebyPJPJ4DMqA" entityName="93_AC_Component_C @ 343_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O0lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIH-OVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTnVWOEeebyPJPJ4DMqA" entityName="94_AC_Component_D @ 91_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ni1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIH-PFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTnlWOEeebyPJPJ4DMqA" entityName="95_AC_Component_E @ 472_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11w1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIIlQFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTn1WOEeebyPJPJ4DMqA" entityName="96_AC_Component_C @ 170_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n2lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIIlQlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRToFWOEeebyPJPJ4DMqA" entityName="97_AC_Component_C @ 305_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OrFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIIlRVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRToVWOEeebyPJPJ4DMqA" entityName="98_AC_Component_A2 @ 441_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11pFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIIlR1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTolWOEeebyPJPJ4DMqA" entityName="99_AC_Component_C @ 75_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ne1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIIlS1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTo1WOEeebyPJPJ4DMqA" entityName="100_AC_Component_C2 @ 221_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oDVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIIlTVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTpFWOEeebyPJPJ4DMqA" entityName="101_AC_Component_B @ 178_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n4lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIIlTlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTpVWOEeebyPJPJ4DMqA" entityName="102_AC_Component_F2 @ 281_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OlFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIIlUFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTplWOEeebyPJPJ4DMqA" entityName="103_AC_Component_F2 @ 476_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11x1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIIlU1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTp1WOEeebyPJPJ4DMqA" entityName="104_AC_Component_C @ 383_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O-lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIIlVVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTqFWOEeebyPJPJ4DMqA" entityName="105_AC_Component_C2 @ 221_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oDVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIIlVlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTqVWOEeebyPJPJ4DMqA" entityName="106_AC_Component_A2 @ 196_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n9FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIIlV1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTqlWOEeebyPJPJ4DMqA" entityName="107_AC_Component_F2 @ 314_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OtVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIJMUlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTq1WOEeebyPJPJ4DMqA" entityName="108_AC_Component_D @ 53_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nZVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIJMVFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTrFWOEeebyPJPJ4DMqA" entityName="109_AC_Component_D @ 355_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O3lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIJMV1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTrVWOEeebyPJPJ4DMqA" entityName="110_AC_Component_F2 @ 271_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OilWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIJMWVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTrlWOEeebyPJPJ4DMqA" entityName="111_AC_Component_F @ 229_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OYFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIJMXFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTr1WOEeebyPJPJ4DMqA" entityName="112_AC_Component_A2 @ 31_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AX1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIJMXlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTsFWOEeebyPJPJ4DMqA" entityName="113_AC_Component_A @ 457_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11tFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIJMYlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTsVWOEeebyPJPJ4DMqA" entityName="114_AC_Component_B @ 93_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0njVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIKacVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTslWOEeebyPJPJ4DMqA" entityName="115_AC_Component_D @ 186_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n6lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FILBgFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTs1WOEeebyPJPJ4DMqA" entityName="116_AC_Component_A2 @ 235_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OZlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FILBglWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTtFWOEeebyPJPJ4DMqA" entityName="117_AC_Component_D @ 301_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OqFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FILBhlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTtVWOEeebyPJPJ4DMqA" entityName="118_AC_Component_D @ 4_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ARFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FILBh1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTtlWOEeebyPJPJ4DMqA" entityName="119_AC_Component_C @ 159_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nz1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FILBiFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTt1WOEeebyPJPJ4DMqA" entityName="120_AC_Component_D @ 210_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oAlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FILBiVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTuFWOEeebyPJPJ4DMqA" entityName="121_AC_Component_C2 @ 354_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O3VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FILBilWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTuVWOEeebyPJPJ4DMqA" entityName="122_AC_Component_E @ 436_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11n1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FILBi1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKRTulWOEeebyPJPJ4DMqA" entityName="123_AC_Component_D @ 428_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11l1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FILBj1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6UFWOEeebyPJPJ4DMqA" entityName="124_AC_Component_A @ 342_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O0VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FILBkFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6UVWOEeebyPJPJ4DMqA" entityName="125_AC_Component_A @ 99_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nk1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FILok1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6UlWOEeebyPJPJ4DMqA" entityName="126_AC_Component_A2 @ 339_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OzlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FILol1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6U1WOEeebyPJPJ4DMqA" entityName="127_AC_Component_F2 @ 343_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O0lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FILom1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6VFWOEeebyPJPJ4DMqA" entityName="128_AC_Component_F2 @ 191_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n71WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FILonlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6VVWOEeebyPJPJ4DMqA" entityName="129_AC_Component_B @ 369_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O7FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIMPoFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6VlWOEeebyPJPJ4DMqA" entityName="130_AC_Component_D @ 428_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11l1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIMPpFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6V1WOEeebyPJPJ4DMqA" entityName="131_AC_Component_C @ 164_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n1FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIMPpVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6WFWOEeebyPJPJ4DMqA" entityName="132_AC_Component_F2 @ 400_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11e1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIMPplWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6WVWOEeebyPJPJ4DMqA" entityName="133_AC_Component_F @ 156_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nzFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIMPqVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6WlWOEeebyPJPJ4DMqA" entityName="134_AC_Component_A2 @ 448_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11q1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIMPrFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6W1WOEeebyPJPJ4DMqA" entityName="135_AC_Component_A @ 10_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ASlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIM2sVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6XFWOEeebyPJPJ4DMqA" entityName="136_AC_Component_C2 @ 250_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OdVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIM2tVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6XVWOEeebyPJPJ4DMqA" entityName="137_AC_Component_D @ 372_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O71WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIM2uFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6XlWOEeebyPJPJ4DMqA" entityName="138_AC_Component_A2 @ 396_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11d1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIM2uVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6X1WOEeebyPJPJ4DMqA" entityName="139_AC_Component_A2 @ 4_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ARFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIM2u1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6YFWOEeebyPJPJ4DMqA" entityName="140_AC_Component_F @ 17_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AUVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FINdwFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6YVWOEeebyPJPJ4DMqA" entityName="141_AC_Component_F @ 476_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11x1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FINdwlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6YlWOEeebyPJPJ4DMqA" entityName="142_AC_Component_C2 @ 112_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0noFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FINdxFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6Y1WOEeebyPJPJ4DMqA" entityName="143_AC_Component_D @ 264_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Og1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FINdx1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6ZFWOEeebyPJPJ4DMqA" entityName="144_AC_Component_A @ 152_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nyFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FINdyFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6ZVWOEeebyPJPJ4DMqA" entityName="145_AC_Component_E @ 110_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nnlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FINdy1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6ZlWOEeebyPJPJ4DMqA" entityName="146_AC_Component_C @ 225_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oEVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FINdzlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6Z1WOEeebyPJPJ4DMqA" entityName="147_AC_Component_C2 @ 287_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OmlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FINd0VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6aFWOEeebyPJPJ4DMqA" entityName="148_AC_Component_C2 @ 302_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OqVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIOE0FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6aVWOEeebyPJPJ4DMqA" entityName="149_AC_Component_A @ 170_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n2lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIOE0VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6alWOEeebyPJPJ4DMqA" entityName="150_AC_Component_E @ 246_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OcVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIOE1VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6a1WOEeebyPJPJ4DMqA" entityName="151_AC_Component_E @ 370_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O7VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIOE2VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6bFWOEeebyPJPJ4DMqA" entityName="152_AC_Component_C @ 483_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2cg1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIOE3FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6bVWOEeebyPJPJ4DMqA" entityName="153_AC_Component_E @ 269_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OiFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIOE3lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6blWOEeebyPJPJ4DMqA" entityName="154_AC_Component_F2 @ 366_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O6VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIOr4FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6b1WOEeebyPJPJ4DMqA" entityName="155_AC_Component_C2 @ 63_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nb1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIOr4lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6cFWOEeebyPJPJ4DMqA" entityName="156_AC_Component_F2 @ 322_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OvVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIOr5FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6cVWOEeebyPJPJ4DMqA" entityName="157_AC_Component_F @ 166_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n1lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIOr51WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6clWOEeebyPJPJ4DMqA" entityName="158_AC_Component_D @ 62_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nblWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIOr6VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6c1WOEeebyPJPJ4DMqA" entityName="159_AC_Component_A @ 183_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n51WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIOr6lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6dFWOEeebyPJPJ4DMqA" entityName="160_AC_Component_D @ 181_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n5VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIOr7VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6dVWOEeebyPJPJ4DMqA" entityName="161_AC_Component_A2 @ 274_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OjVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIOr7lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6dlWOEeebyPJPJ4DMqA" entityName="162_AC_Component_C @ 352_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O21WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIPS8lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6d1WOEeebyPJPJ4DMqA" entityName="163_AC_Component_C2 @ 130_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nslWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIPS9VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6eFWOEeebyPJPJ4DMqA" entityName="164_AC_Component_C2 @ 143_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nv1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIP6AFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6eVWOEeebyPJPJ4DMqA" entityName="165_AC_Component_A2 @ 51_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nY1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIP6AVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6elWOEeebyPJPJ4DMqA" entityName="166_AC_Component_F @ 189_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n7VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIP6BVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6e1WOEeebyPJPJ4DMqA" entityName="167_AC_Component_C2 @ 363_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O5lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIP6CFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6fFWOEeebyPJPJ4DMqA" entityName="168_AC_Component_A2 @ 398_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11eVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIP6CVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6fVWOEeebyPJPJ4DMqA" entityName="169_AC_Component_F2 @ 323_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OvlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIP6DVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6flWOEeebyPJPJ4DMqA" entityName="170_AC_Component_C2 @ 240_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Oa1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIP6EFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6f1WOEeebyPJPJ4DMqA" entityName="171_AC_Component_C2 @ 482_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2cglWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIP6EVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6gFWOEeebyPJPJ4DMqA" entityName="172_AC_Component_D @ 52_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nZFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIP6ElWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6gVWOEeebyPJPJ4DMqA" entityName="173_AC_Component_A @ 405_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11gFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIP6E1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6glWOEeebyPJPJ4DMqA" entityName="174_AC_Component_C2 @ 344_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O01WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIQhElWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6g1WOEeebyPJPJ4DMqA" entityName="175_AC_Component_F @ 275_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OjlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIQhE1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6hFWOEeebyPJPJ4DMqA" entityName="176_AC_Component_A2 @ 415_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11ilWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIQhFlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6hVWOEeebyPJPJ4DMqA" entityName="177_AC_Component_A2 @ 50_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nYlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIQhGlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6hlWOEeebyPJPJ4DMqA" entityName="178_AC_Component_A2 @ 183_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n51WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIRIIVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6h1WOEeebyPJPJ4DMqA" entityName="179_AC_Component_F @ 304_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Oq1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIRIJVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6iFWOEeebyPJPJ4DMqA" entityName="180_AC_Component_B @ 243_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OblWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIRIKFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6iVWOEeebyPJPJ4DMqA" entityName="181_AC_Component_D @ 302_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OqVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIRIK1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6ilWOEeebyPJPJ4DMqA" entityName="182_AC_Component_F2 @ 282_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OlVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIRILFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6i1WOEeebyPJPJ4DMqA" entityName="183_AC_Component_A2 @ 260_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Of1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIRIL1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6jFWOEeebyPJPJ4DMqA" entityName="184_AC_Component_B @ 185_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n6VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIRIMlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6jVWOEeebyPJPJ4DMqA" entityName="185_AC_Component_B @ 219_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oC1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIRvM1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6jlWOEeebyPJPJ4DMqA" entityName="186_AC_Component_C @ 419_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11jlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIRvNlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6j1WOEeebyPJPJ4DMqA" entityName="187_AC_Component_B @ 25_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AWVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIRvN1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6kFWOEeebyPJPJ4DMqA" entityName="188_AC_Component_E @ 51_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nY1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIRvOlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6kVWOEeebyPJPJ4DMqA" entityName="189_AC_Component_C @ 339_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OzlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIRvPlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6klWOEeebyPJPJ4DMqA" entityName="190_AC_Component_C2 @ 406_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11gVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIRvP1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6k1WOEeebyPJPJ4DMqA" entityName="191_AC_Component_A2 @ 291_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OnlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIRvQFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6lFWOEeebyPJPJ4DMqA" entityName="192_AC_Component_A @ 486_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2chlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIRvRFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6lVWOEeebyPJPJ4DMqA" entityName="193_AC_Component_A @ 235_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OZlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FISWQlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6llWOEeebyPJPJ4DMqA" entityName="194_AC_Component_D @ 331_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OxlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FISWRlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6l1WOEeebyPJPJ4DMqA" entityName="195_AC_Component_C2 @ 460_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11t1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FISWR1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6mFWOEeebyPJPJ4DMqA" entityName="196_AC_Component_E @ 387_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O_lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FISWSFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6mVWOEeebyPJPJ4DMqA" entityName="197_AC_Component_D @ 403_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11flWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FISWTFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6mlWOEeebyPJPJ4DMqA" entityName="198_AC_Component_D @ 377_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O9FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FISWTVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6m1WOEeebyPJPJ4DMqA" entityName="199_AC_Component_B @ 420_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11j1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FISWTlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6nFWOEeebyPJPJ4DMqA" entityName="200_AC_Component_C2 @ 151_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nx1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FISWUVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6nVWOEeebyPJPJ4DMqA" entityName="201_AC_Component_B @ 231_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OYlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FISWUlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6nlWOEeebyPJPJ4DMqA" entityName="202_AC_Component_B @ 282_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OlVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FISWVVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6n1WOEeebyPJPJ4DMqA" entityName="203_AC_Component_F2 @ 394_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11dVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIS9UVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6oFWOEeebyPJPJ4DMqA" entityName="204_AC_Component_F2 @ 135_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nt1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIS9VFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6oVWOEeebyPJPJ4DMqA" entityName="205_AC_Component_B @ 115_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0no1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIS9V1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6olWOEeebyPJPJ4DMqA" entityName="206_AC_Component_A @ 406_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11gVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIS9WlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6o1WOEeebyPJPJ4DMqA" entityName="207_AC_Component_B @ 90_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nilWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIS9XlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6pFWOEeebyPJPJ4DMqA" entityName="208_AC_Component_E @ 16_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AUFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIS9YVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6pVWOEeebyPJPJ4DMqA" entityName="209_AC_Component_C @ 376_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O81WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FITkYlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6plWOEeebyPJPJ4DMqA" entityName="210_AC_Component_F2 @ 116_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0npFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FITkY1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6p1WOEeebyPJPJ4DMqA" entityName="211_AC_Component_A2 @ 48_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nYFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FITkZlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6qFWOEeebyPJPJ4DMqA" entityName="212_AC_Component_B @ 30_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AXlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIUygFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6qVWOEeebyPJPJ4DMqA" entityName="213_AC_Component_A2 @ 119_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0np1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIUyg1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6qlWOEeebyPJPJ4DMqA" entityName="214_AC_Component_E @ 479_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11ylWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIUyh1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6q1WOEeebyPJPJ4DMqA" entityName="215_AC_Component_C2 @ 489_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2ciVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIUyi1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6rFWOEeebyPJPJ4DMqA" entityName="216_AC_Component_E @ 61_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nbVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIUyjFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6rVWOEeebyPJPJ4DMqA" entityName="217_AC_Component_E @ 311_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OslWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIUykFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6rlWOEeebyPJPJ4DMqA" entityName="218_AC_Component_A2 @ 248_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Oc1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIUylFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6r1WOEeebyPJPJ4DMqA" entityName="219_AC_Component_E @ 316_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Ot1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIVZklWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6sFWOEeebyPJPJ4DMqA" entityName="220_AC_Component_A2 @ 315_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OtlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIVZlVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6sVWOEeebyPJPJ4DMqA" entityName="221_AC_Component_C @ 186_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n6lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIVZmlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6slWOEeebyPJPJ4DMqA" entityName="222_AC_Component_C2 @ 22_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AVlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIVZm1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6s1WOEeebyPJPJ4DMqA" entityName="223_AC_Component_A2 @ 399_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11elWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIVZnFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6tFWOEeebyPJPJ4DMqA" entityName="224_AC_Component_F2 @ 368_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O61WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIVZn1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6tVWOEeebyPJPJ4DMqA" entityName="225_AC_Component_D @ 116_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0npFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIVZolWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6tlWOEeebyPJPJ4DMqA" entityName="226_AC_Component_A2 @ 146_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nwlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIWAoFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6t1WOEeebyPJPJ4DMqA" entityName="227_AC_Component_C @ 50_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nYlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIWApFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6uFWOEeebyPJPJ4DMqA" entityName="228_AC_Component_A2 @ 175_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n31WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIWnsFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6uVWOEeebyPJPJ4DMqA" entityName="229_AC_Component_C2 @ 210_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oAlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIWntFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6ulWOEeebyPJPJ4DMqA" entityName="230_AC_Component_D @ 267_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OhlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIWntVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6u1WOEeebyPJPJ4DMqA" entityName="231_AC_Component_E @ 255_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OelWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIWntlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6vFWOEeebyPJPJ4DMqA" entityName="232_AC_Component_E @ 141_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nvVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIWnulWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6vVWOEeebyPJPJ4DMqA" entityName="233_AC_Component_F @ 495_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2cj1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIWnvlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6vlWOEeebyPJPJ4DMqA" entityName="234_AC_Component_B @ 282_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OlVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIWnwVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6v1WOEeebyPJPJ4DMqA" entityName="235_AC_Component_F @ 392_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11c1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIWnw1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6wFWOEeebyPJPJ4DMqA" entityName="236_AC_Component_B @ 43_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nW1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIWnxlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6wVWOEeebyPJPJ4DMqA" entityName="237_AC_Component_C @ 30_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AXlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIWnyVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6wlWOEeebyPJPJ4DMqA" entityName="238_AC_Component_A2 @ 128_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nsFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIWnylWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6w1WOEeebyPJPJ4DMqA" entityName="239_AC_Component_F2 @ 163_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n01WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIXOw1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6xFWOEeebyPJPJ4DMqA" entityName="240_AC_Component_F2 @ 282_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OlVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIXOxVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6xVWOEeebyPJPJ4DMqA" entityName="241_AC_Component_C @ 265_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OhFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIXOx1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6xlWOEeebyPJPJ4DMqA" entityName="242_AC_Component_D @ 201_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n-VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIXOyFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6x1WOEeebyPJPJ4DMqA" entityName="243_AC_Component_F2 @ 163_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n01WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIXOy1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6yFWOEeebyPJPJ4DMqA" entityName="244_AC_Component_A @ 493_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2cjVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIXOzVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6yVWOEeebyPJPJ4DMqA" entityName="245_AC_Component_A2 @ 311_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OslWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIXO0VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6ylWOEeebyPJPJ4DMqA" entityName="246_AC_Component_B @ 414_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11iVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIXO1VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6y1WOEeebyPJPJ4DMqA" entityName="247_AC_Component_C2 @ 482_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2cglWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIXO2FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6zFWOEeebyPJPJ4DMqA" entityName="248_AC_Component_A2 @ 133_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ntVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIXO2VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6zVWOEeebyPJPJ4DMqA" entityName="249_AC_Component_F @ 316_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Ot1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIX10lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6zlWOEeebyPJPJ4DMqA" entityName="250_AC_Component_F @ 183_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n51WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIX11FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR6z1WOEeebyPJPJ4DMqA" entityName="251_AC_Component_E @ 66_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nclWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIX11lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR60FWOEeebyPJPJ4DMqA" entityName="252_AC_Component_F @ 422_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11kVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIX12VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR60VWOEeebyPJPJ4DMqA" entityName="253_AC_Component_A2 @ 297_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OpFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIX121WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKR60lWOEeebyPJPJ4DMqA" entityName="254_AC_Component_B @ 284_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Ol1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIX131WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKTIcFWOEeebyPJPJ4DMqA" entityName="255_AC_Component_E @ 184_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n6FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIX14lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWkFWOEeebyPJPJ4DMqA" entityName="256_AC_Component_F2 @ 134_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ntlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIX15VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWkVWOEeebyPJPJ4DMqA" entityName="257_AC_Component_B @ 165_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n1VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIX151WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWklWOEeebyPJPJ4DMqA" entityName="258_AC_Component_E @ 14_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ATlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIX16lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWk1WOEeebyPJPJ4DMqA" entityName="259_AC_Component_B @ 192_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n8FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIYc4VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWlFWOEeebyPJPJ4DMqA" entityName="260_AC_Component_C @ 425_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11lFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIYc5FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWlVWOEeebyPJPJ4DMqA" entityName="261_AC_Component_C2 @ 19_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AU1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIYc5VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWllWOEeebyPJPJ4DMqA" entityName="262_AC_Component_A @ 408_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11g1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIYc5lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWl1WOEeebyPJPJ4DMqA" entityName="263_AC_Component_F2 @ 220_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oDFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIYc6lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWmFWOEeebyPJPJ4DMqA" entityName="264_AC_Component_F2 @ 96_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nkFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIYc7FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWmVWOEeebyPJPJ4DMqA" entityName="265_AC_Component_A @ 469_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11wFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIYc7lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWmlWOEeebyPJPJ4DMqA" entityName="266_AC_Component_A @ 201_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n-VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIYc8lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWm1WOEeebyPJPJ4DMqA" entityName="267_AC_Component_B @ 207_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n_1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIYc9lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWnFWOEeebyPJPJ4DMqA" entityName="268_AC_Component_E @ 321_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OvFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZD8FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWnVWOEeebyPJPJ4DMqA" entityName="269_AC_Component_F2 @ 282_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OlVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZD81WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWnlWOEeebyPJPJ4DMqA" entityName="270_AC_Component_B @ 105_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nmVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZD9VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWn1WOEeebyPJPJ4DMqA" entityName="271_AC_Component_A @ 74_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nelWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZrAFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWoFWOEeebyPJPJ4DMqA" entityName="272_AC_Component_C @ 471_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11wlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZrA1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWoVWOEeebyPJPJ4DMqA" entityName="273_AC_Component_F2 @ 191_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n71WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZrBVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWolWOEeebyPJPJ4DMqA" entityName="274_AC_Component_F2 @ 137_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nuVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZrB1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWo1WOEeebyPJPJ4DMqA" entityName="275_AC_Component_F @ 356_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O31WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZrCVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWpFWOEeebyPJPJ4DMqA" entityName="276_AC_Component_F @ 408_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11g1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZrClWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWpVWOEeebyPJPJ4DMqA" entityName="277_AC_Component_F2 @ 145_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nwVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZrC1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWplWOEeebyPJPJ4DMqA" entityName="278_AC_Component_E @ 275_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OjlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZrDFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWp1WOEeebyPJPJ4DMqA" entityName="279_AC_Component_A @ 310_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OsVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZrDlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWqFWOEeebyPJPJ4DMqA" entityName="280_AC_Component_D @ 224_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oEFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZrEVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWqVWOEeebyPJPJ4DMqA" entityName="281_AC_Component_C2 @ 468_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11v1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZrFFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWqlWOEeebyPJPJ4DMqA" entityName="282_AC_Component_A2 @ 161_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n0VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZrF1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWq1WOEeebyPJPJ4DMqA" entityName="283_AC_Component_A2 @ 483_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2cg1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZrGlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWrFWOEeebyPJPJ4DMqA" entityName="284_AC_Component_D @ 265_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OhFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZrHVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWrVWOEeebyPJPJ4DMqA" entityName="285_AC_Component_C2 @ 369_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O7FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIZrIFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWrlWOEeebyPJPJ4DMqA" entityName="286_AC_Component_B @ 239_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OalWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIaSEFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWr1WOEeebyPJPJ4DMqA" entityName="287_AC_Component_A @ 396_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11d1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIaSFFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWsFWOEeebyPJPJ4DMqA" entityName="288_AC_Component_C @ 350_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O2VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIaSF1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWsVWOEeebyPJPJ4DMqA" entityName="289_AC_Component_C @ 215_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oB1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIaSGlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWslWOEeebyPJPJ4DMqA" entityName="290_AC_Component_E @ 113_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0noVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIaSHFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWs1WOEeebyPJPJ4DMqA" entityName="291_AC_Component_B @ 51_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nY1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIaSH1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWtFWOEeebyPJPJ4DMqA" entityName="292_AC_Component_C @ 339_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OzlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIaSIlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWtVWOEeebyPJPJ4DMqA" entityName="293_AC_Component_D @ 6_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ARlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIaSI1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWtlWOEeebyPJPJ4DMqA" entityName="294_AC_Component_A2 @ 179_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n41WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIaSJlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWt1WOEeebyPJPJ4DMqA" entityName="295_AC_Component_E @ 146_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nwlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIaSKlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWuFWOEeebyPJPJ4DMqA" entityName="296_AC_Component_D @ 38_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nVlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIaSLVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWuVWOEeebyPJPJ4DMqA" entityName="297_AC_Component_E @ 385_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O_FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIa5IVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWulWOEeebyPJPJ4DMqA" entityName="298_AC_Component_D @ 94_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0njlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIa5JFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWu1WOEeebyPJPJ4DMqA" entityName="299_AC_Component_F @ 7_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AR1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIa5J1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWvFWOEeebyPJPJ4DMqA" entityName="300_AC_Component_A @ 308_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Or1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIa5KFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWvVWOEeebyPJPJ4DMqA" entityName="301_AC_Component_B @ 80_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ngFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIa5K1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWvlWOEeebyPJPJ4DMqA" entityName="302_AC_Component_A2 @ 326_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OwVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIa5L1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWv1WOEeebyPJPJ4DMqA" entityName="303_AC_Component_F @ 221_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oDVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIa5MlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWwFWOEeebyPJPJ4DMqA" entityName="304_AC_Component_C2 @ 492_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2cjFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIa5M1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWwVWOEeebyPJPJ4DMqA" entityName="305_AC_Component_A2 @ 19_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AU1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIa5NlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWwlWOEeebyPJPJ4DMqA" entityName="306_AC_Component_B @ 450_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11rVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIa5OVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWw1WOEeebyPJPJ4DMqA" entityName="307_AC_Component_B @ 410_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11hVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIa5PVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWxFWOEeebyPJPJ4DMqA" entityName="308_AC_Component_C @ 1_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AQVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIbgMVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWxVWOEeebyPJPJ4DMqA" entityName="309_AC_Component_F2 @ 402_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11fVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIbgMlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWxlWOEeebyPJPJ4DMqA" entityName="310_AC_Component_A2 @ 23_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AV1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIbgNFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWx1WOEeebyPJPJ4DMqA" entityName="311_AC_Component_C @ 290_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OnVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIbgN1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWyFWOEeebyPJPJ4DMqA" entityName="312_AC_Component_A2 @ 284_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Ol1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIbgOVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWyVWOEeebyPJPJ4DMqA" entityName="313_AC_Component_C @ 381_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O-FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIbgPVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWylWOEeebyPJPJ4DMqA" entityName="314_AC_Component_A2 @ 74_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nelWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIbgPlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWy1WOEeebyPJPJ4DMqA" entityName="315_AC_Component_C2 @ 178_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n4lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIbgQlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWzFWOEeebyPJPJ4DMqA" entityName="316_AC_Component_F @ 249_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OdFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIbgQ1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWzVWOEeebyPJPJ4DMqA" entityName="317_AC_Component_C @ 359_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O4lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIbgRVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWzlWOEeebyPJPJ4DMqA" entityName="318_AC_Component_E @ 385_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O_FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIbgRlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUWz1WOEeebyPJPJ4DMqA" entityName="319_AC_Component_B @ 10_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ASlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIbgSVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUW0FWOEeebyPJPJ4DMqA" entityName="320_AC_Component_B @ 370_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O7VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIbgTFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKUW0VWOEeebyPJPJ4DMqA" entityName="321_AC_Component_C @ 3_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AQ1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcHQlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9oFWOEeebyPJPJ4DMqA" entityName="322_AC_Component_F @ 77_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nfVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcHQ1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9oVWOEeebyPJPJ4DMqA" entityName="323_AC_Component_C @ 165_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n1VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcHRVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9olWOEeebyPJPJ4DMqA" entityName="324_AC_Component_C2 @ 421_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11kFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcHRlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9o1WOEeebyPJPJ4DMqA" entityName="325_AC_Component_E @ 340_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Oz1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcHR1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9pFWOEeebyPJPJ4DMqA" entityName="326_AC_Component_D @ 272_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Oi1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcHSlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9pVWOEeebyPJPJ4DMqA" entityName="327_AC_Component_A @ 296_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Oo1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcHTVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9plWOEeebyPJPJ4DMqA" entityName="328_AC_Component_A @ 128_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nsFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcHUVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9p1WOEeebyPJPJ4DMqA" entityName="329_AC_Component_D @ 394_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11dVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcHVVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9qFWOEeebyPJPJ4DMqA" entityName="330_AC_Component_B @ 392_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11c1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcHWFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9qVWOEeebyPJPJ4DMqA" entityName="331_AC_Component_C @ 34_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nUlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcHW1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9qlWOEeebyPJPJ4DMqA" entityName="332_AC_Component_A @ 360_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O41WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcuUFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9q1WOEeebyPJPJ4DMqA" entityName="333_AC_Component_E @ 263_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OglWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcuVFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9rFWOEeebyPJPJ4DMqA" entityName="334_AC_Component_B @ 357_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O4FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcuV1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9rVWOEeebyPJPJ4DMqA" entityName="335_AC_Component_C @ 102_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nllWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcuWlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9rlWOEeebyPJPJ4DMqA" entityName="336_AC_Component_C @ 222_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oDlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcuW1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9r1WOEeebyPJPJ4DMqA" entityName="337_AC_Component_F @ 208_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oAFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcuXFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9sFWOEeebyPJPJ4DMqA" entityName="338_AC_Component_A2 @ 130_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nslWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcuXlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9sVWOEeebyPJPJ4DMqA" entityName="339_AC_Component_F2 @ 34_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nUlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcuYlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9slWOEeebyPJPJ4DMqA" entityName="340_AC_Component_C @ 451_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11rlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcuZFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9s1WOEeebyPJPJ4DMqA" entityName="341_AC_Component_A @ 130_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nslWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIcuZVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9tFWOEeebyPJPJ4DMqA" entityName="342_AC_Component_F2 @ 162_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n0lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIdVYFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9tVWOEeebyPJPJ4DMqA" entityName="343_AC_Component_A @ 380_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O91WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIdVYlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9tlWOEeebyPJPJ4DMqA" entityName="344_AC_Component_E @ 252_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Od1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIdVZlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9t1WOEeebyPJPJ4DMqA" entityName="345_AC_Component_F2 @ 281_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OlFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIdVaVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9uFWOEeebyPJPJ4DMqA" entityName="346_AC_Component_C @ 323_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OvlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIdVa1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9uVWOEeebyPJPJ4DMqA" entityName="347_AC_Component_D @ 401_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11fFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIdVbFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9ulWOEeebyPJPJ4DMqA" entityName="348_AC_Component_F2 @ 489_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2ciVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIdVb1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9u1WOEeebyPJPJ4DMqA" entityName="349_AC_Component_B @ 453_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11sFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIdVcVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9vFWOEeebyPJPJ4DMqA" entityName="350_AC_Component_A2 @ 329_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OxFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIdVdFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9vVWOEeebyPJPJ4DMqA" entityName="351_AC_Component_B @ 271_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OilWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIdVeFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9vlWOEeebyPJPJ4DMqA" entityName="352_AC_Component_D @ 387_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O_lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIdVe1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9v1WOEeebyPJPJ4DMqA" entityName="353_AC_Component_C @ 133_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ntVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIdVflWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9wFWOEeebyPJPJ4DMqA" entityName="354_AC_Component_E @ 137_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nuVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIdVf1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9wVWOEeebyPJPJ4DMqA" entityName="355_AC_Component_F2 @ 369_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O7FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIdVglWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9wlWOEeebyPJPJ4DMqA" entityName="356_AC_Component_A @ 66_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nclWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIdVhFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9w1WOEeebyPJPJ4DMqA" entityName="357_AC_Component_D @ 108_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nnFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FId8cFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9xFWOEeebyPJPJ4DMqA" entityName="358_AC_Component_C2 @ 189_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n7VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIejgVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9xVWOEeebyPJPJ4DMqA" entityName="359_AC_Component_D @ 193_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n8VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIejglWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9xlWOEeebyPJPJ4DMqA" entityName="360_AC_Component_A @ 438_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11oVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIejhVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9x1WOEeebyPJPJ4DMqA" entityName="361_AC_Component_D @ 278_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OkVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIejiVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9yFWOEeebyPJPJ4DMqA" entityName="362_AC_Component_C2 @ 46_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nXlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIejjFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9yVWOEeebyPJPJ4DMqA" entityName="363_AC_Component_C2 @ 389_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11cFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIejjVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9ylWOEeebyPJPJ4DMqA" entityName="364_AC_Component_A @ 80_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ngFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIejjlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9y1WOEeebyPJPJ4DMqA" entityName="365_AC_Component_D @ 307_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OrlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIejklWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9zFWOEeebyPJPJ4DMqA" entityName="366_AC_Component_D @ 73_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0neVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIejlVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9zVWOEeebyPJPJ4DMqA" entityName="367_AC_Component_C2 @ 469_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11wFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIejmFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9zlWOEeebyPJPJ4DMqA" entityName="368_AC_Component_F @ 23_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AV1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIejmVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9z1WOEeebyPJPJ4DMqA" entityName="369_AC_Component_B @ 391_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11clWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIejm1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU90FWOEeebyPJPJ4DMqA" entityName="370_AC_Component_F2 @ 498_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2cklWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIejnlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU90VWOEeebyPJPJ4DMqA" entityName="371_AC_Component_E @ 341_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O0FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKkVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU90lWOEeebyPJPJ4DMqA" entityName="372_AC_Component_F @ 156_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nzFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKlFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU901WOEeebyPJPJ4DMqA" entityName="373_AC_Component_C2 @ 424_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11k1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKllWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU91FWOEeebyPJPJ4DMqA" entityName="374_AC_Component_F2 @ 264_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Og1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKl1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU91VWOEeebyPJPJ4DMqA" entityName="375_AC_Component_D @ 303_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OqlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKmVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU91lWOEeebyPJPJ4DMqA" entityName="376_AC_Component_F @ 179_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n41WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKnFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU911WOEeebyPJPJ4DMqA" entityName="377_AC_Component_F @ 347_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O1lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKnlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU92FWOEeebyPJPJ4DMqA" entityName="378_AC_Component_B @ 173_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n3VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKoFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU92VWOEeebyPJPJ4DMqA" entityName="379_AC_Component_A @ 435_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11nlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKo1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU92lWOEeebyPJPJ4DMqA" entityName="380_AC_Component_A2 @ 451_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11rlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKp1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU921WOEeebyPJPJ4DMqA" entityName="381_AC_Component_A @ 419_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11jlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKq1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU93FWOEeebyPJPJ4DMqA" entityName="382_AC_Component_B @ 196_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n9FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKr1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU93VWOEeebyPJPJ4DMqA" entityName="383_AC_Component_C2 @ 167_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n11WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKslWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU93lWOEeebyPJPJ4DMqA" entityName="384_AC_Component_D @ 314_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OtVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKs1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU931WOEeebyPJPJ4DMqA" entityName="385_AC_Component_F2 @ 61_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nbVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKtlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU94FWOEeebyPJPJ4DMqA" entityName="386_AC_Component_E @ 221_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oDVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfKuFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU94VWOEeebyPJPJ4DMqA" entityName="387_AC_Component_B @ 437_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11oFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxoVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU94lWOEeebyPJPJ4DMqA" entityName="388_AC_Component_A2 @ 120_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nqFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxpFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU941WOEeebyPJPJ4DMqA" entityName="389_AC_Component_C2 @ 457_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11tFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxqFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU95FWOEeebyPJPJ4DMqA" entityName="390_AC_Component_F2 @ 191_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n71WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxqVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU95VWOEeebyPJPJ4DMqA" entityName="391_AC_Component_C @ 460_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11t1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxq1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU95lWOEeebyPJPJ4DMqA" entityName="392_AC_Component_B @ 428_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11l1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxrFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU951WOEeebyPJPJ4DMqA" entityName="393_AC_Component_A2 @ 7_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AR1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxr1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU96FWOEeebyPJPJ4DMqA" entityName="394_AC_Component_F @ 422_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11kVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxs1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU96VWOEeebyPJPJ4DMqA" entityName="395_AC_Component_B @ 296_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Oo1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxtVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU96lWOEeebyPJPJ4DMqA" entityName="396_AC_Component_F2 @ 67_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nc1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxuFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU961WOEeebyPJPJ4DMqA" entityName="397_AC_Component_A @ 43_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nW1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxulWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU97FWOEeebyPJPJ4DMqA" entityName="398_AC_Component_C2 @ 131_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ns1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxvlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU97VWOEeebyPJPJ4DMqA" entityName="399_AC_Component_C2 @ 183_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n51WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxv1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU97lWOEeebyPJPJ4DMqA" entityName="400_AC_Component_E @ 53_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nZVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxwFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU971WOEeebyPJPJ4DMqA" entityName="401_AC_Component_E @ 154_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nylWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxw1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU98FWOEeebyPJPJ4DMqA" entityName="402_AC_Component_D @ 196_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n9FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxxlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU98VWOEeebyPJPJ4DMqA" entityName="403_AC_Component_B @ 234_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OZVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxyVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU98lWOEeebyPJPJ4DMqA" entityName="404_AC_Component_E @ 155_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ny1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxzFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU981WOEeebyPJPJ4DMqA" entityName="405_AC_Component_B @ 320_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Ou1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIfxz1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU99FWOEeebyPJPJ4DMqA" entityName="406_AC_Component_C2 @ 366_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O6VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgYslWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU99VWOEeebyPJPJ4DMqA" entityName="407_AC_Component_B @ 153_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nyVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgYs1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU99lWOEeebyPJPJ4DMqA" entityName="408_AC_Component_F @ 268_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Oh1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgYtlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU991WOEeebyPJPJ4DMqA" entityName="409_AC_Component_C @ 282_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OlVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgYuFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9-FWOEeebyPJPJ4DMqA" entityName="410_AC_Component_D @ 495_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2cj1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgYuVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9-VWOEeebyPJPJ4DMqA" entityName="411_AC_Component_C2 @ 314_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OtVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgYvFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9-lWOEeebyPJPJ4DMqA" entityName="412_AC_Component_C2 @ 64_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ncFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgYvVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9-1WOEeebyPJPJ4DMqA" entityName="413_AC_Component_B @ 478_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11yVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgYvlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9_FWOEeebyPJPJ4DMqA" entityName="414_AC_Component_F @ 85_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nhVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgYwVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9_VWOEeebyPJPJ4DMqA" entityName="415_AC_Component_C2 @ 215_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oB1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgYw1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9_lWOEeebyPJPJ4DMqA" entityName="416_AC_Component_D @ 472_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11w1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgYxFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU9_1WOEeebyPJPJ4DMqA" entityName="417_AC_Component_D @ 250_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OdVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgYx1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-AFWOEeebyPJPJ4DMqA" entityName="418_AC_Component_B @ 162_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n0lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgYylWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-AVWOEeebyPJPJ4DMqA" entityName="419_AC_Component_A @ 361_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O5FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgYzVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-AlWOEeebyPJPJ4DMqA" entityName="420_AC_Component_C2 @ 206_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n_lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgY0VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-A1WOEeebyPJPJ4DMqA" entityName="421_AC_Component_D @ 234_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OZVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgY0lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-BFWOEeebyPJPJ4DMqA" entityName="422_AC_Component_F2 @ 47_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nX1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgY1VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-BVWOEeebyPJPJ4DMqA" entityName="423_AC_Component_F @ 251_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OdlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgY11WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-BlWOEeebyPJPJ4DMqA" entityName="424_AC_Component_A2 @ 175_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n31WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgY2VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-B1WOEeebyPJPJ4DMqA" entityName="425_AC_Component_F2 @ 175_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n31WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgY3VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-CFWOEeebyPJPJ4DMqA" entityName="426_AC_Component_C2 @ 204_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n_FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgY31WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-CVWOEeebyPJPJ4DMqA" entityName="427_AC_Component_E @ 2_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AQlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIgY4FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-ClWOEeebyPJPJ4DMqA" entityName="428_AC_Component_F2 @ 171_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n21WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_wVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-C1WOEeebyPJPJ4DMqA" entityName="429_AC_Component_F @ 280_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Ok1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_w1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-DFWOEeebyPJPJ4DMqA" entityName="430_AC_Component_C @ 77_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nfVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_xVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-DVWOEeebyPJPJ4DMqA" entityName="431_AC_Component_A2 @ 460_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11t1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_xlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-DlWOEeebyPJPJ4DMqA" entityName="432_AC_Component_C @ 100_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nlFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_ylWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-D1WOEeebyPJPJ4DMqA" entityName="433_AC_Component_C @ 170_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n2lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_y1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-EFWOEeebyPJPJ4DMqA" entityName="434_AC_Component_F2 @ 183_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n51WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_zFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-EVWOEeebyPJPJ4DMqA" entityName="435_AC_Component_A @ 160_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n0FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_zlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-ElWOEeebyPJPJ4DMqA" entityName="436_AC_Component_F @ 137_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nuVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_0lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-E1WOEeebyPJPJ4DMqA" entityName="437_AC_Component_A2 @ 28_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AXFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_1FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-FFWOEeebyPJPJ4DMqA" entityName="438_AC_Component_B @ 466_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11vVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_2FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-FVWOEeebyPJPJ4DMqA" entityName="439_AC_Component_A2 @ 360_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O41WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_21WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-FlWOEeebyPJPJ4DMqA" entityName="440_AC_Component_F2 @ 477_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11yFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_31WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-F1WOEeebyPJPJ4DMqA" entityName="441_AC_Component_B @ 72_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0neFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_4VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-GFWOEeebyPJPJ4DMqA" entityName="442_AC_Component_E @ 178_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n4lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_5FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-GVWOEeebyPJPJ4DMqA" entityName="443_AC_Component_D @ 464_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11u1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_51WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-GlWOEeebyPJPJ4DMqA" entityName="444_AC_Component_C2 @ 51_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nY1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_6lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-G1WOEeebyPJPJ4DMqA" entityName="445_AC_Component_F2 @ 391_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11clWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_61WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-HFWOEeebyPJPJ4DMqA" entityName="446_AC_Component_F2 @ 97_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nkVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_7VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-HVWOEeebyPJPJ4DMqA" entityName="447_AC_Component_C @ 233_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OZFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_71WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-HlWOEeebyPJPJ4DMqA" entityName="448_AC_Component_C2 @ 269_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OiFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_8FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-H1WOEeebyPJPJ4DMqA" entityName="449_AC_Component_E @ 127_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nr1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_8VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-IFWOEeebyPJPJ4DMqA" entityName="450_AC_Component_A @ 105_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nmVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIg_9FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-IVWOEeebyPJPJ4DMqA" entityName="451_AC_Component_C @ 54_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nZlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm0VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-IlWOEeebyPJPJ4DMqA" entityName="452_AC_Component_A @ 17_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AUVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm0lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-I1WOEeebyPJPJ4DMqA" entityName="453_AC_Component_A2 @ 203_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n-1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm1lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-JFWOEeebyPJPJ4DMqA" entityName="454_AC_Component_E @ 381_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O-FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm2lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-JVWOEeebyPJPJ4DMqA" entityName="455_AC_Component_D @ 479_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11ylWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm3VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-JlWOEeebyPJPJ4DMqA" entityName="456_AC_Component_E @ 243_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OblWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm4FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-J1WOEeebyPJPJ4DMqA" entityName="457_AC_Component_E @ 350_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O2VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm41WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-KFWOEeebyPJPJ4DMqA" entityName="458_AC_Component_C2 @ 20_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AVFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm5lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-KVWOEeebyPJPJ4DMqA" entityName="459_AC_Component_E @ 422_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11kVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm51WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-KlWOEeebyPJPJ4DMqA" entityName="460_AC_Component_F2 @ 84_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nhFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm6lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-K1WOEeebyPJPJ4DMqA" entityName="461_AC_Component_E @ 69_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ndVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm7FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-LFWOEeebyPJPJ4DMqA" entityName="462_AC_Component_B @ 161_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0n0VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm71WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-LVWOEeebyPJPJ4DMqA" entityName="463_AC_Component_F @ 272_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Oi1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm8lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-LlWOEeebyPJPJ4DMqA" entityName="464_AC_Component_D @ 12_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ATFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm9FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-L1WOEeebyPJPJ4DMqA" entityName="465_AC_Component_A @ 430_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11mVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm91WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-MFWOEeebyPJPJ4DMqA" entityName="466_AC_Component_C2 @ 436_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11n1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIhm-1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-MVWOEeebyPJPJ4DMqA" entityName="467_AC_Component_C @ 257_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OfFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiN4FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-MlWOEeebyPJPJ4DMqA" entityName="468_AC_Component_F2 @ 244_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Ob1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiN4VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-M1WOEeebyPJPJ4DMqA" entityName="469_AC_Component_F @ 53_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nZVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiN41WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-NFWOEeebyPJPJ4DMqA" entityName="470_AC_Component_F2 @ 210_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0oAlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiN5VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-NVWOEeebyPJPJ4DMqA" entityName="471_AC_Component_A2 @ 243_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OblWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiN51WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-NlWOEeebyPJPJ4DMqA" entityName="472_AC_Component_C @ 317_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OuFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiN61WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-N1WOEeebyPJPJ4DMqA" entityName="473_AC_Component_B @ 30_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AXlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiN7FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-OFWOEeebyPJPJ4DMqA" entityName="474_AC_Component_C2 @ 124_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nrFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiN71WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-OVWOEeebyPJPJ4DMqA" entityName="475_AC_Component_F2 @ 497_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2ckVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiN8FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-OlWOEeebyPJPJ4DMqA" entityName="476_AC_Component_D @ 388_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O_1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiN8lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-O1WOEeebyPJPJ4DMqA" entityName="477_AC_Component_A @ 291_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OnlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiN9VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-PFWOEeebyPJPJ4DMqA" entityName="478_AC_Component_D @ 268_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Oh1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiN-VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-PVWOEeebyPJPJ4DMqA" entityName="479_AC_Component_E @ 311_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OslWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiN_FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-PlWOEeebyPJPJ4DMqA" entityName="480_AC_Component_C @ 282_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OlVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiN_1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-P1WOEeebyPJPJ4DMqA" entityName="481_AC_Component_F @ 285_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OmFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiOAFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-QFWOEeebyPJPJ4DMqA" entityName="482_AC_Component_B @ 138_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nulWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiOAlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-QVWOEeebyPJPJ4DMqA" entityName="483_AC_Component_E @ 84_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nhFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiOBVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-QlWOEeebyPJPJ4DMqA" entityName="484_AC_Component_A2 @ 341_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O0FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiOCFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-Q1WOEeebyPJPJ4DMqA" entityName="485_AC_Component_B @ 267_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OhlWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiODFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-RFWOEeebyPJPJ4DMqA" entityName="486_AC_Component_E @ 140_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nvFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIiOD1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-RVWOEeebyPJPJ4DMqA" entityName="487_AC_Component_E @ 60_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nbFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIi08VWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-RlWOEeebyPJPJ4DMqA" entityName="488_AC_Component_B @ 362_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O5VWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIi09FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-R1WOEeebyPJPJ4DMqA" entityName="489_AC_Component_A @ 71_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0nd1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIi091WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-SFWOEeebyPJPJ4DMqA" entityName="490_AC_Component_C @ 483_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ2cg1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIi0-1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-SVWOEeebyPJPJ4DMqA" entityName="491_AC_Component_F @ 455_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11slWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIi0_FWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-SlWOEeebyPJPJ4DMqA" entityName="492_AC_Component_A2 @ 379_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O9lWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIi0_lWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-S1WOEeebyPJPJ4DMqA" entityName="493_AC_Component_C @ 17_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0AUVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIjcAlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-TFWOEeebyPJPJ4DMqA" entityName="494_AC_Component_B @ 91_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ0ni1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIjcA1WOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-TVWOEeebyPJPJ4DMqA" entityName="495_AC_Component_E @ 288_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1Om1WOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIjcBlWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-TlWOEeebyPJPJ4DMqA" entityName="496_AC_Component_A @ 255_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1OelWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIjcCVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-T1WOEeebyPJPJ4DMqA" entityName="497_AC_Component_A @ 369_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ1O7FWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIjcDVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-UFWOEeebyPJPJ4DMqA" entityName="498_AC_Component_B @ 389_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11cFWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIjcEVWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_FKU-UVWOEeebyPJPJ4DMqA" entityName="499_AC_Component_C2 @ 478_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_FJ11yVWOEeebyPJPJ4DMqA"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_FIjcFFWOEeebyPJPJ4DMqA"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

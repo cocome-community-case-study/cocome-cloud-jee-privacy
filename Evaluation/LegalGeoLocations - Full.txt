@@ -1,0 +1,28 @@
+Austria,040,AT,AUT
+Belgium,056,BE,BEL
+Bulgaria,100,BG,BGR
+Croatia,191,HR,HRV
+Cyprus,196,CY,CYP
+Czech Republic,203,CZ,CZE
+Denmark,208,DK,DNK
+Germany,276,DE,DEU
+Estonia,233,EE,EST
+Finland,246,FI,FIN
+France,250,FR,FRA
+Greece,300,GR,GRC
+Ireland,372,IE,IRL
+Hungary,348,HU,HUN
+Italy,380,IT,ITA
+Latvia,428,LV,LVA
+Lithuania,440,LT,LTU
+Luxembourg,442,LU,LUX
+Malta,470,MT,MLT
+Netherlands,528,NL,NLD
+Poland,616,PL,POL
+Portugal,620,PT,PRT
+Romania,642,RO,ROU
+Slovakia,705,SI,SVN
+Slovenia,703,SK,SVK
+Spain,724,ES,ESP
+Sweden,752,SE,SWE
+United Kingdom,826,GB,GBR
