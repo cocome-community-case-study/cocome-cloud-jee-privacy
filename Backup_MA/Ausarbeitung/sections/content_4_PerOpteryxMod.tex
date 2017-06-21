@@ -13,6 +13,12 @@ As mentioned before, we need to create a new \textit{QML Dimension}, the \textit
 
 \section{PerOpteryx Modification}
 
-PerOpteryx' prior structure considers every generated candidate to be valid, only with different runtime results. This is incorrect, when the privacy dimension is included. Only privacy compliant models are valid. 
+PerOpteryx' prior structure considers every generated candidate to be valid, only with different runtime results. This is incorrect, when the privacy dimension is included. Only privacy compliant models are valid options. As a result, we can abort the evaluation of the current PCM model, if the privacy constraint is broken. However, this means we need to execute the privacy evaluation first, check if the constraint is broken, break the evaluation if the model is invalid and fill all other objectives and constraints with according values.
+
+As mentioned above, every evaluation is encapsulated in an Eclipse PlugIn. So, every evaluation is represented as \textit{Proxy Analysis} in PerOpteryx, who has no information on what evaluation he is actually currently executing. To save evaluation time and increase our search space, we need to execute the Privacy Analysis first, while not breaking the generic evaluation characteristic. As a result, the \textit{IAnalysis} interface for every evaluation was extended with a \textit{Evaluation Complexity} query, returning an Enum representing the analysis runtime duration. PerOpteryx was modified in a way, that analysis returning the value \textit{VERY\_SHORT} get executed first. The Privacy Analysis evaluator returns this value.
+
+Further, PerOpteryx was modified, to output the \textit{most cost efficient} candidate once all evaluation iterations are completely executed. The cost criteria was chosen over performance due to PerOpteryx's tendency to spread the allocation over many server to optimize the performance. The cost optimal model tends to group components on servers, reducing the servers required and therefore saving money, while still having a decent performance.
+
+
  
 

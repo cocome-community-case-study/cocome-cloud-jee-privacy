@@ -1,20 +1,20 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'thesis.blg'
-[67] biber-MSWIN64:303> INFO - === 
-[101] Biber.pm:359> INFO - Reading 'thesis.bcf'
-[190] Biber.pm:835> INFO - Found 21 citekeys in bib section 0
-[204] Biber.pm:3670> INFO - Processing section 0
-[232] Biber.pm:3840> INFO - Looking for bibtex format file 'thesis.bib' for section 0
-[238] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[250] bibtex.pm:1292> INFO - Found BibTeX data source 'thesis.bib'
-[275] Utils.pm:164> WARN - year field '2013-07-26' in entry 'OfficeforCivilRights.20130726' is not an integer - this will probably not sort properly.
-[278] Utils.pm:164> WARN - year field '2015-09-23' in entry 'JuliaBahr.20150923' is not an integer - this will probably not sort properly.
-[331] Utils.pm:164> WARN - year field '2017-04-18' in entry 'Wikipedia.ISO_3166' is not an integer - this will probably not sort properly.
-[332] Utils.pm:164> WARN - year field '2017-05-16' in entry 'teetime.16.05.2017' is not an integer - this will probably not sort properly.
-[363] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[363] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[363] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
-[363] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[382] bbl.pm:608> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[386] bbl.pm:712> INFO - Output to thesis.bbl
-[388] Biber.pm:109> INFO - WARNINGS: 4
+[41] biber-MSWIN64:303> INFO - === 
+[75] Biber.pm:359> INFO - Reading 'thesis.bcf'
+[180] Biber.pm:835> INFO - Found 22 citekeys in bib section 0
+[195] Biber.pm:3670> INFO - Processing section 0
+[218] Biber.pm:3840> INFO - Looking for bibtex format file 'thesis.bib' for section 0
+[226] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[237] bibtex.pm:1292> INFO - Found BibTeX data source 'thesis.bib'
+[263] Utils.pm:164> WARN - year field '2013-07-26' in entry 'OfficeforCivilRights.20130726' is not an integer - this will probably not sort properly.
+[267] Utils.pm:164> WARN - year field '2015-09-23' in entry 'JuliaBahr.20150923' is not an integer - this will probably not sort properly.
+[313] Utils.pm:164> WARN - year field '2017-04-18' in entry 'Wikipedia.ISO_3166' is not an integer - this will probably not sort properly.
+[314] Utils.pm:164> WARN - year field '2017-05-16' in entry 'teetime.16.05.2017' is not an integer - this will probably not sort properly.
+[350] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[350] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[350] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[350] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[383] bbl.pm:608> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[388] bbl.pm:712> INFO - Output to thesis.bbl
+[389] Biber.pm:109> INFO - WARNINGS: 4

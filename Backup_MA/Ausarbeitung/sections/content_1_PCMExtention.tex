@@ -22,6 +22,13 @@ The standard Palladio meta-model is insufficient for privacy compliance analysis
 
 The concept was described in \autoref{sec:PrivacyConcept:pcm}.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[trim = 20mm 50mm 20mm 05mm, clip, width=0.85\textwidth]{graphs/pcm_privacy_meta}
+	\caption{Deployment analysis result}
+	\label{fig:pcmExtension:meta}
+\end{figure}
+
 
 \section{Implementation}
 \label{sec:pcmExtension:impl}
@@ -30,13 +37,10 @@ The Palladio meta-model was modelled with the Eclipse Modeling Framework [EMF]. 
 
 As described in \autoref{sec:PrivacyConcept:pcm}, we need to save a servers geo-location. The Resource Container was extended and the attribute \textit{Geolocation} added. The extended element is named \textit{Resource Container Privacy}. The geo-location itself is saved as an EInt Ecore type, a standard integer, encoded in the ISO country code (ISO 3166-1 \cite{Wikipedia.ISO_3166}).
 
-The \textit{Assembly Connector Privacy} is the extension of the Assembly Connector and saves the data privacy categorization. The attribute is designed as an EEnum Ecore type, with the values Personal, Depersonalized, Anonymized. The value Personal is set as default.
+The \textit{Assembly Connector Privacy} is the extension of the Assembly Connector and saves the data privacy categorization. The attribute is designed as an EEnum Ecore type, with the values Personal, Depersonalized, Anonymized. The value Personal is set as default. \autoref{fig:pcmExtension:meta} shows a simplified PCM meta-model with the three added privacy elements.
 
 
 %To ensure privacy compliance, the geo-location of a component is required. In Palladio a system component is deployed onto Resource Containers. So, the Resource Container is the model equivalent of a physical/virtual server. This makes it the conceptual storage unit for the geo-location. Thus, a components geo-location can be determined via the Resource Container it is deployed on, namely the deployment model. The geo-location itself is saved as an EInt Ecore type, a standard integer, encoded in the ISO country code.
 
 %A PCM is designed in multiple steps. Initially, interfaces for the components must be designed, followed by components and composite components. These are saved in the PCM repository model. The actual PCM system model, representing the software system, references components from the repository model. These are then connected via Assembly Connectors. While components and composed components in the repository must be deployed as a whole onto one Resource Container, components which are connected via Assembly Connectors in the system model, can be deployed on different Resource Containers. This makes the Assembly Connector the optimal model entity for categorizing the exchanged data regarding the privacy level. 
-
-
-\todo{Add PCM Privacy meta-model diagram.}
 

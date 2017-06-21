@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.18)  19 JUN 2017 20:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.18)  21 JUN 2017 16:55
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1827,7 +1827,11 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count349
 \@quotereset=\count350
-(thesis.aux)
+(thesis.aux
+
+LaTeX Warning: Label `tab:eval:adapt:action_input_result' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 81.
@@ -2105,6 +2109,8 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 6.6pt on input line 15.
  [5]
+Underfull \vbox (badness 1102) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sl' in size <12> not a
 vailable
 (Font)              Font shape `T1/LinuxLibertineT-TLF/m/it' tried instead on i
@@ -2115,14 +2121,14 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [7] [8
+
+[7] [8
 
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 11
 6.
-
-(thesis.lof)
+ (thesis.lof)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
@@ -2271,22 +2277,29 @@ Package pdftex.def Info: pictures/pipeline.pdf used on input line 21.
  <./pictures/pipeline.pdf>])
 (sections/content_1_PCMExtention.tex [16]
 chapter 6.
-) (sections/content_2_iObserveMod.tex [17
+<graphs/pcm_privacy_meta.pdf, id=253, 844.65562pt x 596.98032pt>
+File: graphs/pcm_privacy_meta.pdf Graphic file (type pdf)
+
+<use graphs/pcm_privacy_meta.pdf>
+Package pdftex.def Info: graphs/pcm_privacy_meta.pdf used on input line 27.
+(pdftex.def)             Requested size: 367.61229pt x 221.56865pt.
+ [17
 
 
-] [18
-
-
-]
+ <./graphs/pcm_privacy_meta.pdf>])
+(sections/content_2_iObserveMod.tex [18]
 chapter 7.
-<graphs/GeoLocationRecord.pdf, id=259, 845.03705pt x 597.36174pt>
+<graphs/GeoLocationRecord.pdf, id=270, 845.03705pt x 597.36174pt>
 File: graphs/GeoLocationRecord.pdf Graphic file (type pdf)
 
 <use graphs/GeoLocationRecord.pdf>
 Package pdftex.def Info: graphs/GeoLocationRecord.pdf used on input line 28.
 (pdftex.def)             Requested size: 129.7459pt x 140.3867pt.
- [19 <./graphs/GeoLocationRecord.pdf>]
-<graphs/StageComposition.pdf, id=272, 844.65562pt x 596.98032pt>
+ [19
+
+
+ <./graphs/GeoLocationRecord.pdf>]
+<graphs/StageComposition.pdf, id=283, 844.65562pt x 596.98032pt>
 File: graphs/StageComposition.pdf Graphic file (type pdf)
 
 <use graphs/StageComposition.pdf>
@@ -2308,7 +2321,7 @@ zed into pro-vid-ing and re-quired in-ter-faces. Con-
  []
 
 
-<graphs/component_categorization_examples_initial.pdf, id=296, 963.6pt x 542.02
+<graphs/component_categorization_examples_initial.pdf, id=307, 963.6pt x 542.02
 5pt>
 File: graphs/component_categorization_examples_initial.pdf Graphic file (type p
 df)
@@ -2317,7 +2330,7 @@ Package pdftex.def Info: graphs/component_categorization_examples_initial.pdf u
 sed on input line 78.
 (pdftex.def)             Requested size: 324.36145pt x 129.78795pt.
  [22]
-<graphs/component_categorization_examples_upcast_base.pdf, id=301, 963.6pt x 54
+<graphs/component_categorization_examples_upcast_base.pdf, id=312, 963.6pt x 54
 2.025pt>
 File: graphs/component_categorization_examples_upcast_base.pdf Graphic file (ty
 pe pdf)
@@ -2326,7 +2339,7 @@ Package pdftex.def Info: graphs/component_categorization_examples_upcast_base.p
 df used on input line 87.
 (pdftex.def)             Requested size: 324.36145pt x 129.78795pt.
 
-<graphs/component_categorization_examples_upcast_advanced.pdf, id=303, 963.6pt 
+<graphs/component_categorization_examples_upcast_advanced.pdf, id=314, 963.6pt 
 x 542.025pt>
 File: graphs/component_categorization_examples_upcast_advanced.pdf Graphic file
  (type pdf)
@@ -2344,7 +2357,7 @@ Underfull \vbox (badness 4779) has occurred while \output is active []
 
  [23 <./graphs/component_categorization_examples_initial.pdf> <./graphs/compone
 nt_categorization_examples_upcast_base.pdf>]
-<graphs/deployment_example_implementation_eval.pdf, id=336, 963.6pt x 542.025pt
+<graphs/deployment_example_implementation_eval.pdf, id=347, 963.6pt x 542.025pt
 >
 File: graphs/deployment_example_implementation_eval.pdf Graphic file (type pdf)
 
@@ -2354,14 +2367,14 @@ Package pdftex.def Info: graphs/deployment_example_implementation_eval.pdf used
 (pdftex.def)             Requested size: 367.61229pt x 182.01912pt.
  [24 <./graphs/component_categorization_examples_upcast_advanced.pdf> <./graphs
 /deployment_example_implementation_eval.pdf>]
-<pictures/pcm_info_spread.jpg, id=370, 837.1275pt x 343.2825pt>
+<pictures/pcm_info_spread.jpg, id=381, 837.1275pt x 343.2825pt>
 File: pictures/pcm_info_spread.jpg Graphic file (type jpg)
 
 <use pictures/pcm_info_spread.jpg>
 Package pdftex.def Info: pictures/pcm_info_spread.jpg used on input line 143.
 (pdftex.def)             Requested size: 216.24097pt x 88.6699pt.
 
-<pictures/modelGraph_metamodel.pdf, id=371, 844.65562pt x 596.98032pt>
+<pictures/modelGraph_metamodel.pdf, id=382, 844.65562pt x 596.98032pt>
 File: pictures/modelGraph_metamodel.pdf Graphic file (type pdf)
 
 <use pictures/modelGraph_metamodel.pdf>
@@ -2387,16 +2400,20 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (sections/content_4_PerOpteryxMod.tex [26] [27] [28]
 chapter 9.
-) (sections/content_5_SystemAdaptation.tex [29
+[29
 
 
-] [30
-
-
-]
+]) (sections/content_5_SystemAdaptation.tex [30]
 chapter 10.
-[31] [32] [33]) (sections/evaluation.tex [34]
+[31
+
+
+] [32] [33]) (sections/evaluation.tex [34]
 chapter 11.
+
+LaTeX Warning: Reference `sec:Evaluation:execution' on page 35 undefined on inp
+ut line 16.
+
 [35
 
 
@@ -2409,7 +2426,7 @@ bertineT-TLF/m/n/12 , \T1/LinuxLibertineT-TLF/m/it/12 web-ser-vice.inventory \T
 1/LinuxLibertineT-TLF/m/n/12 and
  []
 
-<graphs/medSystem_noserver.pdf, id=426, 963.6pt x 542.025pt>
+<graphs/medSystem_noserver.pdf, id=437, 963.6pt x 542.025pt>
 File: graphs/medSystem_noserver.pdf Graphic file (type pdf)
 
 <use graphs/medSystem_noserver.pdf>
@@ -2420,7 +2437,7 @@ Package pdftex.def Info: graphs/medSystem_noserver.pdf used on input line 135.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [39] [40]
-<graphs/Runtime_Transformation.pdf, id=452, 845.07718pt x 597.55246pt>
+<graphs/Runtime_Transformation.pdf, id=463, 845.07718pt x 597.55246pt>
 File: graphs/Runtime_Transformation.pdf Graphic file (type pdf)
 
 <use graphs/Runtime_Transformation.pdf>
@@ -2428,7 +2445,7 @@ Package pdftex.def Info: graphs/Runtime_Transformation.pdf used on input line 2
 25.
 (pdftex.def)             Requested size: 389.23111pt x 170.38455pt.
 
-<graphs/medSys_eval_pa_init.pdf, id=454, 963.6pt x 542.025pt>
+<graphs/medSys_eval_pa_init.pdf, id=465, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_init.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_init.pdf>
@@ -2436,7 +2453,7 @@ Package pdftex.def Info: graphs/medSys_eval_pa_init.pdf used on input line 244.
 
 (pdftex.def)             Requested size: 324.36145pt x 163.29514pt.
  [41 <./graphs/Runtime_Transformation.pdf>] <graphs/medSys_eval_pa_tagging_init
-.pdf, id=473, 963.6pt x 542.025pt>
+.pdf, id=484, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_tagging_init.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_tagging_init.pdf>
@@ -2444,7 +2461,7 @@ Package pdftex.def Info: graphs/medSys_eval_pa_tagging_init.pdf used on input l
 ine 258.
 (pdftex.def)             Requested size: 205.51471pt x 125.74316pt.
 
-<graphs/medSys_eval_pa_tagging_analysis.pdf, id=475, 963.6pt x 542.025pt>
+<graphs/medSys_eval_pa_tagging_analysis.pdf, id=486, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_tagging_analysis.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_tagging_analysis.pdf>
@@ -2452,20 +2469,24 @@ Package pdftex.def Info: graphs/medSys_eval_pa_tagging_analysis.pdf used on inp
 ut line 263.
 (pdftex.def)             Requested size: 205.51471pt x 125.74316pt.
 
-<graphs/medSys_eval_pa_da.pdf, id=477, 963.6pt x 542.025pt>
+<graphs/medSys_eval_pa_da.pdf, id=488, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_da.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_da.pdf>
 Package pdftex.def Info: graphs/medSys_eval_pa_da.pdf used on input line 273.
 (pdftex.def)             Requested size: 324.36145pt x 163.29514pt.
  [42 <./graphs/medSys_eval_pa_init.pdf> <./graphs/medSys_eval_pa_tagging_init.p
-df> <./graphs/medSys_eval_pa_tagging_analysis.pdf>]) (sections/conclusion.tex [
-43 <./graphs/medSys_eval_pa_da.pdf>] [44
+df> <./graphs/medSys_eval_pa_tagging_analysis.pdf>] [43 <./graphs/medSys_eval_p
+a_da.pdf>] [44]
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-]
+[45]) (sections/conclusion.tex [46]
 chapter 12.
-) [45] [46
+) [47
+
+
+] [48
 
 
 ]
@@ -2517,13 +2538,13 @@ Overfull \hbox (2.03593pt too wide) in paragraph at lines 142--142
 -[] kampf -[] gegen -[] facebook -[]
  []
 
-
+[49]
 Overfull \hbox (7.36714pt too wide) in paragraph at lines 142--142
 \T1/LinuxLibertineT-TLF/m/it/12 WOSP/SIPEW in-ter-na-tional con-fer-ence on Per
 -for-mance en-gi-neer-ing\T1/LinuxLibertineT-TLF/m/n/12 . Ed. by Alan Adam-
  []
 
-[47]
+
 Overfull \hbox (17.12726pt too wide) in paragraph at lines 142--142
 \T1/LinuxLibertineT-TLF/m/it/12 sump-tion\T1/LinuxLibertineT-TLF/m/n/12 . Ed. b
 y Datavercity. 2012. \T1/LinuxLibertineT-TLF/m/sc/12 url\T1/LinuxLibertineT-TLF
@@ -2553,9 +2574,9 @@ TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : $\T1/fvm/m/n/12 http : / / teet
 ime -[] framework . github .
  []
 
-(sections/appendix.tex [48]
+(sections/appendix.tex [50]
 chapter A.
-) [49
+) [51
 
 
 ]
@@ -2564,16 +2585,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 151.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 32433 strings out of 493333
- 595482 string characters out of 3139188
- 1153677 words of memory out of 3000000
- 35280 multiletter control sequences out of 15000+200000
+ 32443 strings out of 493333
+ 595874 string characters out of 3139188
+ 1153943 words of memory out of 3000000
+ 35289 multiletter control sequences out of 15000+200000
  160536 words of font info for 143 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  80i,13n,80p,8820b,3200s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2595,9 +2623,9 @@ eX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/txfonts/rtxr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/t
 xfonts/txsyc.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/zxlri.pfb>
-Output written on thesis.pdf (65 pages, 5744661 bytes).
+Output written on thesis.pdf (67 pages, 5916148 bytes).
 PDF statistics:
- 613 PDF objects out of 1000 (max. 8388607)
+ 631 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 224 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 235 words of extra memory for PDF output out of 10000 (max. 10000000)
 

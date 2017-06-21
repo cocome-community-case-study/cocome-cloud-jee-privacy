@@ -480,6 +480,35 @@
       \verb 10.1145/1455770.1455806
       \endverb
     \endentry
+    \entry{Koziolek.2014}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c3aaf4ee46b2c36357c970d426e834d2}{%
+           family={Koziolek},
+           familyi={K\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Karlsruhe}%
+      }
+      \list{publisher}{1}{%
+        {KIT Scientific Publishing}%
+      }
+      \strng{namehash}{c3aaf4ee46b2c36357c970d426e834d2}
+      \strng{fullhash}{c3aaf4ee46b2c36357c970d426e834d2}
+      \strng{authornamehash}{c3aaf4ee46b2c36357c970d426e834d2}
+      \strng{authorfullhash}{c3aaf4ee46b2c36357c970d426e834d2}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783866449732}
+      \field{series}{The Karlsruhe Series on Software Design and Quality / Ed. by Prof. Dr. Ralf Reussner}
+      \field{title}{Automated Improvement of Software Architecture Models for Performance and Other Quality Attributes: Zugl.: Karlsruhe, Karlsruher Institut für Technologie (KIT), Diss., 2011}
+      \field{volume}{7}
+      \field{year}{2014}
+      \keyw{Software Architecture Optimization Quality Attributes Performance Model-based Prediction}
+    \endentry
     \entry{Martens.2010}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=7ebdc2baed2f52450eaef7d65750eeee}{%

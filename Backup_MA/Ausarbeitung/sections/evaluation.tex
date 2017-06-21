@@ -281,18 +281,141 @@ We have shown, that the component classification algorithm and the deployment an
 
 For the scalability evaluation of the privacy analysis, we will use the generated model (\autoref{sec:Evaluation:models:generated}), since models of the intended evaluation scale are not constructable by hand. 
 
+The measurement starts taking time, after the snapshot is created and before the initial model is read in. The first round is taken, before the graph is constructed from the model. Further rounds are taken to measure the component classification and the deployment analysis. Complex outputs are deactivated.
+
+We will measure a graph size of 10, 100, ... up to 10000, with a distribution of 50\% Resource Container and 50\% Assembly Contexts. The classification of the Assembly Connectors is distributed among 15\% Personal, 35\% Depersonalised and 50\% Anonymous.
+
 
 \section{Model Generation}
 \label{sec:Evaluation:generation}
 
-\dots
+The privacy compliant model generation is only evaluated under the \textit{Accuracy} aspect. The \textit{Scalability} evaluation was already performed by the creators of PerOpteryx (see \cite{Koziolek.2014}) and our Privacy Analysis was extensively evaluated in \autoref{sec:Evaluation:privacyanalysis}. We will focus on the in \autoref{sec:Introduction:problems} specified problem of generating a privacy compliant redeployment model.
+
+For this evaluation we will use the CoCOME model (\autoref{sec:eval:models:cocome}) together with the scenarios \#2 (\autoref{eval:scenario:2}) and \#4 (\autoref{eval:scenario:4}). Scenario \#2 describes a complete iObserve Privacy execution, including the successful execution of PerOpteryx, the model generation. Scenario \#4 describes the case, when PerOpteryx fails to generate a privacy compliant candidate. We will start with Scenario \#2.
+
+We deploy the CoCOME components onto one EU server each and adjusted the individual server costs to reflect EU and Non-EU status. We will trigger the pipeline by moving the \textit{Server4-EU}, which hosts the as personal categorized component \textit{webservice.inventory}, to Ukraine.
+
+After the execution of our model generation framework, \textit{PerOpteryx}, we expect the re-deployment model to be privacy compliant. This is the major concern and primary focus. However, we further anticipate a deployment with less server in use, as well as a migration of multiple \textit{depersonalised} components onto Non-EU servers.
+
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{ r | l | l | l }
+		\hline
+		\textbf{Component} & \textbf{Categorization} & \textbf{Deployment} & \textbf{Redeployment} \\
+		\hline
+		cloud.web & Depersonalized & Server1-EU & Server6-EU \\
+		tradingsystem.inventory & Personal & Server2-EU & Server1-EU \\
+		cashdeskline.cashdeskservice & Depersonalized & Server3-EU & Server2-NonEU \\
+		webservice.inventory & Personal & Server4-EU & Server6-EU \\
+		tradingsystem.cashdeskline & Depersonalized & Server5-EU & Server4-EU \\
+		tradingsystem.external.Bank & Depersonalized & Server6-EU & Server3-NonEU \\
+		\hline
+	\end{tabular}
+	\caption{Component categorization, runtime deployment and re-deployment}
+	\label{tab:eval:gen:execution}
+\end{table}
+
+\autoref{tab:eval:gen:execution} shows the component, their data privacy level classification, the initial deployment and the generated re-deployment. An re-deployment model privacy analysis shows, that the model is privacy compliant. The major goal (see \autoref{sec:Introduction:goals}) got accomplished. Further, depersonalised components got moved to more cheap Non-EU severs and two components got deployed onto the same server. Both deployment goals indicate, that the \textit{most cost efficient} model got chosen - as intended. However, none component stays at the original server, which produces (unnecessary) migration costs.
+
+In scenario \#4, no privacy compliant re-deployment model was found, PerOpteryx crashes or the any kind of error occurs. However, the end result stays unchanged, no valid re-deployment model is available after the PerOpteryx execution. We will provoke this situation by deploying all components onto a single server and moving this server to a Non-EU geo-location. We expect iObserve Privacy to report, that no privacy compliant PCM model was found.
+
+The execution shows, an error is written to the console, that the given re-deployment model is not privacy compliant. If a listener would be registered, the listener would be notified. The execution lives up to our expectations. 
 
 \section{Adaptation Planning}
 \label{sec:Evaluation:planning}
 
-\dots
+The Adaptation Planing, described in \textit{ch:SysAdap}, aims for calculating an order of adaptation action. The execution of this adaptation order must result in an runtime model, that is equivalent to the redeployment model. This is one of the research goals stated in \autoref{sec:Introduction:goals}. We will evaluate this task towards its accuracy and scalability aspects.
 
-\section{Adaptation Execution}
-\label{sec:Evaluation:execution}
+ 
+\subsection{Adaptation: Accuracy Evaluation}
 
-\dots
+We will continue scenario \#2 from generation evaluation (\autoref{sec:Evaluation:generation}) to show the continuous flow and re-establishment of the privacy compliance. To show, that the given adaptation order leads to a privacy compliant system, we will simulate the adaptation. This will be achieved by translating the adaptation order to an equivalent iObserve privacy event input.
+
+
+We expect the adaptation sequence to initially \textit{acquire} the newly used servers, followed by a series of \textit{migration} actions, which moves the components to their new servers. Finally there should be three \textit{terminate} actions to release the servers, that are no longer needed.
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{r | l  l l l}
+		\hline
+		\textbf{Action} & \multicolumn{3}{ l }{\textbf{Values}}\\
+		\hline
+		Acquire & \multicolumn{3}{ l }{Server3-NonEU} \\
+		Acquire & \multicolumn{3}{ l }{Server2-NonEU} \\
+		Migrate & webservice.inventory & Server4-EU & -> & Server6-EU \\
+		Migrate & tradingsystem.cashdeskline & Server5-EU & -> & Server4-EU \\
+		Migrate & tradingsystem.external.Bank & Server6-EU & -> & Server3-NonEU \\
+		Migrate & cashdeskline.cashdeskservice & Server3-EU & -> & Server2-NonEU \\
+		Migrate & cloud.web & Server1-EU & -> & Server6-EU \\
+		Migrate & tradingsystem.inventory & Server2-EU & -> & Server1-EU \\
+		Terminate & \multicolumn{3}{ l }{Server3-EU} \\
+		Terminate & \multicolumn{3}{ l }{Server2-EU} \\
+		Terminate & \multicolumn{3}{ l }{Server5-EU} \\
+		\hline
+	\end{tabular}
+	\caption{The ordered adaptation sequence}
+	\label{tab:eval:adapt:action_order}
+\end{table}
+
+\autoref{tab:eval:adapt:action_order} shows the output adaptation sequence for scenario \#2. The result is unbiased. For the transformation onto iObersve input events, we can ignore the acquire actions, since the resource container already exist in the resource environment model. Every migrate action needs to be translated into two events: a TUndeployment event and a TDeployment event. The terminate can also be ignored, since there is no real server to release/terminate. We expect the system to be in a privacy compliant state after the execution of the iOberve input events. \autoref{tab:eval:adapt:action_input_result} shows the resulting iObserve input events.
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{r | l}
+		\hline
+		\textbf{Action} & \textbf{Values}\\
+		\hline
+		UnDeployment & webservice.inventory from Server4-EU\\
+		Deployment & webservice.inventory on Server6-EU\\
+		
+		UnDeployment & tradingsystem.cashdeskline from Server5-EU\\
+		Deployment & tradingsystem.cashdeskline on Server4-EU\\
+		
+		UnDeployment & tradingsystem.external.Bank from Server6-EU\\
+		Deployment & tradingsystem.external.Bank on Server3-NonEU\\
+		
+		UnDeployment & cashdeskline.cashdeskservice from Server3-EU\\
+		Deployment & cashdeskline.cashdeskservice on Server2-NonEU\\
+		
+		UnDeployment & cloud.web from Server1-EU\\
+		Deployment & cloud.web on Server3-EU\\
+		
+		UnDeployment & tradingsystem.inventory from Server2-EU\\
+		Deployment & tradingsystem.inventory on Server1-EU\\
+		\hline
+	\end{tabular}
+	\caption{iObserve input event translated adaptation sequence}
+	\label{tab:eval:adapt:action_input_result}
+\end{table}
+
+
+The execution of the transformed adaptation sequence (\autoref{tab:eval:adapt:action_input_result}) results in a privacy compliant PCM model. Frankly speaking, the result is unbiased and solves the in \autoref{sec:Introduction:problems} specified problem of \textit{automated privacy compliance re-establishment}.
+
+We will use the Medi-Sys to show the limitations of the adaptation calculation and execution mentioned in scenario \#3. Since PerOpteryx only adapts the system given according to the \textit{design decision} model, it will only produce acquire, migrate and terminate actions - in our use case. These are (usually) automatically executable. However, there are more potential actions specified, which can't be executed automatically. We will modify the Medi-Sys model to provoke one of each action. We expect each action to be detected, except the \textit{replicate} action, since this is not supported by the adaptation calculation.
+
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{r | l}
+		\hline
+		\textbf{Action} & \textbf{Values}\\
+		\hline
+		Acquire & Server-6\\
+		Terminate & Server-4\\
+		Replicate & Server-2 (with GovStatistics)\\
+		
+		Allocate & AccountingService on Server-1\\
+		Deallocate & MarketingAnalysis from Server-4\\
+		Migrate & ErrorDetection from Server-3 to Server-6\\
+		Exchange Component & CourseAnalysis to CourseAnalysis-2\\
+		\hline
+	\end{tabular}
+	\caption{iObserve input event translated adaptation sequence}
+	\label{tab:eval:adapt:action_input_result}
+\end{table}
+
+
+
+
+
