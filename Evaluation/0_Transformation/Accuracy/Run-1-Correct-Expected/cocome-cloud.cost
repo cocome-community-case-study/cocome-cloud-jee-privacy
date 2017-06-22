@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cost:CostRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cost="http://sdq.ipd.uka.de/CostModel/1.0" timePeriodYears="1">
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedOperatingCost="0.129">
+    <processingresourcespecification href="cocome-cloud.resourceenvironment#_UW7DgU_DEeeZ1eAuq05odg"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedOperatingCost="0.257">
+    <processingresourcespecification href="cocome-cloud.resourceenvironment#_UW8Ro0_DEeeZ1eAuq05odg"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedOperatingCost="0.079">
+    <processingresourcespecification href="cocome-cloud.resourceenvironment#_UW8Rp0_DEeeZ1eAuq05odg"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedOperatingCost="0.158">
+    <processingresourcespecification href="cocome-cloud.resourceenvironment#_UW8Rq0_DEeeZ1eAuq05odg"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedOperatingCost="0.315">
+    <processingresourcespecification href="cocome-cloud.resourceenvironment#_UW8Rr0_DEeeZ1eAuq05odg"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedOperatingCost="0.632">
+    <processingresourcespecification href="cocome-cloud.resourceenvironment#_UW8Rs0_DEeeZ1eAuq05odg"/>
+  </cost>
+    <cost xsi:type="cost:FixedProcessingResourceCost" fixedOperatingCost="0.129">
+    <processingresourcespecification href="cocome-cloud.resourceenvironment#_UW7DgU_DEeeZ1eAuq05od2"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedOperatingCost="0.257">
+    <processingresourcespecification href="cocome-cloud.resourceenvironment#_UW8Ro0_DEeeZ1eAuq05od2"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedOperatingCost="0.079">
+    <processingresourcespecification href="cocome-cloud.resourceenvironment#_UW8Rp0_DEeeZ1eAuq05od2"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedOperatingCost="0.158">
+    <processingresourcespecification href="cocome-cloud.resourceenvironment#_UW8Rq0_DEeeZ1eAuq05od2"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedOperatingCost="0.315">
+    <processingresourcespecification href="cocome-cloud.resourceenvironment#_UW8Rr0_DEeeZ1eAuq05od2"/>
+  </cost>
+  <cost xsi:type="cost:FixedProcessingResourceCost" fixedOperatingCost="0.632">
+    <processingresourcespecification href="cocome-cloud.resourceenvironment#_UW8Rs0_DEeeZ1eAuq05od2"/>
+  </cost>
+</cost:CostRepository>

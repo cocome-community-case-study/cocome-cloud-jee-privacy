@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ASCII"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:compositionprivacy="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2/Privacy" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_A_3ZcFW8EeeRcfi4K-_jHw" entityName="org.cocome.cloud">
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_A_-HIFW8EeeRcfi4K-_jHw" entityName="0_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="gen-model.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_A__8UFW8EeeRcfi4K-_jHw" entityName="1_AC_Component_A2">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="gen-model.repository#_oq9OwFHDEeedOMBakyWUAg"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_BBfKEFW8EeeRcfi4K-_jHw" entityName="2_AC_Component_C">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="gen-model.repository#_TGp94DPJEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_BBfKEVW8EeeRcfi4K-_jHw" entityName="3_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="gen-model.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure xsi:type="compositionprivacy:AssemblyContextPrivacy" id="_BBfKFFW8EeeRcfi4K-_jHw" entityName="4_AC_Component_F">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="gen-model.repository#_MEDoYDPKEeeiB5i_nmvERA"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_BABxgFW8EeeRcfi4K-_jHw" entityName="0_AC_Component_C -> 1_AC_Component_A2" requiringAssemblyContext_AssemblyConnector="_A_-HIFW8EeeRcfi4K-_jHw" providingAssemblyContext_AssemblyConnector="_A__8UFW8EeeRcfi4K-_jHw" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="gen-model.repository#_4OAgcTBlAeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="gen-model.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_BBejAFW8EeeRcfi4K-_jHw" entityName="0_AC_Component_C -> 1_AC_Component_A2" requiringAssemblyContext_AssemblyConnector="_A_-HIFW8EeeRcfi4K-_jHw" providingAssemblyContext_AssemblyConnector="_A__8UFW8EeeRcfi4K-_jHw" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="gen-model.repository#_4OAgcTBlAeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="gen-model.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_BBfKElW8EeeRcfi4K-_jHw" entityName="1_AC_Component_A2 -> 3_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_A__8UFW8EeeRcfi4K-_jHw" providingAssemblyContext_AssemblyConnector="_BBfKEVW8EeeRcfi4K-_jHw" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="gen-model.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="gen-model.repository#_kxWeBTPJEeeiB5i_nmvPGW"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_BBfKE1W8EeeRcfi4K-_jHw" entityName="1_AC_Component_A2 -> 3_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_A__8UFW8EeeRcfi4K-_jHw" providingAssemblyContext_AssemblyConnector="_BBfKEVW8EeeRcfi4K-_jHw" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="gen-model.repository#_PNdCQTPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="gen-model.repository#_gQZbVTPJEeeiB5i_nnaERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_BBfKFVW8EeeRcfi4K-_jHw" entityName="2_AC_Component_C -> 4_AC_Component_F" requiringAssemblyContext_AssemblyConnector="_BBfKEFW8EeeRcfi4K-_jHw" providingAssemblyContext_AssemblyConnector="_BBfKFFW8EeeRcfi4K-_jHw" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="gen-model.repository#_OEyxETPKEeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="gen-model.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_BBfKFlW8EeeRcfi4K-_jHw" entityName="2_AC_Component_C -> 1_AC_Component_A2" requiringAssemblyContext_AssemblyConnector="_BBfKEFW8EeeRcfi4K-_jHw" providingAssemblyContext_AssemblyConnector="_A__8UFW8EeeRcfi4K-_jHw" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="gen-model.repository#_4OAgcTBlAeeiB5i_nmvERA"/>
+    <requiredRole_AssemblyConnector href="gen-model.repository#_2PqH9TPJEeeiB5i_nmvERA"/>
+  </connectors__ComposedStructure>
+</system:System>

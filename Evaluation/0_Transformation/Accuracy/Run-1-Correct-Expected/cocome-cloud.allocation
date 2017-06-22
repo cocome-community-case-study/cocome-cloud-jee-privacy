@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_Tqm9kPOhEeaug9KErHOn0Q" entityName="defaultAllocation">
+  <targetResourceEnvironment_Allocation href="cocome-cloud.resourceenvironment#/"/>
+  <system_Allocation href="cocome-cloud.system#_35Lu0Ai5EeefyagWuy0aqA"/>
+  <allocationContexts_Allocation id="_HFSR4FdkEeeHo_H4aHdLPQ" entityName="Server6-EU;tradingsystem.external.Bank;">
+    <resourceContainer_AllocationContext href="cocome-cloud.resourceenvironment#_UW8RsU_DEeeZ1eAuq05odg"/>
+    <assemblyContext_AllocationContext href="cocome-cloud.system#_dkO2gAjIEeefyagWuy0aqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_cxBlkFdkEeeHo_H4aHdLPQ" entityName="Server4-EU;tradingsystem.cashdeskline;">
+    <resourceContainer_AllocationContext href="cocome-cloud.resourceenvironment#_UW8RqU_DEeeZ1eAuq05odg"/>
+    <assemblyContext_AllocationContext href="cocome-cloud.system#_Og6wsAi6EeefyagWuy0aqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_oV3hwFdkEeeHo_H4aHdLPQ" entityName="Server5-EU;cloud.web;">
+    <resourceContainer_AllocationContext href="cocome-cloud.resourceenvironment#_UW8RrU_DEeeZ1eAuq05odg"/>
+    <assemblyContext_AllocationContext href="cocome-cloud.system#_UkO-AAi6EeefyagWuy0aqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_w0TGoFdkEeeHo_H4aHdLPQ" entityName="Server1-EU;webservice.inventory;">
+    <resourceContainer_AllocationContext href="cocome-cloud.resourceenvironment#_UVlmwU_DEeeZ1eAuq05odg"/>
+    <assemblyContext_AllocationContext href="cocome-cloud.system#_Mj8GoAi6EeefyagWuy0aqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_esA2IFdlEeeHo_H4aHdLPQ" entityName="Server2-EU;tradingsystem.inventory;">
+    <resourceContainer_AllocationContext href="cocome-cloud.resourceenvironment#_UW8RoU_DEeeZ1eAuq05odg"/>
+    <assemblyContext_AllocationContext href="cocome-cloud.system#_D9ZuoAi6EeefyagWuy0aqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_qwQrIFdlEeeHo_H4aHdLPQ" entityName="Server3-EU;logic.webservice.cashdeskline.cashdeskservice">
+    <resourceContainer_AllocationContext href="cocome-cloud.resourceenvironment#_UW8RpU_DEeeZ1eAuq05odg"/>
+    <assemblyContext_AllocationContext href="cocome-cloud.system#_QYwcEAi6EeefyagWuy0aqA"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>
