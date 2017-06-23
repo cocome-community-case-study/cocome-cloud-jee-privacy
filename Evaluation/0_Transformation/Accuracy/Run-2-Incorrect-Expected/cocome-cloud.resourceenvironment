@@ -71,7 +71,7 @@
     </activeResourceSpecifications_ResourceContainer>
     <instanceType href="cocome-cloud.cloudprofile#//@cloudProviders.0/@cloudResources.3"/>
   </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RrU_DEeeZ1eAuq05odg" entityName="Server5-EU" Geolocation="112" externalAddress="">
+  <resourceContainer_ResourceEnvironment xsi:type="org.palladiosimulator:ResourceContainerCloud" id="_UW8RrU_DEeeZ1eAuq05odg" entityName="Server5-EU" Geolocation="826" externalAddress="">
     <activeResourceSpecifications_ResourceContainer id="_UW8Rr0_DEeeZ1eAuq05odg" requiredByContainer="true" numberOfReplicas="4">
       <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
       <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>

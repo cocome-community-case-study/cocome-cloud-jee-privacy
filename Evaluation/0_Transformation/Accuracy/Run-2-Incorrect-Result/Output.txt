@@ -1,91 +1,94 @@
-INFO  | 2017-06-22 18:34:53 | [main] cli.AnalysisMain (AnalysisMain.java:102) - Starting iObserve Privacy
+INFO  | 2017-06-23 11:29:29 | [main] cli.AnalysisMain (AnalysisMain.java:102) - Starting iObserve Privacy
 SLF4J: Class path contains multiple SLF4J bindings.
 SLF4J: Found binding in [jar:file:/C:/Users/Philipp/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/9865cf6994f9ff13fce0bf93f2054ef6c65bb462/logback-classic-1.1.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: Found binding in [jar:file:/C:/Users/Philipp/.gradle/caches/3.2.1/generated-gradle-jars/gradle-api-3.2.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
-18:35:07,502 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
-18:35:07,502 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
-18:35:07,502 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/GitRepositorys/iobserve-analysis/analysis/bin/logback.xml]
-18:35:07,504 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
-18:35:07,504 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/Philipp/.gradle/caches/modules-2/files-2.1/net.sourceforge.teetime-stages/teetime-stages/3.0-SNAPSHOT/5ede583ac3ca81117aa7441d55be0b0635566464/teetime-stages-3.0-SNAPSHOT.jar!/logback.xml]
-18:35:07,504 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/C:/GitRepositorys/iobserve-analysis/analysis/bin/logback.xml]
-18:35:07,653 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
-18:35:07,667 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
-18:35:07,673 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
-18:35:07,682 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-18:35:07,738 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
-18:35:07,740 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
-18:35:07,741 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-18:35:07,744 |-INFO in ch.qos.logback.core.FileAppender[FILE] - File property is set to [log/jclouds.log]
-18:35:07,746 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
-18:35:07,746 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [WIREFILE]
-18:35:07,746 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-18:35:07,747 |-INFO in ch.qos.logback.core.FileAppender[WIREFILE] - File property is set to [log/jclouds-wire.log]
-18:35:07,748 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
-18:35:07,748 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [COMPUTEFILE]
-18:35:07,748 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-18:35:07,748 |-INFO in ch.qos.logback.core.FileAppender[COMPUTEFILE] - File property is set to [log/jclouds-compute.log]
-18:35:07,749 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
-18:35:07,749 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [SSHFILE]
-18:35:07,749 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-18:35:07,750 |-INFO in ch.qos.logback.core.FileAppender[SSHFILE] - File property is set to [log/jclouds-ssh.log]
-18:35:07,750 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to INFO
-18:35:07,751 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - org.jclouds level set to DEBUG
-18:35:07,751 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[org.jclouds]
-18:35:07,752 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.compute level set to DEBUG
-18:35:07,752 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [COMPUTEFILE] to Logger[jclouds.compute]
-18:35:07,752 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.wire level set to DEBUG
-18:35:07,752 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [WIREFILE] to Logger[jclouds.wire]
-18:35:07,752 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.headers level set to DEBUG
-18:35:07,752 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [WIREFILE] to Logger[jclouds.headers]
-18:35:07,752 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.ssh level set to DEBUG
-18:35:07,752 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [SSHFILE] to Logger[jclouds.ssh]
-18:35:07,753 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - net.schmizz level set to DEBUG
-18:35:07,753 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [SSHFILE] to Logger[net.schmizz]
-18:35:07,753 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
-18:35:07,754 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@4e93dcb9 - Registering current configuration as safe fallback point
+11:29:42,603 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+11:29:42,603 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+11:29:42,603 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/GitRepositorys/iobserve-analysis/analysis/bin/logback.xml]
+11:29:42,604 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+11:29:42,604 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/Philipp/.gradle/caches/modules-2/files-2.1/net.sourceforge.teetime-stages/teetime-stages/3.0-SNAPSHOT/5ede583ac3ca81117aa7441d55be0b0635566464/teetime-stages-3.0-SNAPSHOT.jar!/logback.xml]
+11:29:42,604 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/C:/GitRepositorys/iobserve-analysis/analysis/bin/logback.xml]
+11:29:42,736 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+11:29:42,748 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+11:29:42,753 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+11:29:42,763 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+11:29:42,809 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+11:29:42,811 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+11:29:42,811 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+11:29:42,815 |-INFO in ch.qos.logback.core.FileAppender[FILE] - File property is set to [log/jclouds.log]
+11:29:42,817 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+11:29:42,817 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [WIREFILE]
+11:29:42,817 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+11:29:42,818 |-INFO in ch.qos.logback.core.FileAppender[WIREFILE] - File property is set to [log/jclouds-wire.log]
+11:29:42,818 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+11:29:42,818 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [COMPUTEFILE]
+11:29:42,819 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+11:29:42,819 |-INFO in ch.qos.logback.core.FileAppender[COMPUTEFILE] - File property is set to [log/jclouds-compute.log]
+11:29:42,819 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+11:29:42,819 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [SSHFILE]
+11:29:42,819 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+11:29:42,820 |-INFO in ch.qos.logback.core.FileAppender[SSHFILE] - File property is set to [log/jclouds-ssh.log]
+11:29:42,820 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to INFO
+11:29:42,821 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - org.jclouds level set to DEBUG
+11:29:42,821 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[org.jclouds]
+11:29:42,822 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.compute level set to DEBUG
+11:29:42,822 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [COMPUTEFILE] to Logger[jclouds.compute]
+11:29:42,822 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.wire level set to DEBUG
+11:29:42,822 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [WIREFILE] to Logger[jclouds.wire]
+11:29:42,822 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.headers level set to DEBUG
+11:29:42,822 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [WIREFILE] to Logger[jclouds.headers]
+11:29:42,822 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.ssh level set to DEBUG
+11:29:42,822 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [SSHFILE] to Logger[jclouds.ssh]
+11:29:42,822 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - net.schmizz level set to DEBUG
+11:29:42,822 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [SSHFILE] to Logger[net.schmizz]
+11:29:42,822 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+11:29:42,824 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@61e3a1fd - Registering current configuration as safe fallback point
 
 SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
-INFO  | 2017-06-22 18:35:07 | [main] cli.AnalysisMain (AnalysisMain.java:138) - Analysis configuration
-INFO  | 2017-06-22 18:35:08 | [main] cli.AnalysisMain (AnalysisMain.java:140) - Analysis start
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: tradingsystem.external.Bank	 ->	Server6-EU
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: tradingsystem.cashdeskline	 ->	Server4-EU
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: cloud.web	 ->	Server1-EU
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: webservice.inventory	 ->	Server1-EU
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: tradingsystem.inventory	 ->	Server2-EU
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: logic.webservice.cashdeskline.cashdeskservice	 ->	Server3-EU
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server1-EU	 ->	276
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server2-EU	 ->	276
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server3-EU	 ->	250
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server4-EU	 ->	250
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server5-EU	 ->	826
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server6-EU	 ->	826
-INFO  | 2017-06-22 18:35:08 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: cloud.web	 ->	Server1-EU
-INFO  | 2017-06-22 18:35:15 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: cloud.web	 ->	Server5-EU
-INFO  | 2017-06-22 18:35:15 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
-INFO  | 2017-06-22 18:35:15 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server5-EU	 ->	112
-INFO  | 2017-06-22 18:35:15 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
-INFO  | 2017-06-22 18:35:16 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: cloud.web	 ->	Server1-EU
-WARN  | 2017-06-22 18:35:16 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:245) - The AssemblyContext 'cloud.web' is already deployed! Ignoring event!
-INFO  | 2017-06-22 18:35:16 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: cloud.web	 ->	Server5-EU
-INFO  | 2017-06-22 18:35:16 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: cloud.web	 ->	Server5-EU
-WARN  | 2017-06-22 18:35:16 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:207) - AllocationContext for 'cloud.web' at 'Server5-EU' not found! Ignoring event!
+INFO  | 2017-06-23 11:29:42 | [main] cli.AnalysisMain (AnalysisMain.java:138) - Analysis configuration
+INFO  | 2017-06-23 11:29:42 | [main] cli.AnalysisMain (AnalysisMain.java:140) - Analysis start
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: tradingsystem.external.Bank	 ->	Server6-EU
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: tradingsystem.cashdeskline	 ->	Server4-EU
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: cloud.web	 ->	Server1-EU
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: webservice.inventory	 ->	Server1-EU
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: tradingsystem.inventory	 ->	Server2-EU
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: logic.webservice.cashdeskline.cashdeskservice	 ->	Server3-EU
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server1-EU	 ->	276
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server2-EU	 ->	276
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server3-EU	 ->	250
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server4-EU	 ->	250
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server5-EU	 ->	826
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server6-EU	 ->	826
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: cloud.web	 ->	Server1-EU
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: cloud.web	 ->	Server5-EU
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: cloud.web	 ->	Server1-EU
+WARN  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:229) - The AssemblyContext 'cloud.web' is already in AllocationContext (_fX5z4Ff2EeeMV8jWn5AxAw: cloud.web @ Server5-EU) depoyed! Ignoring event!
 
-INFO  | 2017-06-22 18:35:16 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: cloud.web	 ->	Server7-EU
-WARN  | 2017-06-22 18:35:16 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:164) - No correspondent found for Server7-EU
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: cloud.web	 ->	Server5-EU
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: cloud.web	 ->	Server5-EU
+WARN  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:207) - AllocationContext for 'cloud.web' at 'Server5-EU' not found! Ignoring event!
 
-INFO  | 2017-06-22 18:35:16 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: IllegalComonent	 ->	Server1-EU
-WARN  | 2017-06-22 18:35:16 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:222) - The AssemblyContext 'IllegalComonent' does not exist! Ignoring event!
-INFO  | 2017-06-22 18:35:16 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: IllegalComonent	 ->	Server1-EU
-WARN  | 2017-06-22 18:35:16 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:210) - AssemblyContext for Server1-EUnot found! 
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: webservice.inventory	 ->	Server7-EU
+WARN  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:164) - No correspondent found for Server7-EU
 
-INFO  | 2017-06-22 18:35:16 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: tradingsystem.inventory	 ->	Server2-NonEU
-INFO  | 2017-06-22 18:35:16 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server7-EU	 ->	826
-WARN  | 2017-06-22 18:35:16 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:67) - Server 'Server7-EU' was not found!
-INFO  | 2017-06-22 18:35:16 | [main] cli.AnalysisMain (AnalysisMain.java:142) - Anaylsis complete
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:156) - New TDeploymentEvent: IllegalComonent	 ->	Server1-EU
+WARN  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TDeployment (TDeployment.java:222) - The AssemblyContext 'IllegalComonent' does not exist! Ignoring event!
+
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: IllegalComonent	 ->	Server1-EU
+WARN  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:210) - AssemblyContext for IllegalComonent not found!
+
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:133) - New TUnDeploymentEvent: tradingsystem.inventory	 ->	Server3-EU
+WARN  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TUndeployment (TUndeployment.java:207) - AllocationContext for 'tradingsystem.inventory' at 'Server3-EU' not found! Ignoring event!
+
+INFO  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server7-EU	 ->	826
+WARN  | 2017-06-23 11:29:43 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:67) - Server 'Server7-EU' was not found!
+
+INFO  | 2017-06-23 11:29:43 | [main] cli.AnalysisMain (AnalysisMain.java:142) - Anaylsis complete

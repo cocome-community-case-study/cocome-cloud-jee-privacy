@@ -2,20 +2,24 @@
 <allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_Tqm9kPOhEeaug9KErHOn0Q" entityName="defaultAllocation">
   <targetResourceEnvironment_Allocation href="cocome-cloud.resourceenvironment#/"/>
   <system_Allocation href="cocome-cloud.system#_35Lu0Ai5EeefyagWuy0aqA"/>
-  <allocationContexts_Allocation id="_wMWZAFdoEeek16RRKqyU1Q" entityName="tradingsystem.external.Bank @ Server6-EU">
+  <allocationContexts_Allocation id="_fRY8MFf2EeeMV8jWn5AxAw" entityName="tradingsystem.external.Bank @ Server6-EU">
     <resourceContainer_AllocationContext href="cocome-cloud.resourceenvironment#_UW8RsU_DEeeZ1eAuq05odg"/>
     <assemblyContext_AllocationContext href="cocome-cloud.system#_dkO2gAjIEeefyagWuy0aqA"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_wPKccFdoEeek16RRKqyU1Q" entityName="tradingsystem.cashdeskline @ Server4-EU">
+  <allocationContexts_Allocation id="_fT-9MFf2EeeMV8jWn5AxAw" entityName="tradingsystem.cashdeskline @ Server4-EU">
     <resourceContainer_AllocationContext href="cocome-cloud.resourceenvironment#_UW8RqU_DEeeZ1eAuq05odg"/>
     <assemblyContext_AllocationContext href="cocome-cloud.system#_Og6wsAi6EeefyagWuy0aqA"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_wR8DoFdoEeek16RRKqyU1Q" entityName="logic.webservice.cashdeskline.cashdeskservice @ Server3-EU">
+  <allocationContexts_Allocation id="_fXDfUFf2EeeMV8jWn5AxAw" entityName="logic.webservice.cashdeskline.cashdeskservice @ Server3-EU">
     <resourceContainer_AllocationContext href="cocome-cloud.resourceenvironment#_UW8RpU_DEeeZ1eAuq05odg"/>
     <assemblyContext_AllocationContext href="cocome-cloud.system#_QYwcEAi6EeefyagWuy0aqA"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_wQiVcFdoEeek16RRKqyU1Q" entityName="webservice.inventory @ Server1-EU">
+  <allocationContexts_Allocation id="_fVWPIFf2EeeMV8jWn5AxAw" entityName="webservice.inventory @ Server1-EU">
     <resourceContainer_AllocationContext href="cocome-cloud.resourceenvironment#_UVlmwU_DEeeZ1eAuq05odg"/>
     <assemblyContext_AllocationContext href="cocome-cloud.system#_Mj8GoAi6EeefyagWuy0aqA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_fWQOEFf2EeeMV8jWn5AxAw" entityName="tradingsystem.inventory @ Server2-EU">
+    <resourceContainer_AllocationContext href="cocome-cloud.resourceenvironment#_UW8RoU_DEeeZ1eAuq05odg"/>
+    <assemblyContext_AllocationContext href="cocome-cloud.system#_D9ZuoAi6EeefyagWuy0aqA"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>
