@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ASCII"?>
+<designdecision:DecisionSpace xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:designdecision="http://sdq.ipd.uka.de/DesignDecision/3.0" xmlns:specific="http://sdq.ipd.uka.de/DesignDecision/Specific/3.0" id="_63jwMTmoEeeScpGFWAyG3Q" name="cocome-cloud">
+  <degreesOfFreedom xsi:type="specific:AllocationDegree" entityName="AsC_DataManager @ Server1">
+    <primaryChanged href="medSys.allocation#_BCcSwFUAEeeSbrrk3g0RrQ"/>
+    <changeableElements href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_go11YVJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_hFJB8VJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_go11YVJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_hFJB8VJmEee2WfXZtWV2gQ"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AllocationDegree" entityName="AsC_OnlineServices @ Server1">
+    <primaryChanged href="medSys.allocation#_BFHzUFUAEeeSbrrk3g0RrQ"/>
+    <changeableElements href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_go11YVJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_hFJB8VJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_go11YVJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_hFJB8VJmEee2WfXZtWV2gQ"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AllocationDegree" entityName="AsC_MarketingAnalysis @ Server4">
+    <primaryChanged href="medSys.allocation#_BF85wFUAEeeSbrrk3g0RrQ"/>
+    <changeableElements href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_go11YVJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_hFJB8VJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_go11YVJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_hFJB8VJmEee2WfXZtWV2gQ"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AllocationDegree" entityName="AsC_AccountingService @ Server1">
+    <primaryChanged href="medSys.allocation#_BGxZIFUAEeeSbrrk3g0RrQ"/>
+    <changeableElements href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_go11YVJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_hFJB8VJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_go11YVJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_hFJB8VJmEee2WfXZtWV2gQ"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AllocationDegree" entityName="AsC_TreatmentAnalysis @ Server3">
+    <primaryChanged href="medSys.allocation#_BHfx4FUAEeeSbrrk3g0RrQ"/>
+    <changeableElements href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_go11YVJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_hFJB8VJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_go11YVJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_hFJB8VJmEee2WfXZtWV2gQ"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AllocationDegree" entityName="AsC_CourseAnalysis @ Server2">
+    <primaryChanged href="medSys.allocation#_BIM8gFUAEeeSbrrk3g0RrQ"/>
+    <changeableElements href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_go11YVJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_hFJB8VJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_go11YVJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_hFJB8VJmEee2WfXZtWV2gQ"/>
+  </degreesOfFreedom>
+  <degreesOfFreedom xsi:type="specific:AllocationDegree" entityName="AsC_ErrorDetection @ Server3">
+    <primaryChanged href="medSys.allocation#_BI0AgFUAEeeSbrrk3g0RrQ"/>
+    <changeableElements href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_go11YVJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <changeableElements href="medSys.resourceenvironment#_hFJB8VJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_go11YVJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_hFJ98VJmEee2WfXZtWV2gQ"/>
+    <classDesignOptions href="medSys.resourceenvironment#_hFJB8VJmEee2WfXZtWV2gQ"/>
+  </degreesOfFreedom>
+</designdecision:DecisionSpace>

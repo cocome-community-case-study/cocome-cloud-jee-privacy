@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ASCII"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_UH6O8FJnEee2WfXZtWV2gQ" entityName="MedSys">
+  <targetResourceEnvironment_Allocation href="medSys.resourceenvironment#/"/>
+  <system_Allocation href="medSys.system#_YfsrYFJjEee2WfXZtWV2gQ"/>
+  <allocationContexts_Allocation id="_BCcSwFUAEeeSbrrk3g0RrQ" entityName="AsC_DataManager @ Server1">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_hSevoFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_BFHzUFUAEeeSbrrk3g0RrQ" entityName="AsC_OnlineServices @ Server1">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_kSQTcFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_BF85wFUAEeeSbrrk3g0RrQ" entityName="AsC_MarketingAnalysis @ Server4">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_go11YVJmEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_Z6cLEFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_BGxZIFUAEeeSbrrk3g0RrQ" entityName="AsC_AccountingService @ Server1">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_sbeLYVJlEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_pm7SEFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_BHfx4FUAEeeSbrrk3g0RrQ" entityName="AsC_TreatmentAnalysis @ Server3">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_s_1HkFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_BIM8gFUAEeeSbrrk3g0RrQ" entityName="AsC_CourseAnalysis @ Server2">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_vd-lAFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_BI0AgFUAEeeSbrrk3g0RrQ" entityName="AsC_ErrorDetection @ Server3">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_MX8vEVJmEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_xY9rAFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_0nMVwFfuEeeDILHJZYc4sQ" entityName="AsC_GovStatistics @ Server2">
+    <resourceContainer_AllocationContext href="medSys.resourceenvironment#_tIPx0VJlEee2WfXZtWV2gQ"/>
+    <assemblyContext_AllocationContext href="medSys.system#_mdp0AFJjEee2WfXZtWV2gQ"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>
