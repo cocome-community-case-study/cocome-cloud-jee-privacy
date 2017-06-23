@@ -49,6 +49,10 @@ Resource Container Actions reflect changes around a virtual or physical server. 
 \subsection{Action Ordering}
 
 After all required actions are determined, an order must be established. We decided for the most simple but effective approach: "acquire, migrate, terminate." Meaning, first acquire the new servers, change the component allocations and finally terminate the unnecessary servers. This way no component get moved onto non-existent servers.
+
+\todo{add conditions for actions and generate universal order!}
+
+
 \todo{More details and thought on ordering!}
 
 

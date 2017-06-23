@@ -26,6 +26,8 @@ The task evaluation is generally split into an \textit{Accuracy} evaluation and 
 %Scalability => Runtime behaviour, automatic generated PCMs, 1 > 10 > 100 > 1000 ... logarithmic scale
 The scalability evaluation aims for the systems runtime characteristic, based on an increasing work load. The actual accuracy result of the task doesn't interest during this analysis. The primary measurement is the task response time, dependent on the assembly context count and resource container count. Both axis are logarithmic scaled, so the response behaviour is clearly visible. The individual models are randomly generated, based on a repository model input.
 
+\todo{add Jaccard Coefficient}
+
 \section{Evaluation Scenarios}
 \label{sec:Evaluation:scenarios}
 
@@ -156,9 +158,9 @@ The Transformation evaluation aims for an accuracy and scalability test of the p
 
 \subsection{Transformation: Accuracy Evaluation}
 
-For the accuracy evaluation we are using the CoCOME-Cloud model (\autoref{sec:eval:models:cocome}), since it is completely specified and reflects the a real system the best way available. We need to show, that the TDeployment Event and the TGeoLocation Event process the according data correctly and transform the send data correctly onto the model. Potential errors must be handled and avoided. This will show, that the problem and research question in \autoref{sec:Introduction:problems} was successfully solved.
+For the accuracy evaluation we are using the CoCOME-Cloud model (\autoref{sec:eval:models:cocome}), since it is completely specified and reflects the a real system the best way available. We need to show, that the TDeployment, TUndeployment and TGeoLocation Event process transform the send data correctly onto the PCM model. Potential errors must be handled and avoided. For this purpose we will use two executions. First, we will execute a logically valid input set of events, to show the correctness of the transformation. In a second execution will show that logically wrong inputs are processed correctly. Both runs start with am empty allocation model.
 
-In the first run, we will start with an empty, allocation model and use only valid data:
+\autoref{tab:valid_run} shows the initial input event sequence. Initially all components get deployed, followed by an geo-location update on all servers, followed by a re-deployment of the \textit{cloud.web} component from \textit{Server1-EU} to \textit{Server5-EU} and finally a geo-location update on \textit{Server4-EU} to Ukraine.
 
 \begin{table}[h]
 	\centering
@@ -179,7 +181,7 @@ In the first run, we will start with an empty, allocation model and use only val
 		GeoLocation & Server5-EU on 826 (GBR)\\
 		GeoLocation & Server6-EU on 826 (GBR)\\
 		UnDeployment & cloud.web from Server1-EU\\
-		Deployment & cloud.web on Server1-NonEU\\
+		Deployment & cloud.web on Server5-EU\\
 		GeoLocation & Server4-EU on 804 (UKR)\\
 		\hline
 		\end{tabular}
@@ -191,7 +193,7 @@ We expect a run without any errors, an allocation model, which represents the de
 
 The results are unbiased. The system reports no errors and the models represent the system exactly as intended.
 
-To test the robustness, we need to input invalid events on a logical level. To gain a valid system state, we are starting with the valid order (\autoref{tab:valid_run}) and append illegal orders. We expect these orders to give a warning and to be ignored. The system must continue running. The test includes the following cases: Deployment of already deployed components, deployment of an undeployed component on a non-existing server, geo-location record from a non-existing server, un-deployment of a non-existing deployment. Illegal arguments are marked with a *:
+To test the robustness, we need to input invalid events on a logical level. To gain a valid system state, we are starting with the valid order (\autoref{tab:valid_run}) and append illegal orders. We expect these orders to give a warning and to be ignored. The system must continue running. The test includes the following cases: Deployment of already deployed component, deployment or undeployed on a non-existing server, geo-location record from a non-existing server, un-deployment of a non-existing deployment. Illegal events are marked with a *:
 
 \begin{table}[h]
 	\centering
@@ -199,13 +201,14 @@ To test the robustness, we need to input invalid events on a logical level. To g
 		\hline
 		\textbf{Action} & \textbf{Values}\\
 		\hline
+		\multicolumn{2}{ c }{\autoref{tab:valid_run} commands}\\
 		Deployment & cloud.web on Server1-EU*\\
-		UnDeployment & cloud.web from Server1-NonEU\\
-		UnDeployment & cloud.web from Server1-NonEU*\\
+		UnDeployment & cloud.web from Server5-EU\\
+		UnDeployment & cloud.web from Server5-EU*\\
 		Deployment & cloud.web on Server7-EU*\\
 		Deployment & IllegalComonent on Server1-EU*\\
 		UnDeployment & IllegalComonent from Server1-EU*\\
-		UnDeployment & tradingsystem.inventory from Server2-NonEU*\\
+		UnDeployment & tradingsystem.inventory from Server3-EU*\\
 		GeoLocation & Server7-EU on 826 (GBR)*\\
 		\hline
 	\end{tabular}
@@ -213,7 +216,9 @@ To test the robustness, we need to input invalid events on a logical level. To g
 	\label{tab:error_run}
 \end{table}
 
-The error run shows ends up to be exactly as intended, with one exception. The UnDeployment event \textit{tradingsystem.inventory from Server2-NonEU*} is executed and the component is un-deployed even though is placed on Server2-EU instead of Server2-NonEU. This is due to a bug during allocation context retrieving. Due to a wrong output, when reading the resource container from the allocation context, the comparison of resource containers is deactivated. The bug has a random nature and could not be resolved. The current workaround has only this one side effete: the un-deployment of a component is executed, even if the given server does not match the actual allocation.
+The error run shows ends up to be exactly as intended \dots
+
+The results show, that the problem and research question in \autoref{sec:Introduction:problems} was successfully solved.
 
 
 \subsection{Transformation: Scalability Evaluation}
@@ -250,8 +255,6 @@ The initial system state is as show in \autoref{fig:eval:pa:init}. The system is
 
 As a second trigger, we deploy the GovStatistics component onto Server2. The component must be tagged depersonalised and the deployment analysis must report a \textit{joining data stream} on Server2.
 
-The result is \textit{unbiased}. The \autoref{fig:eval:pa:base_tag} shows the initial component categorization. \autoref{fig:eval:pa:categorized} shows the categorization analysis result. Both states fulfil the expectations. The deployment analysis reports a legal deployment.
-
 \begin{figure}[h]
 	\centering
 	\begin{minipage}[b]{0.48\textwidth}		
@@ -266,11 +269,13 @@ The result is \textit{unbiased}. The \autoref{fig:eval:pa:base_tag} shows the in
 	\end{minipage}
 \end{figure}
 
-The second trigger, the component deployment on \textit{Server2}, reports a privacy violation. The cause is a joining data stream on Server2. This is what we provoked and expected.
+The result is \textit{unbiased}. The trigger is correctly processed due to the \textit{Jaccard Coefficient} of \textit{1.0}. The \autoref{fig:eval:pa:base_tag} shows the initial component categorization. \autoref{fig:eval:pa:categorized} shows the categorization analysis result. Both states fulfil the expectations. The deployment analysis reports a legal deployment.
+
+The second trigger, the component deployment on \textit{Server2}, reports a privacy violation. The cause is a joining data stream on Server2. This is what we provoked and expected. The \textit{Jaccard Coefficient} for the trigger processing is \textit{1.0}, again.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[trim = 0mm 10mm 0mm 10mm, clip, width=0.75\textwidth]{graphs/medSys_eval_pa_da}
+	\includegraphics[trim = 0mm 10mm 0mm 10mm, clip, width=0.90\textwidth]{graphs/medSys_eval_pa_da}
 	\caption{Deployment analysis result}
 	\label{fig:eval:pa:depl_ana}
 \end{figure}
@@ -283,7 +288,9 @@ For the scalability evaluation of the privacy analysis, we will use the generate
 
 The measurement starts taking time, after the snapshot is created and before the initial model is read in. The first round is taken, before the graph is constructed from the model. Further rounds are taken to measure the component classification and the deployment analysis. Complex outputs are deactivated.
 
-We will measure a graph size of 10, 100, ... up to 10000, with a distribution of 50\% Resource Container and 50\% Assembly Contexts. The classification of the Assembly Connectors is distributed among 15\% Personal, 35\% Depersonalised and 50\% Anonymous.
+We will measure a graph size of 10, 100, ... up to 100000, with a distribution of 40\% Resource Container and 60\% Assembly Contexts. The classification of the Assembly Connectors is distributed among 15\% Personal, 35\% Depersonalised and 50\% Anonymous. We expect this configuration to reflect a real world setting, with multiple components on a single server and only a view unused servers and an slightly increasing effort of to analyse the models. The \textit{"legal"} geo-locations consist of 40 random countries. Each model measurement is repeated ten times to minimize variation effects.
+
+
 
 
 \section{Model Generation}
@@ -316,7 +323,7 @@ After the execution of our model generation framework, \textit{PerOpteryx}, we e
 	\label{tab:eval:gen:execution}
 \end{table}
 
-\autoref{tab:eval:gen:execution} shows the component, their data privacy level classification, the initial deployment and the generated re-deployment. An re-deployment model privacy analysis shows, that the model is privacy compliant. The major goal (see \autoref{sec:Introduction:goals}) got accomplished. Further, depersonalised components got moved to more cheap Non-EU severs and two components got deployed onto the same server. Both deployment goals indicate, that the \textit{most cost efficient} model got chosen - as intended. However, none component stays at the original server, which produces (unnecessary) migration costs.
+\autoref{tab:eval:gen:execution} shows the component, their data privacy level classification, the initial deployment and the generated re-deployment. An re-deployment model privacy analysis shows, that the model is privacy compliant. The major goal (see \autoref{sec:Introduction:goals}) got accomplished. Further, depersonalised components got moved to more cheap Non-EU severs and two components got deployed onto the same server. Both deployment goals indicate, that the \textit{most cost efficient} model got chosen - as intended. However, no component stays at this original server, which produces (unnecessary) migration costs.
 
 In scenario \#4, no privacy compliant re-deployment model was found, PerOpteryx crashes or the any kind of error occurs. However, the end result stays unchanged, no valid re-deployment model is available after the PerOpteryx execution. We will provoke this situation by deploying all components onto a single server and moving this server to a Non-EU geo-location. We expect iObserve Privacy to report, that no privacy compliant PCM model was found.
 
@@ -325,13 +332,12 @@ The execution shows, an error is written to the console, that the given re-deplo
 \section{Adaptation Planning}
 \label{sec:Evaluation:planning}
 
-The Adaptation Planing, described in \textit{ch:SysAdap}, aims for calculating an order of adaptation action. The execution of this adaptation order must result in an runtime model, that is equivalent to the redeployment model. This is one of the research goals stated in \autoref{sec:Introduction:goals}. We will evaluate this task towards its accuracy and scalability aspects.
+The Adaptation Planing, described in \autoref{ch:SysAdap}, aims for calculating an sequence of adaptation actions. The execution of this adaptation order must result in an runtime model, that is equivalent to the redeployment model. This is one of the research goals stated in \autoref{sec:Introduction:goals}. We will evaluate this task towards its accuracy and scalability aspects.
 
  
 \subsection{Adaptation: Accuracy Evaluation}
 
-We will continue scenario \#2 from generation evaluation (\autoref{sec:Evaluation:generation}) to show the continuous flow and re-establishment of the privacy compliance. To show, that the given adaptation order leads to a privacy compliant system, we will simulate the adaptation. This will be achieved by translating the adaptation order to an equivalent iObserve privacy event input.
-
+We will continue scenario \#2 from generation evaluation (\autoref{sec:Evaluation:generation}) to show the continuous flow and re-establishment of the privacy compliance. To show, that the given adaptation order leads to a privacy compliant system, we will simulate the adaptation. This will be achieved by translating the adaptation order to an equivalent iObserve privacy input. After iObserve privacy computed the input, the \textit{Jaccard Coefficient} - between the computed re-deployment model from PerOpteryx and the iObserve runtime model - must be \textit{1.0}.
 
 We expect the adaptation sequence to initially \textit{acquire} the newly used servers, followed by a series of \textit{migration} actions, which moves the components to their new servers. Finally there should be three \textit{terminate} actions to release the servers, that are no longer needed.
 
@@ -358,7 +364,7 @@ We expect the adaptation sequence to initially \textit{acquire} the newly used s
 	\label{tab:eval:adapt:action_order}
 \end{table}
 
-\autoref{tab:eval:adapt:action_order} shows the output adaptation sequence for scenario \#2. The result is unbiased. For the transformation onto iObersve input events, we can ignore the acquire actions, since the resource container already exist in the resource environment model. Every migrate action needs to be translated into two events: a TUndeployment event and a TDeployment event. The terminate can also be ignored, since there is no real server to release/terminate. We expect the system to be in a privacy compliant state after the execution of the iOberve input events. \autoref{tab:eval:adapt:action_input_result} shows the resulting iObserve input events.
+\autoref{tab:eval:adapt:action_order} shows the output adaptation sequence for scenario \#2. The result is unbiased. For the transformation onto iObersve input events, we can ignore the acquire actions, since the resource container already exist in the resource environment model. Every migrate action needs to be translated into two events: a TUndeployment event and a TDeployment event. The terminate can also be ignored, since there is no real server to release/terminate. We expect the system to be in a privacy compliant state after the execution of the iOberve input events. \autoref{tab:eval:adapt:action_input_result} shows the resulting iObserve input.
 
 \begin{table}[h]
 	\centering
@@ -392,29 +398,63 @@ We expect the adaptation sequence to initially \textit{acquire} the newly used s
 
 The execution of the transformed adaptation sequence (\autoref{tab:eval:adapt:action_input_result}) results in a privacy compliant PCM model. Frankly speaking, the result is unbiased and solves the in \autoref{sec:Introduction:problems} specified problem of \textit{automated privacy compliance re-establishment}.
 
-We will use the Medi-Sys to show the limitations of the adaptation calculation and execution mentioned in scenario \#3. Since PerOpteryx only adapts the system given according to the \textit{design decision} model, it will only produce acquire, migrate and terminate actions - in our use case. These are (usually) automatically executable. However, there are more potential actions specified, which can't be executed automatically. We will modify the Medi-Sys model to provoke one of each action. We expect each action to be detected, except the \textit{replicate} action, since this is not supported by the adaptation calculation.
+\begin{wrapfigure}{l}{0.65\textwidth}
+	\begin{center}
+		\includegraphics[trim = 5mm 10mm 10mm 10mm, clip, width=0.65\textwidth]{graphs/medSystem_adap_calc_all_runtime}
+	\end{center}
+	\caption{Runtime model}
+	\label{fig:eval:adapt:4:run}
+\end{wrapfigure}
 
+We will use the Medi-Sys to show the limitations of the adaptation calculation and execution mentioned in scenario \#3. Since PerOpteryx only adapts the system given according to the \textit{design decision} model, it will only produce acquire, migrate and terminate actions - in our use case. These are (usually) automatically executable. However, there are more potential actions specified, which can't be executed automatically. We will modify the Medi-Sys model to provoke one of each action. \autoref{fig:eval:adapt:4:run} shows the runtime model, \autoref{fig:eval:adapt:4:redepl} shows the re-deployment model. The anticipated difference between these models is shown in \autoref{tab:eval:adapt:4:action_provoke}. We expect each of the seven actions to be detected, except the \textit{replicate} action, since this is not (yet) supported by the adaptation calculation. It will be subsided by an \textit{aquire Server2-2} and an \textit{allocate GovStatistics on Server2-2}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[trim = 5mm 5mm 10mm 10mm, clip, width=0.65\textwidth]{graphs/medSystem_adap_calc_all_redepl}
+	\caption{Redeployment model}
+	\label{fig:eval:adapt:4:redepl}
+\end{figure}
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{r | l}
+	\begin{tabular}{r | l }
 		\hline
 		\textbf{Action} & \textbf{Values}\\
 		\hline
 		Acquire & Server-6\\
-		Terminate & Server-4\\
-		Replicate & Server-2 (with GovStatistics)\\
-		
-		Allocate & AccountingService on Server-1\\
-		Deallocate & MarketingAnalysis from Server-4\\
-		Migrate & ErrorDetection from Server-3 to Server-6\\
 		Exchange Component & CourseAnalysis to CourseAnalysis-2\\
+		Deallocate & MarketingAnalysis from Server-4\\
+		Allocate & AccountingService-2 on Server-6\\
+		Migrate & ErrorDetection from Server-3 to Server-6\\
+		Replicate & Server-2 (with GovStatistics)\\
+		Terminate & Server-4\\
 		\hline
 	\end{tabular}
-	\caption{iObserve input event translated adaptation sequence}
-	\label{tab:eval:adapt:action_input_result}
+	\caption{Expected adaptation sequence for Scenario \#4}
+	\label{tab:eval:adapt:4:action_provoke}
 \end{table}
 
+The execution of the adaptation calculation shows the expected result (see \autoref{tab:eval:adapt:4:action_result}). The replicate action is split into the expected \textit{acquire} and \textit{allocate} actions (marked with an *).
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{r | l }
+		\hline
+		\textbf{Action} & \textbf{Values}\\
+		\hline
+		Acquire & Server-6\\
+		Acquire & Server2-2 (*)\\
+		Exchange Component & CourseAnalysis to CourseAnalysis-2\\
+		Allocate & AccountingService-2 on Server-6 (*)\\
+		Allocate & GovStatistics-2 on Server2-2\\
+		Deallocate & MarketingAnalysis from Server-4\\
+		Migrate & ErrorDetection from Server-3 to Server-6\\
+		Terminate & Server-4\\
+		\hline
+	\end{tabular}
+	\caption{Expected adaptation sequence for Scenario \#4}
+	\label{tab:eval:adapt:4:action_result}
+\end{table}
 
 
 
