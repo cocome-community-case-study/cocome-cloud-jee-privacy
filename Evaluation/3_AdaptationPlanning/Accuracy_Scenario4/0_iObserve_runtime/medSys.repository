@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_hrzdwFHjEeePg8pP2ddw0g" entityName="MedSys">
+  <components__Repository xsi:type="repository:BasicComponent" id="_l9NokFHjEeePg8pP2ddw0g" entityName="DataManager">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__QixMVHnEeePg8pP2ddw0g" entityName="PI_OnlineServices" providedInterface__OperationProvidedRole="_kPC2llHjEeePg8pP2ddw0g"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_BGci4VHoEeePg8pP2ddw0g" entityName="PI_Status" providedInterface__OperationProvidedRole="_1sDjN1HnEeePg8pP2ddw0g"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_CSNycVHoEeePg8pP2ddw0g" entityName="PI_AccountingServices" providedInterface__OperationProvidedRole="_5L9_p1HnEeePg8pP2ddw0g"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_CtmG4VHoEeePg8pP2ddw0g" entityName="PI_GovStatistics" providedInterface__OperationProvidedRole="_RBfqV1HoEeePg8pP2ddw0g"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_dkFLsVHpEeePg8pP2ddw0g" entityName="PI_MarketingAnalysis" providedInterface__OperationProvidedRole="_TL9911HoEeePg8pP2ddw0g"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_byutYVHqEeePg8pP2ddw0g" entityName="PI_CourseAnalysis" providedInterface__OperationProvidedRole="_yUW8t1HpEeePg8pP2ddw0g"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_maZT0FHjEeePg8pP2ddw0g" entityName="OnlineServices">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_h759BVHoEeePg8pP2ddw0g" entityName="RI_OnlineServices" requiredInterface__OperationRequiredRole="_kPC2llHjEeePg8pP2ddw0g"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_jpantVHoEeePg8pP2ddw0g" entityName="RI_Status" requiredInterface__OperationRequiredRole="_1sDjN1HnEeePg8pP2ddw0g"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_kKOOtVHoEeePg8pP2ddw0g" entityName="RI_AccountingData" requiredInterface__OperationRequiredRole="_SLy6R1HoEeePg8pP2ddw0g"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_mxflMFHjEeePg8pP2ddw0g" entityName="AccountingService">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_tNQVcVHoEeePg8pP2ddw0g" entityName="PI_AccountingData" providedInterface__OperationProvidedRole="_SLy6R1HoEeePg8pP2ddw0g"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_P8qTwVHpEeePg8pP2ddw0g" entityName="PI_Status" providedInterface__OperationProvidedRole="_1sDjN1HnEeePg8pP2ddw0g"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_txYWNVHoEeePg8pP2ddw0g" entityName="RI_AccuntingServices" requiredInterface__OperationRequiredRole="_5L9_p1HnEeePg8pP2ddw0g"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_1IKv0FHjEeePg8pP2ddw0g" entityName="MarketingAnalysis">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_cqTrFVHpEeePg8pP2ddw0g" entityName="RI_MarketingAnalysis" requiredInterface__OperationRequiredRole="_SLy6R1HoEeePg8pP2ddw0g"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_7RcB5VHoEeePg8pP2ddw0g" entityName="RI_AccountingData" requiredInterface__OperationRequiredRole="_SLy6R1HoEeePg8pP2ddw0g"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_7unGFVHoEeePg8pP2ddw0g" entityName="RI_Status" requiredInterface__OperationRequiredRole="_1sDjN1HnEeePg8pP2ddw0g"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_9Q_4IFHjEeePg8pP2ddw0g" entityName="TreatmentAnalysis">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_j4ghsVHqEeePg8pP2ddw0g" entityName="PI_ErrorDetection" providedInterface__OperationProvidedRole="_092Hd1HpEeePg8pP2ddw0g"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_kbYlRVHqEeePg8pP2ddw0g" entityName="RI_TreatmentAnalysis" requiredInterface__OperationRequiredRole="_0XTr51HpEeePg8pP2ddw0g"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_wVPIJVHqEeePg8pP2ddw0g" entityName="RI_Status" requiredInterface__OperationRequiredRole="_1sDjN1HnEeePg8pP2ddw0g"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_UzOMUFHkEeePg8pP2ddw0g" entityName="CourseAnalysis">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gfCrgVHqEeePg8pP2ddw0g" entityName="PI_TreatmentAnalysis" providedInterface__OperationProvidedRole="_0XTr51HpEeePg8pP2ddw0g"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_oM8LUVHqEeePg8pP2ddw0g" entityName="PI_ErrorDetection" providedInterface__OperationProvidedRole="_092Hd1HpEeePg8pP2ddw0g"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_x1v4oVHqEeePg8pP2ddw0g" entityName="PI_Status" providedInterface__OperationProvidedRole="_1sDjN1HnEeePg8pP2ddw0g"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_UmdT9VHqEeePg8pP2ddw0g" entityName="RI_CorseAnalysis" requiredInterface__OperationRequiredRole="_yUW8t1HpEeePg8pP2ddw0g"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_iBljsFHnEeePg8pP2ddw0g" entityName="ErrorDetection">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_7G37NVHpEeePg8pP2ddw0g" entityName="RI_ErrorDetectionTreatment" requiredInterface__OperationRequiredRole="_092Hd1HpEeePg8pP2ddw0g"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_8nTzNVHpEeePg8pP2ddw0g" entityName="RI_ErrorDetectionCourse"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_EVj4VVHqEeePg8pP2ddw0g" entityName="RI_IStatus" requiredInterface__OperationRequiredRole="_1sDjN1HnEeePg8pP2ddw0g"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_kMhKMFHnEeePg8pP2ddw0g" entityName="GovStatistics">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_NKn0hVHqEeePg8pP2ddw0g" entityName="RI_GovStatistics" requiredInterface__OperationRequiredRole="_RBfqV1HoEeePg8pP2ddw0g"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_GbhSMFgfEeeDILHJZYc4sQ" entityName="CourseAnalysis-2">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LndyoVgfEeeDILHJZYc4sQ" entityName="PI_TreatmentAnalysis" providedInterface__OperationProvidedRole="_0XTr51HpEeePg8pP2ddw0g"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_M-eo4VgfEeeDILHJZYc4sQ" entityName="PI_ErrorDetection" providedInterface__OperationProvidedRole="_092Hd1HpEeePg8pP2ddw0g"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_NbJ90VgfEeeDILHJZYc4sQ" entityName="PI_Status" providedInterface__OperationProvidedRole="_1sDjN1HnEeePg8pP2ddw0g"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_N7H3VVgfEeeDILHJZYc4sQ" entityName="RI_CorseAnalysis" requiredInterface__OperationRequiredRole="_yUW8t1HpEeePg8pP2ddw0g"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_kPC2llHjEeePg8pP2ddw0g" entityName="IOnlineServices"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_1sDjN1HnEeePg8pP2ddw0g" entityName="IStatus"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_5L9_p1HnEeePg8pP2ddw0g" entityName="IAccountingServices"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_SLy6R1HoEeePg8pP2ddw0g" entityName="IAccountingData"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_RBfqV1HoEeePg8pP2ddw0g" entityName="IGovStatistics"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_TL9911HoEeePg8pP2ddw0g" entityName="IMarketingAnalysis"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_yUW8t1HpEeePg8pP2ddw0g" entityName="ICourseAnalysis"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_0XTr51HpEeePg8pP2ddw0g" entityName="ITreatmentAnalysis"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_092Hd1HpEeePg8pP2ddw0g" entityName="IErrorDetection"/>
+</repository:Repository>

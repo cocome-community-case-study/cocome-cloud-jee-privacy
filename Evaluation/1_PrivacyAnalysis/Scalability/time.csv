@@ -1,29 +1,127 @@
-10;;;;
-Start - Reading Model;Building Graph;Component Classification;Deployment Analysis;
-0,065;0,006;0,001;0,019;
-Start - Reading Model;Building Graph;Component Classification;Deployment Analysis;
-0,095;0,008;0,001;0,019;
-Start - Reading Model;Building Graph;Component Classification;Deployment Analysis;
-0,095;0,008;0,001;0,019;
-100;;;;
-Start - Reading Model;Building Graph;Component Classification;Deployment Analysis;End
-0,097;0,007;0,001;0,112;
-Start - Reading Model;Building Graph;Component Classification;Deployment Analysis;End
-0,112;0,005;0;0,001;
-Start - Reading Model;Building Graph;Component Classification;Deployment Analysis;End
-0,108;0,003;0;0;
-1000;;;;
-Start - Reading Model;Building Graph;Component Classification;Deployment Analysis;End
-0,688;0,012;0,001;0,048;
-Start - Reading Model;Building Graph;Component Classification;Deployment Analysis;End
-0,626;0,005;0,001;0,001;
-Start - Reading Model;Building Graph;Component Classification;Deployment Analysis;End
-0,5;0,008;0;0,002;
-10000;;;;
-Start - Reading Model;Building Graph;Component Classification;Deployment Analysis;End
-33,68;0,073;0,007;0,038;
-Start - Reading Model;Building Graph;Component Classification;Deployment Analysis;End
-30,047;0,043;0,003;0,011;
-Start - Reading Model;Building Graph;Component Classification;Deployment Analysis;End
-28,658;0,04;0,004;0,004;
-100000;;;;
+10;;;
+Building Graph;Component Classification;Deployment Analysis;End
+0,007;0,001;0,001;
+Building Graph;Component Classification;Deployment Analysis;End
+0;0,001;0;
+Building Graph;Component Classification;Deployment Analysis;End
+0,001;0;0;
+Building Graph;Component Classification;Deployment Analysis;End
+0;0,001;0;
+Building Graph;Component Classification;Deployment Analysis;End
+0,001;0;0;
+Building Graph;Component Classification;Deployment Analysis;End
+0,001;0;0;
+Building Graph;Component Classification;Deployment Analysis;End
+0,001;0;0;
+Building Graph;Component Classification;Deployment Analysis;End
+0,001;0;0;
+Building Graph;Component Classification;Deployment Analysis;End
+0;0,001;0;
+Building Graph;Component Classification;Deployment Analysis;End
+0,001;0;0;
+100;;;
+Building Graph;Component Classification;Deployment Analysis;End
+0,008;0,001;0,035;
+Building Graph;Component Classification;Deployment Analysis;End
+0,001;0;0;
+Building Graph;Component Classification;Deployment Analysis;End
+0,001;0,001;0;
+Building Graph;Component Classification;Deployment Analysis;End
+0,002;0;0,001;
+Building Graph;Component Classification;Deployment Analysis;End
+0,003;0;0;
+Building Graph;Component Classification;Deployment Analysis;End
+0,001;0,001;0;
+Building Graph;Component Classification;Deployment Analysis;End
+0,001;0;0,001;
+Building Graph;Component Classification;Deployment Analysis;End
+0,001;0;0,001;
+Building Graph;Component Classification;Deployment Analysis;End
+0,002;0;0,001;
+Building Graph;Component Classification;Deployment Analysis;End
+0,001;0;0,001;
+1000;;;
+Building Graph;Component Classification;Deployment Analysis;End
+0,023;0,005;0,013;
+Building Graph;Component Classification;Deployment Analysis;End
+0,008;0,001;0,002;
+Building Graph;Component Classification;Deployment Analysis;End
+0,006;0,002;0,001;
+Building Graph;Component Classification;Deployment Analysis;End
+0,006;0,001;0,002;
+Building Graph;Component Classification;Deployment Analysis;End
+0,006;0;0,001;
+Building Graph;Component Classification;Deployment Analysis;End
+0,004;0,001;0,002;
+Building Graph;Component Classification;Deployment Analysis;End
+0,005;0,005;0,001;
+Building Graph;Component Classification;Deployment Analysis;End
+0,005;0,001;0,001;
+Building Graph;Component Classification;Deployment Analysis;End
+0,006;0,001;0,003;
+Building Graph;Component Classification;Deployment Analysis;End
+0,006;0,002;0,003;
+10000;;;
+Building Graph;Component Classification;Deployment Analysis;End
+0,084;0,025;0,015;
+Building Graph;Component Classification;Deployment Analysis;End
+0,058;0,006;0,007;
+Building Graph;Component Classification;Deployment Analysis;End
+0,076;0,007;0,007;
+Building Graph;Component Classification;Deployment Analysis;End
+0,073;0,009;0,007;
+Building Graph;Component Classification;Deployment Analysis;End
+0,049;0,006;0,009;
+Building Graph;Component Classification;Deployment Analysis;End
+0,072;0,005;0,007;
+Building Graph;Component Classification;Deployment Analysis;End
+0,121;0,005;0,009;
+Building Graph;Component Classification;Deployment Analysis;End
+0,059;0,005;0,011;
+Building Graph;Component Classification;Deployment Analysis;End
+0,044;0,006;0,007;
+Building Graph;Component Classification;Deployment Analysis;End
+0,057;0,006;0,006;
+100000;;;
+Building Graph;Component Classification;Deployment Analysis;End
+0,593;0,074;0,098;
+Building Graph;Component Classification;Deployment Analysis;End
+0,69;0,06;0,044;
+Building Graph;Component Classification;Deployment Analysis;End
+0,467;0,051;0,046;
+Building Graph;Component Classification;Deployment Analysis;End
+0,444;0,056;0,043;
+Building Graph;Component Classification;Deployment Analysis;End
+0,425;0,051;0,045;
+Building Graph;Component Classification;Deployment Analysis;End
+0,443;0,053;0,042;
+Building Graph;Component Classification;Deployment Analysis;End
+0,582;0,042;0,031;
+Building Graph;Component Classification;Deployment Analysis;End
+0,431;0,048;0,036;
+Building Graph;Component Classification;Deployment Analysis;End
+0,425;0,05;0,035;
+Building Graph;Component Classification;Deployment Analysis;End
+0,423;0,05;0,077;
+1000000;;;
+Building Graph;Component Classification;Deployment Analysis;End
+11,96;0,71;0,54;
+Building Graph;Component Classification;Deployment Analysis;End
+6,444;0,518;0,4;
+Building Graph;Component Classification;Deployment Analysis;End
+6,725;0,511;8,449;
+Building Graph;Component Classification;Deployment Analysis;End
+6,749;0,592;0,932;
+Building Graph;Component Classification;Deployment Analysis;End
+6,086;0,522;5,986;
+Building Graph;Component Classification;Deployment Analysis;End
+5,896;0,534;0,907;
+Building Graph;Component Classification;Deployment Analysis;End
+5,974;0,551;5,848;
+Building Graph;Component Classification;Deployment Analysis;End
+5,92;0,562;0,898;
+Building Graph;Component Classification;Deployment Analysis;End
+6,069;0,574;5,96;
+Building Graph;Component Classification;Deployment Analysis;End
+5,973;0,617;0,918;
+10000000;;;

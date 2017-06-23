@@ -1,0 +1,130 @@
+INFO  | 2017-06-23 18:03:42 | [main] cli.AnalysisMain (AnalysisMain.java:102) - Starting iObserve Privacy
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/Philipp/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/9865cf6994f9ff13fce0bf93f2054ef6c65bb462/logback-classic-1.1.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/Philipp/.gradle/caches/3.2.1/generated-gradle-jars/gradle-api-3.2.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+18:03:43,751 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+18:03:43,751 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+18:03:43,751 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/GitRepositorys/iobserve-analysis/analysis/bin/logback.xml]
+18:03:43,753 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+18:03:43,753 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/C:/Users/Philipp/.gradle/caches/modules-2/files-2.1/net.sourceforge.teetime-stages/teetime-stages/3.0-SNAPSHOT/5ede583ac3ca81117aa7441d55be0b0635566464/teetime-stages-3.0-SNAPSHOT.jar!/logback.xml]
+18:03:43,753 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/C:/GitRepositorys/iobserve-analysis/analysis/bin/logback.xml]
+18:03:43,843 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+18:03:43,859 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+18:03:43,865 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+18:03:43,877 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:03:43,918 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+18:03:43,920 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+18:03:43,921 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:03:43,924 |-INFO in ch.qos.logback.core.FileAppender[FILE] - File property is set to [log/jclouds.log]
+18:03:43,926 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+18:03:43,926 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [WIREFILE]
+18:03:43,927 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:03:43,927 |-INFO in ch.qos.logback.core.FileAppender[WIREFILE] - File property is set to [log/jclouds-wire.log]
+18:03:43,928 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+18:03:43,928 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [COMPUTEFILE]
+18:03:43,928 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:03:43,929 |-INFO in ch.qos.logback.core.FileAppender[COMPUTEFILE] - File property is set to [log/jclouds-compute.log]
+18:03:43,929 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+18:03:43,929 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [SSHFILE]
+18:03:43,930 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:03:43,930 |-INFO in ch.qos.logback.core.FileAppender[SSHFILE] - File property is set to [log/jclouds-ssh.log]
+18:03:43,930 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to INFO
+18:03:43,931 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - org.jclouds level set to DEBUG
+18:03:43,931 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[org.jclouds]
+18:03:43,932 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.compute level set to DEBUG
+18:03:43,932 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [COMPUTEFILE] to Logger[jclouds.compute]
+18:03:43,932 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.wire level set to DEBUG
+18:03:43,932 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [WIREFILE] to Logger[jclouds.wire]
+18:03:43,932 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.headers level set to DEBUG
+18:03:43,932 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [WIREFILE] to Logger[jclouds.headers]
+18:03:43,932 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - jclouds.ssh level set to DEBUG
+18:03:43,932 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [SSHFILE] to Logger[jclouds.ssh]
+18:03:43,932 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - net.schmizz level set to DEBUG
+18:03:43,932 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [SSHFILE] to Logger[net.schmizz]
+18:03:43,932 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+18:03:43,934 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@2d35442b - Registering current configuration as safe fallback point
+
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+INFO  | 2017-06-23 18:03:44 | [main] cli.AnalysisMain (AnalysisMain.java:138) - Analysis configuration
+INFO  | 2017-06-23 18:03:44 | [main] cli.AnalysisMain (AnalysisMain.java:140) - Analysis start
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] filter.TGeoLocation (TGeoLocation.java:45) - New GeoLocationRecord: Server1	 ->	112
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:34) - Creating graph 	Model: C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Runtime
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:40) - Creating Model Providers
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] privacyanalysis.GraphCreation (GraphCreation.java:42) - DONE!
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:26) - Analysing graph
+ERROR | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:50) - ILLEGAL Deployment
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:52) - 
+Server: _MX8vEVJmEee2WfXZtWV2gQ	-- Location: 826 (GBR)	-- Name: Server4
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_Z6cLEFJjEee2WfXZtWV2gQ	Personal	0	2	1	AsC_MarketingAnalysis
+Server: _go11YVJmEee2WfXZtWV2gQ	-- Location: 250 (FRA)	-- Name: Server5
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_vd-lAFJjEee2WfXZtWV2gQ	Depersonalized	0	3	1	AsC_CourseAnalysis
+Server: _tIPx0VJlEee2WfXZtWV2gQ	-- Location: 804 (UKR)	-- Name: Server3
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_s_1HkFJjEee2WfXZtWV2gQ	Depersonalized	0	2	1	AsC_TreatmentAnalysis
+	_xY9rAFJjEee2WfXZtWV2gQ	Depersonalized	0	2	1	AsC_ErrorDetection
+Server: _sbeLYVJlEee2WfXZtWV2gQ	-- Location: 112 (BLR)	-- Name: Server1
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_pm7SEFJjEee2WfXZtWV2gQ	Personal	1	2	1	AsC_AccountingService
+	_kSQTcFJjEee2WfXZtWV2gQ	Personal	1	1	1	AsC_OnlineServices
+	_hSevoFJjEee2WfXZtWV2gQ	Personal	2	3	2	AsC_DataManager
+Server: _s2HgAVJlEee2WfXZtWV2gQ	-- Location: 250 (FRA)	-- Name: Server2
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_mdp0AFJjEee2WfXZtWV2gQ	Depersonalized	0	1	0	AsC_GovStatistics
+
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:55) - Server: 	Server1 @ BLR	 -> 	AsC_AccountingService
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:55) - Server: 	Server1 @ BLR	 -> 	AsC_OnlineServices
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] privacyanalysis.GraphPrivacyAnalysis (GraphPrivacyAnalysis.java:55) - Server: 	Server1 @ BLR	 -> 	AsC_DataManager
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] planning.ModelProcessing (ModelProcessing.java:45) - Model Processing
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] snapshot.SnapshotBuilder (SnapshotBuilder.java:95) - Creating Snapshot: 	C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\processedModel
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:25) - Model Optimizing
+WARN  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:33) - Skipping actual generation for evaluation purposes!
+WARN  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] planning.ModelOptimization (ModelOptimization.java:39) - Setting C:\GitRepositorys\iobserve-analysis\analysis\res\working_dir\snapshot\Test as geneartion output string
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:38) - Candiate Processing
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:72) - ReDeployment Model is legal!
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] planning.CandidateProcessing (CandidateProcessing.java:81) - 
+Server: _tIPx0VJlEee2WfXZtWV2gQ	-- Location: 804 (UKR)	-- Name: Server3
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_s_1HkFJjEee2WfXZtWV2gQ	Depersonalized	0	2	1	AsC_TreatmentAnalysis
+Server: _hFJ98VJmEee2WfXZtWV2gQ	-- Location: 826 (GBR)	-- Name: Server6
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_xY9rAFJjEee2WfXZtWV2gQ	Depersonalized	0	2	1	AsC_ErrorDetection
+	_oVu4cFggEeeDILHJZYc4sQ	Personal	1	0	0	AsC_AccountingService-2
+Server: _MX8vEVJmEee2WfXZtWasdf	-- Location: 826 (GBR)	-- Name: Server2-2
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_XTh7sFggEeeDILHJZYc4sQ	Depersonalized	0	1	0	AsC_GovStatistics-2
+Server: _s2HgAVJlEee2WfXZtWV2gQ	-- Location: 250 (FRA)	-- Name: Server2
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_mdp0AFJjEee2WfXZtWV2gQ	Depersonalized	0	1	0	AsC_GovStatistics
+Server: _sbeLYVJlEee2WfXZtWV2gQ	-- Location: 276 (DEU)	-- Name: Server1
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_pm7SEFJjEee2WfXZtWV2gQ	Personal	1	1	0	AsC_AccountingService
+	_kSQTcFJjEee2WfXZtWV2gQ	Personal	1	1	1	AsC_OnlineServices
+	_hSevoFJjEee2WfXZtWV2gQ	Personal	3	3	2	AsC_DataManager
+Server: _go11YVJmEee2WfXZtWV2gQ	-- Location: 250 (FRA)	-- Name: Server5
+-Comp:	 ID 			CompPrivayLvl 	Pers 	DeP 	Anonym 	Component Name
+	_vd-lAFJjEee2WfXZtWV2gQ	Depersonalized	0	3	1	AsC_CourseAnalysis
+
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] adaptation.AdaptationCalculation (AdaptationCalculation.java:61) - Calculating system adaptation
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] adaptation.AdaptationPlanning (AdaptationPlanning.java:41) - Planning adaptation order
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] adaptation.AdaptationPlanning (AdaptationPlanning.java:85) - Adaption sequence:
+0	Acquire:	Server6	ID: _hFJ98VJmEee2WfXZtWV2gQ
+1	Acquire:	Server2-2	ID: _MX8vEVJmEee2WfXZtWasdf
+2	ChangeComp:	AsC_CourseAnalysis	ID: _vd-lAFJjEee2WfXZtWV2gQ	CourseAnalysis	->	CourseAnalysis-2
+3	Deallocate:	AsC_MarketingAnalysis	ID: _Z6cLEFJjEee2WfXZtWV2gQ
+4	Allocate:	AsC_AccountingService-2	ID: _oVu4cFggEeeDILHJZYc4sQ	 ------- 	->	AlC_AccountingService-2
+5	Allocate:	AsC_GovStatistics-2	ID: _XTh7sFggEeeDILHJZYc4sQ	 ------- 	->	AlC_GovStatistics-2
+6	Migrate:	AsC_ErrorDetection	ID: _xY9rAFJjEee2WfXZtWV2gQ	Server3	->	Server6
+7	Terminate:	Server4	ID: _MX8vEVJmEee2WfXZtWV2gQ
+
+INFO  | 2017-06-23 18:03:44 | [Thread for InitialElementProducer-0] adaptation.AdaptationExecution (AdaptationExecution.java:46) - Executing adaptation
+The following actions can not be executed automatically:
+Change repository component Action: Change repository component of assembly context 'AsC_CourseAnalysis' to component 'CourseAnalysis-2'
+You will be prompted to execute the tasks manually during the process. Do you want to continue? Type 'true' or 'false'.
+true
+INFO  | 2017-06-23 18:03:49 | [main] cli.AnalysisMain (AnalysisMain.java:142) - Anaylsis complete

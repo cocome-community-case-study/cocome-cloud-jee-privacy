@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:compositionprivacy="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2/Privacy" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_YfsrYFJjEee2WfXZtWV2gQ" entityName="MedSys">
+  <assemblyContexts__ComposedStructure id="_hSevoFJjEee2WfXZtWV2gQ" entityName="AsC_DataManager">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="medSys.repository#_l9NokFHjEeePg8pP2ddw0g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_kSQTcFJjEee2WfXZtWV2gQ" entityName="AsC_OnlineServices">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="medSys.repository#_maZT0FHjEeePg8pP2ddw0g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_Z6cLEFJjEee2WfXZtWV2gQ" entityName="AsC_MarketingAnalysis">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="medSys.repository#_1IKv0FHjEeePg8pP2ddw0g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_mdp0AFJjEee2WfXZtWV2gQ" entityName="AsC_GovStatistics">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="medSys.repository#_kMhKMFHnEeePg8pP2ddw0g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_pm7SEFJjEee2WfXZtWV2gQ" entityName="AsC_AccountingService">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="medSys.repository#_mxflMFHjEeePg8pP2ddw0g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_s_1HkFJjEee2WfXZtWV2gQ" entityName="AsC_TreatmentAnalysis">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="medSys.repository#_9Q_4IFHjEeePg8pP2ddw0g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_vd-lAFJjEee2WfXZtWV2gQ" entityName="AsC_CourseAnalysis">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="medSys.repository#_UzOMUFHkEeePg8pP2ddw0g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_xY9rAFJjEee2WfXZtWV2gQ" entityName="AsC_ErrorDetection">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="medSys.repository#_iBljsFHnEeePg8pP2ddw0g"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_GKIz4FJkEee2WfXZtWV2gQ" entityName="Connector AsC_GovStatistics -> AsC_DataManager" requiringAssemblyContext_AssemblyConnector="_mdp0AFJjEee2WfXZtWV2gQ" providingAssemblyContext_AssemblyConnector="_hSevoFJjEee2WfXZtWV2gQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="medSys.repository#_CtmG4VHoEeePg8pP2ddw0g"/>
+    <requiredRole_AssemblyConnector href="medSys.repository#_NKn0hVHqEeePg8pP2ddw0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_KGSgYFJkEee2WfXZtWV2gQ" entityName="Connector AsC_OnlineServices -> AsC_DataManager" requiringAssemblyContext_AssemblyConnector="_kSQTcFJjEee2WfXZtWV2gQ" providingAssemblyContext_AssemblyConnector="_hSevoFJjEee2WfXZtWV2gQ">
+    <providedRole_AssemblyConnector href="medSys.repository#__QixMVHnEeePg8pP2ddw0g"/>
+    <requiredRole_AssemblyConnector href="medSys.repository#_h759BVHoEeePg8pP2ddw0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_LMaa8FJkEee2WfXZtWV2gQ" entityName="Connector AsC_OnlineServices -> AsC_AccountingService" requiringAssemblyContext_AssemblyConnector="_kSQTcFJjEee2WfXZtWV2gQ" providingAssemblyContext_AssemblyConnector="_pm7SEFJjEee2WfXZtWV2gQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="medSys.repository#_tNQVcVHoEeePg8pP2ddw0g"/>
+    <requiredRole_AssemblyConnector href="medSys.repository#_kKOOtVHoEeePg8pP2ddw0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_NYAv0FJkEee2WfXZtWV2gQ" entityName="Connector AsC_AccountingService -> AsC_DataManager" requiringAssemblyContext_AssemblyConnector="_pm7SEFJjEee2WfXZtWV2gQ" providingAssemblyContext_AssemblyConnector="_hSevoFJjEee2WfXZtWV2gQ">
+    <providedRole_AssemblyConnector href="medSys.repository#_CSNycVHoEeePg8pP2ddw0g"/>
+    <requiredRole_AssemblyConnector href="medSys.repository#_txYWNVHoEeePg8pP2ddw0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_OfNBYFJkEee2WfXZtWV2gQ" entityName="Connector AsC_ErrorDetection -> AsC_TreatmentAnalysis" requiringAssemblyContext_AssemblyConnector="_xY9rAFJjEee2WfXZtWV2gQ" providingAssemblyContext_AssemblyConnector="_s_1HkFJjEee2WfXZtWV2gQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="medSys.repository#_j4ghsVHqEeePg8pP2ddw0g"/>
+    <requiredRole_AssemblyConnector href="medSys.repository#_7G37NVHpEeePg8pP2ddw0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_Qh9jUFJkEee2WfXZtWV2gQ" entityName="Connector AsC_CourseAnalysis -> AsC_DataManager" requiringAssemblyContext_AssemblyConnector="_vd-lAFJjEee2WfXZtWV2gQ" providingAssemblyContext_AssemblyConnector="_hSevoFJjEee2WfXZtWV2gQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="medSys.repository#_byutYVHqEeePg8pP2ddw0g"/>
+    <requiredRole_AssemblyConnector href="medSys.repository#_UmdT9VHqEeePg8pP2ddw0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_Su8YQFJkEee2WfXZtWV2gQ" entityName="Connector AsC_TreatmentAnalysis -> AsC_CourseAnalysis" requiringAssemblyContext_AssemblyConnector="_s_1HkFJjEee2WfXZtWV2gQ" providingAssemblyContext_AssemblyConnector="_vd-lAFJjEee2WfXZtWV2gQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="medSys.repository#_gfCrgVHqEeePg8pP2ddw0g"/>
+    <requiredRole_AssemblyConnector href="medSys.repository#_kbYlRVHqEeePg8pP2ddw0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_Ww-qUFJkEee2WfXZtWV2gQ" entityName="Connector AsC_MarketingAnalysis -> AsC_DataManager" requiringAssemblyContext_AssemblyConnector="_Z6cLEFJjEee2WfXZtWV2gQ" providingAssemblyContext_AssemblyConnector="_hSevoFJjEee2WfXZtWV2gQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="medSys.repository#_dkFLsVHpEeePg8pP2ddw0g"/>
+    <requiredRole_AssemblyConnector href="medSys.repository#_cqTrFVHpEeePg8pP2ddw0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_bVuA0FJkEee2WfXZtWV2gQ" entityName="Connector AsC_ErrorDetection -> AsC_CourseAnalysis" requiringAssemblyContext_AssemblyConnector="_xY9rAFJjEee2WfXZtWV2gQ" providingAssemblyContext_AssemblyConnector="_vd-lAFJjEee2WfXZtWV2gQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="medSys.repository#_oM8LUVHqEeePg8pP2ddw0g"/>
+    <requiredRole_AssemblyConnector href="medSys.repository#_8nTzNVHpEeePg8pP2ddw0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_l9yywFJkEee2WfXZtWV2gQ" entityName="Connector AsC_TreatmentAnalysis -> AsC_CourseAnalysis" requiringAssemblyContext_AssemblyConnector="_s_1HkFJjEee2WfXZtWV2gQ" providingAssemblyContext_AssemblyConnector="_vd-lAFJjEee2WfXZtWV2gQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="medSys.repository#_x1v4oVHqEeePg8pP2ddw0g"/>
+    <requiredRole_AssemblyConnector href="medSys.repository#_wVPIJVHqEeePg8pP2ddw0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_mqzpwFJkEee2WfXZtWV2gQ" entityName="Connector AsC_ErrorDetection -> AsC_DataManager" requiringAssemblyContext_AssemblyConnector="_xY9rAFJjEee2WfXZtWV2gQ" providingAssemblyContext_AssemblyConnector="_hSevoFJjEee2WfXZtWV2gQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="medSys.repository#_BGci4VHoEeePg8pP2ddw0g"/>
+    <requiredRole_AssemblyConnector href="medSys.repository#_EVj4VVHqEeePg8pP2ddw0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_qJ1VYFJkEee2WfXZtWV2gQ" entityName="Connector AsC_MarketingAnalysis -> AsC_AccountingService" requiringAssemblyContext_AssemblyConnector="_Z6cLEFJjEee2WfXZtWV2gQ" providingAssemblyContext_AssemblyConnector="_pm7SEFJjEee2WfXZtWV2gQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="medSys.repository#_P8qTwVHpEeePg8pP2ddw0g"/>
+    <requiredRole_AssemblyConnector href="medSys.repository#_7unGFVHoEeePg8pP2ddw0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_rG720FJkEee2WfXZtWV2gQ" entityName="Connector AsC_MarketingAnalysis -> AsC_AccountingService" requiringAssemblyContext_AssemblyConnector="_Z6cLEFJjEee2WfXZtWV2gQ" providingAssemblyContext_AssemblyConnector="_pm7SEFJjEee2WfXZtWV2gQ" PrivacyLevel="Depersonalized">
+    <providedRole_AssemblyConnector href="medSys.repository#_tNQVcVHoEeePg8pP2ddw0g"/>
+    <requiredRole_AssemblyConnector href="medSys.repository#_7RcB5VHoEeePg8pP2ddw0g"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="compositionprivacy:AssemblyConnectorPrivacy" id="_tC7CYFJkEee2WfXZtWV2gQ" entityName="Connector AsC_OnlineServices -> AsC_DataManager" requiringAssemblyContext_AssemblyConnector="_kSQTcFJjEee2WfXZtWV2gQ" providingAssemblyContext_AssemblyConnector="_hSevoFJjEee2WfXZtWV2gQ" PrivacyLevel="Anonymized">
+    <providedRole_AssemblyConnector href="medSys.repository#_BGci4VHoEeePg8pP2ddw0g"/>
+    <requiredRole_AssemblyConnector href="medSys.repository#_jpantVHoEeePg8pP2ddw0g"/>
+  </connectors__ComposedStructure>
+</system:System>

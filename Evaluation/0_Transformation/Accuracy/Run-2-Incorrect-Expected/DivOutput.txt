@@ -1,8 +1,9 @@
-INFO  | 2017-06-23 11:33:14 | [main] generation.EvaluationGeneration (EvaluationGeneration.java:64) - Starting ModelDif:
-INFO  | 2017-06-23 11:33:14 | [main] generation.EvaluationGeneration (EvaluationGeneration.java:65) - Input Models Dir: C:\GitRepositorys\cocome\cocome-cloud-jee-privacy\Evaluation\0_Transformation\Accuracy\Run-2-Incorrect-Expected
-INFO  | 2017-06-23 11:33:14 | [main] generation.EvaluationGeneration (EvaluationGeneration.java:66) - Output Models Dir: C:\GitRepositorys\cocome\cocome-cloud-jee-privacy\Evaluation\0_Transformation\Accuracy\Run-2-Incorrect-Result
-INFO  | 2017-06-23 11:33:35 | [main] graph.GraphFactory (GraphFactory.java:238) - The PCM model seams to be incomplete! Is every AssemblyContext allocated? Does every ResourceContainer exist?
-INFO  | 2017-06-23 11:33:35 | [main] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
-INFO  | 2017-06-23 11:33:35 | [main] graph.GraphFactory (GraphFactory.java:238) - The PCM model seams to be incomplete! Is every AssemblyContext allocated? Does every ResourceContainer exist?
-INFO  | 2017-06-23 11:33:35 | [main] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
-INFO  | 2017-06-23 11:33:35 | [main] generation.EvaluationGeneration (EvaluationGeneration.java:74) - NO difs detected!
+INFO  | 2017-06-23 14:47:48 | [main] generation.EvaluationGeneration (EvaluationGeneration.java:64) - Starting ModelDif:
+INFO  | 2017-06-23 14:47:48 | [main] generation.EvaluationGeneration (EvaluationGeneration.java:65) - Input Models Dir: C:\GitRepositorys\cocome\cocome-cloud-jee-privacy\Evaluation\0_Transformation\Accuracy\Run-2-Incorrect-Expected
+INFO  | 2017-06-23 14:47:48 | [main] generation.EvaluationGeneration (EvaluationGeneration.java:66) - Output Models Dir: C:\GitRepositorys\cocome\cocome-cloud-jee-privacy\Evaluation\0_Transformation\Accuracy\Run-2-Incorrect-Result
+INFO  | 2017-06-23 14:48:10 | [main] graph.GraphFactory (GraphFactory.java:238) - The PCM model seams to be incomplete! Is every AssemblyContext allocated? Does every ResourceContainer exist?
+INFO  | 2017-06-23 14:48:10 | [main] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-23 14:48:10 | [main] graph.GraphFactory (GraphFactory.java:238) - The PCM model seams to be incomplete! Is every AssemblyContext allocated? Does every ResourceContainer exist?
+INFO  | 2017-06-23 14:48:10 | [main] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-06-23 14:48:32 | [main] generation.ModelDif (ModelDif.java:68) - The Jaccard Coefficient is: 1,000000
+INFO  | 2017-06-23 14:48:37 | [main] generation.EvaluationGeneration (EvaluationGeneration.java:74) - NO difs detected!

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" xmlns:resourceenvironmentprivacy="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2/Privacy" entityName="org.cocome.cloud">
-  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_pW0sYFWLEee0m4aqcznpmw" entityName="0_ResCon" Geolocation="826"/>
-  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_pW0sYVWLEee0m4aqcznpmw" entityName="1_ResCon" Geolocation="296"/>
-  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_pW0sYlWLEee0m4aqcznpmw" entityName="2_ResCon" Geolocation="654"/>
-  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_pW0sY1WLEee0m4aqcznpmw" entityName="3_ResCon" Geolocation="876"/>
-  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="_pW0sZFWLEee0m4aqcznpmw" entityName="4_ResCon" Geolocation="-1"/>
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="__h6k0FgYEeefXuieHTeU9w" entityName="0_ResCon" Geolocation="833"/>
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="__h6k0VgYEeefXuieHTeU9w" entityName="1_ResCon" Geolocation="320"/>
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="__h6k0lgYEeefXuieHTeU9w" entityName="2_ResCon" Geolocation="156"/>
+  <resourceContainer_ResourceEnvironment xsi:type="resourceenvironmentprivacy:ResourceContainerPrivacy" id="__h6k01gYEeefXuieHTeU9w" entityName="3_ResCon" Geolocation="574"/>
 </resourceenvironment:ResourceEnvironment>

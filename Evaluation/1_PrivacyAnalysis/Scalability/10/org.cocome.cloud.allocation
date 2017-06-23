@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="ASCII"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_pW490FWLEee0m4aqcznpmw" entityName="org.cocome.cloud">
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="__h9oIFgYEeefXuieHTeU9w" entityName="org.cocome.cloud">
   <targetResourceEnvironment_Allocation href="org.cocome.cloud.resourceenvironment#/"/>
-  <system_Allocation href="org.cocome.cloud.system#_pUxd8FWLEee0m4aqcznpmw"/>
-  <allocationContexts_Allocation id="_pW5k4FWLEee0m4aqcznpmw" entityName="0_AC_Component_E @ 2_ResCon">
-    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_pW0sYlWLEee0m4aqcznpmw"/>
-    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_pU4ysFWLEee0m4aqcznpmw"/>
+  <system_Allocation href="org.cocome.cloud.system#__f818FgYEeefXuieHTeU9w"/>
+  <allocationContexts_Allocation id="__h-PMFgYEeefXuieHTeU9w" entityName="0_AC_Component_F2 @ 3_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#__h6k01gYEeefXuieHTeU9w"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#__gC8kFgYEeefXuieHTeU9w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_pW5k4VWLEee0m4aqcznpmw" entityName="1_AC_Component_D @ 2_ResCon">
-    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_pW0sYlWLEee0m4aqcznpmw"/>
-    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_pU72AFWLEee0m4aqcznpmw"/>
+  <allocationContexts_Allocation id="__h-PMVgYEeefXuieHTeU9w" entityName="1_AC_Component_C2 @ 3_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#__h6k01gYEeefXuieHTeU9w"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#__gExwFgYEeefXuieHTeU9w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_pW5k4lWLEee0m4aqcznpmw" entityName="2_AC_Component_E @ 4_ResCon">
-    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_pW0sZFWLEee0m4aqcznpmw"/>
-    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_pWk0wVWLEee0m4aqcznpmw"/>
+  <allocationContexts_Allocation id="__h-PMlgYEeefXuieHTeU9w" entityName="2_AC_Component_E @ 2_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#__h6k0lgYEeefXuieHTeU9w"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#__hsiYFgYEeefXuieHTeU9w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_pW5k41WLEee0m4aqcznpmw" entityName="3_AC_Component_A @ 2_ResCon">
-    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_pW0sYlWLEee0m4aqcznpmw"/>
-    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_pWk0w1WLEee0m4aqcznpmw"/>
+  <allocationContexts_Allocation id="__h-PM1gYEeefXuieHTeU9w" entityName="3_AC_Component_F @ 0_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#__h6k0FgYEeefXuieHTeU9w"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#__hsiY1gYEeefXuieHTeU9w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_pW5k5FWLEee0m4aqcznpmw" entityName="4_AC_Component_B @ 4_ResCon">
-    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#_pW0sZFWLEee0m4aqcznpmw"/>
-    <assemblyContext_AllocationContext href="org.cocome.cloud.system#_pWk0x1WLEee0m4aqcznpmw"/>
+  <allocationContexts_Allocation id="__h-PNFgYEeefXuieHTeU9w" entityName="4_AC_Component_E @ 1_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#__h6k0VgYEeefXuieHTeU9w"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#__hsiZFgYEeefXuieHTeU9w"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="__h-PNVgYEeefXuieHTeU9w" entityName="5_AC_Component_A2 @ 1_ResCon">
+    <resourceContainer_AllocationContext href="org.cocome.cloud.resourceenvironment#__h6k0VgYEeefXuieHTeU9w"/>
+    <assemblyContext_AllocationContext href="org.cocome.cloud.system#__hsiZlgYEeefXuieHTeU9w"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>
