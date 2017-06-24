@@ -48,13 +48,50 @@ Resource Container Actions reflect changes around a virtual or physical server. 
 
 \subsection{Action Ordering}
 
-After all required actions are determined, an order must be established. We decided for the most simple but effective approach: "acquire, migrate, terminate." Meaning, first acquire the new servers, change the component allocations and finally terminate the unnecessary servers. This way no component get moved onto non-existent servers.
+For each action a set of pre-execution-conditions can be determined. Out of this set, a universal order can be derived. However, we need two assumptions for this order to be valid:
+\begin{enumerate}
+	\setlength\itemsep{0em}
+	\item Each component is affected by an action only once, except the \textit{ComonentExchangeAction}.
+	\item A server never gets acquired an terminated in one sequence.
+\end{enumerate}
 
-\todo{add conditions for actions and generate universal order!}
+If this two assumptions are true, a component always get directly allocated, migrated or terminated without any transitive movements. This means, the order inside a set of actions from the same type does not matter. Further, it states, that the order within all \textit{Assembly Context Actions} does not matter. The change component action is an exception.
 
+\begin{table}[h]
+	\centering
+	\begin{tabular}{r | l}
+		\hline
+		\textbf{Action} & \textbf{Pre-Execution-Condition} \\
+		\hline
+		Allocate & execute after \textit{Acquire} \\
+		Deallocate & execute before \textit{Terminate} \\
+		Migrate & execute after \textit{Acquire} \& before \textit{Terminate} \\
+		Acquire & -- \\
+		Terminate & -- \\
+		Replicate & -- \\
+		\hline
+	\end{tabular}
+	\caption{Pre-Execution-Conditions for adaptation actions}
+	\label{tab:SysAdap:cond}
+\end{table}
 
-\todo{More details and thought on ordering!}
+The \textit{Change Repository Component Action} is missing, since it doesn't have a hard constraint. However, for execution it is more simple, to have a \textit{execute before Migrate} condition. The following order satisfies all the constraints (\autoref{tab:SysAdap:cond}):
 
+\begin{table}[h]
+	\centering
+	\begin{tabular}{ r | c}
+		\hline
+		1 & Acquire\\
+		2 & Change Component\\
+		3 & Deallocate \& Allocate \& Migrate \\
+		4 & Terminate \& Replicate\\
+		\hline
+	\end{tabular}
+	\caption{Universal action execution order}
+	\label{tab:SysAdap:order}
+\end{table}
+
+Due to our way of calculating the actions, by directly comparing the runtime and re-deployment model, our initially made assumptions are true. We therefore can use the order in \autoref{tab:SysAdap:order} as the universal action order.
 
 
 \section{Adaptation Execution}
@@ -119,8 +156,6 @@ The calculation of the Resource Container Actions is implemented similar. Initia
 The whole calculation is build around the stability of IDs on Palladio model elements. If the redeployment model creates a completely new system model, while changing only minor details, the calculation will deallocate the old system and allocate a totally new one. PerOpteryx modifies the system model, keeping the assembly context IDs - as intended - stable and therefore produces only minimal actions.
 
 \todo{Check back with Replicate Action}
-
-\todo{Describe Ordering}
 
 \todo{Describe Execution}
 

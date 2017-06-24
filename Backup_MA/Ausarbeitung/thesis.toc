@@ -106,58 +106,60 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.1.2}Action Ordering}{32}{subsection.10.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Adaptation Execution}{32}{section.10.2}
+\contentsline {section}{\numberline {10.2}Adaptation Execution}{33}{section.10.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {10.3}Implementation}{33}{section.10.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Evaluation}{35}{chapter.11}
+\contentsline {chapter}{\numberline {11}Evaluation}{37}{chapter.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Evaluation Design}{35}{section.11.1}
+\contentsline {section}{\numberline {11.1}Evaluation Design}{37}{section.11.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Evaluation Scenarios}{35}{section.11.2}
+\contentsline {section}{\numberline {11.2}Evaluation Scenarios}{37}{section.11.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.1}Scenario 1: Default}{36}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.1}Scenario 1: Default}{38}{subsection.11.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.2}Scenario 2: System extension}{36}{subsection.11.2.2}
+\contentsline {subsection}{\numberline {11.2.2}Scenario 2: System extension}{38}{subsection.11.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.3}Scenario 3: Failing Adaptation}{37}{subsection.11.2.3}
+\contentsline {subsection}{\numberline {11.2.3}Scenario 3: Failing Adaptation}{39}{subsection.11.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.4}Scenario 4: Missing Alternative}{37}{subsection.11.2.4}
+\contentsline {subsection}{\numberline {11.2.4}Scenario 4: Missing Alternative}{39}{subsection.11.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.5}Futile Scenario}{37}{subsection.11.2.5}
+\contentsline {subsection}{\numberline {11.2.5}Futile Scenario}{39}{subsection.11.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.3}Evaluation Models}{38}{section.11.3}
+\contentsline {section}{\numberline {11.3}Evaluation Models}{40}{section.11.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.1}CoCOME-Cloud}{38}{subsection.11.3.1}
+\contentsline {subsection}{\numberline {11.3.1}CoCOME-Cloud}{40}{subsection.11.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.2}Medi System}{38}{subsection.11.3.2}
+\contentsline {subsection}{\numberline {11.3.2}Medi System}{40}{subsection.11.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.3}Generated Models}{39}{subsection.11.3.3}
+\contentsline {subsection}{\numberline {11.3.3}Generated Models}{41}{subsection.11.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.4}Transformation}{39}{section.11.4}
+\contentsline {section}{\numberline {11.4}Transformation}{41}{section.11.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4.1}Transformation: Accuracy Evaluation}{39}{subsection.11.4.1}
+\contentsline {subsection}{\numberline {11.4.1}Transformation: Accuracy Evaluation}{41}{subsection.11.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4.2}Transformation: Scalability Evaluation}{41}{subsection.11.4.2}
+\contentsline {subsection}{\numberline {11.4.2}Transformation: Scalability Evaluation}{43}{subsection.11.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.5}Privacy Analysis}{41}{section.11.5}
+\contentsline {section}{\numberline {11.5}Privacy Analysis}{43}{section.11.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.1}Privacy Analysis: Accuracy Evaluation}{41}{subsection.11.5.1}
+\contentsline {subsection}{\numberline {11.5.1}Privacy Analysis: Accuracy Evaluation}{43}{subsection.11.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.2}Privacy Analysis: Scalability Evaluation}{43}{subsection.11.5.2}
+\contentsline {subsection}{\numberline {11.5.2}Privacy Analysis: Scalability Evaluation}{45}{subsection.11.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.6}Model Generation}{44}{section.11.6}
+\contentsline {section}{\numberline {11.6}Model Generation}{47}{section.11.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.7}Adaptation Planning}{45}{section.11.7}
+\contentsline {section}{\numberline {11.7}Adaptation Planning}{48}{section.11.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.7.1}Adaptation: Accuracy Evaluation}{45}{subsection.11.7.1}
+\contentsline {subsection}{\numberline {11.7.1}Adaptation: Accuracy Evaluation}{48}{subsection.11.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Conclusion}{49}{chapter.12}
+\contentsline {subsection}{\numberline {11.7.2}Adaptation: Scalability Evaluation}{50}{subsection.11.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.1}Limitations}{49}{section.12.1}
+\contentsline {chapter}{\numberline {12}Conclusion}{53}{chapter.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{51}{chapter*.24}
+\contentsline {section}{\numberline {12.1}Limitations}{53}{section.12.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{53}{appendix.A}
+\contentsline {chapter}{\nonumberline Bibliography}{55}{chapter*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}First Appendix Section}{53}{section.A.1}
+\contentsline {chapter}{\numberline {A}Appendix}{57}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}First Appendix Section}{57}{section.A.1}

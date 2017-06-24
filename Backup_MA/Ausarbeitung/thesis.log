@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.18)  23 JUN 2017 19:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.18)  24 JUN 2017 18:35
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2404,16 +2404,27 @@ chapter 10.
 [31
 
 
-] [32] [33]) (sections/evaluation.tex [34]
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[32]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33]) (sections/evaluation.tex [34] [35] [36
+
+
+]
 chapter 11.
 
-LaTeX Warning: Reference `sec:Evaluation:execution' on page 35 undefined on inp
+LaTeX Warning: Reference `sec:Evaluation:execution' on page 37 undefined on inp
 ut line 16.
 
-[35
-
-
-] [36] [37]
+[37] [38] [39]
 Overfull \hbox (3.38492pt too wide) in paragraph at lines 129--130
 \T1/LinuxLibertineT-TLF/m/it/12 Cloud.Web\T1/LinuxLibertineT-TLF/m/n/12 , \T1/L
 inuxLibertineT-TLF/m/it/12 traid-ingsys-tem.inventory\T1/LinuxLibertineT-TLF/m/
@@ -2422,26 +2433,26 @@ bertineT-TLF/m/n/12 , \T1/LinuxLibertineT-TLF/m/it/12 web-ser-vice.inventory \T
 1/LinuxLibertineT-TLF/m/n/12 and
  []
 
-<graphs/medSystem_noserver.pdf, id=437, 963.6pt x 542.025pt>
+<graphs/medSystem_noserver.pdf, id=444, 963.6pt x 542.025pt>
 File: graphs/medSystem_noserver.pdf Graphic file (type pdf)
 
 <use graphs/medSystem_noserver.pdf>
 Package pdftex.def Info: graphs/medSystem_noserver.pdf used on input line 137.
 (pdftex.def)             Requested size: 389.23111pt x 184.46124pt.
- [38 <./graphs/medSystem_noserver.pdf>]
+ [40 <./graphs/medSystem_noserver.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[39] [40]
-<graphs/Runtime_Transformation.pdf, id=463, 845.07718pt x 597.55246pt>
+[41] [42]
+<graphs/Runtime_Transformation.pdf, id=469, 845.07718pt x 597.55246pt>
 File: graphs/Runtime_Transformation.pdf Graphic file (type pdf)
 
 <use graphs/Runtime_Transformation.pdf>
 Package pdftex.def Info: graphs/Runtime_Transformation.pdf used on input line 2
 30.
 (pdftex.def)             Requested size: 389.23111pt x 170.38455pt.
- [41 <./graphs/Runtime_Transformation.pdf>] <graphs/medSys_eval_pa_init.pdf, id
-=482, 963.6pt x 542.025pt>
+ [43 <./graphs/Runtime_Transformation.pdf>] <graphs/medSys_eval_pa_init.pdf, id
+=488, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_init.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_init.pdf>
@@ -2449,7 +2460,7 @@ Package pdftex.def Info: graphs/medSys_eval_pa_init.pdf used on input line 249.
 
 (pdftex.def)             Requested size: 324.36145pt x 163.29514pt.
 
-<graphs/medSys_eval_pa_tagging_init.pdf, id=484, 963.6pt x 542.025pt>
+<graphs/medSys_eval_pa_tagging_init.pdf, id=490, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_tagging_init.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_tagging_init.pdf>
@@ -2457,68 +2468,102 @@ Package pdftex.def Info: graphs/medSys_eval_pa_tagging_init.pdf used on input l
 ine 261.
 (pdftex.def)             Requested size: 205.51471pt x 125.74316pt.
 
-<graphs/medSys_eval_pa_tagging_analysis.pdf, id=486, 963.6pt x 542.025pt>
+<graphs/medSys_eval_pa_tagging_analysis.pdf, id=492, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_tagging_analysis.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_tagging_analysis.pdf>
 Package pdftex.def Info: graphs/medSys_eval_pa_tagging_analysis.pdf used on inp
 ut line 266.
 (pdftex.def)             Requested size: 205.51471pt x 125.74316pt.
- [42 <./graphs/medSys_eval_pa_init.pdf> <./graphs/medSys_eval_pa_tagging_init.p
+ [44 <./graphs/medSys_eval_pa_init.pdf> <./graphs/medSys_eval_pa_tagging_init.p
 df> <./graphs/medSys_eval_pa_tagging_analysis.pdf>]
-<graphs/medSys_eval_pa_da.pdf, id=534, 963.6pt x 542.025pt>
+<graphs/medSys_eval_pa_da.pdf, id=540, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_da.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_da.pdf>
 Package pdftex.def Info: graphs/medSys_eval_pa_da.pdf used on input line 278.
 (pdftex.def)             Requested size: 389.23111pt x 195.95416pt.
- [43 <./graphs/medSys_eval_pa_da.pdf>]
-[44] [45]
-<graphs/medSystem_adap_calc_all_runtime.pdf, id=561, 963.6pt x 542.025pt>
+ [45 <./graphs/medSys_eval_pa_da.pdf>]
+<graphs/Runtime_pa.pdf, id=561, 597.55246pt x 845.07718pt>
+File: graphs/Runtime_pa.pdf Graphic file (type pdf)
+
+<use graphs/Runtime_pa.pdf>
+Package pdftex.def Info: graphs/Runtime_pa.pdf used on input line 295.
+(pdftex.def)             Requested size: 389.23111pt x 188.13577pt.
+
+<graphs/Runtime_pa_sd.pdf, id=563, 845.07718pt x 597.55246pt>
+File: graphs/Runtime_pa_sd.pdf Graphic file (type pdf)
+
+<use graphs/Runtime_pa_sd.pdf>
+Package pdftex.def Info: graphs/Runtime_pa_sd.pdf used on input line 302.
+(pdftex.def)             Requested size: 281.11063pt x 179.4426pt.
+
+Underfull \hbox (badness 2237) in paragraph at lines 308--309
+\T1/LinuxLibertineT-TLF/m/n/12 Ini-tially the graph for the
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 308--309
+\T1/LinuxLibertineT-TLF/m/n/12 pri-vacy anal-y-sis gets cre-
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 308--309
+\T1/LinuxLibertineT-TLF/m/n/12 y-sis. The graph shows a
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 308--309
+\T1/LinuxLibertineT-TLF/m/n/12 time. The ma-jor time is
+ []
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 308--309
+\T1/LinuxLibertineT-TLF/m/n/12 nent clas-si-fi-ca-tion and de-
+ []
+
+
+Underfull \hbox (badness 6859) in paragraph at lines 308--309
+\T1/LinuxLibertineT-TLF/m/n/12 mi-nor size ef-fects. The
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 308--309
+\T1/LinuxLibertineT-TLF/m/n/12 lion nodes is still sig-nif-i-
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 308--309
+\T1/LinuxLibertineT-TLF/m/n/12 cantly be-low ten sec-onds.
+ []
+
+[46 <./graphs/Runtime_pa.pdf> <./graphs/Runtime_pa_sd.pdf>] [47] [48]
+<graphs/medSystem_adap_calc_all_runtime.pdf, id=600, 963.6pt x 542.025pt>
 File: graphs/medSystem_adap_calc_all_runtime.pdf Graphic file (type pdf)
 
 <use graphs/medSystem_adap_calc_all_runtime.pdf>
 Package pdftex.def Info: graphs/medSystem_adap_calc_all_runtime.pdf used on inp
-ut line 403.
+ut line 420.
 (pdftex.def)             Requested size: 281.11063pt x 148.08336pt.
 
-Underfull \hbox (badness 4967) in paragraph at lines 409--410
-[][]\T1/LinuxLibertineT-TLF/m/n/12 We will use the Medi-
- []
-
-
-Underfull \hbox (badness 6842) in paragraph at lines 409--410
-\T1/LinuxLibertineT-TLF/m/n/12 sce-nario #3. Since Per-
- []
-
-
-Underfull \hbox (badness 3199) in paragraph at lines 409--410
-\T1/LinuxLibertineT-TLF/m/n/12 only pro-duce ac-quire, mi-
- []
-
-
-Underfull \hbox (badness 1552) in paragraph at lines 409--410
-\T1/LinuxLibertineT-TLF/m/n/12 ify the Medi-Sys model to
- []
-
-<graphs/medSystem_adap_calc_all_redepl.pdf, id=563, 963.6pt x 542.025pt>
+<graphs/medSystem_adap_calc_all_redepl.pdf, id=602, 963.6pt x 542.025pt>
 File: graphs/medSystem_adap_calc_all_redepl.pdf Graphic file (type pdf)
 
 <use graphs/medSystem_adap_calc_all_redepl.pdf>
 Package pdftex.def Info: graphs/medSystem_adap_calc_all_redepl.pdf used on inpu
-t line 413.
+t line 429.
 (pdftex.def)             Requested size: 281.11063pt x 152.426pt.
- [46 <./graphs/medSystem_adap_calc_all_runtime.pdf>]
+ [49 <./graphs/medSystem_adap_calc_all_runtime.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (sections/conclusion.tex [47 <./graphs/medSystem_adap_calc_all_redepl.pdf>]
-[48]
+) (sections/conclusion.tex [50 <./graphs/medSystem_adap_calc_all_redepl.pdf>]
+[51] [52
+
+
+]
 chapter 12.
-) [49
-
-
-] [50
+) [53] [54
 
 
 ]
@@ -2570,7 +2615,7 @@ Overfull \hbox (2.03593pt too wide) in paragraph at lines 142--142
 -[] kampf -[] gegen -[] facebook -[]
  []
 
-[51]
+[55]
 Overfull \hbox (7.36714pt too wide) in paragraph at lines 142--142
 \T1/LinuxLibertineT-TLF/m/it/12 WOSP/SIPEW in-ter-na-tional con-fer-ence on Per
 -for-mance en-gi-neer-ing\T1/LinuxLibertineT-TLF/m/n/12 . Ed. by Alan Adam-
@@ -2606,9 +2651,9 @@ TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : $\T1/fvm/m/n/12 http : / / teet
 ime -[] framework . github .
  []
 
-(sections/appendix.tex [52]
+(sections/appendix.tex [56]
 chapter A.
-) [53
+) [57
 
 
 ]
@@ -2627,10 +2672,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 32461 strings out of 493333
- 596511 string characters out of 3139188
- 1154239 words of memory out of 3000000
- 35305 multiletter control sequences out of 15000+200000
+ 32469 strings out of 493333
+ 596713 string characters out of 3139188
+ 1154362 words of memory out of 3000000
+ 35311 multiletter control sequences out of 15000+200000
  160536 words of font info for 143 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  80i,13n,80p,8820b,3200s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2652,9 +2697,9 @@ eX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/txfonts/rtxr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/t
 xfonts/txsyc.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/zxlri.pfb>
-Output written on thesis.pdf (69 pages, 6558275 bytes).
+Output written on thesis.pdf (73 pages, 7189397 bytes).
 PDF statistics:
- 669 PDF objects out of 1000 (max. 8388607)
+ 713 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 257 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 279 words of extra memory for PDF output out of 10000 (max. 10000000)
 

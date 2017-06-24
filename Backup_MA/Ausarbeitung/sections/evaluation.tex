@@ -288,9 +288,26 @@ For the scalability evaluation of the privacy analysis, we will use the generate
 
 The measurement starts taking time, after the snapshot is created and before the initial model is read in. The first round is taken, before the graph is constructed from the model. Further rounds are taken to measure the component classification and the deployment analysis. Complex outputs are deactivated.
 
-We will measure a graph size of 10, 100, ... up to 100000, with a distribution of 40\% Resource Container and 60\% Assembly Contexts. The classification of the Assembly Connectors is distributed among 15\% Personal, 35\% Depersonalised and 50\% Anonymous. We expect this configuration to reflect a real world setting, with multiple components on a single server and only a view unused servers and an slightly increasing effort of to analyse the models. The \textit{"legal"} geo-locations consist of 40 random countries. Each model measurement is repeated ten times to minimize variation effects.
+We will measure a graph size from 10 to one million nodes, with a distribution of 40\% Resource Container and 60\% Assembly Contexts. The classification of the Assembly Connectors is distributed among 15\% Personal, 35\% Depersonalised and 50\% Anonymous. We expect this configuration to reflect a real world setting, with multiple components on a single server and only a view unused servers and an slightly increasing effort of to analyse the models. The \textit{"legal"} geo-locations consist of 40 random countries. Each model measurement is repeated ten times to minimize variation effects.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[trim = 15mm 100mm 15mm 110mm, clip, width=0.90\textwidth]{graphs/Runtime_pa}
+	\caption{Privacy Analysis runtime}
+	\label{fig:eval:pa:runtime}
+\end{figure}
 
+\begin{wrapfigure}{l}{0.65\textwidth}
+	\begin{center}
+		\includegraphics[trim = 5mm 15mm 10mm 15mm, clip, width=0.65\textwidth]{graphs/Runtime_pa_sd}
+	\end{center}
+	\caption{Privacy Analysis runtime standard deviation}
+	\label{fig:eval:pa:runtime_sd}
+\end{wrapfigure}
+
+\autoref{fig:eval:pa:runtime} shows the accumulated runtime in the order the tasks are executed. Initially the graph for the privacy analysis gets created, followed by the component classification and finally the deployment analysis. The graph shows a nearly linear increasing runtime. The major time is consumed by the graph construction, while the component classification and deployment analysis only show minor size effects. The whole runtime for one million nodes is still significantly below ten seconds. The limiting resource for further scalability test is the graph generation. However, graphs with the size of 1000 and more nodes are already very unlikely.
+
+The standard deviation \autoref{fig:eval:pa:runtime_sd} is increasing significantly with the model size. This could be due to runtime effects, however, the reason is unknown. Overall, the privacy analysis very fast, considering the a privacy evaluation of a PCM privacy model with one million nodes in less then seconds.
 
 
 \section{Model Generation}
@@ -398,13 +415,12 @@ We expect the adaptation sequence to initially \textit{acquire} the newly used s
 
 The execution of the transformed adaptation sequence (\autoref{tab:eval:adapt:action_input_result}) results in a privacy compliant PCM model. Frankly speaking, the result is unbiased and solves the in \autoref{sec:Introduction:problems} specified problem of \textit{automated privacy compliance re-establishment}.
 
-\begin{wrapfigure}{l}{0.65\textwidth}
-	\begin{center}
-		\includegraphics[trim = 5mm 10mm 10mm 10mm, clip, width=0.65\textwidth]{graphs/medSystem_adap_calc_all_runtime}
-	\end{center}
+\begin{figure}[h]
+	\centering
+	\includegraphics[trim = 5mm 10mm 10mm 10mm, clip, width=0.65\textwidth]{graphs/medSystem_adap_calc_all_runtime}
 	\caption{Runtime model}
 	\label{fig:eval:adapt:4:run}
-\end{wrapfigure}
+\end{figure}
 
 We will use the Medi-Sys to show the limitations of the adaptation calculation and execution mentioned in scenario \#3. Since PerOpteryx only adapts the system given according to the \textit{design decision} model, it will only produce acquire, migrate and terminate actions - in our use case. These are (usually) automatically executable. However, there are more potential actions specified, which can't be executed automatically. We will modify the Medi-Sys model to provoke one of each action. \autoref{fig:eval:adapt:4:run} shows the runtime model, \autoref{fig:eval:adapt:4:redepl} shows the re-deployment model. The anticipated difference between these models is shown in \autoref{tab:eval:adapt:4:action_provoke}. We expect each of the seven actions to be detected, except the \textit{replicate} action, since this is not (yet) supported by the adaptation calculation. It will be subsided by an \textit{aquire Server2-2} and an \textit{allocate GovStatistics on Server2-2}.
 
@@ -455,6 +471,18 @@ The execution of the adaptation calculation shows the expected result (see \auto
 	\caption{Expected adaptation sequence for Scenario \#4}
 	\label{tab:eval:adapt:4:action_result}
 \end{table}
+
+
+\subsection{Adaptation: Scalability Evaluation}
+
+For the scalability analysis we are generating logically valid PCM Privacy models, modifying these and then running the \textit{Adaptation Calculation} and \textit{Adaptation Planning}. The initial model is constructed in a way, that a model of size 100 consists of 60 assembly contexts and 40 resource containers. The modification is linear distributed over the acquire, terminate, allocate, deallocate, migrate and exchange component related modification. However, not every modification in the model leads must lead to an adaptation action. The adding of another resource container is only recognized as an acquire action, if an assembly context gets allocated on that resource container. The termination of a resource container, that hosts one or more components, leads also to a migration action. With this in mind, we measure the time of the adaptation calculation and adaptation planning based on the amount of modifications in the model. The model is three times as big as the modifications made.
+
+
+
+
+
+
+
 
 
 
