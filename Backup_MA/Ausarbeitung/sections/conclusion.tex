@@ -13,14 +13,73 @@
 \chapter{Conclusion}
 \label{ch:Conclusion}
 
-\section{Limitations}
+In this chapter we will wrap up this thesis with the \textit{limitations} and the \textit{future work} sections.
+
+\section{Limitations \& Assumptions}
 \label{sec:Conculsion:limits}
 
-A cloud provider, like any other person or company, hast own objectives. In the most cases a profit maximization can be assumed as the primary goal. This can be interpreted in multiple ways, from law incompliant behaviour, SLA violations to premium prices for premium services. Nevertheless, in general the assumption stands, that Cloud Providers want to stay SLA and law compliant to avoid lawsuits and reputation loss. Based on this, we assume our providers to be law compliant. 
+Like every other scientific work, we can't build a universal, world ready system. We need to accept and sometimes even require limitations to produce meaningful results for certain aspects.
 
-Furthermore, we state that our providers don’t have any own objectives. This means we don’t have to fear any activates from the provider except providing his cloud services. As a result, we can deploy multiple Type 1 Data (\autoref{sec:PrivacyConcept:dataprivacylevel}) onto one data-centre, but on different (virtual) server, without considering geo-location constraints.
+\begin{description}
+	\item[Cloud Provider objectives]
+	A cloud provider, like any other person or company, hast own objectives. In the most cases \textit{profit maximization} can be assumed as the primary goal. This can be interpreted in multiple ways, from law in-compliant behaviour over SLA violations to premium prices for extended services. Nevertheless, in general the assumption stands, that Cloud Providers want to stay SLA and law compliant to avoid lawsuits and reputation loss. Based on this, we assume our providers are law and SLA compliant.
+\end{description}	
+%Even with the assumption that the provider is law and SLA compliant, it is not possible, with the resources at hand, to consider all privacy laws for each country individually. We argue, that these assumptions are a fair trade-off between the reality of a reputable cloud provider and still gaining meaningful results
 
-If these assumptions wouldn’t be made, major implications would follow. First, immense security measures must be taken to encrypting any data transmitted, saved or computed by cloud services. The system would have to consider running on an "evil" machine with its own objectives. This is a hot research topic around the globe and not part of the goals tackled by this thesis. Secondly, even if the provider is law and SLA compliant, it is not possible, with the resources at hand, to consider all privacy laws for each country individually. We argue, that these assumptions are a fair trade-off between the reality of a reputable cloud provider and still gaining meaningful results.
-\todo{Add cloud provider reveals geo-location via API}
 
-Modern software systems and distributed cloud applications in particular, are designed after separation of concern principle. Systems designed after this principle encapsulate cohesive functionality in a component. If a system ignores this basic design principle, it is possible that our approach does not detect a privacy violation. Since a component gets its data privacy level from the Assembly Connector, a component that saves personal data, but does not communicate them via an Assembly Connector can receive a false privacy level. An example is a component that receives personal information via an user interface and saves or processes them itself. We argue that such a monolithic system stands contrary to the fundamental idea of distributed cloud systems and will be therefore ignored in this further thesis.
+\begin{description}
+	\item[Separation of virtual servers]
+	For simplicity reasons, we need to assume that we can deploy multiple Type 1 Data, \textit{depersonalised data}, (\autoref{sec:PrivacyConcept:dataprivacylevel}) onto one data-centre, but on different (virtual) server, without considering \textit{joining data stream} (\autoref{sec:PrivacyAnalysis:theory:jds}) implications. Basically we assume, every virtual server has its own independent disk and memory storage.	If this assumption wouldn’t be made, massive per-instance encryption or per data-centre deployment would be the valid solution. However, encryption as a cloud-ready middle wear is a hot research topic around the globe and not considered by this thesis.
+\end{description}
+
+\begin{description}
+	\item[Geo-location API]
+	To make a statement about the systems current privacy compliance, we need the Resource Containers geo-location. If we don't want to make extensive geo-location determination process, like the \textit{ping round trip measurement}, we need the cloud provider to provide the geo-location via his cloud API.
+\end{description}
+
+\begin{description}
+	\item[Closed World Assumption]
+	As mentioned in \autoref{sec:PrivacyConcept:comp_cat} we need the close world assumption to make any statement about the privacy compliance. The implications of privacy and data protective laws are too complex to make a automated, detailed and well balanced statement on privacy compliance without the CWA.
+\end{description}
+
+\begin{description}
+	\item[Privacy Analysis Overestimation]
+	For the privacy analysis we forbid \textit{joining data streams} (\autoref{sec:PrivacyAnalysis:theory:jds}). We are aware, that this is a considerably overestimation, especially during the deployment analysis. We are doing so to ensure privacy compliance without taking any chances and prevent deep component inspection and extensive data protective law discussions.
+\end{description}
+
+\begin{description}
+	\item[(In-)Correct Component Based Architecture]
+	Modern software systems and distributed cloud applications in particular, are designed after the \textit{separation of concern} principle. Systems designed after this principle encapsulate cohesive functionality in a component. If a system ignores this basic design principle, it is possible that our approach does not detect a privacy violation. Since a component gets its data privacy level from the \textit{Assembly Connector}, a component that saves personal data, but does not communicate them via an Assembly Connector can receive a incorrect data privacy level. An example is a component that receives personal information via an user interface (e.g. Graphical User Interface) and saves or processes them itself breaks this principle. We argue that such a monolithic system stands contrary to the fundamental idea of distributed cloud systems and were ignored during this thesis.
+\end{description}
+
+\section{Future Work}
+\label{sec:Conculsion:future}
+
+During the work on iObserve Privacy a couple of future oriented tasks and development directions came visible to improve iObserve. In the following we are introducing a couple of them.
+
+% Merge with work of Tobias Poeppke
+\begin{description}
+	\item[Thesis merge]
+	\textit{B. Sc. Tobias Pöppke} developed in his master thesis, \textit{Design Space Exploration for Adaptation Planning in Cloud-based Applications}, another iObserve modification. His modification aims for the automated support of modern cloud system. The development of our iObserve systems happened under close cooperation and is therefore well aligned for merging.
+\end{description}
+
+% Integrate PerOpteryx
+\begin{description}
+	\item[PerOpteryx integration]
+	\textit{PerOpteryx} provides one of the core features of iObserve Privacy, as a model generation framework. However, its huge dependencies, immense complexity and plug-in architecture makes it nearly impossible to directly migrate it into iObserve Privacy. Even small modifications take major effort. The changed mechanic must be well understood to prevent the system from breaking while modifying. A well thought and designed re-engineering is required to keep the core functionality while reducing dependencies and complexity to a minimum. Such a radical re-development effort should not be taken lightly, however would make future extensions way easier.
+\end{description}
+
+% Test at live system
+\begin{description}
+	\item[Live tests]
+	Due to a missing distributed test system, iObserve Privacy could not be tested in a real situation. Even though many test were run during the evaluation (see \autoref{ch:Evaluation}) and proven \textit{Kiker} concepts were used, a live test provides further reassurance and validity to the system as a whole. 
+\end{description}
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.18)  24 JUN 2017 18:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.18)  26 JUN 2017 17:17
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2285,39 +2285,40 @@ Package pdftex.def Info: graphs/pcm_privacy_meta.pdf used on input line 27.
  <./graphs/pcm_privacy_meta.pdf>])
 (sections/content_2_iObserveMod.tex [18]
 chapter 7.
-<graphs/GeoLocationRecord.pdf, id=270, 845.03705pt x 597.36174pt>
+<graphs/GeoLocationRecord.pdf, id=270, 844.65562pt x 596.98032pt>
 File: graphs/GeoLocationRecord.pdf Graphic file (type pdf)
 
 <use graphs/GeoLocationRecord.pdf>
 Package pdftex.def Info: graphs/GeoLocationRecord.pdf used on input line 28.
-(pdftex.def)             Requested size: 129.7459pt x 140.3867pt.
+(pdftex.def)             Requested size: 410.85652pt x 191.64966pt.
  [19
 
 
  <./graphs/GeoLocationRecord.pdf>]
-<graphs/StageComposition.pdf, id=283, 844.65562pt x 596.98032pt>
+<graphs/StageComposition.pdf, id=288, 844.65562pt x 596.98032pt>
 File: graphs/StageComposition.pdf Graphic file (type pdf)
 
 <use graphs/StageComposition.pdf>
 Package pdftex.def Info: graphs/StageComposition.pdf used on input line 47.
 (pdftex.def)             Requested size: 367.61229pt x 192.9449pt.
-) (sections/content_3_PA.tex [20 <./graphs/StageComposition.pdf>]
+ [20 <./graphs/StageComposition.pdf>])
+(sections/content_3_PA.tex [21] [22
+
+
+]
 chapter 8.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
 (Font)              scaled to size 13.24796pt on input line 15.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/n' will be
 (Font)              scaled to size 13.24796pt on input line 15.
-[21
-
-
-]
+[23]
 Overfull \hbox (1.36841pt too wide) in paragraph at lines 56--57
 \T1/LinuxLibertineT-TLF/m/n/12 Usually com-po-nent in-ter-faces are cat-e-go-ri
 zed into pro-vid-ing and re-quired in-ter-faces. Con-
  []
 
 
-<graphs/component_categorization_examples_initial.pdf, id=307, 963.6pt x 542.02
+<graphs/component_categorization_examples_initial.pdf, id=318, 963.6pt x 542.02
 5pt>
 File: graphs/component_categorization_examples_initial.pdf Graphic file (type p
 df)
@@ -2325,8 +2326,8 @@ df)
 Package pdftex.def Info: graphs/component_categorization_examples_initial.pdf u
 sed on input line 78.
 (pdftex.def)             Requested size: 324.36145pt x 129.78795pt.
- [22]
-<graphs/component_categorization_examples_upcast_base.pdf, id=312, 963.6pt x 54
+ [24]
+<graphs/component_categorization_examples_upcast_base.pdf, id=323, 963.6pt x 54
 2.025pt>
 File: graphs/component_categorization_examples_upcast_base.pdf Graphic file (ty
 pe pdf)
@@ -2335,7 +2336,7 @@ Package pdftex.def Info: graphs/component_categorization_examples_upcast_base.p
 df used on input line 87.
 (pdftex.def)             Requested size: 324.36145pt x 129.78795pt.
 
-<graphs/component_categorization_examples_upcast_advanced.pdf, id=314, 963.6pt 
+<graphs/component_categorization_examples_upcast_advanced.pdf, id=325, 963.6pt 
 x 542.025pt>
 File: graphs/component_categorization_examples_upcast_advanced.pdf Graphic file
  (type pdf)
@@ -2351,9 +2352,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 4779) has occurred while \output is active []
 
- [23 <./graphs/component_categorization_examples_initial.pdf> <./graphs/compone
+ [25 <./graphs/component_categorization_examples_initial.pdf> <./graphs/compone
 nt_categorization_examples_upcast_base.pdf>]
-<graphs/deployment_example_implementation_eval.pdf, id=347, 963.6pt x 542.025pt
+<graphs/deployment_example_implementation_eval.pdf, id=358, 963.6pt x 542.025pt
 >
 File: graphs/deployment_example_implementation_eval.pdf Graphic file (type pdf)
 
@@ -2361,23 +2362,23 @@ File: graphs/deployment_example_implementation_eval.pdf Graphic file (type pdf)
 Package pdftex.def Info: graphs/deployment_example_implementation_eval.pdf used
  on input line 113.
 (pdftex.def)             Requested size: 367.61229pt x 182.01912pt.
- [24 <./graphs/component_categorization_examples_upcast_advanced.pdf> <./graphs
+ [26 <./graphs/component_categorization_examples_upcast_advanced.pdf> <./graphs
 /deployment_example_implementation_eval.pdf>]
-<pictures/pcm_info_spread.jpg, id=381, 837.1275pt x 343.2825pt>
+<pictures/pcm_info_spread.jpg, id=392, 837.1275pt x 343.2825pt>
 File: pictures/pcm_info_spread.jpg Graphic file (type jpg)
 
 <use pictures/pcm_info_spread.jpg>
 Package pdftex.def Info: pictures/pcm_info_spread.jpg used on input line 143.
 (pdftex.def)             Requested size: 216.24097pt x 88.6699pt.
 
-<pictures/modelGraph_metamodel.pdf, id=382, 844.65562pt x 596.98032pt>
+<pictures/modelGraph_metamodel.pdf, id=393, 844.65562pt x 596.98032pt>
 File: pictures/modelGraph_metamodel.pdf Graphic file (type pdf)
 
 <use pictures/modelGraph_metamodel.pdf>
 Package pdftex.def Info: pictures/modelGraph_metamodel.pdf used on input line 1
 50.
 (pdftex.def)             Requested size: 367.61229pt x 51.92607pt.
- [25 <./pictures/modelGraph_metamodel.pdf> <./pictures/pcm_info_spread.jpg>]
+ [27 <./pictures/modelGraph_metamodel.pdf> <./pictures/pcm_info_spread.jpg>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 163.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
@@ -2394,37 +2395,38 @@ Package hyperref Warning: No autoref name for `algorithm' on input line 208.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (sections/content_4_PerOpteryxMod.tex [26] [27] [28]
+) (sections/content_4_PerOpteryxMod.tex [28] [29] [30]
 chapter 9.
-[29
-
-
-]) (sections/content_5_SystemAdaptation.tex [30]
-chapter 10.
 [31
+
+
+]) (sections/content_5_SystemAdaptation.tex [32]
+chapter 10.
+[33
 
 
 ]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[34]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package hyperref Warning: No autoref name for `algorithm' on input line 111.
 
-[32]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 3281) has occurred while \output is active []
 
-[33]) (sections/evaluation.tex [34] [35] [36
+ [35]
+[36]) (sections/evaluation.tex [37] [38
 
 
 ]
 chapter 11.
 
-LaTeX Warning: Reference `sec:Evaluation:execution' on page 37 undefined on inp
+LaTeX Warning: Reference `sec:Evaluation:execution' on page 39 undefined on inp
 ut line 16.
 
-[37] [38] [39]
+[39] [40] [41]
 Overfull \hbox (3.38492pt too wide) in paragraph at lines 129--130
 \T1/LinuxLibertineT-TLF/m/it/12 Cloud.Web\T1/LinuxLibertineT-TLF/m/n/12 , \T1/L
 inuxLibertineT-TLF/m/it/12 traid-ingsys-tem.inventory\T1/LinuxLibertineT-TLF/m/
@@ -2433,140 +2435,174 @@ bertineT-TLF/m/n/12 , \T1/LinuxLibertineT-TLF/m/it/12 web-ser-vice.inventory \T
 1/LinuxLibertineT-TLF/m/n/12 and
  []
 
-<graphs/medSystem_noserver.pdf, id=444, 963.6pt x 542.025pt>
+<graphs/medSystem_noserver.pdf, id=455, 963.6pt x 542.025pt>
 File: graphs/medSystem_noserver.pdf Graphic file (type pdf)
 
 <use graphs/medSystem_noserver.pdf>
 Package pdftex.def Info: graphs/medSystem_noserver.pdf used on input line 137.
 (pdftex.def)             Requested size: 389.23111pt x 184.46124pt.
- [40 <./graphs/medSystem_noserver.pdf>]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[41] [42]
-<graphs/Runtime_Transformation.pdf, id=469, 845.07718pt x 597.55246pt>
+[42] [43 <./graphs/medSystem_noserver.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[44] <graphs/Runtime_Transformation.pdf, id=480, 597.55246pt x 845.07718pt>
 File: graphs/Runtime_Transformation.pdf Graphic file (type pdf)
 
 <use graphs/Runtime_Transformation.pdf>
 Package pdftex.def Info: graphs/Runtime_Transformation.pdf used on input line 2
 30.
-(pdftex.def)             Requested size: 389.23111pt x 170.38455pt.
- [43 <./graphs/Runtime_Transformation.pdf>] <graphs/medSys_eval_pa_init.pdf, id
-=488, 963.6pt x 542.025pt>
+(pdftex.def)             Requested size: 389.23111pt x 198.72313pt.
+ [45 <./graphs/Runtime_Transformation.pdf>] <graphs/medSys_eval_pa_init.pdf, id
+=499, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_init.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_init.pdf>
-Package pdftex.def Info: graphs/medSys_eval_pa_init.pdf used on input line 249.
+Package pdftex.def Info: graphs/medSys_eval_pa_init.pdf used on input line 250.
 
 (pdftex.def)             Requested size: 324.36145pt x 163.29514pt.
 
-<graphs/medSys_eval_pa_tagging_init.pdf, id=490, 963.6pt x 542.025pt>
+<graphs/medSys_eval_pa_tagging_init.pdf, id=501, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_tagging_init.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_tagging_init.pdf>
 Package pdftex.def Info: graphs/medSys_eval_pa_tagging_init.pdf used on input l
-ine 261.
+ine 262.
 (pdftex.def)             Requested size: 205.51471pt x 125.74316pt.
 
-<graphs/medSys_eval_pa_tagging_analysis.pdf, id=492, 963.6pt x 542.025pt>
+<graphs/medSys_eval_pa_tagging_analysis.pdf, id=503, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_tagging_analysis.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_tagging_analysis.pdf>
 Package pdftex.def Info: graphs/medSys_eval_pa_tagging_analysis.pdf used on inp
-ut line 266.
+ut line 267.
 (pdftex.def)             Requested size: 205.51471pt x 125.74316pt.
- [44 <./graphs/medSys_eval_pa_init.pdf> <./graphs/medSys_eval_pa_tagging_init.p
-df> <./graphs/medSys_eval_pa_tagging_analysis.pdf>]
-<graphs/medSys_eval_pa_da.pdf, id=540, 963.6pt x 542.025pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[46 <./graphs/medSys_eval_pa_init.pdf>]
+<graphs/medSys_eval_pa_da.pdf, id=522, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_da.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_da.pdf>
-Package pdftex.def Info: graphs/medSys_eval_pa_da.pdf used on input line 278.
+Package pdftex.def Info: graphs/medSys_eval_pa_da.pdf used on input line 279.
 (pdftex.def)             Requested size: 389.23111pt x 195.95416pt.
- [45 <./graphs/medSys_eval_pa_da.pdf>]
-<graphs/Runtime_pa.pdf, id=561, 597.55246pt x 845.07718pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47 <./graphs/medSys_eval_pa_tagging_init.pdf> <./graphs/medSys_eval_pa_taggin
+g_analysis.pdf> <./graphs/medSys_eval_pa_da.pdf>]
+<graphs/Runtime_pa.pdf, id=571, 597.55246pt x 845.07718pt>
 File: graphs/Runtime_pa.pdf Graphic file (type pdf)
 
 <use graphs/Runtime_pa.pdf>
-Package pdftex.def Info: graphs/Runtime_pa.pdf used on input line 295.
-(pdftex.def)             Requested size: 389.23111pt x 188.13577pt.
+Package pdftex.def Info: graphs/Runtime_pa.pdf used on input line 297.
+(pdftex.def)             Requested size: 389.23111pt x 196.76175pt.
 
-<graphs/Runtime_pa_sd.pdf, id=563, 845.07718pt x 597.55246pt>
+<graphs/Runtime_pa_sd.pdf, id=573, 845.07718pt x 597.55246pt>
 File: graphs/Runtime_pa_sd.pdf Graphic file (type pdf)
 
 <use graphs/Runtime_pa_sd.pdf>
-Package pdftex.def Info: graphs/Runtime_pa_sd.pdf used on input line 302.
-(pdftex.def)             Requested size: 281.11063pt x 179.4426pt.
+Package pdftex.def Info: graphs/Runtime_pa_sd.pdf used on input line 304.
+(pdftex.def)             Requested size: 281.11063pt x 149.5381pt.
 
-Underfull \hbox (badness 2237) in paragraph at lines 308--309
+Underfull \hbox (badness 2237) in paragraph at lines 310--311
 \T1/LinuxLibertineT-TLF/m/n/12 Ini-tially the graph for the
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 308--309
+Underfull \hbox (badness 5847) in paragraph at lines 310--311
 \T1/LinuxLibertineT-TLF/m/n/12 pri-vacy anal-y-sis gets cre-
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 308--309
+Underfull \hbox (badness 1796) in paragraph at lines 310--311
 \T1/LinuxLibertineT-TLF/m/n/12 y-sis. The graph shows a
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 308--309
+Underfull \hbox (badness 2671) in paragraph at lines 310--311
 \T1/LinuxLibertineT-TLF/m/n/12 time. The ma-jor time is
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 308--309
+Underfull \hbox (badness 2591) in paragraph at lines 310--311
 \T1/LinuxLibertineT-TLF/m/n/12 nent clas-si-fi-ca-tion and de-
  []
 
 
-Underfull \hbox (badness 6859) in paragraph at lines 308--309
+Underfull \hbox (badness 6859) in paragraph at lines 310--311
 \T1/LinuxLibertineT-TLF/m/n/12 mi-nor size ef-fects. The
  []
 
+[48 <./graphs/Runtime_pa.pdf> <./graphs/Runtime_pa_sd.pdf>] [49]
 
-Underfull \hbox (badness 4391) in paragraph at lines 308--309
-\T1/LinuxLibertineT-TLF/m/n/12 lion nodes is still sig-nif-i-
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 308--309
-\T1/LinuxLibertineT-TLF/m/n/12 cantly be-low ten sec-onds.
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[46 <./graphs/Runtime_pa.pdf> <./graphs/Runtime_pa_sd.pdf>] [47] [48]
-<graphs/medSystem_adap_calc_all_runtime.pdf, id=600, 963.6pt x 542.025pt>
+[50] <graphs/medSystem_adap_calc_all_runtime.pdf, id=610, 963.6pt x 542.025pt>
 File: graphs/medSystem_adap_calc_all_runtime.pdf Graphic file (type pdf)
 
 <use graphs/medSystem_adap_calc_all_runtime.pdf>
 Package pdftex.def Info: graphs/medSystem_adap_calc_all_runtime.pdf used on inp
-ut line 420.
+ut line 422.
 (pdftex.def)             Requested size: 281.11063pt x 148.08336pt.
 
-<graphs/medSystem_adap_calc_all_redepl.pdf, id=602, 963.6pt x 542.025pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[51] <graphs/medSystem_adap_calc_all_redepl.pdf, id=616, 963.6pt x 542.025pt>
 File: graphs/medSystem_adap_calc_all_redepl.pdf Graphic file (type pdf)
 
 <use graphs/medSystem_adap_calc_all_redepl.pdf>
 Package pdftex.def Info: graphs/medSystem_adap_calc_all_redepl.pdf used on inpu
-t line 429.
+t line 434.
 (pdftex.def)             Requested size: 281.11063pt x 152.426pt.
- [49 <./graphs/medSystem_adap_calc_all_runtime.pdf>]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (sections/conclusion.tex [50 <./graphs/medSystem_adap_calc_all_redepl.pdf>]
-[51] [52
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[52 <./graphs/medSystem_adap_calc_all_runtime.pdf> <./graphs/medSystem_adap_cal
+c_all_redepl.pdf>]
+<graphs/Runtime_adapt.pdf, id=649, 597.55246pt x 845.07718pt>
+File: graphs/Runtime_adapt.pdf Graphic file (type pdf)
+
+<use graphs/Runtime_adapt.pdf>
+Package pdftex.def Info: graphs/Runtime_adapt.pdf used on input line 492.
+(pdftex.def)             Requested size: 211.91852pt x 125.97374pt.
+
+<graphs/Runtime_adapt_sd.pdf, id=651, 845.07718pt x 597.55246pt>
+File: graphs/Runtime_adapt_sd.pdf Graphic file (type pdf)
+
+<use graphs/Runtime_adapt_sd.pdf>
+Package pdftex.def Info: graphs/Runtime_adapt_sd.pdf used on input line 497.
+(pdftex.def)             Requested size: 211.91852pt x 132.3608pt.
 
 
-]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (sections/conclusion.tex [53] [54 <./graphs/Runtime_adapt.pdf> <./graphs/Runt
+ime_adapt_sd.pdf>]
 chapter 12.
-) [53] [54
+[55
 
 
 ]
+Overfull \hbox (11.87407pt too wide) in paragraph at lines 52--53
+[]\T1/LinuxLibertineT-TLF/m/n/12 Modern soft-ware sys-tems and dis-tributed clo
+ud
+ []
+
+) [56]
 chapter without number
 LaTeX Font Info:    Try loading font information for T1+fvm on input line 142.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\bera\t1fvm.fd"
@@ -2615,7 +2651,10 @@ Overfull \hbox (2.03593pt too wide) in paragraph at lines 142--142
 -[] kampf -[] gegen -[] facebook -[]
  []
 
-[55]
+[57
+
+
+]
 Overfull \hbox (7.36714pt too wide) in paragraph at lines 142--142
 \T1/LinuxLibertineT-TLF/m/it/12 WOSP/SIPEW in-ter-na-tional con-fer-ence on Per
 -for-mance en-gi-neer-ing\T1/LinuxLibertineT-TLF/m/n/12 . Ed. by Alan Adam-
@@ -2651,12 +2690,19 @@ TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : $\T1/fvm/m/n/12 http : / / teet
 ime -[] framework . github .
  []
 
-(sections/appendix.tex [56]
-chapter A.
-) [57
+[58]
+Overfull \hbox (4.0688pt too wide) in paragraph at lines 142--142
+[]\T1/LinuxLibertineT-TLF/m/n/12 Philipp Weimann. \T1/LinuxLibertineT-TLF/m/it/
+12 cocome-community-case-study/cocome-cloud-jee-privacy\T1/LinuxLibertineT-TLF/
+m/n/12 . 2017-06-
+ []
+
+(sections/appendix.tex [59] [60
 
 
 ]
+chapter A.
+) [61]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (thesis.aux)
@@ -2672,10 +2718,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 32469 strings out of 493333
- 596713 string characters out of 3139188
- 1154362 words of memory out of 3000000
- 35311 multiletter control sequences out of 15000+200000
+ 32480 strings out of 493333
+ 597128 string characters out of 3139188
+ 1154403 words of memory out of 3000000
+ 35320 multiletter control sequences out of 15000+200000
  160536 words of font info for 143 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  80i,13n,80p,8820b,3200s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2697,9 +2743,9 @@ eX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/txfonts/rtxr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/t
 xfonts/txsyc.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/zxlri.pfb>
-Output written on thesis.pdf (73 pages, 7189397 bytes).
+Output written on thesis.pdf (77 pages, 8050609 bytes).
 PDF statistics:
- 713 PDF objects out of 1000 (max. 8388607)
+ 759 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
 

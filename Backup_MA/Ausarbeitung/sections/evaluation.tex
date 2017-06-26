@@ -13,7 +13,7 @@
 \chapter{Evaluation}
 \label{ch:Evaluation}
 
-This chapter is structured as follows: Initially the concept is elaborated (\autoref{sec:Evaluation:concept}), followed by evaluation scenarios (\autoref{sec:Evaluation:scenarios}) and the evaluation of the single tasks: monitoring (\autoref{sec:Evaluation:monitoring}), privacy analysis (\autoref{sec:Evaluation:monitoring}), model generation (\autoref{sec:Evaluation:privacyanalysis}), adaptation planning (\autoref{sec:Evaluation:planning}) and finally adaptation execution (\autoref{sec:Evaluation:execution}).
+This chapter is structured as follows: Initially the concept is elaborated (\autoref{sec:Evaluation:concept}), followed by evaluation scenarios (\autoref{sec:Evaluation:scenarios}) and the evaluation of the single tasks: monitoring (\autoref{sec:Evaluation:monitoring}), privacy analysis (\autoref{sec:Evaluation:monitoring}), model generation (\autoref{sec:Evaluation:privacyanalysis}), adaptation planning (\autoref{sec:Evaluation:planning}) and finally adaptation execution (\autoref{sec:Evaluation:execution}). Note, all evaluation models, test data and results can be found at \cite{privacy.PW}.
 
 \section{Evaluation Design}
 \label{sec:Evaluation:concept}
@@ -26,7 +26,8 @@ The task evaluation is generally split into an \textit{Accuracy} evaluation and 
 %Scalability => Runtime behaviour, automatic generated PCMs, 1 > 10 > 100 > 1000 ... logarithmic scale
 The scalability evaluation aims for the systems runtime characteristic, based on an increasing work load. The actual accuracy result of the task doesn't interest during this analysis. The primary measurement is the task response time, dependent on the assembly context count and resource container count. Both axis are logarithmic scaled, so the response behaviour is clearly visible. The individual models are randomly generated, based on a repository model input.
 
-\todo{add Jaccard Coefficient}
+We will use the \textit{Jaccard Coefficient} to evaluate model changes during the accuracy evaluation. Prior to the execution a target model is created, representing the desired post-execution state. The runtime model is compared to the target model, differences get calculated, as well as the jaccard coefficient. The coefficient is defined as the \textit{intersection set} of runtime and target model \textit{divided} through the \textit{union set} of these models. If the models are completely equal, the result is \textit{1.0}. 
+
 
 \section{Evaluation Scenarios}
 \label{sec:Evaluation:scenarios}
@@ -95,8 +96,7 @@ This scenario describes the use case, where no privacy compliant, alternative de
 	\item \textbf{PRE}: All components of the software system are hosted multiple server instances by cloud reseller. 
 	\item \textbf{EVENT}: The reseller starts migrating his server to another cloud providers.
 	\item \textbf{REACTION}: iObserve Privacy monitors the migration and starts a privacy analysis. The privacy analysis shows a privacy violation. An alternative, privacy compliant deployment can't be computed.
-	\item \textbf{POST}: \dots
-	\todo{Specify end state!}
+	\item \textbf{POST}: iObserve Privacy notifies the operator about the missing privacy compliant re-deployment model.
 \end{itemize}
 
 %\subsection{Scenario 5}
@@ -223,15 +223,16 @@ The results show, that the problem and research question in \autoref{sec:Introdu
 
 \subsection{Transformation: Scalability Evaluation}
 
-For the scalability analysis we are using the Medi-System model with a generated Dat-File. The inputs are logically and syntax valid. 30\% of the inputs are TDeployment and TUnDeployment events, distributed relative to the current allocation status. The other 70\% of inputs are TGeolocation events, randomly distributed over all available servers. Every measurement was repeated three times to eliminate potential measurement errors. The log outputs remain active, the snapshot creation is deactivated, so no further pipeline filters get activated. The results (\autoref{fig:eval:runtime:transformation}) show a linear runtime behaviour, maximal input size is $1,oE06$ events.
+For the scalability analysis we are using the Medi-System model with generated input. The inputs are logically and syntax valid. 30\% of the inputs are TDeployment and TUnDeployment events, distributed relative to the current allocation status. The other 70\% of inputs are TGeolocation events, randomly distributed over all available servers. Every measurement was repeated ten times to eliminate potential measurement errors. The log outputs remain active, the snapshot creation is deactivated, so no further pipeline filters get activated. We use input sizes from 10 to one million on a logarithmic scale.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[trim = 0mm 40mm 0mm 40mm, clip, width=0.90\textwidth]{graphs/Runtime_Transformation}
-	\caption{Runtime behaviour}
-	\label{fig:eval:runtime:transformation}
+	\includegraphics[trim = 10mm 90mm 10mm 110mm, clip, width=0.90\textwidth]{graphs/Runtime_Transformation}
+	\caption{Transformation runtime \& SD}
+	\label{fig:eval:trans:runtime}
 \end{figure}
 
+The results (\autoref{fig:eval:trans:runtime}) show a linear runtime behaviour, for the maximal input size of 1 mio events the execution takes about 820 seconds. The according standard deviation of 22 makes it a stable and fast result.
 
 \section{Privacy Analysis}
 \label{sec:Evaluation:privacyanalysis}
@@ -283,23 +284,24 @@ The second trigger, the component deployment on \textit{Server2}, reports a priv
 We have shown, that the component classification algorithm and the deployment analysis works as intended, providing a privacy analysis on a architectural level (see \autoref{sec:Introduction:goals}). We didn't show every possible privacy violation, however showed the most difficult analysis work: The detection of joining data streams on component categorization and deployment analysis level. And the correct identification of a set of components, located on a server, sharing the same single depersonalised component as a data source. We will use further exemplary privacy violations in the other accuracy evaluations.
 
 \subsection{Privacy Analysis: Scalability Evaluation}
+\label{sec:Evaluation:privacyanalysis:scale}
 
-For the scalability evaluation of the privacy analysis, we will use the generated model (\autoref{sec:Evaluation:models:generated}), since models of the intended evaluation scale are not constructable by hand. 
+For the scalability evaluation of the privacy analysis, we will use the generated model (\autoref{sec:Evaluation:models:generated}), since models of the intended scale are not constructable by hand.
 
-The measurement starts taking time, after the snapshot is created and before the initial model is read in. The first round is taken, before the graph is constructed from the model. Further rounds are taken to measure the component classification and the deployment analysis. Complex outputs are deactivated.
+The time measurement starts before the graph is constructed from the model. Time rounds are taken to measure the component classification and the deployment analysis. Complex outputs are deactivated to minimise random influences.
 
-We will measure a graph size from 10 to one million nodes, with a distribution of 40\% Resource Container and 60\% Assembly Contexts. The classification of the Assembly Connectors is distributed among 15\% Personal, 35\% Depersonalised and 50\% Anonymous. We expect this configuration to reflect a real world setting, with multiple components on a single server and only a view unused servers and an slightly increasing effort of to analyse the models. The \textit{"legal"} geo-locations consist of 40 random countries. Each model measurement is repeated ten times to minimize variation effects.
+We will measure a graph size from 10 to one million nodes on a logarithmic scale, with a distribution of 40\% Resource Container and 60\% Assembly Contexts. The classification of the Assembly Connectors is distributed among 15\% Personal, 35\% Depersonalised and 50\% Anonymous. We expect this configuration to reflect a real world setting, with multiple components on a single server and only a view unused servers and an slightly increasing effort of to analyse the models. The \textit{legal} geo-locations consist of 40 random countries. Each model measurement is repeated ten times to minimize variation effects.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[trim = 15mm 100mm 15mm 110mm, clip, width=0.90\textwidth]{graphs/Runtime_pa}
+	\includegraphics[trim = 15mm 95mm 13mm 110mm, clip, width=0.90\textwidth]{graphs/Runtime_pa}
 	\caption{Privacy Analysis runtime}
 	\label{fig:eval:pa:runtime}
 \end{figure}
 
 \begin{wrapfigure}{l}{0.65\textwidth}
 	\begin{center}
-		\includegraphics[trim = 5mm 15mm 10mm 15mm, clip, width=0.65\textwidth]{graphs/Runtime_pa_sd}
+		\includegraphics[trim = 5mm 30mm 10mm 30mm, clip, width=0.65\textwidth]{graphs/Runtime_pa_sd}
 	\end{center}
 	\caption{Privacy Analysis runtime standard deviation}
 	\label{fig:eval:pa:runtime_sd}
@@ -307,7 +309,7 @@ We will measure a graph size from 10 to one million nodes, with a distribution o
 
 \autoref{fig:eval:pa:runtime} shows the accumulated runtime in the order the tasks are executed. Initially the graph for the privacy analysis gets created, followed by the component classification and finally the deployment analysis. The graph shows a nearly linear increasing runtime. The major time is consumed by the graph construction, while the component classification and deployment analysis only show minor size effects. The whole runtime for one million nodes is still significantly below ten seconds. The limiting resource for further scalability test is the graph generation. However, graphs with the size of 1000 and more nodes are already very unlikely.
 
-The standard deviation \autoref{fig:eval:pa:runtime_sd} is increasing significantly with the model size. This could be due to runtime effects, however, the reason is unknown. Overall, the privacy analysis very fast, considering the a privacy evaluation of a PCM privacy model with one million nodes in less then seconds.
+The standard deviation \autoref{fig:eval:pa:runtime_sd} is increasing - in general - linear with the model size. The deployment analysis however, shows some irregular behaviour. This could be due to the randomly selected save countries. A standard deviation of three times the actual mean runtime does means, significantly runtime computation differences must occur. Nevertheless, a maximum deployment analysis time of ten seconds on a one million nodes graph is still considered very fast. And an overall privacy analysis runtime of maximal 15 seconds is also very quick.
 
 
 \section{Model Generation}
@@ -381,7 +383,7 @@ We expect the adaptation sequence to initially \textit{acquire} the newly used s
 	\label{tab:eval:adapt:action_order}
 \end{table}
 
-\autoref{tab:eval:adapt:action_order} shows the output adaptation sequence for scenario \#2. The result is unbiased. For the transformation onto iObersve input events, we can ignore the acquire actions, since the resource container already exist in the resource environment model. Every migrate action needs to be translated into two events: a TUndeployment event and a TDeployment event. The terminate can also be ignored, since there is no real server to release/terminate. We expect the system to be in a privacy compliant state after the execution of the iOberve input events. \autoref{tab:eval:adapt:action_input_result} shows the resulting iObserve input.
+\autoref{tab:eval:adapt:action_order} shows the output adaptation sequence for scenario \#2. The result is unbiased. The in \autoref{tab:SysAdap:order} stated universal order is met. For the transformation onto iObersve input events, we can ignore the acquire actions, since the resource container already exist in the resource environment model. Every migrate action needs to be translated into two events: a TUndeployment event and a TDeployment event. The terminate can also be ignored, since there is no real server to release/terminate. We expect the system to be in a privacy compliant state after the execution of the iOberve input events. \autoref{tab:eval:adapt:action_input_result} shows the resulting iObserve input.
 
 \begin{table}[h]
 	\centering
@@ -413,7 +415,7 @@ We expect the adaptation sequence to initially \textit{acquire} the newly used s
 \end{table}
 
 
-The execution of the transformed adaptation sequence (\autoref{tab:eval:adapt:action_input_result}) results in a privacy compliant PCM model. Frankly speaking, the result is unbiased and solves the in \autoref{sec:Introduction:problems} specified problem of \textit{automated privacy compliance re-establishment}.
+The execution of the transformed adaptation sequence (\autoref{tab:eval:adapt:action_input_result}) results in a privacy compliant PCM model, the post-execution runtime model and calculated redeployment model result in an Jaccard Coefficient of \textit{1.0}. Frankly speaking, the result is unbiased and solves the in \autoref{sec:Introduction:problems} specified problem of \textit{automated privacy compliance re-establishment}.
 
 \begin{figure}[h]
 	\centering
@@ -422,7 +424,10 @@ The execution of the transformed adaptation sequence (\autoref{tab:eval:adapt:ac
 	\label{fig:eval:adapt:4:run}
 \end{figure}
 
-We will use the Medi-Sys to show the limitations of the adaptation calculation and execution mentioned in scenario \#3. Since PerOpteryx only adapts the system given according to the \textit{design decision} model, it will only produce acquire, migrate and terminate actions - in our use case. These are (usually) automatically executable. However, there are more potential actions specified, which can't be executed automatically. We will modify the Medi-Sys model to provoke one of each action. \autoref{fig:eval:adapt:4:run} shows the runtime model, \autoref{fig:eval:adapt:4:redepl} shows the re-deployment model. The anticipated difference between these models is shown in \autoref{tab:eval:adapt:4:action_provoke}. We expect each of the seven actions to be detected, except the \textit{replicate} action, since this is not (yet) supported by the adaptation calculation. It will be subsided by an \textit{aquire Server2-2} and an \textit{allocate GovStatistics on Server2-2}.
+
+We will continue to evaluate the \textit{System Adaptation} with scenario \#3 to show the limitations and so far unseen capabilities of the adaptation calculation. For this scenario the Medi-Sys will be used.
+
+PerOpteryx only adapts the system given according to the \textit{design decision} model, it will only produce acquire, migrate and terminate actions - at least in our case. These are (usually) automatically executable. However, there are more potential actions specified, which can't be executed automatically. We will modify the Medi-Sys model to provoke one of each action. \autoref{fig:eval:adapt:4:run} shows the runtime model, \autoref{fig:eval:adapt:4:redepl} shows the re-deployment model. The anticipated difference between these models is shown in \autoref{tab:eval:adapt:4:action_provoke}. We expect each of the seven actions to be detected, except the \textit{replicate} action, since this is not (yet) supported by the adaptation calculation. It will be subsided by an \textit{aquire Server2-2} and an \textit{allocate GovStatistics on Server2-2}.
 
 \begin{figure}[h]
 	\centering
@@ -472,16 +477,34 @@ The execution of the adaptation calculation shows the expected result (see \auto
 	\label{tab:eval:adapt:4:action_result}
 \end{table}
 
+\todo{what is not automatically executable?}
+
 
 \subsection{Adaptation: Scalability Evaluation}
 
-For the scalability analysis we are generating logically valid PCM Privacy models, modifying these and then running the \textit{Adaptation Calculation} and \textit{Adaptation Planning}. The initial model is constructed in a way, that a model of size 100 consists of 60 assembly contexts and 40 resource containers. The modification is linear distributed over the acquire, terminate, allocate, deallocate, migrate and exchange component related modification. However, not every modification in the model leads must lead to an adaptation action. The adding of another resource container is only recognized as an acquire action, if an assembly context gets allocated on that resource container. The termination of a resource container, that hosts one or more components, leads also to a migration action. With this in mind, we measure the time of the adaptation calculation and adaptation planning based on the amount of modifications in the model. The model is three times as big as the modifications made.
+For the scalability analysis we are generating logically valid PCM Privacy models, modifying these and then running the \textit{Adaptation Calculation} and \textit{Adaptation Planning}. We will measure the runtimes of the graph creation, the adaptation calculation and the adaptation planning to gain a detailed runtime behaviour for each task.
 
+The initial model is constructed in a way, that a model of size 100 consists of 60 assembly contexts and 40 resource containers. The modification is linear distributed over the acquire, terminate, allocate, deallocate, migrate and exchange component related modification. However, not every modification in the model leads must lead to an adaptation action. The adding of another resource container is only recognized as an acquire action, if an assembly context gets allocated on that resource container. The termination of a resource container, that hosts one or more components, leads also to a migration action. With this in mind, we measure the time of the adaptation calculation and adaptation planning based on the amount of modifications in the model. The model is three times as big as the modifications made. Each measurement was repeated ten times, the input sizes were 10, 100, 1000 and 10000. An evaluation run with 100000 provoked changes was aborted after twelve hours of computation.
 
+\begin{figure}[h]
+	\centering
+	\begin{minipage}[b]{0.49\textwidth}		
+		\includegraphics[trim = 15mm 90mm 15mm 100mm, clip, width=1.00\textwidth]{graphs/Runtime_adapt}
+		\caption{Adaptation runtime}
+		\label{fig:eval:adap:runtime}
+	\end{minipage}
+	\begin{minipage}[b]{0.49\textwidth}
+		\includegraphics[trim = 10mm 26mm 10mm 11mm, clip, width=1.00\textwidth]{graphs/Runtime_adapt_sd}
+		\caption{Adaptation runtime SD}
+		\label{fig:eval:adap:runtime_sd}
+	\end{minipage}
+\end{figure}
 
+\autoref{fig:eval:adap:runtime} shows the runtime results. The graph creation shows a linear runtime behaviour, like in \autoref{sec:Evaluation:privacyanalysis:scale} already noticed. The adaptation calculation consumes an increasingly amount of time. This can be explained with the increasing model size, since the actual action calculation is optimized for $O(1)$ operations, while the action creation operates with PCM model elements directly. The EMF framework in general shows poor performance characteristics, which can also be seen at the failed 100000 changes evaluation. The adaptation planning needs next to no time.
 
+The standard deviation (\autoref{fig:eval:adap:runtime_sd}) shows mostly constant deviations. However, the adaptation calculation increases significantly on the last evaluation run. We assume this is due to JVM memory management and EMF effects. However, a standard deviation of roughly 3 seconds to a runtime of 30 seconds is within an acceptable ratio, considering that two models and graphs of 30000 nodes have to be managed.
 
-
+The adaptation runtime in general shows satisfying results. The calculation can be considered very fast with an acceptable variance.
 
 
 

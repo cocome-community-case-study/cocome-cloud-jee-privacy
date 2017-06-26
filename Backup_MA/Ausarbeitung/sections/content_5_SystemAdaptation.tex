@@ -46,6 +46,8 @@ Assembly Context Actions reflect all model changes around a software component. 
 
 Resource Container Actions reflect changes around a virtual or physical server. Acquire and Terminate Actions don't need any explanations. A Replicate Action clones a server instance with its containing components.
 
+We decided to model these actions into an EMF model and reference the \textit{PCM meta-model}. This allows us to directly reference the affected resource container or assembly contexts without any technology implications. Writing this code by hand would cause more effort on a PCM meta-model update, however, the generated EMF models perform poorly during debugging. Nevertheless, EMF meta-models are easily extendable and modifiable and therefore perfect for the task at hand.
+
 \subsection{Action Ordering}
 
 For each action a set of pre-execution-conditions can be determined. Out of this set, a universal order can be derived. However, we need two assumptions for this order to be valid:
@@ -97,19 +99,18 @@ Due to our way of calculating the actions, by directly comparing the runtime and
 \section{Adaptation Execution}
 \label{sec:SysAdap:exec}
 
-The adaptation execution is as straight forward as it gets. The actions get executed - in order determined by adaptation planning (\autoref{sec:SysAdap:plan}) - by calling equivalent scripts, which wrap the technological side of the action. The technological implications are not considered by this thesis and are therefore not further discussed.
-\todo{Ref to Pöppke?}
-\todo{More details, when scripts \& implementation are rdy?}
+The adaptation execution is as straight forward as it gets. The actions get executed - in order determined by adaptation planning (\autoref{sec:SysAdap:plan}) - by calling equivalent scripts, which wrap the technological side of the action. The technological implications are not considered by this thesis and are therefore not further discussed. However, the separation of technology independent and dependent part of the execution is very futile to the whole iObserve principle.
 
+It is recommended to execute the action according scripts asynchronous to be able to track the changes while they happen. This allows for post-adaptation evaluation. This means, iObserve (privacy) can check, whether the \textit{runtime model} is now semantically equivalent to the \textit{re-deployment model}. Further details on the execution of the adaptation actions can be found in \cite{TobiasPoppke.20170626}.
 
 
 \section{Implementation}
 \label{sec:SysAdap:impl}
 
 
-The implementation is split into three parts: the action calculation, the action ordering and the action execution. The calculation is based on the same graph as used during the \textit{Privacy Analysis} (\autoref{fig:privacy_graph_mm}). The Assembly Context Actions get calculated independently from the Resource Container Actions, the principle however is the same:
+The implementation is split into three parts: the action calculation, the action ordering and the action execution. The calculation is based on the same graph as used during the \textit{Privacy Analysis} (\autoref{fig:privacy_graph_mm}). The Assembly Context Actions get calculated independently from the Resource Container Actions, the principle however is the same. See Algorithm \autoref{algo:action_calc} for the pseudo code.
 
-\begin{algorithm}[h]
+\begin{algorithm}[H]
 	\caption{Action Calculation algorithm}
 	\label{algo:action_calc}
 	\begin{algorithmic}[1]
@@ -154,9 +155,5 @@ Initially the algorithm adds all assembly components to a dictionary. In the mai
 The calculation of the Resource Container Actions is implemented similar. Initially all servers get added to a dictionary, all redeployment servers get compared against those and the actions calculated accordingly.
 
 The whole calculation is build around the stability of IDs on Palladio model elements. If the redeployment model creates a completely new system model, while changing only minor details, the calculation will deallocate the old system and allocate a totally new one. PerOpteryx modifies the system model, keeping the assembly context IDs - as intended - stable and therefore produces only minimal actions.
-
-\todo{Check back with Replicate Action}
-
-\todo{Describe Execution}
 
 
