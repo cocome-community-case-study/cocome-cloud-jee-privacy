@@ -1,7 +1,7 @@
 \chapter{Privacy Analysis}
 \label{ch:PrivacyAnalysis}
 
-The Privacy Analysis represents the analysis stage in the MAPE-K feedback loop (\autoref{sec:Foundations:mape}). The goal is to check whether the runtime model contains any privacy violations. The privacy concept, described in \autoref{ch:PrivacyConcept}, states that the privacy analysis consist of two major task. First, the correct privacy categorization of the software components. Second, the deployment evaluation, based on the deployment rules, defined in \autoref{sec:PrivacyConcept:deploymentrules}.
+The Privacy Analysis represents the analysis stage in the MAPE-K feedback loop (\autoref{sec:Foundations:mape}). The goal is to check whether the runtime model contains any privacy violations. The privacy concept, described in \autoref{ch:PrivacyConcept}, states that privacy analysis consist of two major tasks. First, the correct privacy categorization for each software components needs to be determined. Second, the deployment evaluation, based on the deployment rules, defined in \autoref{sec:PrivacyConcept:deploymentrules}, needs to be performed.
 
 The remaining chapter is divided into a theoretical part (\autoref{sec:PrivacyAnalysis:theory}), a component categorization part (\autoref{sec:PrivacyAnalysis:categorization}), a deployment evaluation part (\autoref{sec:PrivacyAnalysis:deployment}) and the implementation part (\autoref{sec:PrivacyAnalysis:implementation}).
 
@@ -9,11 +9,11 @@ The remaining chapter is divided into a theoretical part (\autoref{sec:PrivacyAn
 \section{Analysis Theory}
 \label{sec:PrivacyAnalysis:theory}
 
-The exclusive source of information for the privacy analysis is the systems PCM Privacy runtime model. For an efficient analysis we first need to identify the minimal required information and substitute them, depending on the available sources.
+The exclusive source of information for the privacy analysis is the systems PCM Privacy runtime model. For an efficient analysis one first need to identify the minimal required information and substitute them, depending on the available sources.
 
 
 \subsection{Required information}
-In the context of Privacy Analysis there is a minimum of two information which are required for privacy analysis:
+In the context of Privacy Analysis there is a minimum of two pieces of information which are required for privacy analysis:
 
 \begin{table}[h]
 	\centering
@@ -29,11 +29,11 @@ In the context of Privacy Analysis there is a minimum of two information which a
 	\label{tab:pa_minimal_info}
 \end{table}
 
-Usually these information are not directly available. As a consequence other ones must substitute these, while containing the same information. A suitable substitution, differs based on the sources and their contained information.
+Usually \textit{M1} and \textit{M2} is not directly available. As a consequence other ones must substitute these, while containing the same information. A suitable substitution, differs based on the sources and their contained information.
 
-The used PCM Privacy meta-model provides us with a categorization of the communicated information between component interfaces. This enables us to determine a component's privacy level based on the most critical communication with another component. As a result we can determine a components privacy level without knowing its exact purpose, analysing any inner processes or knowing the exact data-flow. So $M1$ gets substituted by information about inter interface communication and its privacy categorization.
+The used PCM Privacy meta-model provides a categorization of the communicated information between component interfaces. This enables a component classification, based on the most critical communication with another component. As a result, a components privacy level can be determined without knowing its exact purpose, analysing any inner processes or knowing the exact data-flow. So $M1$ gets substituted by information about inter interface communication and its privacy categorization.
 
-In order to get an information equivalent of $M2$, a components host must be determined, as well as that hosts geo-location. The PCM Privacy model provides us with these information. However, it is spread over multiple models. As a result we require only four pieces of information (\autoref{tab:iobserve_information}), compared to R-PRISs six pieces (\autoref{tab:rpris_information}).
+In order to get an information equivalent of $M2$, a components host must be determined, as well as that hosts geo-location. The PCM Privacy model provides these information. However, it is spread over multiple models. As a result we require only four pieces of information (\autoref{tab:iobserve_information}), compared to R-PRISs six pieces of information (\autoref{tab:rpris_information}).
 
 \begin{table}[h]
 	\centering
@@ -53,15 +53,15 @@ In order to get an information equivalent of $M2$, a components host must be det
 
 \subsection{Data-flow direction}
 \label{sec:PrivacyAnalysis:theory:dataflow}
-Usually component interfaces are categorized into providing and required interfaces. Connections are made between a pair of required and provided interface of the same type. This suggest a certain data- and control-flow direction. This is a wrong assumption. While there are cases, when the control-flow can be derived from this structure, the data-flow is completely independent from this categorization.
+Usually component interfaces are categorized into providing and requiring interfaces. Connections are made between a pair of required and provided interfaces of the same type. This suggests a certain data- and control-flow direction. This is a wrong assumption. While there are cases, when the control-flow can be derived from this structure, the data-flow is completely independent from this categorization.
 
 For example a database interface usually only has provided interfaces. These interfaces allows the user to store and retrieve data from the database. Such a database interface normally contains getter and setter methods, which proves there is no data-flow direction for the whole interfaces. Note, that we are explicitly speaking of a whole component interface. Individual methods can have a data-flow direction.
 
-Information passed through an interface are available on the providing and requiring component. This means, if an component connector got categorized as \textit{Personal}, that information of this type are available in both components. These components need to get categorized accordingly.
+Information passed through an interface are available on the providing and requiring component. In other terms, if an component connector got categorized as \textit{Personal}, that information of this type are available in both components. These components need to get categorized accordingly.
 
 \subsection{Joining data streams}
 \label{sec:PrivacyAnalysis:theory:jds}
-In \autoref{sec:PrivacyConcept:deploymentrules} we elaborated on the danger of two \textit{Personally Identifiable Information} (Type 1) data streams, from two sources, joining on a single server, could lead to personal, privacy relevant data. (Compare \autoref{enum:deployment_rules}, Rule 4). This concept applies not only on the described deployment level, but also on the component categorization process.
+In \autoref{sec:PrivacyConcept:deploymentrules} we elaborated on the danger of two \textit{Personally Identifiable Information} (Type 1) data streams, from two sources, joining on a single server, could lead to personal, privacy relevant data. (Compare \autoref{enum:deployment_rules}, Rule 4). This concept applies on the described deployment level and also on the component categorization process.
 
 While on deployment level, the information streams are not actively merged, this is a realistic possibility on the component categorization level. So the argument of applying an overestimation is not valid and this scenario must be taken seriously. In the following this special case will be refereed to as \textit{joining data streams}.
 
@@ -80,7 +80,7 @@ The initial data privacy level of a component is equal the components most criti
 	\label{fig:example_categorization:init}
 \end{figure}
 
-The second phase analyses the system for joining data streams. \autoref{fig:example_categorization:base} continues the initial example), and shows the result of the second phase. In comparison to the initial categorization, component D and E get "upcasted". This is due to the fact, that component D and E have a connection onto two personal data sources (Component A and B).
+The second phase analyses the system for joining data streams. \autoref{fig:example_categorization:base} continues the initial example), and shows the result of the second phase. In comparison to the initial categorization, component D and E get "upcasted" and gain a \textit{Personal} - more critical - data privacy categorization. This is due to the fact, that component D and E have a connection onto two personal data sources (Component A and B).
 
 \begin{figure}[h]
 	\centering
@@ -89,7 +89,7 @@ The second phase analyses the system for joining data streams. \autoref{fig:exam
 	\label{fig:example_categorization:base}
 \end{figure}
 
-Two special cases are shown in \autoref{fig:example_categorization:advanced}. So does component D get a personal data marking even though it has only one other component as data source. However, it has two individual connections to component B, which could contain a joining data stream, since B has a personal categorization.
+Two special cases are shown in \autoref{fig:example_categorization:advanced}. So does component D gets a personal data marking even though it has only one other component as data source. However, it has two individual connections to component B, which could contain a joining data stream, since B has a personal categorization.
 
 \begin{figure}[h]
 	\centering
@@ -98,7 +98,7 @@ Two special cases are shown in \autoref{fig:example_categorization:advanced}. So
 	\label{fig:example_categorization:advanced}
 \end{figure}
 
-Component F doesn't get an "upcast" since it can only contain privacy relevant data that are already present on component E. And component E has a depersonalized categorization. All anonymized categorized connections and components are ignored, since the don't contain any privacy related information.
+Component F doesn't get an "upcast" since it can only contain privacy relevant data that are already present on component E. And component E has a depersonalized categorization. All anonymized categorized connections and components are ignored, since they don't contain any privacy related information.
 
 
 \section{Deployment analysis}

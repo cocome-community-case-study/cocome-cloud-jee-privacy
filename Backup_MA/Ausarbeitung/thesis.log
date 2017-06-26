@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.18)  26 JUN 2017 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.18)  26 JUN 2017 19:05
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2312,13 +2312,10 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/n' will be
 (Font)              scaled to size 13.24796pt on input line 15.
 [23]
-Overfull \hbox (1.36841pt too wide) in paragraph at lines 56--57
-\T1/LinuxLibertineT-TLF/m/n/12 Usually com-po-nent in-ter-faces are cat-e-go-ri
-zed into pro-vid-ing and re-quired in-ter-faces. Con-
- []
+Underfull \vbox (badness 1389) has occurred while \output is active []
 
-
-<graphs/component_categorization_examples_initial.pdf, id=318, 963.6pt x 542.02
+ [24]
+<graphs/component_categorization_examples_initial.pdf, id=321, 963.6pt x 542.02
 5pt>
 File: graphs/component_categorization_examples_initial.pdf Graphic file (type p
 df)
@@ -2326,7 +2323,7 @@ df)
 Package pdftex.def Info: graphs/component_categorization_examples_initial.pdf u
 sed on input line 78.
 (pdftex.def)             Requested size: 324.36145pt x 129.78795pt.
- [24]
+
 <graphs/component_categorization_examples_upcast_base.pdf, id=323, 963.6pt x 54
 2.025pt>
 File: graphs/component_categorization_examples_upcast_base.pdf Graphic file (ty
@@ -2349,11 +2346,8 @@ ed.pdf used on input line 96.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 4779) has occurred while \output is active []
-
- [25 <./graphs/component_categorization_examples_initial.pdf> <./graphs/compone
-nt_categorization_examples_upcast_base.pdf>]
+[25 <./graphs/component_categorization_examples_initial.pdf> <./graphs/componen
+t_categorization_examples_upcast_base.pdf>]
 <graphs/deployment_example_implementation_eval.pdf, id=358, 963.6pt x 542.025pt
 >
 File: graphs/deployment_example_implementation_eval.pdf Graphic file (type pdf)
@@ -2720,7 +2714,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
 Here is how much of TeX's memory you used:
  32480 strings out of 493333
  597128 string characters out of 3139188
- 1154403 words of memory out of 3000000
+ 1154399 words of memory out of 3000000
  35320 multiletter control sequences out of 15000+200000
  160536 words of font info for 143 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
@@ -2743,7 +2737,7 @@ eX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/txfonts/rtxr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/t
 xfonts/txsyc.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/zxlri.pfb>
-Output written on thesis.pdf (77 pages, 8050609 bytes).
+Output written on thesis.pdf (77 pages, 8050799 bytes).
 PDF statistics:
  759 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
