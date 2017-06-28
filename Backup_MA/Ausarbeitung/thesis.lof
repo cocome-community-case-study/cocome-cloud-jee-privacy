@@ -10,6 +10,8 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces iObserve cloud application life cycle \cite {Heinrich.2016b}}}{5}{figure.2.1}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces R-PRIS meta-model}}{8}{figure.3.1}
@@ -30,13 +32,13 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Deployment analysis result}}{17}{figure.6.1}
+\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces PCM Privacy meta-model}}{17}{figure.6.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.1}{\ignorespaces Server Geo-Location Record and Sampler}}{19}{figure.7.1}
+\contentsline {figure}{\numberline {\relax 7.1}{\ignorespaces Server Geo-Location Record and Sampler}}{20}{figure.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.2}{\ignorespaces iObserve Privacy Filter}}{20}{figure.7.2}
+\contentsline {figure}{\numberline {\relax 7.2}{\ignorespaces iObserve Privacy Filter}}{21}{figure.7.2}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -72,7 +74,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 11.7}{\ignorespaces Privacy Analysis runtime}}{48}{figure.11.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 11.8}{\ignorespaces Privacy Analysis runtime standard deviation}}{48}{figure.11.8}
+\contentsline {figure}{\numberline {\relax 11.8}{\ignorespaces Privacy Analysis runtime standard deviation}}{49}{figure.11.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 11.9}{\ignorespaces Runtime model}}{52}{figure.11.9}
 \defcounter {refsection}{0}\relax 
@@ -80,7 +82,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\relax 11.11}{\ignorespaces Adaptation runtime}}{54}{figure.11.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 11.12}{\ignorespaces Adaptation runtime SD}}{54}{figure.11.12}
+\contentsline {figure}{\numberline {\relax 11.12}{\ignorespaces Adaptation runtime SD}}{55}{figure.11.12}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -88,4 +90,4 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces A figure}}{61}{figure.A.1}
+\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces A figure}}{63}{figure.A.1}

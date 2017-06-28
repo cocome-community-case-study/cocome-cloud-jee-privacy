@@ -13,13 +13,15 @@
 \chapter{Introduction}
 \label{ch:Introduction}
 
+During the introduction we will \textit{motivate} (\autoref{sec:Introduction:motivation}) for the topic at hand and introduce the \textit{problems} (\autoref{sec:Introduction:problems}) arising from it. Further we will introduce the \textit{goal and research questions} (\autoref{sec:Introduction:goals}) handled in this thesis. Finally we will give a short \textit{outline} (\autoref{sec:Introduction:outline}) about the remainder chapters.
+
 
 \section{Motivation}
 \label{sec:Introduction:motivation}
 
 Over the last years, cloud computing has become more and more popular. This is a result of its business advantages, the continuing simplification of usage and the abundance of own data centres. Netflix, for example, closed all its owned data centre in 2015 and moved completely to Amazons AWS\cite{DavidChernicoff.2015}. This trend results in the expected revenue of about 200 Billion \$ in 2016\cite{statista.com.2016}. The high degree of elasticity, automation, self-service, flexibility in payment and, as a result, lower cost are only some of the many advantageous points of cloud computing.\cite{Binz.2014}
 
-However, many – especially European - companies fear dependencies, loss of data control, industrial espionage or privacy law violations. Precautionary measures like encryption or data splitting - among data centres - is not enough to prevent a public relations disaster, due to complex EU Data Protective Regulations\cite{personaldata.2011} or the US HIPAA act\cite{OfficeforCivilRights.20130726}. To tell the whole truth, the complexity, the hidden services usages and the therefore resulting unawareness of many EU citizens (and law enforcement institutes) makes it very unlikely for current law violators to face any consequences. Nevertheless, citizens start to be more aware and the law enforcements point of attention tends to change quickly, like the Max Schrems' "Facebook Process" showed\cite{JuliaBahr.20150923}. Further, in 2018 the "reform of EU data protection rules" will come into force, which states severe punishments for privacy violations\cite{personaldata.2011}. As a result, entrepreneurs, companies and institutions need to be more aware of privacy compliance to prevent major monetary and reputation losses. 
+However, many – especially European - companies fear dependencies, loss of data control, industrial espionage or privacy law violations. Precautionary measures like encryption or data splitting - among data centres - is not enough to prevent a public relations disaster, due to complex EU Data Protective Regulations\cite{personaldata.2011} or the US HIPAA act\cite{OfficeforCivilRights.20130726}. To tell the whole truth, the complexity, the hidden services usages and the therefore resulting unawareness of many EU citizens (and law enforcement institutes) makes it very unlikely for current law violators to face any consequences. Nevertheless, citizens start to be more aware and the law enforcement point of attention tends to change quickly, like the Max Schrems' "Facebook Process" showed \cite{JuliaBahr.20150923}. Further, in 2018 the "reform of EU data protection rules" will come into force, which states severe punishments for privacy violations\cite{personaldata.2011}. As a result, entrepreneurs, companies and institutions need to be more aware of privacy compliance to prevent major monetary and reputation losses. 
 
 The EU General Data Protection Regulations sets the legal boundaries for European companies. It defines multiple regulations about data handling, data trading, personal advertising and more. One rule sets the boundaries for personal data processing and saving. It states for example, that the processing of personal data is only allowed in data centres inside the EU or certain certified countries with equivalent privacy laws. As a result, software systems require a pre-deployment law compliance checking, considering especially the hosts geo-locations. The problem comes to a head with the ease of migration of whole cloud services during runtime with next to no downtime. With this in mind a potential privacy violation could occur even after the initial deployment was law compliant. This requires a non-stop observation of the applications geo-location and automatic, law compliant redeployment onto other cloud providers.
 
@@ -38,7 +40,7 @@ To create such a privacy aware system adaptor, a couple of non-trivial problems 
 	\item \textbf{Planning}\newline
 	Computation of constraint and privacy compliant redeployments
 	\item \textbf{Executing}\newline
-	Technology independent, dynamic adaptation routine computation, execution and evaluation
+	Technology independent, dynamic adaptation routine computation and execution
 \end{itemize}
 
 %Transformation for geo-location into ADL
@@ -71,8 +73,9 @@ This thesis' goal is to contribute and outline a piece of software, that ensures
 
 
 \section{Outline}
+\label{sec:Introduction:outline}
 
-The remainder of this thesis is structured as follows: The thesis continues by introducing the foundations (\autoref{ch:Foundations}) and the related work (\autoref{ch:RelatedWork}) of this thesis. The main part starts with the privacy concept (\autoref{ch:PrivacyConcept}), leading into the system overview (\autoref{ch:Overview}), followed by the big conceptual work packages: Palladio modification (\autoref{ch:pcmExtension}), iObserve extension (\autoref{ch:iObserve}), privacy analysis (\autoref{ch:PrivacyAnalysis}), PerOpteryx extension (\autoref{ch:PerOpt}) and the system adaptation (\autoref{ch:SysAdap}). The thesis closes with the evaluation (\autoref{ch:Evaluation}) and finally the conclusion (\autoref{ch:Conclusion}).
+The remainder of this thesis is structured as follows: The thesis continues by introducing the foundations (\autoref{ch:Foundations}) and the related work (\autoref{ch:RelatedWork}) of this thesis. The main part starts with the privacy concept (\autoref{ch:PrivacyConcept}), leading into the system overview (\autoref{ch:Overview}), followed by the big conceptual work packages: Palladio extension (\autoref{ch:pcmExtension}), iObserve extension (\autoref{ch:iObserve}), privacy analysis (\autoref{ch:PrivacyAnalysis}), PerOpteryx extension (\autoref{ch:PerOpt}) and the system adaptation (\autoref{ch:SysAdap}). The thesis closes with the evaluation (\autoref{ch:Evaluation}) and finally the conclusion (\autoref{ch:Conclusion}).
 
 
 
@@ -115,30 +118,41 @@ The Palladio Component Model (short PCM) is an Architecture Description Language
 
 The separation of concern enables the system architect to manage the complexity of even bigger software systems and still gain meaningful results from the performance simulation.
 
-Since its initial release the Palladio Component Model was adapted and used in several research fields alongside the performance prediction like automated Dataflow Analysis and Application Monitoring. Due to its explicit representation of the software architecture and flexible component-host-mapping it is perfectly suited to model distributed cloud systems. Although, PCM was not designed to be used as a runtime model, it has proven to be suited for this task due to its versatile model elements.
+Since its initial release, the Palladio Component Model was adapted and used in several research fields alongside the performance prediction, like automated Dataflow Analysis and Application Monitoring. Due to its explicit representation of the software architecture and flexible component-host-mapping it is perfectly suited to model distributed cloud systems. Although, PCM was not designed to be used as a runtime model, it has proven to be suited for this task due to its versatile model elements \cite{Becker.2009}.
 
 \section{Kieker}
 \label{sec:Foundations:Kieker}
 
-Kieker is a software system monitoring application with the goal of retrieving runtime information for performance evaluation, (self-)adaptation control and many other tasks. Kieker gains these information from the designated software by instrumenting the system with probes during pre-compilation. Each probe has designated purpose and gathers data accordingly, for example hardware utilization, stack trace or host geo-location. Kieker uses event-based probes, as well as periodic-based (heart-beat) probes.
+Kieker is a software system monitoring application with the goal of retrieving runtime information for performance evaluation, (self-)adaptation control and many other tasks. Kieker gains these information from the designated software by instrumenting the system with probes during pre-compilation. Each probe has designated purpose and gathers data accordingly, for example hardware utilization, stack trace or host geo-location. Kieker uses event-based probes, as well as periodic-based (heart-beat) probes \cite{kieker.web}.
 
 
 \section{iObserve}
 \label{sec:Foundations:iobserve}
 
-iObserve is based on Kieker and therefore also a software monitoring application. However, iObserve uses the monitored information to update the systems Palladio model during execution, making it a runtime model. Further, iObserve and the extended Kieker version are deigned to support distributed cloud systems. Key features are the transformation form the gathered information onto the model update. Using the stack trace information the PCM usage model can be updated and more precise performance simulations created. 
+iObserve is a system optimization tool after the MAPE feedback loop. The two primary goals are an automated system adaptation and an \textit{operator-in-the-loop} system evolution (see \autoref{fig:intro:iObserve}).
 
-Currently, iObserve goes as far as updating the model, representing the first stage "Monitoring" of the MAPE-K loop. iObserve uses the Teetime framework, a pipeline-filter-framework with signal based state invocation.\cite{Heinrich.2016}
+For the initial MAPE step, monitoring, iObserve uses Kieker. The gathered information are transformed onto a Palladio Component Model. Due to the live characteristic this PCM model is called a runtime model. Further, iObserve is designed to support distributed cloud systems. Key features of the transformation are the processing stack trace information for usage model updates, so more precise performance simulations are possible. Further the processing of deployment and un-deployment events, as well as hardware utilization  measurements.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.65\textwidth]{pictures/iObserve_principle}
+	\caption{iObserve cloud application life cycle \cite{Heinrich.2016b}}
+	\label{fig:intro:iObserve}
+\end{figure}
+
+Currently, iObserve goes as far as updating the model. iObserve uses the Teetime framework \cite{teetime.16.05.2017}, a pipeline-filter-framework with signal based stage invocation. More details on iObserve can be found in \cite{Heinrich.2016b}\cite{Heinrich.2016}.
 
 \section{PerOpertyx}
 \label{sec:Foundations:peropteryx}
 
-"PerOpteryx is an optimization framework to improve component-based software architecture". Optimization uses model-based quality prediction techniques. Starting from an input model, the framework generates multiple pareto optimal alternative deployments, based on given simulation and alternation algorithms. PerOpteryx make architecture adjustments via multiple approaches like alternating components multiplicity, runtime parameters or changing component allocations. The Pareto optimality models are calculated through multiple iterations via a series of stages. Initially a variance of candidates is created though evolutionary algorithm and random generation/mutation. In the next step, the candidates get analysed for the desired quality marks and ranked accordingly. The iteration concludes with the elimination of poorly performing candidates. The framework terminates with a cost rating of all Pareto optimum candidates.
+"PerOpteryx is an optimization framework to improve component-based software architecture"\cite{PerOpteryx.b}. The optimization uses model-based quality prediction techniques. Starting from an input model, the framework generates multiple pareto optimal alternative deployments, based on given simulation and alternation algorithms. This approach is usually described as \textit{Design Space Exploration} (DSE). PerOpteryx uses multiple dimensions for its DSE, like alternating component multiplicities, runtime parameters or changing component allocations. The pareto optimal models are calculated through multiple iterations of a series of tasks. Initially a variance of candidates is created through an evolutionary algorithm and random generation. In the next step, the candidates are analysed for the desired quality marks along the different dimensions. The iteration concludes with the elimination of poorly performing candidates. PerOpteryx is designed to optimize Palladio Component Models, is based on the \textit{Rich Client Platfrom} and uses the \textit{Opt4J Framework} \cite{Martens.2010}.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Related Work}
 \label{ch:RelatedWork}
+
+In this chapter we are presenting a couple of related publications, this work can be referenced to. The sections are oriented on the task and problems mentioned in \autoref{sec:Introduction:goals}.
 
 
 \section{Application Monitoring}
@@ -146,7 +160,7 @@ Currently, iObserve goes as far as updating the model, representing the first st
 
 The monitoring of software systems is common task in many research fields. Automated data-flow analysis, software profiling and hardware utilization are only a small selection of groups, using this term. In the following, we use application monitoring in the sense of online extraction of runtime data form a (distributed cloud) application for architecture optimization.
 
-R-PRIS (\autoref{sec:RelatedWork:privacyanalysis}) and Kieker are application monitoring frameworks. While iObserve uses Kieker to extract the desired information, R-PRIS is independent from other programs. Neither of them uses a meaningful architecture description language (ADL) to process and store the gathered information. iObserve however gathers the transmitted data, processes them and stores them into a PCM model, enabling all sorts of PCM-based applications to use the gathered information.
+R-PRIS (\autoref{sec:RelatedWork:privacyanalysis}) and Kieker are application monitoring frameworks. While iObserve uses Kieker to extract the desired information, R-PRIS is independent from other programs. Neither of them uses a meaningful architecture description language (ADL) to process and store the gathered information. iObserve however gathers the transmitted data, processes them and stores them into a PCM model, enabling all kind of PCM-based applications to use the gathered information.
 \todo{gather more details \& Refs} 
 
 
@@ -174,7 +188,7 @@ During privacy analysis R-PRIS checks whether a privacy protected information ca
 	\end{minipage}
 \end{figure}
 
-In terms of software, R-PRIS searches for communication paths in the distributed system, which can potentially transmit personal data to a non-privacy compliant geo-location. In order to detect these communication paths a policy $p$ must be specified, representing exactly this case, which however doesn't necessarily communicate private data. As a result, a lot of policies have to be specified, which as a result prohibits many potentially harmless communication paths.
+In terms of software, R-PRIS searches for communication paths in the distributed system, which can potentially transmit personal data to a non-privacy compliant geo-location. In order to detect these communication paths a policy $p$ must be specified, representing exactly this case, which however doesn't necessarily communicate private data. As a result, a lot of policies have to be specified, which prohibit many potentially harmless communication paths.
 
 Based on their runtime model, Schmieders et al. identified four relevant migration-cases and extracted six required informations to detect a policy violation\cite{Schmieders.2015}:
 
@@ -204,7 +218,7 @@ Based on their runtime model, Schmieders et al. identified four relevant migrati
 
 Data-flow Analysis is a hot research topic due to the omnipresence of cloud services and mobile devices with rich data sources. Applications like \textit{JOANA} \cite{Snelting.2014}, \textit{TaintDroid} \cite{Enck.2014}, \textit{Privacy Oracle}  \cite{Jung.2008} or \textit{automated privacy instrumentation} \cite{Suh.2004} are only some of many applications and approaches around data-tracking, data-flow analysis and leak detection. However, nearly all of these approaches are using actual code or information rich models.
 
-For our purposes we need automated data-flow analysis on architecture level, to determine if a system violates privacy regulations. This research is still in its fledgling stages and therefore not suited for applications with our designated level of complexity.
+For our purposes we need automated data-flow analysis on architecture level, to determine if a system violates privacy regulations. This research is still in its early stages and therefore not suited for applications with our designated level of complexity.
 
 
 \section{Privacy Analysis}
@@ -212,8 +226,7 @@ For our purposes we need automated data-flow analysis on architecture level, to 
 
 Most research in this field focuses on prevention of policy violation. “However, changes of data geo-locations imposed by migration or replication of the component storing the data are not considered. Data transfers between the client services and further services are not covered. Transitive data transfers that may lead to policy violations thus remain undetected.”\cite{Schmieders.2015}
 
-As mentioned in \autoref{sec:RelatedWork:privacyanalysis}, R-PRIS is searching for potential access violations in the application model, by using a st-connectivity analysis.\cite{Schmieders.2015}\cite{Schmieders.} This approach is overestimating the privacy aspects by not including which kind of data are actually communicated between components and geo-locations. This makes it impractical for many business applications due to likelihood of allowing only save-considered components deployment.
-
+As mentioned in \autoref{sec:RelatedWork:privacyanalysis}, R-PRIS is searching for potential access violations in the application model, by using a st-connectivity analysis.\cite{Schmieders.2015}\cite{Schmieders.} This approach is overestimating the privacy aspects by not including which kind of data are actually communicated between components and geo-locations. This makes it impractical for many business applications, due to the high likelihood of allowing only deployments on save-considered geo-locations.
 
 
 \section{Automated Model Optimization \& Modification}
@@ -225,7 +238,7 @@ PerOpteryx (\autoref{sec:Foundations:peropteryx}) is a metaheuristic-based appro
 
 
 
-\section{Automated Cloud Migration}
+\section{Automated Cloud Migration \& Adaptation}
 \label{sec:RelatedWork:cloud_migration}
 
 Since the start of cloud computing there has been plenty of research on how to migrate regular on premise applications and software into the cloud. Either software is cloud-enabled in the most automatic fashion possible or the software is cloud-native, meaning specially developed or redesigned, by developers, for running inside the cloud. While there has been good progress semi-automatically cloud-enabled software, the field of migrating cloud applications form one cloud provider to another is just beginning. One of the main issues is resulting in provider individual Cloud-APIs. Current, state of the art is the "Docker" or container-technology, which wraps the application like a VM and is suitable for many cloud provider. Nevertheless, many cloud provider offer special purpose solutions, where a docker solution is not viable. The technology side of cloud to cloud migration will be left out in this thesis. \cite{Jambunathan.February2016}\cite{Binz.2014} 

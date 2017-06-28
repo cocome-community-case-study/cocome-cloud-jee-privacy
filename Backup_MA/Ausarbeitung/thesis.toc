@@ -44,7 +44,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Automated Model Optimization \& Modification}{9}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Automated Cloud Migration}{9}{section.3.6}
+\contentsline {section}{\numberline {3.6}Automated Cloud Migration \& Adaptation}{9}{section.3.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Privacy Concept}{11}{chapter.4}
 \defcounter {refsection}{0}\relax 
@@ -62,13 +62,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}General}{17}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Implementation}{17}{section.6.2}
+\contentsline {section}{\numberline {6.2}Implementation}{18}{section.6.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}iObserve Extension}{19}{chapter.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Kieker}{19}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}iObserve Privacy}{20}{section.7.2}
+\contentsline {section}{\numberline {7.2}iObserve Privacy}{19}{section.7.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Privacy Analysis}{23}{chapter.8}
 \defcounter {refsection}{0}\relax 
@@ -114,7 +114,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {11.1}Evaluation Design}{39}{section.11.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Evaluation Scenarios}{39}{section.11.2}
+\contentsline {section}{\numberline {11.2}Evaluation Scenarios}{40}{section.11.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {11.2.1}Scenario 1: Default}{40}{subsection.11.2.1}
 \defcounter {refsection}{0}\relax 
@@ -138,7 +138,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {11.4.1}Transformation: Accuracy Evaluation}{43}{subsection.11.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4.2}Transformation: Scalability Evaluation}{44}{subsection.11.4.2}
+\contentsline {subsection}{\numberline {11.4.2}Transformation: Scalability Evaluation}{45}{subsection.11.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {11.5}Privacy Analysis}{45}{section.11.5}
 \defcounter {refsection}{0}\relax 
@@ -152,16 +152,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {11.7.1}Adaptation: Accuracy Evaluation}{50}{subsection.11.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.7.2}Adaptation: Scalability Evaluation}{52}{subsection.11.7.2}
+\contentsline {subsection}{\numberline {11.7.2}Adaptation: Scalability Evaluation}{53}{subsection.11.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Conclusion}{55}{chapter.12}
+\contentsline {chapter}{\numberline {12}Conclusion}{57}{chapter.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.1}Limitations \& Assumptions}{55}{section.12.1}
+\contentsline {section}{\numberline {12.1}Limitations \& Assumptions}{57}{section.12.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.2}Future Work}{56}{section.12.2}
+\contentsline {section}{\numberline {12.2}Future Work}{58}{section.12.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{57}{chapter*.14}
+\contentsline {chapter}{\nonumberline Bibliography}{59}{chapter*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{61}{appendix.A}
+\contentsline {chapter}{\numberline {A}Appendix}{63}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}First Appendix Section}{61}{section.A.1}
+\contentsline {section}{\numberline {A.1}First Appendix Section}{63}{section.A.1}

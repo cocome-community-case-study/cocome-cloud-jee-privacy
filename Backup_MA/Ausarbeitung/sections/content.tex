@@ -28,12 +28,12 @@ As mentioned in \autoref{sec:RelatedWork:dataflow}, the automated data-flow anal
 	
 	\item \textbf{Type 1: Personally Identifiable Information}:  Data does not contain personal information. However, by combining, fusing or analysing data sets, the personal data could be reconstructed for complete or partial personal information.
 	
-	\item \textbf{Type 2: Anonymous Data}: Data does not contain any personal information. Even by extensive data analysis no direct or indirect personal data can be extracted.
+	\item \textbf{Type 2: Anonymous Data}: Data does not contain any personal information. Even by extensive data analysis no direct or indirect personal information can be extracted.
 	
 	\label{sec:PrivacyConcept:dataprivacylevel}
 \end{itemize}
 
-These three categories are used, since many data does not contain any direct or indirect link onto private data, however still contain indicators onto private data. For example an online shop wants to analyse which products usually get ordered together. The orders get anonymized by removing the customer and the shipping address. Nevertheless, the time-stamp is required to get a timed evaluation factor. This data are not personal. However, combining and evaluating these with user-login-times, also non-personal data, privacy relevant data can be extracted. This also disqualifies them for Type 2, completely anonymous data \cite{Schmieders.}\cite{Schmieders.2015}.
+These three categories are used, since many data does not contain any direct or indirect link onto private data, however still contain indicators onto private data. This means, they neither qualify for the type 0 category (Personal), nor for the type 2 category (Anonymous). For example an online shop wants to analyse which products usually get ordered together. The orders got anonymized by removing the customer and shipping address. Nevertheless, the time-stamp is required to get a timed evaluation factor. These data are not personal. However, combining and evaluating these with user-login-times, also non-personal data, privacy relevant data can be extracted. This also disqualifies them for Type 2, completely anonymous data \cite{Schmieders.}\cite{Schmieders.2015}.
 
 Summarizing, a manual, categorized annotation approach to identify the system components privacy level is used. Based on this privacy level the check, whether a systems deployment is privacy compliant, can be performed.
 
@@ -41,7 +41,7 @@ Summarizing, a manual, categorized annotation approach to identify the system co
 \section{Deployment Constraints}
 \label{sec:PrivacyConcept:deploymentrules}
 
-How can one guarantee legal compliant distribution? As mentioned in \autoref{sec:Introduction:motivation}, personal data of EU citizens are only allowed to be processed, transferred or saved inside EU countries [...]. One argue that the following constraints, combined with correct manual annotation, are sufficient to accomplish this:
+How can one guarantee legal compliant distribution? As mentioned in \autoref{sec:Introduction:motivation}, personal data of EU citizens are only allowed to be processed, transferred or saved inside EU countries [...]. We argue that the following constraints, combined with correct manual annotation, are sufficient to accomplish this:
 
 \begin{itemize}
 	\label{enum:deployment_rules}
@@ -50,6 +50,7 @@ How can one guarantee legal compliant distribution? As mentioned in \autoref{sec
 	\item \textbf{Rule \#2}: Type 2 components can be deployed anywhere.
 	\item \textbf{Rule \#3}: Type 1 components can be deployed anywhere.
 	\item \textbf{Rule \#4}: Only deploy Type 1 components together in an "un-save" geo-location, if they receive their information (transitively) from the same Type 1 component.
+	% Only deploy Type 1 components (x_1, x_2, ...) together in an "un-save" geo-location, if a connected set X containing at least (x_1, x_2, ...) with only type 1 or type 2 components exists, that has a maxium of one connection to a type 0 componont
 \end{itemize}
 
 
@@ -96,7 +97,7 @@ In contrast, a single data stream between two components is easy to understand a
 
 As a result, the decision was made to categorize each interface communication during system composition. The components privacy categorization is then derived by evaluating the components communication.
 
-We need to point out, that this categorization is only valid with the \textit{Closed World Assumption} (CWA) \cite{Sequeda.CWA}. Simplified, the CWA states, that if a system doesn't contain any information about a given statement, this statement is automatically wrong. Applied onto the privacy concept this means: The model contains all the information and information sources that exist. Naturally, this assumption is wrong, since every component is connected to the internet and can access a nearly infinite amount of data. However, we need the CWA, in order to be able to make any statement about the systems privacy compliance. This is due to the high abstraction level - the system architecture - we have an information source.
+We need to point out, that this categorization is only valid with the \textit{Closed World Assumption} (CWA) \cite{Sequeda.CWA}. Simplified, the CWA states, that if a system doesn't contain any information about a given statement, this statement is automatically wrong. Applied onto the privacy concept this means: The model contains all the information and information sources that exist. Naturally, this assumption is wrong, since every component is connected to the internet and can access a nearly infinite amount of data. However, we need the CWA, in order to be able to make any statement about the systems privacy compliance. This is due to the high abstraction level - the system architecture - we have as information source.
 
 
 \section{Information storage}

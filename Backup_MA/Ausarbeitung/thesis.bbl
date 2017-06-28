@@ -19,6 +19,76 @@
 
 \refsection{0}
   \sortlist[entry]{nty/global/}
+    \entry{Andale.20161202}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=80e5e9d086a14a94f6da246f3384ac86}{%
+           family={Andale},
+           familyi={A\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=b598f21375eb99f19e8bc11cdb553aff}{%
+           family={{Statistics How To}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{80e5e9d086a14a94f6da246f3384ac86}
+      \strng{fullhash}{80e5e9d086a14a94f6da246f3384ac86}
+      \strng{authornamehash}{80e5e9d086a14a94f6da246f3384ac86}
+      \strng{authorfullhash}{80e5e9d086a14a94f6da246f3384ac86}
+      \strng{editornamehash}{b598f21375eb99f19e8bc11cdb553aff}
+      \strng{editorfullhash}{b598f21375eb99f19e8bc11cdb553aff}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Jaccard Index / Similarity Coefficient was last modified: March 27th, 2017 by}
+      \field{title}{Jaccard Index / Similarity Coefficient}
+      \field{urlday}{28}
+      \field{urlmonth}{6}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.statisticshowto.com/jaccard-index/
+      \endverb
+    \endentry
+    \entry{Becker.2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8deefb02d038861e0dd2e38fd1500e03}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ba7ecc5039717e22ccf225ab7421719b}{%
+           family={Koziolek},
+           familyi={K\bibinitperiod},
+           given={Heiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4e41ac50a44ea2d2e0fbdd12c485c1b2}{%
+           family={Reussner},
+           familyi={R\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{4430d2d2728269e971b97efcf75dc10a}
+      \strng{fullhash}{4430d2d2728269e971b97efcf75dc10a}
+      \strng{authornamehash}{4430d2d2728269e971b97efcf75dc10a}
+      \strng{authorfullhash}{4430d2d2728269e971b97efcf75dc10a}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{01641212}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{number}{1}
+      \field{title}{The Palladio component model for model-driven performance prediction}
+      \field{volume}{82}
+      \field{year}{2009}
+      \field{pages}{3\bibrangedash 22}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1016/j.jss.2008.03.066
+      \endverb
+    \endentry
     \entry{Binz.2014}{article}{}
       \name{author}{4}{}{%
         {{hash=162f6297727d8d492359888afe818257}{%
@@ -509,6 +579,32 @@
       \field{year}{2014}
       \keyw{Software Architecture Optimization Quality Attributes Performance Model-based Prediction}
     \endentry
+    \entry{PerOpteryx.b}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c3aaf4ee46b2c36357c970d426e834d2}{%
+           family={Koziolek},
+           familyi={K\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c3aaf4ee46b2c36357c970d426e834d2}
+      \strng{fullhash}{c3aaf4ee46b2c36357c970d426e834d2}
+      \strng{authornamehash}{c3aaf4ee46b2c36357c970d426e834d2}
+      \strng{authorfullhash}{c3aaf4ee46b2c36357c970d426e834d2}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PerOpteryx - SDQ Wiki}
+      \field{urlday}{27}
+      \field{urlmonth}{6}
+      \field{urlyear}{2017}
+      \field{year}{2017-06-27}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://sdqweb.ipd.kit.edu/wiki/PerOpteryx
+      \endverb
+    \endentry
     \entry{Martens.2010}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=7ebdc2baed2f52450eaef7d65750eeee}{%
@@ -973,7 +1069,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Contribute to cocome-cloud-jee-privacy development by creating an account on GitHub.}
-      \field{title}{cocome-community-case-study/cocome-cloud-jee-privacy}
+      \field{title}{iObserve Privacy Evaluation Data {\&} Results}
       \field{urlday}{25}
       \field{urlmonth}{6}
       \field{urlyear}{2017}

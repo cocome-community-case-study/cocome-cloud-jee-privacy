@@ -1,7 +1,7 @@
 \chapter{Privacy Analysis}
 \label{ch:PrivacyAnalysis}
 
-The Privacy Analysis represents the analysis stage in the MAPE-K feedback loop (\autoref{sec:Foundations:mape}). The goal is to check whether the runtime model contains any privacy violations. The privacy concept, described in \autoref{ch:PrivacyConcept}, states that privacy analysis consist of two major tasks. First, the correct privacy categorization for each software components needs to be determined. Second, the deployment evaluation, based on the deployment rules, defined in \autoref{sec:PrivacyConcept:deploymentrules}, needs to be performed.
+The Privacy Analysis represents the analysis stage in the MAPE-K feedback loop (\autoref{sec:Foundations:mape}). The goal is to check whether the runtime model contains any deployment related privacy violations. The privacy concept, described in \autoref{ch:PrivacyConcept}, states that privacy analysis consist of two major tasks. First, the correct privacy categorization for each software components needs to be determined. Second, the deployment evaluation, based on the deployment rules, defined in \autoref{sec:PrivacyConcept:deploymentrules}, needs to be performed.
 
 The remaining chapter is divided into a theoretical part (\autoref{sec:PrivacyAnalysis:theory}), a component categorization part (\autoref{sec:PrivacyAnalysis:categorization}), a deployment evaluation part (\autoref{sec:PrivacyAnalysis:deployment}) and the implementation part (\autoref{sec:PrivacyAnalysis:implementation}).
 
@@ -31,7 +31,7 @@ In the context of Privacy Analysis there is a minimum of two pieces of informati
 
 Usually \textit{M1} and \textit{M2} is not directly available. As a consequence other ones must substitute these, while containing the same information. A suitable substitution, differs based on the sources and their contained information.
 
-The used PCM Privacy meta-model provides a categorization of the communicated information between component interfaces. This enables a component classification, based on the most critical communication with another component. As a result, a components privacy level can be determined without knowing its exact purpose, analysing any inner processes or knowing the exact data-flow. So $M1$ gets substituted by information about inter interface communication and its privacy categorization.
+The used PCM Privacy meta-model provides a categorization of the communicated information between component interfaces. This enables a component classification, based on the most critical communication with another component. As a result, a components privacy level can be determined without knowing its exact purpose, analysing any inner processes or knowing the exact data-flow. So, $M1$ gets substituted by information about inter interface communication and its privacy categorization.
 
 In order to get an information equivalent of $M2$, a components host must be determined, as well as that hosts geo-location. The PCM Privacy model provides these information. However, it is spread over multiple models. As a result we require only four pieces of information (\autoref{tab:iobserve_information}), compared to R-PRISs six pieces of information (\autoref{tab:rpris_information}).
 
@@ -53,17 +53,17 @@ In order to get an information equivalent of $M2$, a components host must be det
 
 \subsection{Data-flow direction}
 \label{sec:PrivacyAnalysis:theory:dataflow}
-Usually component interfaces are categorized into providing and requiring interfaces. Connections are made between a pair of required and provided interfaces of the same type. This suggests a certain data- and control-flow direction. This is a wrong assumption. While there are cases, when the control-flow can be derived from this structure, the data-flow is completely independent from this categorization.
+Usually component interfaces are categorized into providing and requiring interfaces. Interface connections are made between a pair of required and provided interfaces of the same type. This suggests a certain data- and control-flow direction. This is a wrong assumption. While there are cases, when the control-flow can be derived from this structure, the data-flow is completely independent from this categorization.
 
-For example a database interface usually only has provided interfaces. These interfaces allows the user to store and retrieve data from the database. Such a database interface normally contains getter and setter methods, which proves there is no data-flow direction for the whole interfaces. Note, that we are explicitly speaking of a whole component interface. Individual methods can have a data-flow direction.
+For example a database component (usually) only has provided interfaces. These interfaces allows the user to store and retrieve data from the database and therefore contains getter and setter methods. This means, there is no data-flow direction for the whole interfaces, since the data needs to "flow" into both directions. Note, that we are explicitly speaking of an interface as a whole, since individual methods can have a data-flow direction.
 
-Information passed through an interface are available on the providing and requiring component. In other terms, if an component connector got categorized as \textit{Personal}, that information of this type are available in both components. These components need to get categorized accordingly.
+Information passed through an interface are available on the providing and requiring component. In other terms, if an component connector got categorized as \textit{Personal}, information of this type are available in both components. These components need to get categorized accordingly.
 
 \subsection{Joining data streams}
 \label{sec:PrivacyAnalysis:theory:jds}
-In \autoref{sec:PrivacyConcept:deploymentrules} we elaborated on the danger of two \textit{Personally Identifiable Information} (Type 1) data streams, from two sources, joining on a single server, could lead to personal, privacy relevant data. (Compare \autoref{enum:deployment_rules}, Rule 4). This concept applies on the described deployment level and also on the component categorization process.
+In \autoref{sec:PrivacyConcept:deploymentrules} we elaborated on the danger of two \textit{Personally Identifiable Information} (Type 1) data streams, from two sources, joining on a single server. In such a case, the combination of these data streams could lead to personal, privacy relevant data. (Compare \autoref{enum:deployment_rules}, Rule 4). This concept applies on the described deployment level and also on the component categorization process.
 
-While on deployment level, the information streams are not actively merged, this is a realistic possibility on the component categorization level. So the argument of applying an overestimation is not valid and this scenario must be taken seriously. In the following this special case will be refereed to as \textit{joining data streams}.
+While on deployment level, the information streams are not actively merged, this is a realistic possibility on the component categorization level. So the argument of applying an overestimation is not valid and this scenario must be taken seriously. In the following this special case will be refereed to as \textit{joining data streams} (short: JDS). In the following section, a couple of categorization and deployment examples will help clarifying this scenario.
 
 
 \section{Component categorization}
