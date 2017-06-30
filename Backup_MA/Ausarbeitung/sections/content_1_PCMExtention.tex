@@ -20,6 +20,8 @@ As mentioned in Foundational Work the Palladio Component Model (\autoref{sec:Fou
 
 The standard Palladio meta-model is insufficient for privacy compliance analysis. To save the required information, an extension is the best practice approach. The extension was designed to be as minimal invasive as possible and to keep the adaptation effort for existing Palladio models to a minimum.
 
+Our extension is based on deriving the PCM meta-model entities. This way the new models stay compatible to other PCM applications like the Performance Simulators or PerOpteryx. Further, other extension possibilities like the \textit{steriotype} extension needs to be updated with every PCM meta-model update. This is not necessary, when the model is derived. Only changes in reference structure require the derived model to apply minor alterations. For details on referencing and modularizing in meta-models see \cite{Strittmatter.2015}.
+
 The concept was described in \autoref{sec:PrivacyConcept:pcm}.
 
 \begin{figure}[h]
@@ -35,9 +37,9 @@ The concept was described in \autoref{sec:PrivacyConcept:pcm}.
 
 The Palladio meta-model was modelled with the Eclipse Modeling Framework [EMF]. So, our extension, namely \textit{PCM Privacy}, is also modelled with EMF and references the original Palladio meta-model. The required classes were extended in corresponding sub-packages.
 
-As described in \autoref{sec:PrivacyConcept:pcm}, we need to save a servers geo-location. The Resource Container was extended and the attribute \textit{Geolocation} added. The extended element is named \textit{Resource Container Privacy}. The geo-location itself is saved as an EInt Ecore type, a standard integer, encoded in the ISO country code (ISO 3166-1 \cite{Wikipedia.ISO_3166}).
+As described in \autoref{sec:PrivacyConcept:pcm}, we need to save a servers geo-location. The Resource Container was extended and the attribute \textit{Geolocation} added. The derived element is named \textit{Resource Container Privacy}. The geo-location itself is saved as an EInt Ecore type, a standard integer, encoded in the ISO country code (ISO 3166-1 \cite{Wikipedia.ISO_3166}). By using an integer encoded international standard we stay wildly compatible with other applications. Further, potential error sources like spelling differences, shifting borders and name changes are avoided.
 
-The \textit{Assembly Connector Privacy} is the extension of the Assembly Connector and saves the data privacy categorization. The attribute is designed as an EEnum Ecore type, with the values Personal, Depersonalized, Anonymized. The value Personal is set as default. \autoref{fig:pcmExtension:meta} shows a simplified PCM meta-model with the three added privacy elements.
+The \textit{Assembly Connector Privacy} is derived from the Assembly Connector and saves the data privacy categorization. The attribute is designed as an EEnum Ecore type, with the values Personal, Depersonalized, Anonymized. This way, extending the potential categorization values requires minimal effort and is less error then a dynamic categorization via a float or an integer value. The value \textit{Personal} is set as default, to provide a over-estimation towards the legally compliant categorization, when the categorization if a connector was not performed. \autoref{fig:pcmExtension:meta} shows a simplified PCM meta-model with the three added privacy elements.
 
 
 %To ensure privacy compliance, the geo-location of a component is required. In Palladio a system component is deployed onto Resource Containers. So, the Resource Container is the model equivalent of a physical/virtual server. This makes it the conceptual storage unit for the geo-location. Thus, a components geo-location can be determined via the Resource Container it is deployed on, namely the deployment model. The geo-location itself is saved as an EInt Ecore type, a standard integer, encoded in the ISO country code.

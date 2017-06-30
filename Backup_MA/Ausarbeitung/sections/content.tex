@@ -24,11 +24,11 @@ As mentioned in \autoref{sec:RelatedWork:dataflow}, the automated data-flow anal
 %A growing and continuous research field is exploring and developing approaches for automated data-flow analysis. However, these are still very limited and are therefore not yet suited for practice (see \autoref{sec:RelatedWork:dataflow}). Due to these limitations, we need manual annotation of components.
 
 \begin{itemize}
-	\item \textbf{Type 0: Personal Information}: Data relates directly or indirectly to personal information. This is independent from encryption or pseudonymization.
+	\item \textbf{Type 0: Personal Information}: Data relates directly or indirectly to personal information. This is independent from encryption or pseudonymization. (e.g. call detail record)
 	
-	\item \textbf{Type 1: Personally Identifiable Information}:  Data does not contain personal information. However, by combining, fusing or analysing data sets, the personal data could be reconstructed for complete or partial personal information.
+	\item \textbf{Type 1: Personally Identifiable Information}:  Data does not contain personal information. However, by combining, fusing or analysing data sets, the personal data could be reconstructed for complete or partial personal information. (e.g. browser history without user)
 	
-	\item \textbf{Type 2: Anonymous Data}: Data does not contain any personal information. Even by extensive data analysis no direct or indirect personal information can be extracted.
+	\item \textbf{Type 2: Anonymous Data}: Data does not contain any personal information. Even by extensive data analysis no direct or indirect personal information can be extracted. (e.g. shop inventory data)
 	
 	\label{sec:PrivacyConcept:dataprivacylevel}
 \end{itemize}
@@ -53,39 +53,40 @@ How can one guarantee legal compliant distribution? As mentioned in \autoref{sec
 	% Only deploy Type 1 components (x_1, x_2, ...) together in an "un-save" geo-location, if a connected set X containing at least (x_1, x_2, ...) with only type 1 or type 2 components exists, that has a maxium of one connection to a type 0 componont
 \end{itemize}
 
+\textit{Rule 1 \& 2} does not need any further explanation. \textit{Rule 3} states that Type 1 components can be deployed anywhere. This is due to the fact that Type 1 data should not contain any personal information. \textit{Rule 4} however limits this deployment. This constraint is necessary, because the combination of multiple Type 1 data streams could lead to privacy relevant information. If the data streams, however, have a common type 1 component as data source, the deployment can be considered privacy compliant.
 
+The ideas is, when a depersonalised component (d) has a single edge to a personal component (p), and many edges to other depersonalised components (D), and the components (D) do not have any connection a personal categorized component, then they share the data passed via the connection between d and p, which can not be personal. Otherwise d would be categorized as personal. Note that data streams with type 2 components can be ignored, since - by definition - they don't get in contact with any privacy relevant data. 
 
-\begin{wrapfigure}{l}{0.55\textwidth}
-	\begin{center}
-		\includegraphics[trim = 35mm 45mm 40mm 30mm, clip, width=0.53\textwidth]{graphs/deployment_example_1}
-	\end{center}
+We are aware, that these rules are over-approximations towards legal compliance. However, we are using a software architecture model as the only source of information. Therefore, detailed information about actual privacy symbiotic data streams are not available on this high level ob abstraction. Nevertheless, we argue, that these rules already help to identify illegal deployments and establish privacy compliant (re-)deployments.
+
+\autoref{fig:example_depl:1}, \autoref{fig:example_depl:2} and \autoref{fig:example_depl:3} illustrate the different base scenarios applying to Rule 4. In the remainder of this section, we will elaborate their privacy compliance state by applying \autoref{enum:deployment_rules}, rule 4.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[trim = 35mm 45mm 40mm 30mm, clip, width=0.6\textwidth]{graphs/deployment_example_1}
 	\caption{Privacy violating deployment}
 	\label{fig:example_depl:1}
-	\begin{center}
-		\includegraphics[trim = 35mm 45mm 40mm 30mm, clip, width=0.53\textwidth]{graphs/deployment_example_2}
-	\end{center}
-	\caption{Privacy violating deployment}
-	\label{fig:example_depl:2}
-\end{wrapfigure}
-
-\textit{Rule 1 \& 2} does not need any further explanation. \textit{Rule 3} states that Type 1 components can be deployed anywhere. This is due to the fact that Type 1 data should not contain any personal information. \textit{Rule 4} however limits this deployment. This constraint is necessary, because the combination of multiple Type 1 data streams could lead to privacy relevant information. If the data streams, however, have a common type 1 component as data source, the deployment can be considered privacy compliant. Note that data streams with type 2 components can be ignored, since - by definition - they don't get in contact with any privacy relevant data. \autoref{fig:example_depl:1}, \autoref{fig:example_depl:2} and \autoref{fig:example_depl:3} illustrate the different base scenarios applying to Rule 4. 
-
-	
-\begin{wrapfigure}{l}{0.55\textwidth}
-	\begin{center}
-		\includegraphics[trim = 35mm 45mm 40mm 35mm, clip, width=0.52\textwidth]{graphs/deployment_example_3}
-	\end{center}
-	\caption{Privacy compliant deployment}
-	\label{fig:example_depl:3}
-\end{wrapfigure}
+\end{figure}
 
 The deployment shown in \autoref{fig:example_depl:1} is illegal. Server\#3 contains components with data streams from two different components, where one is a type 1 and one is a type 0 component. Even though they have a communication path, Component A could send different information to Component B and C. As a result, \textit{Server \#3} hosts two type 1 components, which don't contain privacy relevant data by themselves. However, after combination, the data could be privacy relevant. So, this deployment is considered illegal.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[trim = 35mm 45mm 40mm 30mm, clip, width=0.6\textwidth]{graphs/deployment_example_2}
+	\caption{Privacy violating deployment}
+	\label{fig:example_depl:2}
+\end{figure}
+
 \autoref{fig:example_depl:2} also shows an illegal considered deployment. Component C and D share the same data source, which is marked as type 0. As previously shown, the combination of data on Component C and D could lead to privacy relevant informations on \textit{Server \#3}.
 
-(\autoref{fig:example_depl:3}) shows a privacy compliant deployment. Due to, Component C and D sharing the same data source (Component B), which already only contains type 1 data. As a result, Component C and D can only contain data, already obtained by Component B. This means, even through data combination and extensive data analysis, no privacy concerning information can be extracted.
+\begin{figure}[h]
+	\centering
+	\includegraphics[trim = 35mm 45mm 40mm 35mm, clip, width=0.6\textwidth]{graphs/deployment_example_3}
+	\caption{Privacy compliant deployment}
+	\label{fig:example_depl:3}
+\end{figure}
 
-We are aware, that these are over-approximations towards legal compliance. Nevertheless, we argue, that these simple, high-level rules already help to identify illegal deployments and establish privacy compliant (re-)deployments.
+(\autoref{fig:example_depl:3}) shows a privacy compliant deployment. Due to, Component C and D sharing the same data source (Component B), which already only contains type 1 data. As a result, Component C and D can only contain data, already obtained by Component B. This means, even through data combination and extensive data analysis, no privacy concerning information can be extracted.
 
 
 \section{Component categorization}
@@ -97,7 +98,7 @@ In contrast, a single data stream between two components is easy to understand a
 
 As a result, the decision was made to categorize each interface communication during system composition. The components privacy categorization is then derived by evaluating the components communication.
 
-We need to point out, that this categorization is only valid with the \textit{Closed World Assumption} (CWA) \cite{Sequeda.CWA}. Simplified, the CWA states, that if a system doesn't contain any information about a given statement, this statement is automatically wrong. Applied onto the privacy concept this means: The model contains all the information and information sources that exist. Naturally, this assumption is wrong, since every component is connected to the internet and can access a nearly infinite amount of data. However, we need the CWA, in order to be able to make any statement about the systems privacy compliance. This is due to the high abstraction level - the system architecture - we have as information source.
+We need to point out, that this categorization is only valid with the \textit{Closed World Assumption} (CWA) \cite{Sequeda.CWA}. Simplified, the CWA states, that if a system doesn't contain any information about a given statement, this statement is automatically wrong. Applied onto the privacy concept this means: The model contains all the information and information sources that exist. Naturally, this assumption is wrong, since every component may be connected to the internet and can access a nearly infinite amount of data. However, we need the CWA, in order to be able to make any statement about the systems privacy compliance. Considering the limited information we have available, the system architecture model, the statement we are providing can be considered outstanding, even while using the CWA.
 
 
 \section{Information storage}

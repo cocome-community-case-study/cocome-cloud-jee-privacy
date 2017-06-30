@@ -2180,17 +2180,19 @@
     <bcf:citekey order="37">Schmieders.</bcf:citekey>
     <bcf:citekey order="38">Schmieders.2015</bcf:citekey>
     <bcf:citekey order="39">Sequeda.CWA</bcf:citekey>
-    <bcf:citekey order="40">Wikipedia.ISO_3166</bcf:citekey>
-    <bcf:citekey order="41">Heinrich.2016</bcf:citekey>
-    <bcf:citekey order="42">kieker.web</bcf:citekey>
-    <bcf:citekey order="43">teetime.16.05.2017</bcf:citekey>
-    <bcf:citekey order="44">TobiasPoppke.20170626</bcf:citekey>
-    <bcf:citekey order="45">privacy.PW</bcf:citekey>
-    <bcf:citekey order="46">Andale.20161202</bcf:citekey>
-    <bcf:citekey order="47">Heinrich.2016b</bcf:citekey>
-    <bcf:citekey order="48">Heinrich.2016b</bcf:citekey>
-    <bcf:citekey order="49">Heinrich.2015</bcf:citekey>
-    <bcf:citekey order="50">Koziolek.2014</bcf:citekey>
+    <bcf:citekey order="40">Strittmatter.2015</bcf:citekey>
+    <bcf:citekey order="41">Wikipedia.ISO_3166</bcf:citekey>
+    <bcf:citekey order="42">Heinrich.2016</bcf:citekey>
+    <bcf:citekey order="43">kieker.web</bcf:citekey>
+    <bcf:citekey order="44">teetime.16.05.2017</bcf:citekey>
+    <bcf:citekey order="45">TobiasPoppke.20170626</bcf:citekey>
+    <bcf:citekey order="46">privacy.PW</bcf:citekey>
+    <bcf:citekey order="47">Andale.20161202</bcf:citekey>
+    <bcf:citekey order="48">Wikipedia.20170613</bcf:citekey>
+    <bcf:citekey order="49">Heinrich.2016b</bcf:citekey>
+    <bcf:citekey order="50">Heinrich.2016b</bcf:citekey>
+    <bcf:citekey order="51">Heinrich.2015</bcf:citekey>
+    <bcf:citekey order="52">Koziolek.2014</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

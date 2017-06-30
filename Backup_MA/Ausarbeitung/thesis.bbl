@@ -954,6 +954,49 @@
       \verb http://de.statista.com/statistik/daten/studie/195760/umfrage/umsatz-mit-cloud-computing-weltweit-seit-2009/
       \endverb
     \endentry
+    \entry{Strittmatter.2015}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=85e63684b75c1a2e2a1acf1d519694de}{%
+           family={Strittmatter},
+           familyi={S\bibinitperiod},
+           given={Misha},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e9289cc0b84de2757d0201a475e4a9d9}{%
+           family={Rostami},
+           familyi={R\bibinitperiod},
+           given={Kiana},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3560bc0cad59a19a23274e4da94b8d57}{%
+           family={Heinrich},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4e41ac50a44ea2d2e0fbdd12c485c1b2}{%
+           family={Reussner},
+           familyi={R\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CEUR}%
+      }
+      \strng{namehash}{e0c8b7a32b8a6d1c85b52226de22b7e0}
+      \strng{fullhash}{d59a0804493f01d1b59cb4e1825199ac}
+      \strng{authornamehash}{e0c8b7a32b8a6d1c85b52226de22b7e0}
+      \strng{authorfullhash}{d59a0804493f01d1b59cb4e1825199ac}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2nd International Workshop on Model-Driven Engineering for Component-Based Systems (ModComp)}
+      \field{title}{A Modular Reference Structure for Component-based Architecture Description Languages}
+      \field{year}{2015}
+      \field{pages}{36\bibrangedash 41}
+      \range{pages}{6}
+      \verb{url}
+      \verb http://ceur-ws.org/Vol-1463/paper6.pdf
+      \endverb
+    \endentry
     \entry{Suh.2004}{article}{}
       \name{author}{4}{}{%
         {{hash=95a64c2a7fe5e330f0600c4fbfd6073d}{%
@@ -1101,6 +1144,37 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb https://de.wikipedia.org/wiki/ISO_3166#ISO_3166-1
+      \endverb
+    \endentry
+    \entry{Wikipedia.20170613}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{editorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Surface Pro 4 - Wikipedia}
+      \field{urlday}{29}
+      \field{urlmonth}{6}
+      \field{urlyear}{2017}
+      \field{year}{2017-06-13}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?oldid=783726963
       \endverb
     \endentry
   \endsortlist
