@@ -256,9 +256,13 @@ The \textit{Privacy Analysis} was discussed in \autoref{ch:PrivacyConcept} (Priv
 
 \subsection{Privacy Analysis: Accuracy Evaluation}
 
-We will show, that the component classification categorizes components correctly by finding \textit{joining data streams} in inter component communication. Further, we will show, that the deployment analysis finds \textit{joining data streams} on the deployment level. As a result, we demonstrate the correctness of our privacy analysis, as specified in the goal section (\autoref{sec:Introduction:goals}).
+We will show, that the component classification categorizes components correctly. This includes a correct initial categorization $(C1)$, finding a \textit{joining data streams} $(C2)$ and the finding of a \textit{single data stream} $(C3)$. Further, we will show, that the deployment analysis finds illegal deployed personal components on un-save geo-locations $(D1)$, \textit{joining data streams} on the deployment level $(D2)$ and ignores \textit{joining data streams} on a save geo-location $(D3)$. As a result, we demonstrate the correctness of our privacy analysis, as specified in the goal section (\autoref{sec:Introduction:goals}).
 
-The scenarios \#1 (\autoref{eval:scenario:1}) and \#2 (\autoref{eval:scenario:1}) aim to trigger a privacy analysis and describe different privacy violations. We showed in \autoref{sec:Evaluation:monitoring}, that both trigger, the deployment event and the geo-location event are correctly processed and the information transformed onto the PCM model. Both triggers lead to the same privacy analysis and are therefore equivalent. 
+The scenarios \#1 (\autoref{eval:scenario:1}) and \#2 (\autoref{eval:scenario:1}) aim to trigger a privacy analysis and describe different privacy violations. We showed in \autoref{sec:Evaluation:monitoring}, that both trigger, the deployment event and the geo-location event are correctly processed and the information are successfully transformed to the PCM model. Both triggers lead to the same privacy analysis and are therefore equivalent. 
+
+% Effects to show
+% Categorization: Initial Categorization + JDS + Single DS
+% Deployment Analysis: Personal on un-save Server + JDS on un-save Server + JDS on save Server
 
 \begin{figure}[h]
 	\centering
@@ -267,7 +271,9 @@ The scenarios \#1 (\autoref{eval:scenario:1}) and \#2 (\autoref{eval:scenario:1}
 	\label{fig:eval:pa:init}
 \end{figure}
 
-The initial system state is as shown in \autoref{fig:eval:pa:init}. The system is privacy compliant and only the \textit{GovStatistics} component is not allocated on a server. iObserve will trigger the pipeline by receiving a GeoLocation event, which migrates the \textit{Server2} to Belarus. We expect the initial component categorization to be equal to the most personal interface level the component has. After the \textit{Categorization Analysis} the \textit{MarketingAnalysis} component should be classified as personal, due to its two personal communication partners. The privacy level categorization of the components \textit{ErrorDetection}, \textit{TreatmentAnalysis} and \textit{CourseAnalysis} must remain unchanged, since they share a single depersonalised interface as data source. The deployment must remain legal.
+The initial system state is as shown in \autoref{fig:eval:pa:init}. The system is privacy compliant and only the \textit{GovStatistics} component is not allocated on a server. iObserve will trigger the pipeline by receiving a GeoLocation event, which migrates the \textit{Server2} to Belarus. With this trigger, we will show, that the component categorization works as intended.
+
+We expect the initial component categorization to be equal to the most personal interface level the component has $(C1)$. After the \textit{Categorization Analysis} the \textit{MarketingAnalysis} component should be classified as personal $(C2)$, due to its two personal communication partners. The privacy level categorization of the components \textit{ErrorDetection}, \textit{TreatmentAnalysis} and \textit{CourseAnalysis} must remain unchanged, since they share a single depersonalised interface as data source $(C3)$. The deployment must remain legal.
 
 \begin{figure}[h]
 	\centering
@@ -283,20 +289,31 @@ The initial system state is as shown in \autoref{fig:eval:pa:init}. The system i
 	\end{minipage}
 \end{figure}
 
-After the execution we calculated a \textit{Jaccard Coefficient} of \textit{1.0}. This shows us that the pipeline trigger was correctly processed. \autoref{fig:eval:pa:base_tag} shows the initial component categorization, \autoref{fig:eval:pa:categorized} shows the categorization analysis result. This states show, that our expectations on the  component categorization were met. The deployment analysis reports a legal deployment, which is also what we anticipated. The results in general are unbiased.
+After the execution we calculated a \textit{Jaccard Coefficient} of \textit{1.0}. This shows us that the pipeline trigger was correctly processed. \autoref{fig:eval:pa:base_tag} shows the initial component categorization, \autoref{fig:eval:pa:categorized} shows the categorization analysis result. This states show, that our expectations on the component categorization, $C1, C2 and C3$, were met. The deployment analysis reports a legal deployment, which is also what we anticipated. So, the results in general are true to our expectations, all three.
 
-To trigger the pipeline another time, we will deploy the GovStatistics component onto Server2. The component must be tagged depersonalised and the deployment analysis must report a \textit{joining data stream} on Server2.
-
-The execution of the second pipeline trigger, reports a privacy violation. The cause is a joining data stream on Server2. This is what we provoked and expected. The \textit{Jaccard Coefficient} for the trigger processing is \textit{1.0}, again.
+To trigger the pipeline another time, we will deploy the GovStatistics component onto Server2. The component must be tagged depersonalised and the deployment analysis must report a \textit{joining data stream} on Server2 $(D)$.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[trim = 0mm 10mm 0mm 10mm, clip, width=0.90\textwidth]{graphs/medSys_eval_pa_da}
-	\caption{Deployment analysis result}
+	\caption{Deployment analysis result (1)}
 	\label{fig:eval:pa:depl_ana}
 \end{figure}
 
-We have shown, that the component classification algorithm and the deployment analysis works as intended, providing a privacy analysis on a architectural level (see \autoref{sec:Introduction:goals}). We didn't show every possible privacy violation, however showed the most difficult analysis work: The detection of joining data streams on component categorization and deployment analysis level. And the correct identification of a set of components, located on a server, sharing the same single depersonalised component as a data source. We will use further exemplary privacy violations in the other accuracy evaluations.
+\autoref{fig:eval:pa:depl_ana} visualises the component categorization and deployment analysis result. The execution of the second pipeline trigger, reports a privacy violation. The cause is a joining data stream on Server2. This is what we provoked and expected $(D2)$. The \textit{Jaccard Coefficient} for the trigger processing is \textit{1.0}, again.
+
+As the final pipeline trigger, we will migrate \textit{Server2} into the EU, to Italy. We expect, that the server no longer reports a illegal deployment, despite the potential \textit{joining data stream} on the server $(D3)$. During the migration, \textit{Great Britain} is removed from the \textit{save} country list, due to a management decision. As a consequence, we predict a new privacy violation concerning the deployment of the personal \textit{MarketingAnalysis} component on \textit{Server4} $(D1)$.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[trim = 0mm 10mm 0mm 10mm, clip, width=0.90\textwidth]{graphs/medSys_eval_pa_da_2}
+	\caption{Deployment analysis result (2)}
+	\label{fig:eval:pa:depl_ana_2}
+\end{figure}
+
+\autoref{fig:eval:pa:depl_ana_2} shows the final trigger result. As expected, the \textit{Marketing Analysis} deployment on \textit{Server4} is reported as privacy violation. Further, \textit{Server2} is now privacy compliant. The \textit{Jaccard Coefficient} is \textit{1.0}, so the geo-location transformation was successfully executed. The result is true to our expectations, this means, we have successfully shown $D1$ and $D3$.
+
+We have shown, that the component classification algorithm and the deployment analysis works as intended, providing a privacy analysis on an architectural level (see \autoref{sec:Introduction:goals}). We exemplary showed the correctness of the component categorization and the deployment analysis. This includes the two major tasks of detecting joining data streams on component categorization and deployment analysis level. Further, we showed the correct identification of a set of components, located on a server, sharing a single depersonalised component as a data source. Further exemplary privacy violations will be used in the other accuracy evaluations.
 
 \subsection{Privacy Analysis: Scalability Evaluation}
 \label{sec:Evaluation:privacyanalysis:scale}

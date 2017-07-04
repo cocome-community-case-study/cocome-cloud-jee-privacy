@@ -31,7 +31,7 @@ In the context of Privacy Analysis there is a minimum of two pieces of informati
 
 Usually \textit{M1} and \textit{M2} is not directly available. As a consequence other ones must substitute these, while containing the same information. A suitable substitution, differs based on the sources and their contained information.
 
-The used PCM Privacy meta-model provides a categorization of the communicated information between component interfaces. This enables a component classification, based on the most critical communication with another component. As a result, a components privacy level can be determined without knowing its exact purpose, analysing any inner processes or knowing the exact data-flow. So, $M1$ gets substituted by information about inter interface communication and its privacy categorization.
+The used PCM Privacy meta-model provides a data privacy categorization of the communicated information between component interfaces. This enables a component classification, based on the most critical communication with another component. As a result, a components privacy level can be determined without knowing its exact purpose, analysing any inner processes or knowing the exact data-flow. So, $M1$ gets substituted by information about inter interface communication and its privacy categorization.
 
 In order to get an information equivalent of $M2$, a components host must be determined, as well as that hosts geo-location. The PCM Privacy model provides these information. However, it is spread over multiple models. As a result we require only four pieces of information (\autoref{tab:iobserve_information}), compared to R-PRISs six pieces of information (\autoref{tab:rpris_information}).
 
@@ -55,7 +55,7 @@ In order to get an information equivalent of $M2$, a components host must be det
 \label{sec:PrivacyAnalysis:theory:dataflow}
 Usually component interfaces are categorized into providing and requiring interfaces. Interface connections are made between a pair of required and provided interfaces of the same type. This suggests a certain data- and control-flow direction. This is a wrong assumption. While there are cases, when the control-flow can be derived from this structure, the data-flow is completely independent from this categorization.
 
-For example a database component (usually) only has provided interfaces. These interfaces allows the user to store and retrieve data from the database and therefore contains getter and setter methods. This means, there is no data-flow direction for the whole interfaces, since the data needs to "flow" into both directions. Note, that we are explicitly speaking of an interface as a whole, since individual methods can have a data-flow direction.
+For example, a database component (usually) only has provided interfaces. These interfaces allows the user to store and retrieve data from the database and therefore contains getter and setter methods. This means, there is no data-flow direction for the whole interfaces, since the data needs to "flow" into both directions. Note, that we are explicitly speaking of an interface as a whole, since individual methods can have a data-flow direction.
 
 Information passed through an interface are available on the providing and requiring component. In other terms, if an component connector got categorized as \textit{Personal}, information of this type are available in both components. These components need to get categorized accordingly.
 
@@ -164,27 +164,6 @@ The formalization states three independent conditions for an illegal deployment.
 \autoref{fig:example_deplyoment_eval} shows an illegal deployment. The deployment of Component A and B is obviously valid, due to its deployment on a "save" geo-location. Component C and F are also legally deployed, since both components share a single communication edge onto privacy relevant information and the "joining data streams" situation does not apply. Applying the formalization, the first condition is broken, since server \#3 does not host a personal component, the second condition is also false, since the components C and D are transitive and direct connected via depersonalised edges. The third condition does also not apply, since only one individual path via depersonalised edges from the personal components exists.
 
 Server\#2, however, hosts an illegal deployment. Component D and E have different single data sources edges and can therefore save, process or transmit data, which can combine to privacy relevant data. The second and the third condition of the formal specification are true. So, are component E and D not transitively connected via depersonalised nodes. Further, two individual paths from the set of personal components to the components hosted by server \#2 exist.
-
-
-
-
-\section{iObserve Privacy vs. R-PRIS}
-\label{sec:PrivacyAnalysis:rpris}
-
-R-PRIS from Schiemders et al. was introduced in \autoref{sec:RelatedWork:privacyanalysis}. In this section we are comparing the R-PRIS privacy analysis against the iObserve Privacy privacy analysis. More detailed information on R-PRIS can be found in \cite{Schmieders.}\cite{Schmieders.2015}.
-
-\begin{description}
-	\item[Runtime Model] R-PRIS uses the specially developed model shown in \autoref{fig:rpris_metamodel}. Even while it models components, VMs and process, it does not capture the systems architecture as the Palladio Component Model does. Further, it is not known, whether tool support or other compatible programs exist, like the PCM has. 
-\end{description}
-
-\begin{description}
-	\item[Categorization] We are utilizing a component communication classification, which leads to a component classification and a deployment analysis. Therefore, we do not know what data are actually processed in a component or on a server. R-PRIS, however, tags the data itself, traces the transitive access and prohibits rule violating access. As a result, R-PRIS, uses the more accurate \textit{data tracking}, which requires more information then and a deep knowledge about the observed system then iObserve privacy. While iObserve privacy uses data categorization by hand, the R-PRIS approach does not explain their modelling and categorization process.
-\end{description}
-
-\begin{description}
-	\item[Rule Compliance] iObserve Privacy is clearly build to stay EU General Data Protection Regulation and HIPAA compliant. Therefore, a simple file input with \textit{save} geo-locations is sufficient. R-PRIS requires a rule input, which specifies prohibited data access. Compared to iObserve privacy, this is a more powerful and flexible input. Nevertheless, it complicates the usage and scales poorly with the system size, deployment locations and data variety, since every prohibited access needs to be specified for every data type per geo-location and content type.
-\end{description}
-
 
 
 \section{Privacy Analysis implementation}
