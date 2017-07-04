@@ -1,0 +1,7 @@
+INFO  | 2017-07-04 23:33:21 | [main] generation.EvaluationGeneration (EvaluationGeneration.java:69) - Starting ModelDif:
+INFO  | 2017-07-04 23:33:21 | [main] generation.EvaluationGeneration (EvaluationGeneration.java:70) - Input Models Dir: C:\GitRepositorys\cocome\cocome-cloud-jee-privacy\Evaluation\1_PrivacyAnalysis\Accuracy\Results\2_Trigger_Deployment_Expected
+INFO  | 2017-07-04 23:33:21 | [main] generation.EvaluationGeneration (EvaluationGeneration.java:71) - Output Models Dir: C:\GitRepositorys\cocome\cocome-cloud-jee-privacy\Evaluation\1_PrivacyAnalysis\Accuracy\Results\2_Trigger_Deployment
+INFO  | 2017-07-04 23:33:22 | [main] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-07-04 23:33:22 | [main] graph.GraphFactory (GraphFactory.java:240) - Building DONE!
+INFO  | 2017-07-04 23:33:22 | [main] generation.ModelDif (ModelDif.java:68) - The Jaccard Coefficient is: 1,000000
+INFO  | 2017-07-04 23:33:22 | [main] generation.EvaluationGeneration (EvaluationGeneration.java:79) - NO difs detected!
