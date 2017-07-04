@@ -68,7 +68,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.1}Kieker}{21}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}iObserve Privacy}{21}{section.7.2}
+\contentsline {section}{\numberline {7.2}iObserve Privacy}{22}{section.7.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Privacy Analysis}{25}{chapter.8}
 \defcounter {refsection}{0}\relax 
@@ -82,96 +82,98 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.2}Component categorization}{27}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Deployment analysis}{28}{section.8.3}
+\contentsline {section}{\numberline {8.3}Deployment analysis}{29}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Privacy Analysis implementation}{28}{section.8.4}
+\contentsline {section}{\numberline {8.4}iObserve Privacy vs. R-PRIS}{30}{section.8.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.1}Information preprocessing}{29}{subsection.8.4.1}
+\contentsline {section}{\numberline {8.5}Privacy Analysis implementation}{31}{section.8.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.2}Component categorization implementation}{30}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.5.1}Information preprocessing}{31}{subsection.8.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.4.3}Deployment analysis implementation}{30}{subsection.8.4.3}
+\contentsline {subsection}{\numberline {8.5.2}Component categorization implementation}{32}{subsection.8.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}PerOpteryx Extension}{33}{chapter.9}
+\contentsline {subsection}{\numberline {8.5.3}Deployment analysis implementation}{32}{subsection.8.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}PlugIn Design}{33}{section.9.1}
+\contentsline {chapter}{\numberline {9}PerOpteryx Extension}{35}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}PerOpteryx Modification}{33}{section.9.2}
+\contentsline {section}{\numberline {9.1}Plug-in Design}{35}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}System Adaptation}{35}{chapter.10}
+\contentsline {section}{\numberline {9.2}PerOpteryx Modification}{35}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Adaptation Planning}{35}{section.10.1}
+\contentsline {chapter}{\numberline {10}System Adaptation}{37}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1.1}Adaptation Actions}{35}{subsection.10.1.1}
+\contentsline {section}{\numberline {10.1}Adaptation Planning}{37}{section.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1.2}Action Ordering}{36}{subsection.10.1.2}
+\contentsline {subsection}{\numberline {10.1.1}Adaptation Actions}{38}{subsection.10.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Adaptation Execution}{37}{section.10.2}
+\contentsline {subsection}{\numberline {10.1.2}Action Ordering}{39}{subsection.10.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Implementation}{38}{section.10.3}
+\contentsline {section}{\numberline {10.2}Adaptation Execution}{40}{section.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Evaluation}{41}{chapter.11}
+\contentsline {section}{\numberline {10.3}Implementation}{40}{section.10.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.1}Evaluation Design}{41}{section.11.1}
+\contentsline {chapter}{\numberline {11}Evaluation}{43}{chapter.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Evaluation Scenarios}{42}{section.11.2}
+\contentsline {section}{\numberline {11.1}Evaluation Design}{43}{section.11.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.1}Scenario 1: Default}{42}{subsection.11.2.1}
+\contentsline {section}{\numberline {11.2}Evaluation Scenarios}{44}{section.11.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.2}Scenario 2: System extension}{42}{subsection.11.2.2}
+\contentsline {subsection}{\numberline {11.2.1}Scenario 1: Default}{44}{subsection.11.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.3}Scenario 3: Failing Adaptation}{43}{subsection.11.2.3}
+\contentsline {subsection}{\numberline {11.2.2}Scenario 2: System extension}{45}{subsection.11.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.4}Scenario 4: Missing Alternative}{43}{subsection.11.2.4}
+\contentsline {subsection}{\numberline {11.2.3}Scenario 3: Failing Adaptation}{45}{subsection.11.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.5}Futile Scenario}{44}{subsection.11.2.5}
+\contentsline {subsection}{\numberline {11.2.4}Scenario 4: Missing Alternative}{45}{subsection.11.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.3}Evaluation Models}{44}{section.11.3}
+\contentsline {subsection}{\numberline {11.2.5}Futile Scenario}{46}{subsection.11.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.1}CoCOME-Cloud}{44}{subsection.11.3.1}
+\contentsline {section}{\numberline {11.3}Evaluation Models}{46}{section.11.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.2}Medi System}{44}{subsection.11.3.2}
+\contentsline {subsection}{\numberline {11.3.1}CoCOME-Cloud}{46}{subsection.11.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.3.3}Generated Models}{45}{subsection.11.3.3}
+\contentsline {subsection}{\numberline {11.3.2}Medi System}{46}{subsection.11.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.4}Transformation}{45}{section.11.4}
+\contentsline {subsection}{\numberline {11.3.3}Generated Models}{47}{subsection.11.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4.1}Transformation: Accuracy Evaluation}{45}{subsection.11.4.1}
+\contentsline {section}{\numberline {11.4}Transformation}{47}{section.11.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.4.2}Transformation: Scalability Evaluation}{47}{subsection.11.4.2}
+\contentsline {subsection}{\numberline {11.4.1}Transformation: Accuracy Evaluation}{48}{subsection.11.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.5}Privacy Analysis}{48}{section.11.5}
+\contentsline {subsection}{\numberline {11.4.2}Transformation: Scalability Evaluation}{49}{subsection.11.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.1}Privacy Analysis: Accuracy Evaluation}{48}{subsection.11.5.1}
+\contentsline {section}{\numberline {11.5}Privacy Analysis}{49}{section.11.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.5.2}Privacy Analysis: Scalability Evaluation}{50}{subsection.11.5.2}
+\contentsline {subsection}{\numberline {11.5.1}Privacy Analysis: Accuracy Evaluation}{50}{subsection.11.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.6}Model Generation}{51}{section.11.6}
+\contentsline {subsection}{\numberline {11.5.2}Privacy Analysis: Scalability Evaluation}{52}{subsection.11.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.7}Adaptation Planning}{52}{section.11.7}
+\contentsline {section}{\numberline {11.6}Model Generation}{53}{section.11.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.7.1}Adaptation: Accuracy Evaluation}{52}{subsection.11.7.1}
+\contentsline {section}{\numberline {11.7}Adaptation Planning}{55}{section.11.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.7.2}Adaptation: Scalability Evaluation}{54}{subsection.11.7.2}
+\contentsline {subsection}{\numberline {11.7.1}Adaptation: Accuracy Evaluation}{55}{subsection.11.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.8}Threats to validity}{56}{section.11.8}
+\contentsline {subsection}{\numberline {11.7.2}Adaptation: Scalability Evaluation}{57}{subsection.11.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.8.1}Internal Validity}{57}{subsection.11.8.1}
+\contentsline {section}{\numberline {11.8}Threats to validity}{59}{section.11.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.8.2}External Validity}{57}{subsection.11.8.2}
+\contentsline {subsection}{\numberline {11.8.1}Internal Validity}{59}{subsection.11.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.8.3}Construction Validity}{58}{subsection.11.8.3}
+\contentsline {subsection}{\numberline {11.8.2}External Validity}{60}{subsection.11.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.8.4}Conclusion Validity}{58}{subsection.11.8.4}
+\contentsline {subsection}{\numberline {11.8.3}Construction Validity}{60}{subsection.11.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Conclusion}{59}{chapter.12}
+\contentsline {subsection}{\numberline {11.8.4}Conclusion Validity}{60}{subsection.11.8.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.1}Limitations \& Assumptions}{59}{section.12.1}
+\contentsline {chapter}{\numberline {12}Conclusion}{61}{chapter.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.2}Future Work}{60}{section.12.2}
+\contentsline {section}{\numberline {12.1}Limitations \& Assumptions}{61}{section.12.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliography}{61}{chapter*.14}
+\contentsline {section}{\numberline {12.2}Future Work}{62}{section.12.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{65}{appendix.A}
+\contentsline {chapter}{\nonumberline Bibliography}{63}{chapter*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}First Appendix Section}{65}{section.A.1}
+\contentsline {chapter}{\numberline {A}Appendix}{67}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}First Appendix Section}{67}{section.A.1}

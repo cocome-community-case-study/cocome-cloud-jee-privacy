@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.18)  30 JUN 2017 13:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.18)  4 JUL 2017 15:40
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1173,20 +1173,58 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip76
 \backup@length=\skip77
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\empheq.sty"
+Package: empheq 2017/03/31 v2.15 Emphasizing equations
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty"
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty"
+Package: mathtools 2017/05/24 v1.19 mathematical typesetting tools
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count121
+\l_MT_multwidth_dim=\dimen137
+\origjot=\skip78
+\l_MT_shortvdotswithinadjustabove_dim=\dimen138
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen139
+\l_MT_above_intertext_sep=\dimen140
+\l_MT_below_intertext_sep=\dimen141
+\l_MT_above_shortintertext_sep=\dimen142
+\l_MT_below_shortintertext_sep=\dimen143
+)
+\l_EQ_equationtype_int=\count122
+\l_EQ_alignmentmode_int=\count123
+\l_EQ_totalwidth_dim=\dimen144
+\l_EQ_displaywidth_dim=\dimen145
+\l_EQ_temp_linewidth_dim=\dimen146
+\EmphEqdelimitershortfall=\dimen147
+\EmphEqdelimiterfactor=\count124
+\g_EQ_toptag_height_dim=\dimen148
+\g_EQ_bottomtag_depth_dim=\dimen149
+\g_EQ_toprow_height_dim=\dimen150
+\g_EQ_bottomrow_depth_dim=\dimen151
+\g_EQ_widesttag_dim=\dimen152
+\EQ_mathdisplay_box=\box36
+\EQ_tag_box=\box37
+\g_EQ_temprow_int=\count125
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count121
+\c@float@type=\count126
 \float@exts=\toks29
-\float@box=\box36
+\float@box=\box38
 \@float@everytoks=\toks30
-\@floatcapt=\box37
+\@floatcapt=\box39
 )
 \@float@every@algorithm=\toks31
-\c@algorithm=\count122
+\c@algorithm=\count127
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
 Package: algpseudocode 
@@ -1195,23 +1233,23 @@ Package: algpseudocode
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count123
-\c@ALG@rem=\count124
-\c@ALG@nested=\count125
-\ALG@tlm=\skip78
-\ALG@thistlm=\skip79
-\c@ALG@Lnr=\count126
-\c@ALG@blocknr=\count127
-\c@ALG@storecount=\count128
-\c@ALG@tmpcounter=\count129
-\ALG@tmplength=\skip80
+\c@ALG@line=\count128
+\c@ALG@rem=\count129
+\c@ALG@nested=\count130
+\ALG@tlm=\skip79
+\ALG@thistlm=\skip80
+\c@ALG@Lnr=\count131
+\c@ALG@blocknr=\count132
+\c@ALG@storecount=\count133
+\c@ALG@tmpcounter=\count134
+\ALG@tmplength=\skip81
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count130
-\c@@ppsavesec=\count131
-\c@@ppsaveapp=\count132
+\c@@pps=\count135
+\c@@ppsavesec=\count136
+\c@@ppsaveapp=\count137
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty"
 Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
@@ -1222,12 +1260,12 @@ Package: todonotes 2012/07/25
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
 \pgfutil@everybye=\toks32
-\pgfutil@tempdima=\dimen137
-\pgfutil@tempdimb=\dimen138
+\pgfutil@tempdima=\dimen153
+\pgfutil@tempdimb=\dimen154
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
 x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
-\pgfutil@abb=\box38
+\pgfutil@abb=\box40
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -1249,20 +1287,20 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 x"
 \pgfkeys@tmptoks=\toks35
 ))
-\pgf@x=\dimen139
-\pgf@y=\dimen140
-\pgf@xa=\dimen141
-\pgf@ya=\dimen142
-\pgf@xb=\dimen143
-\pgf@yb=\dimen144
-\pgf@xc=\dimen145
-\pgf@yc=\dimen146
+\pgf@x=\dimen155
+\pgf@y=\dimen156
+\pgf@xa=\dimen157
+\pgf@ya=\dimen158
+\pgf@xb=\dimen159
+\pgf@yb=\dimen160
+\pgf@xc=\dimen161
+\pgf@yc=\dimen162
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count133
-\c@pgf@countb=\count134
-\c@pgf@countc=\count135
-\c@pgf@countd=\count136
+\c@pgf@counta=\count138
+\c@pgf@countb=\count139
+\c@pgf@countc=\count140
+\c@pgf@countd=\count141
 \t@pgf@toka=\toks36
 \t@pgf@tokb=\toks37
 \t@pgf@tokc=\toks38
@@ -1281,8 +1319,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
 ex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count137
-\pgfsyssoftpath@bigbuffer@items=\count138
+\pgfsyssoftpath@smallbuffer@items=\count142
+\pgfsyssoftpath@bigbuffer@items=\count143
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
 ex"
@@ -1293,9 +1331,9 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen147
-\pgfmath@count=\count139
-\pgfmath@box=\box39
+\pgfmath@dimen=\dimen163
+\pgfmath@count=\count144
+\pgfmath@box=\box41
 \pgfmath@toks=\toks39
 \pgfmath@stack@operand=\toks40
 \pgfmath@stack@operation=\toks41
@@ -1318,57 +1356,57 @@ ex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
 hmetics.code.tex")))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count140
+\c@pgfmathroundto@lastzeros=\count145
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
 "
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen148
-\pgf@picmaxx=\dimen149
-\pgf@picminy=\dimen150
-\pgf@picmaxy=\dimen151
-\pgf@pathminx=\dimen152
-\pgf@pathmaxx=\dimen153
-\pgf@pathminy=\dimen154
-\pgf@pathmaxy=\dimen155
-\pgf@xx=\dimen156
-\pgf@xy=\dimen157
-\pgf@yx=\dimen158
-\pgf@yy=\dimen159
-\pgf@zx=\dimen160
-\pgf@zy=\dimen161
+\pgf@picminx=\dimen164
+\pgf@picmaxx=\dimen165
+\pgf@picminy=\dimen166
+\pgf@picmaxy=\dimen167
+\pgf@pathminx=\dimen168
+\pgf@pathmaxx=\dimen169
+\pgf@pathminy=\dimen170
+\pgf@pathmaxy=\dimen171
+\pgf@xx=\dimen172
+\pgf@xy=\dimen173
+\pgf@yx=\dimen174
+\pgf@yy=\dimen175
+\pgf@zx=\dimen176
+\pgf@zy=\dimen177
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
 ode.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen162
-\pgf@path@lasty=\dimen163
+\pgf@path@lastx=\dimen178
+\pgf@path@lasty=\dimen179
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
 tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen164
-\pgf@shorten@start@additional=\dimen165
+\pgf@shorten@end@additional=\dimen180
+\pgf@shorten@start@additional=\dimen181
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
 "
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box40
-\pgf@hbox=\box41
-\pgf@layerbox@main=\box42
-\pgf@picture@serial@count=\count141
+\pgfpic=\box42
+\pgf@hbox=\box43
+\pgf@layerbox@main=\box44
+\pgf@picture@serial@count=\count146
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
 de.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen166
+\pgflinewidth=\dimen182
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
 .code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen167
-\pgf@pt@y=\dimen168
-\pgf@pt@temp=\dimen169
+\pgf@pt@x=\dimen183
+\pgf@pt@y=\dimen184
+\pgf@pt@temp=\dimen185
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -1384,12 +1422,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
 "
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen170
+\pgfarrowsep=\dimen186
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen171
-\pgf@sys@shading@range@num=\count142
+\pgf@max=\dimen187
+\pgf@sys@shading@range@num=\count147
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
 x"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -1397,7 +1435,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
 ex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box43
+\pgfexternal@startupbox=\box45
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
 "
@@ -1413,15 +1451,15 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box44
+\pgfnodeparttextbox=\box46
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
 sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen172
-\pgf@nodesepend=\dimen173
+\pgf@nodesepstart=\dimen188
+\pgf@nodesepend=\dimen189
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
 sty"
@@ -1435,8 +1473,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
-\pgffor@iter=\dimen174
-\pgffor@skip=\dimen175
+\pgffor@iter=\dimen190
+\pgffor@skip=\dimen191
 \pgffor@stack=\toks42
 \pgffor@toks=\toks43
 ))
@@ -1446,31 +1484,31 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
 code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count143
-\pgfplotmarksize=\dimen176
+\pgf@plot@mark@count=\count148
+\pgfplotmarksize=\dimen192
 )
-\tikz@lastx=\dimen177
-\tikz@lasty=\dimen178
-\tikz@lastxsaved=\dimen179
-\tikz@lastysaved=\dimen180
-\tikzleveldistance=\dimen181
-\tikzsiblingdistance=\dimen182
-\tikz@figbox=\box45
-\tikz@figbox@bg=\box46
-\tikz@tempbox=\box47
-\tikz@tempbox@bg=\box48
-\tikztreelevel=\count144
-\tikznumberofchildren=\count145
-\tikznumberofcurrentchild=\count146
-\tikz@fig@count=\count147
+\tikz@lastx=\dimen193
+\tikz@lasty=\dimen194
+\tikz@lastxsaved=\dimen195
+\tikz@lastysaved=\dimen196
+\tikzleveldistance=\dimen197
+\tikzsiblingdistance=\dimen198
+\tikz@figbox=\box47
+\tikz@figbox@bg=\box48
+\tikz@tempbox=\box49
+\tikz@tempbox@bg=\box50
+\tikztreelevel=\count149
+\tikznumberofchildren=\count150
+\tikznumberofcurrentchild=\count151
+\tikz@fig@count=\count152
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count148
-\pgfmatrixcurrentcolumn=\count149
-\pgf@matrix@numberofcolumns=\count150
+\pgfmatrixcurrentrow=\count153
+\pgfmatrixcurrentcolumn=\count154
+\pgf@matrix@numberofcolumns=\count155
 )
-\tikz@expandcount=\count151
+\tikz@expandcount=\count156
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarytopaths.code.tex"
@@ -1480,7 +1518,7 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 librarypositioning.code.tex"
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
-\c@@todonotes@numberoftodonotes=\count152
+\c@@todonotes@numberoftodonotes=\count157
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
@@ -1538,16 +1576,16 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen183
-\Hy@linkcounter=\count153
-\Hy@pagecounter=\count154
+\@linkdim=\dimen199
+\Hy@linkcounter=\count158
+\Hy@pagecounter=\count159
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count155
+\Hy@SavedSpaceFactor=\count160
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1562,12 +1600,12 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count156
+\c@Hy@tempcnt=\count161
 LaTeX Info: Redefining \url on input line 5088.
-\XeTeXLinkMargin=\dimen184
-\Fld@menulength=\count157
-\Field@Width=\dimen185
-\Fld@charsize=\dimen186
+\XeTeXLinkMargin=\dimen256
+\Fld@menulength=\count162
+\Field@Width=\dimen257
+\Fld@charsize=\dimen258
 Package hyperref Info: Hyper figures OFF on input line 6342.
 Package hyperref Info: Link nesting OFF on input line 6347.
 Package hyperref Info: Hyper index ON on input line 6350.
@@ -1577,35 +1615,35 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count158
-\c@Item=\count159
-\c@Hfootnote=\count160
+\Hy@abspage=\count163
+\c@Item=\count164
+\c@Hfootnote=\count165
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\Fld@listcount=\count161
-\c@bookmark@seq@number=\count162
+\Fld@listcount=\count166
+\c@bookmark@seq@number=\count167
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip81
+\Hy@SectionHShift=\skip82
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
 Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count163
+\etb@tempcnta=\count168
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count164
+\lrq@indent=\count169
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1613,62 +1651,62 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
 \@xs@message=\write4
-\integerpart=\count165
-\decimalpart=\count166
+\integerpart=\count170
+\decimalpart=\count171
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count167
-\c@listtotal=\count168
-\c@listcount=\count169
-\c@liststart=\count170
-\c@liststop=\count171
-\c@citecount=\count172
-\c@citetotal=\count173
-\c@multicitecount=\count174
-\c@multicitetotal=\count175
-\c@instcount=\count176
-\c@maxnames=\count177
-\c@minnames=\count178
-\c@maxitems=\count179
-\c@minitems=\count180
-\c@citecounter=\count181
-\c@savedcitecounter=\count182
-\c@uniquelist=\count183
-\c@uniquename=\count184
-\c@refsection=\count185
-\c@refsegment=\count186
-\c@maxextratitle=\count187
-\c@maxextratitleyear=\count188
-\c@maxextrayear=\count189
-\c@maxextraalpha=\count190
-\c@abbrvpenalty=\count191
-\c@highnamepenalty=\count192
-\c@lownamepenalty=\count193
-\c@maxparens=\count194
-\c@parenlevel=\count195
-\blx@tempcnta=\count196
-\blx@tempcntb=\count197
-\blx@tempcntc=\count198
-\blx@maxsection=\count199
-\blx@maxsegment@0=\count266
-\blx@notetype=\count267
-\blx@parenlevel@text=\count268
-\blx@parenlevel@foot=\count269
-\blx@sectionciteorder@0=\count270
-\labelnumberwidth=\skip82
-\labelalphawidth=\skip83
-\biblabelsep=\skip84
-\bibitemsep=\skip85
-\bibnamesep=\skip86
-\bibinitsep=\skip87
-\bibparsep=\skip88
-\bibhang=\skip89
+\c@tabx@nest=\count172
+\c@listtotal=\count173
+\c@listcount=\count174
+\c@liststart=\count175
+\c@liststop=\count176
+\c@citecount=\count177
+\c@citetotal=\count178
+\c@multicitecount=\count179
+\c@multicitetotal=\count180
+\c@instcount=\count181
+\c@maxnames=\count182
+\c@minnames=\count183
+\c@maxitems=\count184
+\c@minitems=\count185
+\c@citecounter=\count186
+\c@savedcitecounter=\count187
+\c@uniquelist=\count188
+\c@uniquename=\count189
+\c@refsection=\count190
+\c@refsegment=\count191
+\c@maxextratitle=\count192
+\c@maxextratitleyear=\count193
+\c@maxextrayear=\count194
+\c@maxextraalpha=\count195
+\c@abbrvpenalty=\count196
+\c@highnamepenalty=\count197
+\c@lownamepenalty=\count198
+\c@maxparens=\count199
+\c@parenlevel=\count266
+\blx@tempcnta=\count267
+\blx@tempcntb=\count268
+\blx@tempcntc=\count269
+\blx@maxsection=\count270
+\blx@maxsegment@0=\count271
+\blx@notetype=\count272
+\blx@parenlevel@text=\count273
+\blx@parenlevel@foot=\count274
+\blx@sectionciteorder@0=\count275
+\labelnumberwidth=\skip83
+\labelalphawidth=\skip84
+\biblabelsep=\skip85
+\bibitemsep=\skip86
+\bibnamesep=\skip87
+\bibinitsep=\skip88
+\bibparsep=\skip89
+\bibhang=\skip90
 \blx@bcfin=\read2
 \blx@bcfout=\write5
-\c@mincomprange=\count271
-\c@maxcomprange=\count272
-\c@mincompwidth=\count273
+\c@mincomprange=\count276
+\c@maxcomprange=\count277
+\c@mincompwidth=\count278
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1677,78 +1715,78 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count274
-\c@savedafterword=\count275
-\c@annotator=\count276
-\c@savedannotator=\count277
-\c@author=\count278
-\c@savedauthor=\count279
-\c@bookauthor=\count280
-\c@savedbookauthor=\count281
-\c@commentator=\count282
-\c@savedcommentator=\count283
-\c@editor=\count284
-\c@savededitor=\count285
-\c@editora=\count286
-\c@savededitora=\count287
-\c@editorb=\count288
-\c@savededitorb=\count289
-\c@editorc=\count290
-\c@savededitorc=\count291
-\c@foreword=\count292
-\c@savedforeword=\count293
-\c@holder=\count294
-\c@savedholder=\count295
-\c@introduction=\count296
-\c@savedintroduction=\count297
-\c@namea=\count298
-\c@savednamea=\count299
-\c@nameb=\count300
-\c@savednameb=\count301
-\c@namec=\count302
-\c@savednamec=\count303
-\c@translator=\count304
-\c@savedtranslator=\count305
-\c@shortauthor=\count306
-\c@savedshortauthor=\count307
-\c@shorteditor=\count308
-\c@savedshorteditor=\count309
-\c@labelname=\count310
-\c@savedlabelname=\count311
-\c@institution=\count312
-\c@savedinstitution=\count313
-\c@lista=\count314
-\c@savedlista=\count315
-\c@listb=\count316
-\c@savedlistb=\count317
-\c@listc=\count318
-\c@savedlistc=\count319
-\c@listd=\count320
-\c@savedlistd=\count321
-\c@liste=\count322
-\c@savedliste=\count323
-\c@listf=\count324
-\c@savedlistf=\count325
-\c@location=\count326
-\c@savedlocation=\count327
-\c@organization=\count328
-\c@savedorganization=\count329
-\c@origlocation=\count330
-\c@savedoriglocation=\count331
-\c@origpublisher=\count332
-\c@savedorigpublisher=\count333
-\c@publisher=\count334
-\c@savedpublisher=\count335
-\c@language=\count336
-\c@savedlanguage=\count337
-\c@pageref=\count338
-\c@savedpageref=\count339
-\shorthandwidth=\skip90
-\shortjournalwidth=\skip91
-\shortserieswidth=\skip92
-\shorttitlewidth=\skip93
-\shortauthorwidth=\skip94
-\shorteditorwidth=\skip95
+\c@afterword=\count279
+\c@savedafterword=\count280
+\c@annotator=\count281
+\c@savedannotator=\count282
+\c@author=\count283
+\c@savedauthor=\count284
+\c@bookauthor=\count285
+\c@savedbookauthor=\count286
+\c@commentator=\count287
+\c@savedcommentator=\count288
+\c@editor=\count289
+\c@savededitor=\count290
+\c@editora=\count291
+\c@savededitora=\count292
+\c@editorb=\count293
+\c@savededitorb=\count294
+\c@editorc=\count295
+\c@savededitorc=\count296
+\c@foreword=\count297
+\c@savedforeword=\count298
+\c@holder=\count299
+\c@savedholder=\count300
+\c@introduction=\count301
+\c@savedintroduction=\count302
+\c@namea=\count303
+\c@savednamea=\count304
+\c@nameb=\count305
+\c@savednameb=\count306
+\c@namec=\count307
+\c@savednamec=\count308
+\c@translator=\count309
+\c@savedtranslator=\count310
+\c@shortauthor=\count311
+\c@savedshortauthor=\count312
+\c@shorteditor=\count313
+\c@savedshorteditor=\count314
+\c@labelname=\count315
+\c@savedlabelname=\count316
+\c@institution=\count317
+\c@savedinstitution=\count318
+\c@lista=\count319
+\c@savedlista=\count320
+\c@listb=\count321
+\c@savedlistb=\count322
+\c@listc=\count323
+\c@savedlistc=\count324
+\c@listd=\count325
+\c@savedlistd=\count326
+\c@liste=\count327
+\c@savedliste=\count328
+\c@listf=\count329
+\c@savedlistf=\count330
+\c@location=\count331
+\c@savedlocation=\count332
+\c@organization=\count333
+\c@savedorganization=\count334
+\c@origlocation=\count335
+\c@savedoriglocation=\count336
+\c@origpublisher=\count337
+\c@savedorigpublisher=\count338
+\c@publisher=\count339
+\c@savedpublisher=\count340
+\c@language=\count341
+\c@savedlanguage=\count342
+\c@pageref=\count343
+\c@savedpageref=\count344
+\shorthandwidth=\skip91
+\shortjournalwidth=\skip92
+\shortserieswidth=\skip93
+\shorttitlewidth=\skip94
+\shortauthorwidth=\skip95
+\shorteditorwidth=\skip96
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1760,13 +1798,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
 File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count340
-\c@textcitetotal=\count341
-\c@textcitemaxnames=\count342
-\c@biburlnumpenalty=\count343
-\c@biburlucpenalty=\count344
-\c@biburllcpenalty=\count345
-\c@smartand=\count346
+\c@textcitecount=\count345
+\c@textcitetotal=\count346
+\c@textcitemaxnames=\count347
+\c@biburlnumpenalty=\count348
+\c@biburlucpenalty=\count349
+\c@biburllcpenalty=\count350
+\c@smartand=\count351
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1778,8 +1816,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count347
-\c@bbx:relatedtotal=\count348
+\c@bbx:relatedcount=\count352
+\c@bbx:relatedtotal=\count353
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1825,8 +1863,8 @@ File: german.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count349
-\@quotereset=\count350
+\@quotelevel=\count354
+\@quotereset=\count355
 (thesis.aux)
 \openout1 = `thesis.aux'.
 
@@ -1894,8 +1932,8 @@ nuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 81.
-\c@mv@tabular=\count351
-\c@mv@boldtabular=\count352
+\c@mv@tabular=\count356
+\c@mv@boldtabular=\count357
 LaTeX Info: Redefining \microtypecontext on input line 81.
 
 
@@ -1903,19 +1941,19 @@ Package microtype Warning: `draft' option active.
 (microtype)                Disabling all micro-typographic extensions.
 (microtype)                This might lead to different line and page breaks.
 
-\AtBeginShipoutBox=\box49
+\AtBeginShipoutBox=\box51
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count353
-\scratchdimen=\dimen187
-\scratchbox=\box50
-\nofMPsegments=\count354
-\nofMParguments=\count355
+\scratchcounter=\count358
+\scratchdimen=\dimen259
+\scratchbox=\box52
+\nofMPsegments=\count359
+\nofMParguments=\count360
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count356
-\MPscratchDim=\dimen188
-\MPnumerator=\count357
-\makeMPintoPDFobject=\count358
+\MPscratchCnt=\count361
+\MPscratchDim=\dimen260
+\MPnumerator=\count362
+\makeMPintoPDFobject=\count363
 \everyMPtoPDFconversion=\toks45
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1941,7 +1979,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count359
+\c@section@level=\count364
 )
 LaTeX Info: Redefining \ref on input line 81.
 LaTeX Info: Redefining \pageref on input line 81.
@@ -2105,26 +2143,24 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 6.6pt on input line 15.
  [5]
-Underfull \vbox (badness 1102) has occurred while \output is active []
-
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sl' in size <12> not a
 vailable
 (Font)              Font shape `T1/LinuxLibertineT-TLF/m/it' tried instead on i
-nput line 155.
+nput line 157.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 155.
+(Font)              scaled to size 12.0pt on input line 157.
  [6])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
-
-[7] [8
+ [7] [8
 
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 11
 6.
- (thesis.lof)
+
+(thesis.lof)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
@@ -2197,21 +2233,21 @@ chapter 3.
 File: pictures/rpris_metamodel.jpg Graphic file (type jpg)
 
 <use pictures/rpris_metamodel.jpg>
-Package pdftex.def Info: pictures/rpris_metamodel.jpg used on input line 180.
+Package pdftex.def Info: pictures/rpris_metamodel.jpg used on input line 177.
 (pdftex.def)             Requested size: 207.58948pt x 106.33156pt.
 
 <pictures/rpris_model.jpg, id=135, 636.12656pt x 438.8897pt>
 File: pictures/rpris_model.jpg Graphic file (type jpg)
 
 <use pictures/rpris_model.jpg>
-Package pdftex.def Info: pictures/rpris_model.jpg used on input line 185.
+Package pdftex.def Info: pictures/rpris_model.jpg used on input line 182.
 (pdftex.def)             Requested size: 207.58948pt x 143.2201pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (3.69806pt too wide) in paragraph at lines 191--192
+Overfull \hbox (3.69806pt too wide) in paragraph at lines 188--189
 \T1/LinuxLibertineT-TLF/m/n/12 tem, which can po-ten-tially trans-mit per-sonal
  data to a non-privacy com-pli-ant geo-location.
  []
@@ -2291,25 +2327,18 @@ File: graphs/GeoLocationRecord.pdf Graphic file (type pdf)
 <use graphs/GeoLocationRecord.pdf>
 Package pdftex.def Info: graphs/GeoLocationRecord.pdf used on input line 28.
 (pdftex.def)             Requested size: 432.48195pt x 206.8517pt.
+ [21
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<graphs/StageComposition.pdf, id=279, 844.65562pt x 596.98032pt>
+ <./graphs/GeoLocationRecord.pdf>]
+<graphs/StageComposition.pdf, id=296, 844.65562pt x 596.98032pt>
 File: graphs/StageComposition.pdf Graphic file (type pdf)
 
 <use graphs/StageComposition.pdf>
 Package pdftex.def Info: graphs/StageComposition.pdf used on input line 47.
 (pdftex.def)             Requested size: 367.61229pt x 192.9449pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[21
-
-
-]) (sections/content_3_PA.tex [22 <./graphs/GeoLocationRecord.pdf>] [23 <./grap
-hs/StageComposition.pdf>] [24
+ [22 <./graphs/StageComposition.pdf>])
+(sections/content_3_PA.tex [23] [24
 
 
 ]
@@ -2319,14 +2348,23 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/b/n' will be
 LaTeX Font Info:    Font shape `T1/SourceSansPro-LF/sb/n' will be
 (Font)              scaled to size 13.24796pt on input line 15.
 [25] [26]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.8pt on input line 92.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.6pt on input line 92.
+
 <graphs/component_categorization_examples_initial.pdf, id=328, 963.6pt x 542.02
 5pt>
 File: graphs/component_categorization_examples_initial.pdf Graphic file (type p
 df)
  <use graphs/component_categorization_examples_initial.pdf>
 Package pdftex.def Info: graphs/component_categorization_examples_initial.pdf u
-sed on input line 78.
+sed on input line 100.
 (pdftex.def)             Requested size: 324.36145pt x 129.78795pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 <graphs/component_categorization_examples_upcast_base.pdf, id=330, 963.6pt x 54
 2.025pt>
@@ -2334,8 +2372,12 @@ File: graphs/component_categorization_examples_upcast_base.pdf Graphic file (ty
 pe pdf)
  <use graphs/component_categorization_examples_upcast_base.pdf>
 Package pdftex.def Info: graphs/component_categorization_examples_upcast_base.p
-df used on input line 87.
+df used on input line 109.
 (pdftex.def)             Requested size: 324.36145pt x 129.78795pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 <graphs/component_categorization_examples_upcast_advanced.pdf, id=332, 963.6pt 
 x 542.025pt>
@@ -2344,84 +2386,89 @@ File: graphs/component_categorization_examples_upcast_advanced.pdf Graphic file
 
 <use graphs/component_categorization_examples_upcast_advanced.pdf>
 Package pdftex.def Info: graphs/component_categorization_examples_upcast_advanc
-ed.pdf used on input line 96.
+ed.pdf used on input line 118.
 (pdftex.def)             Requested size: 324.36145pt x 129.78795pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[27 <./graphs/component_categorization_examples_initial.pdf> <./graphs/componen
-t_categorization_examples_upcast_base.pdf>]
-<graphs/deployment_example_implementation_eval.pdf, id=366, 963.6pt x 542.025pt
+ [27]
+[28 <./graphs/component_categorization_examples_initial.pdf> <./graphs/componen
+t_categorization_examples_upcast_base.pdf> <./graphs/component_categorization_e
+xamples_upcast_advanced.pdf>]
+<graphs/deployment_example_implementation_eval.pdf, id=384, 963.6pt x 542.025pt
 >
 File: graphs/deployment_example_implementation_eval.pdf Graphic file (type pdf)
 
  <use graphs/deployment_example_implementation_eval.pdf>
 Package pdftex.def Info: graphs/deployment_example_implementation_eval.pdf used
- on input line 113.
+ on input line 159.
 (pdftex.def)             Requested size: 367.61229pt x 182.01912pt.
- [28 <./graphs/component_categorization_examples_upcast_advanced.pdf> <./graphs
-/deployment_example_implementation_eval.pdf>]
-<pictures/pcm_info_spread.jpg, id=400, 837.1275pt x 343.2825pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29] [30 <./graphs/deployment_example_implementation_eval.pdf>]
+<pictures/pcm_info_spread.jpg, id=408, 837.1275pt x 343.2825pt>
 File: pictures/pcm_info_spread.jpg Graphic file (type jpg)
 
 <use pictures/pcm_info_spread.jpg>
-Package pdftex.def Info: pictures/pcm_info_spread.jpg used on input line 143.
+Package pdftex.def Info: pictures/pcm_info_spread.jpg used on input line 215.
 (pdftex.def)             Requested size: 216.24097pt x 88.6699pt.
 
-<pictures/modelGraph_metamodel.pdf, id=401, 844.65562pt x 596.98032pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<pictures/modelGraph_metamodel.pdf, id=409, 844.65562pt x 596.98032pt>
 File: pictures/modelGraph_metamodel.pdf Graphic file (type pdf)
 
 <use pictures/modelGraph_metamodel.pdf>
-Package pdftex.def Info: pictures/modelGraph_metamodel.pdf used on input line 1
-50.
+Package pdftex.def Info: pictures/modelGraph_metamodel.pdf used on input line 2
+22.
 (pdftex.def)             Requested size: 367.61229pt x 51.92607pt.
- [29 <./pictures/modelGraph_metamodel.pdf> <./pictures/pcm_info_spread.jpg>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 163.
+put line 235.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 167.
+(Font)              scaled to size 10.0pt on input line 239.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 170.
+(Font)              scaled to size 12.0pt on input line 242.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package hyperref Warning: No autoref name for `algorithm' on input line 208.
+Package hyperref Warning: No autoref name for `algorithm' on input line 280.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (sections/content_4_PerOpteryxMod.tex [30] [31] [32]
+) (sections/content_4_PerOpteryxMod.tex [32 <./pictures/modelGraph_metamodel.pd
+f> <./pictures/pcm_info_spread.jpg>] [33] [34]
 chapter 9.
-[33
-
-
-]) (sections/content_5_SystemAdaptation.tex [34]
-chapter 10.
 [35
 
 
-]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[36]
-
-Package hyperref Warning: No autoref name for `algorithm' on input line 111.
+]) (sections/content_5_SystemAdaptation.tex [36]
+chapter 10.
+[37
 
 
-Underfull \vbox (badness 3281) has occurred while \output is active []
+] [38] [39]
 
- [37]
-[38]) (sections/evaluation.tex [39] [40
+Package hyperref Warning: No autoref name for `algorithm' on input line 120.
+
+
+Underfull \vbox (badness 4060) has occurred while \output is active []
+
+ [40])
+(sections/evaluation.tex [41] [42
 
 
 ]
 chapter 11.
-[41] [42] [43]
-Overfull \hbox (3.38492pt too wide) in paragraph at lines 131--132
+[43] [44] [45]
+Overfull \hbox (3.38492pt too wide) in paragraph at lines 143--144
 \T1/LinuxLibertineT-TLF/m/it/12 Cloud.Web\T1/LinuxLibertineT-TLF/m/n/12 , \T1/L
 inuxLibertineT-TLF/m/it/12 traid-ingsys-tem.inventory\T1/LinuxLibertineT-TLF/m/
 n/12 , \T1/LinuxLibertineT-TLF/m/it/12 traid-ingsys-tem.cashdeskline\T1/LinuxLi
@@ -2430,148 +2477,154 @@ bertineT-TLF/m/n/12 , \T1/LinuxLibertineT-TLF/m/it/12 web-ser-vice.inventory \T
  []
 
 
-Overfull \hbox (16.52519pt too wide) in paragraph at lines 131--132
+Overfull \hbox (16.52519pt too wide) in paragraph at lines 143--144
 \T1/LinuxLibertineT-TLF/m/n/12 sys-tems with dozens of in-ter-faces and mul-ti-
 ple com-pos-ite com-po-nents. As a re-sult, CoCOME-
  []
 
-<graphs/medSystem_noserver.pdf, id=462, 963.6pt x 542.025pt>
+<graphs/medSystem_noserver.pdf, id=470, 963.6pt x 542.025pt>
 File: graphs/medSystem_noserver.pdf Graphic file (type pdf)
 
 <use graphs/medSystem_noserver.pdf>
-Package pdftex.def Info: graphs/medSystem_noserver.pdf used on input line 139.
+Package pdftex.def Info: graphs/medSystem_noserver.pdf used on input line 151.
 (pdftex.def)             Requested size: 389.23111pt x 184.46124pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44] [45 <./graphs/medSystem_noserver.pdf>]
+[46] [47 <./graphs/medSystem_noserver.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[46] <graphs/Runtime_Transformation.pdf, id=488, 597.55246pt x 845.07718pt>
+[48] <graphs/Runtime_Transformation.pdf, id=495, 597.55246pt x 845.07718pt>
 File: graphs/Runtime_Transformation.pdf Graphic file (type pdf)
 
 <use graphs/Runtime_Transformation.pdf>
 Package pdftex.def Info: graphs/Runtime_Transformation.pdf used on input line 2
-31.
+45.
 (pdftex.def)             Requested size: 389.23111pt x 198.72313pt.
 
-Underfull \vbox (badness 3148) has occurred while \output is active []
 
- [47 <./graphs/Runtime_Transformation.pdf>]
-<graphs/medSys_eval_pa_init.pdf, id=506, 963.6pt x 542.025pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[49] <graphs/medSys_eval_pa_init.pdf, id=500, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_init.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_init.pdf>
-Package pdftex.def Info: graphs/medSys_eval_pa_init.pdf used on input line 251.
+Package pdftex.def Info: graphs/medSys_eval_pa_init.pdf used on input line 265.
 
 (pdftex.def)             Requested size: 324.36145pt x 163.29514pt.
 
-<graphs/medSys_eval_pa_tagging_init.pdf, id=508, 963.6pt x 542.025pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<graphs/medSys_eval_pa_tagging_init.pdf, id=502, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_tagging_init.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_tagging_init.pdf>
 Package pdftex.def Info: graphs/medSys_eval_pa_tagging_init.pdf used on input l
-ine 263.
+ine 275.
 (pdftex.def)             Requested size: 205.51471pt x 125.74316pt.
 
-<graphs/medSys_eval_pa_tagging_analysis.pdf, id=510, 963.6pt x 542.025pt>
+<graphs/medSys_eval_pa_tagging_analysis.pdf, id=504, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_tagging_analysis.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_tagging_analysis.pdf>
 Package pdftex.def Info: graphs/medSys_eval_pa_tagging_analysis.pdf used on inp
-ut line 268.
+ut line 280.
 (pdftex.def)             Requested size: 205.51471pt x 125.74316pt.
- [48 <./graphs/medSys_eval_pa_init.pdf>] <graphs/medSys_eval_pa_da.pdf, id=529,
- 963.6pt x 542.025pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[50 <./graphs/Runtime_Transformation.pdf>]
+<graphs/medSys_eval_pa_da.pdf, id=522, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_da.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_da.pdf>
-Package pdftex.def Info: graphs/medSys_eval_pa_da.pdf used on input line 280.
+Package pdftex.def Info: graphs/medSys_eval_pa_da.pdf used on input line 294.
 (pdftex.def)             Requested size: 389.23111pt x 195.95416pt.
- [49 <./graphs/medSys_eval_pa_tagging_init.pdf> <./graphs/medSys_eval_pa_taggin
-g_analysis.pdf> <./graphs/medSys_eval_pa_da.pdf>] <graphs/Runtime_pa.pdf, id=57
-8, 597.55246pt x 845.07718pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51 <./graphs/medSys_eval_pa_init.pdf> <./graphs/medSys_eval_pa_tagging_init.p
+df> <./graphs/medSys_eval_pa_tagging_analysis.pdf>]
+<graphs/Runtime_pa.pdf, id=571, 597.55246pt x 845.07718pt>
 File: graphs/Runtime_pa.pdf Graphic file (type pdf)
 
 <use graphs/Runtime_pa.pdf>
-Package pdftex.def Info: graphs/Runtime_pa.pdf used on input line 298.
+Package pdftex.def Info: graphs/Runtime_pa.pdf used on input line 312.
 (pdftex.def)             Requested size: 410.85652pt x 207.69519pt.
 
-<graphs/Runtime_pa_sd.pdf, id=580, 845.07718pt x 597.55246pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<graphs/Runtime_pa_sd.pdf, id=573, 845.07718pt x 597.55246pt>
 File: graphs/Runtime_pa_sd.pdf Graphic file (type pdf)
 
 <use graphs/Runtime_pa_sd.pdf>
-Package pdftex.def Info: graphs/Runtime_pa_sd.pdf used on input line 306.
+Package pdftex.def Info: graphs/Runtime_pa_sd.pdf used on input line 320.
 (pdftex.def)             Requested size: 410.85652pt x 218.55618pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50 <./graphs/Runtime_pa.pdf>] [51 <./graphs/Runtime_pa_sd.pdf>] [52]
+
+Underfull \vbox (badness 2334) has occurred while \output is active []
+
+ [52 <./graphs/medSys_eval_pa_da.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/medSystem_adap_calc_all_runtime.pdf, id=618, 963.6pt x 542.025pt>
+[53 <./graphs/Runtime_pa.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54 <./graphs/Runtime_pa_sd.pdf>] [55]
+<graphs/medSystem_adap_calc_all_runtime.pdf, id=628, 963.6pt x 542.025pt>
 File: graphs/medSystem_adap_calc_all_runtime.pdf Graphic file (type pdf)
 
 <use graphs/medSystem_adap_calc_all_runtime.pdf>
 Package pdftex.def Info: graphs/medSystem_adap_calc_all_runtime.pdf used on inp
-ut line 425.
+ut line 439.
 (pdftex.def)             Requested size: 281.11063pt x 148.08336pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[53] <graphs/medSystem_adap_calc_all_redepl.pdf, id=623, 963.6pt x 542.025pt>
+ [56 <./graphs/medSystem_adap_calc_all_runtime.pdf>]
+<graphs/medSystem_adap_calc_all_redepl.pdf, id=647, 963.6pt x 542.025pt>
 File: graphs/medSystem_adap_calc_all_redepl.pdf Graphic file (type pdf)
 
 <use graphs/medSystem_adap_calc_all_redepl.pdf>
 Package pdftex.def Info: graphs/medSystem_adap_calc_all_redepl.pdf used on inpu
-t line 437.
+t line 451.
 (pdftex.def)             Requested size: 281.11063pt x 152.426pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[54 <./graphs/medSystem_adap_calc_all_runtime.pdf>]
-<graphs/Runtime_adapt.pdf, id=642, 597.55246pt x 845.07718pt>
+[57 <./graphs/medSystem_adap_calc_all_redepl.pdf>]
+<graphs/Runtime_adapt.pdf, id=667, 597.55246pt x 845.07718pt>
 File: graphs/Runtime_adapt.pdf Graphic file (type pdf)
 
 <use graphs/Runtime_adapt.pdf>
-Package pdftex.def Info: graphs/Runtime_adapt.pdf used on input line 494.
+Package pdftex.def Info: graphs/Runtime_adapt.pdf used on input line 508.
 (pdftex.def)             Requested size: 389.23111pt x 209.7579pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<graphs/Runtime_adapt_sd.pdf, id=644, 845.07718pt x 597.55246pt>
+<graphs/Runtime_adapt_sd.pdf, id=669, 845.07718pt x 597.55246pt>
 File: graphs/Runtime_adapt_sd.pdf Graphic file (type pdf)
 
 <use graphs/Runtime_adapt_sd.pdf>
-Package pdftex.def Info: graphs/Runtime_adapt_sd.pdf used on input line 501.
+Package pdftex.def Info: graphs/Runtime_adapt_sd.pdf used on input line 515.
 (pdftex.def)             Requested size: 389.23111pt x 224.83714pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 4291) has occurred while \output is active []
-
- [55 <./graphs/medSystem_adap_calc_all_redepl.pdf>] [56 <./graphs/Runtime_adapt
-.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [57 <./graphs/Runtime_adapt_sd.pdf>]) (sections/conclusion.tex [58]
+[58 <./graphs/Runtime_adapt.pdf>] [59 <./graphs/Runtime_adapt_sd.pdf>])
+(sections/conclusion.tex [60]
 chapter 12.
-[59
+[61
 
 
 ]
@@ -2580,7 +2633,7 @@ Overfull \hbox (11.87407pt too wide) in paragraph at lines 52--53
 ud
  []
 
-) [60]
+) [62]
 chapter without number
 LaTeX Font Info:    Try loading font information for T1+fvm on input line 142.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\bera\t1fvm.fd"
@@ -2629,7 +2682,7 @@ Overfull \hbox (2.03593pt too wide) in paragraph at lines 142--142
 -[] kampf -[] gegen -[] facebook -[]
  []
 
-[61
+[63
 
 
 ]
@@ -2652,7 +2705,7 @@ Overfull \hbox (8.46971pt too wide) in paragraph at lines 142--142
  -[] assumption/$ \T1/LinuxLibertineT-TLF/m/n/12 (vis-ited on 06/13/2017). 
  []
 
-[62]
+[64]
 Overfull \hbox (9.2655pt too wide) in paragraph at lines 142--142
 \T1/LinuxLibertineT-TLF/m/n/12 track-ing''. In: \T1/LinuxLibertineT-TLF/m/it/12
  ACM SIGOPS Op-er-at-ing Sys-tems Re-view \T1/LinuxLibertineT-TLF/m/n/12 38.5 (
@@ -2668,12 +2721,12 @@ TLF/m/sc/12 url\T1/LinuxLibertineT-TLF/m/n/12 : $\T1/fvm/m/n/12 http : / / teet
 ime -[] framework . github .
  []
 
-(sections/appendix.tex [63] [64
+(sections/appendix.tex [65] [66
 
 
 ]
 chapter A.
-) [65]
+) [67]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
  (thesis.aux)
@@ -2685,11 +2738,11 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 32497 strings out of 493333
- 597732 string characters out of 3139188
- 1154886 words of memory out of 3000000
- 35336 multiletter control sequences out of 15000+200000
- 160536 words of font info for 143 fonts, out of 3000000 for 9000
+ 33234 strings out of 493333
+ 611683 string characters out of 3139188
+ 1173843 words of memory out of 3000000
+ 36054 multiletter control sequences out of 15000+200000
+ 172627 words of font info for 154 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  80i,13n,80p,8820b,3200s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
@@ -2706,13 +2759,14 @@ Files/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Semibold.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/txfonts/rtxr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/t
-xfonts/txsyc.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/zxlri.pfb>
-Output written on thesis.pdf (81 pages, 8145465 bytes).
+eX 2.9/fonts/type1/public/newtx/ntxsyralt.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/txfonts/rtxmi.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/txfonts/rtxr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/txsy
+c.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/newtx/zxlri.pfb>
+Output written on thesis.pdf (83 pages, 8167258 bytes).
 PDF statistics:
- 773 PDF objects out of 1000 (max. 8388607)
+ 783 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  306 words of extra memory for PDF output out of 10000 (max. 10000000)
 

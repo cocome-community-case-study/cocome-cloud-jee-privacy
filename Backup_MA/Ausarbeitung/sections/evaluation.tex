@@ -24,9 +24,13 @@ iObserve Privacy is a complex approach with many depending tasks. Evaluating the
 The task evaluation is generally split into an \textit{Accuracy} evaluation and a \textit{Scalability} evaluation. The accuracy evaluation aims for the correct functionality, testing whether the actual results are conform to expected results. For the evaluation we are creating a set of \textit{Evaluation Scenarios}, which reflect real world situations by defining a starting point and an expected endpoint. If the systems result differs from the endpoint, the reasons must be found and analysed.
 
 %Scalability => Runtime behaviour, automatic generated PCMs, 1 > 10 > 100 > 1000 ... logarithmic scale
-The scalability evaluation aims for the systems runtime characteristic, based on an increasing work load. The actual accuracy result of the task is of no interest during this analysis. The primary measurement is the task response time, dependent on the assembly context count and resource container count. Both axis are logarithmic scaled, so the response behaviour is clearly visible. The individual models are randomly generated, based on a repository model input.
+The scalability evaluation aims for the systems runtime characteristic, based on an increasing work load. The actual accuracy result of the task is of no evaluated during this analysis. The primary measurement is the task response time, dependent on the assembly context count and resource container count. Both axis are logarithmic scaled, so the response behaviour is clearly visible. The individual models are randomly generated, based on a repository model input.
 
-We will use the \textit{Jaccard Coefficient} to evaluate model changes during the accuracy evaluation. Prior to the execution a target model is created, representing the desired post-execution state. The runtime model is compared to the target model, differences are calculated, as well as the jaccard coefficient. The coefficient is defined as the \textit{intersection set} of runtime and target model \textit{divided} through the \textit{union set} of these models. If the models are completely equal, the result is \textit{1.0} \cite{Andale.20161202}. We are comparing the system model, the resource environment model and the allocation model. The repository and usage model model is not modified by iObserve Privacy and therefore do not need any comparison. All models elements are matched by element content. The system and resource environment model are also compared by element ID. All models modified by iObserve Privacy are order independent, so an order match, like the \textit{Spearman Coefficient}, is not required.
+We will use the \textit{Jaccard Coefficient} to evaluate model changes during the accuracy evaluation. Prior to the execution a target model is created, representing the desired post-execution state. The runtime model is compared to the target model, differences are calculated, as well as the jaccard coefficient. The coefficient is defined as the \textit{intersection set} of runtime and target model \textit{divided} through the \textit{union set} of these models:
+
+$$JC(A,B)=\frac{\left | A \cap B \right |}{\left | A \cup B \right |}$$
+
+If the models are completely equal, the result is \textit{1.0} \cite{Andale.20161202}. We are comparing the system model, the resource environment model and the allocation model. The repository and the usage model model is not modified by iObserve Privacy and therefore do not need any comparison. All models elements are matched by element content. The system and resource environment model are also compared by element ID. All models modified by iObserve Privacy are order independent, so an order match, like the \textit{Spearman Coefficient}, is not required.
 
 The test device is a \textit{Surface Pro 4} using \textit{Windows 10} as Operating System. The important hardware specifications are a \textit{i7-6650U} processor with \textit{2.2 up to 3.4 GHz, 4 MB cache} and \textit{2 cores with hyper-threading}. The system uses 16 GB of RAM and a 265 GB Solid State Drive. For more details see \cite{Wikipedia.20170613}. The used \textit{Java} version is \textit{1.8.0\_121} form \textit{Oracle}.
 
@@ -34,11 +38,11 @@ The test device is a \textit{Surface Pro 4} using \textit{Windows 10} as Operati
 \section{Evaluation Scenarios}
 \label{sec:Evaluation:scenarios}
 
-The scenarios are structured in \textit{PRE}, \textit{EVENT}, \textit{REACTION} and \textit{POST}. \textit{PRE} describes the distributed software system before the event takes place. The \textit{EVENT} is a trigger for a certain process or task chain, usually referenced as reaction. \textit{POST} defines the state of the software system after the reaction.
+The scenarios are structured in \textit{PRE}, \textit{EVENT}, \textit{REACTION} and \textit{POST}. \textit{PRE} describes the distributed software system before the event takes place. The \textit{EVENT} is a trigger for a certain process or task chain, usually referenced as \textit{REACTION}. \textit{POST} defines the state of the software system after the reaction.
 
 The scenarios describe the behaviour of iObserve Privacy through out all tasks, while each task gets evaluated individually. Nevertheless, details of a scenario may need clarification during the evaluation of this task.
 
-The scenarios are derived from \cite{Heinrich.2016b}. This paper describes potential runtime changes to a distributed software system. However, not all mentioned scenarios are of interest in the privacy analysis context. Scenarios 1 and 2 represent the observed system runtime changes. However, major iOberve privacy failing scenarios are not covered. This is due to the iObserve Privacy design's specific nature of error states. Scenario 3 and 4 cover error.
+The following scenarios are derived from the \textit{runtime changes} mentioned in \cite{Heinrich.2016b}. This runtime changes are possible modification to a distributed software system. However, not all mentioned scenarios are of interest in the privacy analysis context, these will be discussed in \autoref{eval:scenario:futile}. Scenarios 1 and 2 represent the observed system runtime changes, which trigger the iObserve privacy pipeline. These are designed to show the successful execution of a pipeline run with different triggers. Scenario 3 and 4 cover the \textit{operator-in-the-loop} scenarios. The operator is required, when an error occurs that iObserve privacy can not handle itself. These scenarios are design specific and therefore not derived from the runtime changes described in \cite{Heinrich.2016b}.
 
 \subsection{Scenario 1: Default}
 \label{eval:scenario:1}
@@ -47,15 +51,15 @@ The scenarios are derived from \cite{Heinrich.2016b}. This paper describes poten
 % POST: Migration Monitored, Privacy Analysis started
 %					=> IF OK:	Do nothing 
 %					=> IF BAD:	Calculate Alternative (Privacy Compliant) => Plan => Adapt => Evaluate!
-This scenario describes the "default" setting. A migration gets monitored, analysed, an alternative deployment calculated and finally migrated. The process works completely automated. This means no operator interaction is required and no task error is generated. As trigger for privacy analysis the server geo-location migration is used.
+This scenario describes the "default" setting, it is used to evaluate the \textit{geo-location transformation}, the \textit{privacy analysis}, a successful execution of the \textit{re-deployment generation} and the \textit{adaptation planning}.
+
 \begin{itemize}
 	\setlength\itemsep{0em}
 	\item \textbf{PRE}: All components of the software system are deployed on Amazons EC2 service on the \textit{EU Frankfurt} location. The system is privacy compliant.
 	\item \textbf{EVENT}: Amazons EU Frankfurt data centre has a critical failure. As a result Amazon starts migrating local virtual machines towards the US Ohio and EU Ireland locations.
-	\item \textbf{REACTION}: iObserve Privacy monitors the migration and starts a privacy analysis. If the analysis doesn't show a privacy violation no further action will be taken. When however, the analysis shows a privacy violation, an alternative, privacy compliant deployment is generated, a system adaptation plan gets calculated and finally executed.
+	\item \textbf{REACTION}: iObserve Privacy monitors the migration and starts a privacy analysis. The analysis shows a privacy violation and as a result an alternative, privacy compliant re-deployment is generated. A system adaptation plan is calculated based on the re-deployment and finally executed.
 	\item \textbf{POST}: The software system is in a privacy compliant state.
 \end{itemize}
-
 
 \subsection{Scenario 2: System extension}
 \label{eval:scenario:2}
@@ -63,12 +67,14 @@ This scenario describes the "default" setting. A migration gets monitored, analy
 % CASE:	New DePersonalized Component gets deployed @ UKRAINE
 % POST: Deployment Monitored => Privacy Analysis started => "Joining Data Streams" found => Calculate Alternative (Privacy Compliant) => Plan => Adapt => Evaluate!
 
-This scenario describes the deployment runtime change. The deployment of a new software component triggers a privacy analysis, which detects "joining data streams" (see \autoref{sec:PrivacyAnalysis:theory}). This triggers the generation of an alternative deployment and the system adaptation. The pipeline works like in Scenario 1 without any operator interaction.
+This scenario describes the deployment runtime change. It is used to evaluate the \textit{deployment transformation}, the \textit{privacy analysis}, a successful execution of the \textit{re-deployment generation} and the \textit{adaptation planning}.
+
+%The deployment of a new software component triggers a privacy analysis, which detects "joining data streams" (see \autoref{sec:PrivacyAnalysis:theory}). This triggers the generation of an alternative deployment and the system adaptation. The pipeline works like in Scenario 1 without any operator interaction.
 \begin{itemize}
 	\setlength\itemsep{0em}
 	\item \textbf{PRE}: All personal categorized components of the software system are deployed on Amazons EC2 service on the \textit{EU Frankfurt} location. All other components are hosted by an Ukrainian provider. The system is privacy compliant.
-	\item \textbf{EVENT}: The system operator deploys a new, as depersonalised categorized, component to the Ukrainian host.
-	\item \textbf{REACTION}: iObserve Privacy monitors the migration and starts a privacy analysis. The privacy analysis shows a privacy violation due to joining data streams. An alternative, privacy compliant deployment gets computed, a system adaptation plan gets calculated and finally executed.
+	\item \textbf{EVENT}: The system operator adds another component categorized as depersonalised to the Ukrainian server.
+	\item \textbf{REACTION}: iObserve Privacy monitors the migration and starts a privacy analysis. The privacy analysis shows a privacy violation due to \textit{joining data streams}. An alternative, privacy compliant deployment is computed by PerOpteryx. A system adaptation plan is successfully calculated by the adaptation planning. Finally the adaptation sequence is executed.
 	\item \textbf{POST}: The software system is in a privacy compliant state.
 \end{itemize}
 
@@ -77,12 +83,14 @@ This scenario describes the deployment runtime change. The deployment of a new s
 % PRE: 	All @ Cheap Hoster (Europe SLA)
 % CASE:	Some components migrate @ UKRAINE
 % POST: Deployment Monitored => Privacy Analysis started => Privacy Violation found => Calculate Alternative (Privacy Compliant) => Plan => Adapt can't be done automatically => Call the Operator
-This scenario describes the operator-in-the-loop use case, when an adaptation sequence can not be executed automatically. The migration of a software component results in a privacy violating state. After the generation of a privacy compliant alternative and the calculation of the adaptation sequence, the operator is required. One or more adaptation actions can not be executed automatically. This is usually due to missing source control, like the \textit{Change Repository Component Action} or the \textit{Allocation Action}.
+This scenario is used to evaluate the \textit{operator-in-the-loop} during the \textit{execution} of the adaptation sequence. Due to at least one non-automated adaptation action the operator needs to be informed.
+
+%The migration of a software component results in a privacy violating state. After the generation of a privacy compliant alternative and the calculation of the adaptation sequence, the operator is required. One or more adaptation actions can not be executed automatically. This is usually due to missing source control, like the \textit{Change Repository Component Action} or the \textit{Allocation Action}.
 \begin{itemize}
 	\setlength\itemsep{0em}
-	\item \textbf{PRE}: All components of the software system are hosted by multiple server instances of a cloud resellers. 
-	\item \textbf{EVENT}: The reseller migrates some of his servers to another cloud providers.
-	\item \textbf{REACTION}: iObserve Privacy monitors the migration and starts a privacy analysis. The privacy analysis shows a privacy violation. An alternative privacy compliant deployment gets computed. The adaptation calculation shows certain steps can not be executed automatically. After ordering the adaptation steps, the operator is informed about the error.
+	\item \textbf{PRE}: All components of the software system are hosted by multiple server instances of a cloud reseller. 
+	\item \textbf{EVENT}: The reseller migrates some of his servers to another cloud provider.
+	\item \textbf{REACTION}: iObserve Privacy monitors the migration and starts a privacy analysis. The privacy analysis results in a privacy violation. An alternative privacy compliant deployment is computed. The adaptation calculation and planning is successful. The adaptation sequence contains actions that can not be executed automatically. The \textit{operator} is informed about the action that can not be executed by the \textit{adaptation execution}.
 	\item \textbf{POST}: iObserve Privacy shows the operator the adaptation sequence with emphasis on the manual tasks.
 \end{itemize}
 
@@ -92,12 +100,15 @@ This scenario describes the operator-in-the-loop use case, when an adaptation se
 % PRE: 	All @ Cheap Hoster (Europe SLA)
 % CASE:	Some components migrate @ UKRAINE
 % POST: Deployment Monitored => Privacy Analysis started => Privacy Violation found => Calculate Alternative (Privacy Compliant) => No Privacy Compliant Alternative Found => Call Operator
-This scenario describes the use case, where no privacy compliant, alternative deployment could be calculated. The migration of a software components results in a privacy violating state. The calculation of privacy compliant alternatives deployment fails. The operator needs to be informed about the current situation.
+
+This scenario is used to evaluate the \textit{operator-in-the-loop} during the \textit{re-deployment generation}. PerOpteryx did not provide a privacy compliant re-deployment model and therefore the operator is notified.
+
+%This scenario describes the use case, where no privacy compliant, alternative deployment could be calculated. The migration of a software components results in a privacy violating state. The calculation of privacy compliant alternatives deployment fails. The operator needs to be informed about the current situation.
 \begin{itemize}
 	\setlength\itemsep{0em}
 	\item \textbf{PRE}: All components of the software system are hosted by multiple server instances of a cloud resellers. 
-	\item \textbf{EVENT}: The reseller starts migrating his server to another cloud providers.
-	\item \textbf{REACTION}: iObserve Privacy monitors the migration and starts a privacy analysis. The privacy analysis shows a privacy violation. An alternative privacy compliant deployment can not be computed.
+	\item \textbf{EVENT}: The reseller starts migrating his servers to another cloud provider.
+	\item \textbf{REACTION}: iObserve Privacy monitors the migration and starts a privacy analysis. The privacy analysis shows a privacy violation. An alternative privacy compliant deployment can not be computed. iObserver privacy detects that the re-deployment model is missing or not privacy compliant. The \textit{operator} is notified about the situation.
 	\item \textbf{POST}: iObserve Privacy notifies the operator about the missing privacy compliant re-deployment model.
 \end{itemize}
 
@@ -108,6 +119,7 @@ This scenario describes the use case, where no privacy compliant, alternative de
 %			=> "Joining Data Streams" found => Calculate Alternative (Privacy Compliant) => Plan => Adapt => Evaluate!
 
 \subsection{Futile Scenario}
+\label{eval:scenario:futile}
 There are a couple of scenarios which do not apply to iObserve Privacy, due to various reasons \cite{Heinrich.2016b}. We will elaborate those scenarios shortly.
 
 %Performance
@@ -128,7 +140,7 @@ In the previous sections we defined a couple of scenarios for the evaluation. In
 \subsection{CoCOME-Cloud}
 \label{sec:eval:models:cocome}
 
-The \textit{CoCOME Cloud} PCM model is a representation of the CoCOME system as a distributed cloud variant. It is a representation of a supermarket IT infrastructure. It exists of six individual deployed components:  \textit{logic.webservice.cashdeskline.cashdeskservice}, \textit{Cloud.Web}, \textit{traidingsystem.inventory}, \textit{traidingsystem.cashdeskline}, \textit{webservice.inventory} and \textit{traidingsystem.external.bank}. The system design is oriented on real distributed software systems with dozens of interfaces and multiple composite components. As a result, CoCOME-Cloud is very complex and not suited for the evaluation of specific aspects. However, it is as the only available model fully specified and "PerOpteryx ready". See \cite{Heinrich.2015} for detailed information on CoCOME.
+The \textit{CoCOME Cloud} PCM model is a representation of the CoCOME system as a distributed cloud variant. It is a representation of a supermarket IT infrastructure. It consists of six individual deployed components:  \textit{logic.webservice.cashdeskline.cashdeskservice}, \textit{Cloud.Web}, \textit{traidingsystem.inventory}, \textit{traidingsystem.cashdeskline}, \textit{webservice.inventory} and \textit{traidingsystem.external.bank}. The system design is oriented on real distributed software systems with dozens of interfaces and multiple composite components. As a result, CoCOME-Cloud is very complex and not suited for the evaluation of specific aspects like the component categorization or the deployment analysis. However, it is as the only available model fully specified and "PerOpteryx ready". See \cite{Heinrich.2015} for detailed information on CoCOME.
 
 
 \subsection{Medi System}
@@ -156,11 +168,11 @@ The model modificator adapts the system randomly, based on action counts specifi
 \section{Transformation}
 \label{sec:Evaluation:monitoring}
 
-The Transformation evaluation aims for an accuracy and scalability test of the pipeline trigger events and the actual transformation of the sent information onto the model. \textit{Scenario \#1} (\autoref{eval:scenario:1}) and \textit{Scenario \#2} (\autoref{eval:scenario:2}) describe the two possible triggers: the \textit{TDeployment Event}, when a component is deployed on a server, and the \textit{TGeoLocation Event}, when the geo-location of a server changes. 
+The Transformation evaluation consists of an accuracy and a scalability evaluation. The main purpose is to test the transformation of the sent information onto the architectural runtime model. Further, the iObserve privacy pipeline has to be triggered upon changes. \textit{Scenario \#1} (\autoref{eval:scenario:1}) and \textit{Scenario \#2} (\autoref{eval:scenario:2}) describe the two possible triggers: the \textit{Deployment Event}, when a component is deployed on a server, and the \textit{GeoLocation Event}, when the geo-location of a server changes. 
 
 \subsection{Transformation: Accuracy Evaluation}
 
-For the accuracy evaluation we are using the CoCOME-Cloud model (\autoref{sec:eval:models:cocome}), since it is completely specified and reflects the a real system the best way available. We need to show, that the TDeployment, TUndeployment and TGeoLocation Event transform the sent data correctly onto the PCM model. Potential errors must be handled and processed. For this purpose we will use two executions. First, we will execute a logically valid input set of events, to show the correctness of the transformation. In a second execution we will show, that logically wrong inputs are processed correctly. Both runs start with an empty allocation model.
+For the accuracy evaluation we are using the CoCOME-Cloud model (\autoref{sec:eval:models:cocome}), since it is completely specified and reflects a real-world system the most appropriate way available. We need to show, that the TDeployment, TUndeployment and TGeoLocation Transformations apply the sent data correctly onto the PCM model. Potential errors must be handled and processed. For this purpose we will use two executions. First, we will execute a logically valid input set of events, to show the correctness of the transformation. In a second execution we will show, that logically wrong inputs are processed correctly. Both runs start with an empty allocation model.
 
 \autoref{tab:valid_run} shows the initial input event sequence. Initially all components get deployed, followed by a geo-location update on all servers, followed by a re-deployment of the \textit{cloud.web} component from \textit{Server1-EU} to \textit{Server5-EU} and finally a geo-location update on \textit{Server4-EU} to Ukraine.
 
@@ -216,20 +228,22 @@ The results are unbiased. The system reports no errors and the models represent 
 	\label{tab:error_run}
 \end{table}
 
-To test the robustness, we need to input invalid, logically false, events. To gain a valid system state, we are starting with the valid order (\autoref{tab:valid_run}) and append illegal orders. \autoref{tab:error_run} shows the exact execution sequence. Illegal events are marked with a *. We expect these orders to give a warning and to be ignored. The system must continue running. The test includes the following cases: Deployment of an already deployed component, deployment or undeployed on a non-existing server, geo-location record from a non-existing server, un-deployment of a non-existing deployment.
+To test the error behaviour, we need to input logically false events. To gain a valid system state, we are starting with the valid order (\autoref{tab:valid_run}) and append illegal orders. \autoref{tab:error_run} shows the exact execution sequence. Illegal events are marked with a *. We expect these orders to give a warning and to be ignored. The system must continue running. The test includes the following cases: Deployment of an already deployed component, deployment or undeployed on a non-existing server, geo-location record from a non-existing server, un-deployment of a non-existing deployment.
 
 
-The error run shows ends up to be exactly as intended. All faulty commands got ignored and the \textit{Jaccard Coefficient} is \textit{1.0}. The results show, that the problem and research question in \autoref{sec:Introduction:problems} was successfully solved.
+The error run shows ends up to be exactly as intended. All faulty commands got ignored and the \textit{Jaccard Coefficient} is \textit{1.0}. Both Jaccard coefficients show, that the (un-)deployment and geo-location transformation works as anticipated. As a consequence we argue, that the \textit{monitoring} research question (\autoref{sec:Introduction:goals}) was successfully answered.
 
 
 \subsection{Transformation: Scalability Evaluation}
 
-For the scalability analysis we are using the Medi-System model with generated input. The inputs are logically and syntax valid. 30\% of the inputs are TDeployment and TUnDeployment events, distributed relative to the current allocation status. The other 70\% of inputs are TGeolocation events, randomly distributed over all available servers. Every measurement was repeated ten times to eliminate potential measurement errors. The log outputs remain active, the snapshot creation is deactivated, so no further pipeline filters get activated. We use input sizes from 10 to one million on a logarithmic scale.
+For the scalability analysis we are using the Medi-System model with generated input. The Medi-Model is chosen due to its less generic characteristic then the Gen-Model and therefore more realistic result. Further, the Medi-Model as complex as the CoCOME model in the field to test, while easier to understand and less error prone during input generation.
+
+The inputs are logically and syntactically valid. 30\% of the inputs are deployments and un-deployments, distributed relative to the current allocation status. The other 70\% of inputs are geo-location events, randomly distributed over all available servers. This ratio is an over-approximation towards the more complex and computation intensive allocation and de-allocation events. The expected real-world occurrence of a deployment events to the geo-location event is about 1 to 10000. This way, we expect the deployment and un-deployment event to have a more significant impact on the runtime behaviour. Every measurement was repeated ten times to eliminate potential measurement errors. The log outputs remain active, the snapshot creation is deactivated, so no further pipeline filters get activated. We use input sizes from 10 to one million events on a logarithmic scale.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[trim = 10mm 90mm 10mm 110mm, clip, width=0.90\textwidth]{graphs/Runtime_Transformation}
-	\caption{Transformation runtime \& SD}
+	\caption{Transformation runtime \& Standard Deviation}
 	\label{fig:eval:trans:runtime}
 \end{figure}
 
@@ -238,13 +252,13 @@ The results (\autoref{fig:eval:trans:runtime}) show a linear runtime behaviour, 
 \section{Privacy Analysis}
 \label{sec:Evaluation:privacyanalysis}
 
-The \textit{Privacy Analysis} was extensively discussed in \autoref{ch:PrivacyConcept} (Privacy Concept) and \autoref{ch:PrivacyAnalysis} (Privacy Analysis). As described there, the privacy analysis consists of two sequential parts: \textit{Component Classification} and \textit{Deployment Analysis}. According to this tasks, the accuracy evaluation is also split. The accuracy evaluation uses the Medi-System model (\autoref{sec:eval:models:medSys}), due to its moderate complexity level, where effects like the \textit{Joining Data Stream} occur, but the results are still traceable.
+The \textit{Privacy Analysis} was discussed in \autoref{ch:PrivacyConcept} (Privacy Concept) and \autoref{ch:PrivacyAnalysis} (Privacy Analysis). As described there, the privacy analysis consists of two sequential parts: \textit{Component Classification} and \textit{Deployment Analysis}. According to this tasks, the accuracy evaluation is also split. The accuracy evaluation uses the Medi-System model (\autoref{sec:eval:models:medSys}), due to its moderate complexity level, where effects like the \textit{Joining Data Stream} occur, but the results are still traceable.
 
 \subsection{Privacy Analysis: Accuracy Evaluation}
 
-We will show, that the component classification categorizes components correctly, by finding \textit{joining data streams} in inter component communication. Further, we will show, that the deployment analysis finds \textit{joining data streams} on the deployment level. As a result, we demonstrate the correctness of our privacy analysis, as specified in the goal section (\autoref{sec:Introduction:goals}).
+We will show, that the component classification categorizes components correctly by finding \textit{joining data streams} in inter component communication. Further, we will show, that the deployment analysis finds \textit{joining data streams} on the deployment level. As a result, we demonstrate the correctness of our privacy analysis, as specified in the goal section (\autoref{sec:Introduction:goals}).
 
-The scenarios \#1 (\autoref{eval:scenario:1}) and \#2 (\autoref{eval:scenario:1}) aim to trigger a privacy analysis. We showed in \autoref{sec:Evaluation:monitoring}, that both trigger, the TDeployment Event and the TGeoLocation Event are correctly processed and the information transformed onto the PCM model. Both trigger start the same privacy analysis and are therefore equivalent. 
+The scenarios \#1 (\autoref{eval:scenario:1}) and \#2 (\autoref{eval:scenario:1}) aim to trigger a privacy analysis and describe different privacy violations. We showed in \autoref{sec:Evaluation:monitoring}, that both trigger, the deployment event and the geo-location event are correctly processed and the information transformed onto the PCM model. Both triggers lead to the same privacy analysis and are therefore equivalent. 
 
 \begin{figure}[h]
 	\centering
@@ -253,9 +267,7 @@ The scenarios \#1 (\autoref{eval:scenario:1}) and \#2 (\autoref{eval:scenario:1}
 	\label{fig:eval:pa:init}
 \end{figure}
 
-The initial system state is as shown in \autoref{fig:eval:pa:init}. The system is privacy compliant and only the \textit{GovStatistics} component is not allocated onto a server. iObserve will trigger the pipeline by receiving a GeoLocation event, which migrates the \textit{Server2} to Belarus. We expect the initial component categorization to be equal to the most personal interface level the component has. After the \textit{Categorization Analysis} the \textit{MarketingAnalysis} component should be classified as personal, due to its two personal communication partners. The components \textit{ErrorDetection}, \textit{TreatmentAnalysis} and \textit{CourseAnalysis} data privacy level should remain unchanged, since they share a single depersonalised interface as data source. The deployment must remain legal.
-
-As a second trigger, we deploy the GovStatistics component onto Server2. The component must be tagged depersonalised and the deployment analysis must report a \textit{joining data stream} on Server2.
+The initial system state is as shown in \autoref{fig:eval:pa:init}. The system is privacy compliant and only the \textit{GovStatistics} component is not allocated on a server. iObserve will trigger the pipeline by receiving a GeoLocation event, which migrates the \textit{Server2} to Belarus. We expect the initial component categorization to be equal to the most personal interface level the component has. After the \textit{Categorization Analysis} the \textit{MarketingAnalysis} component should be classified as personal, due to its two personal communication partners. The privacy level categorization of the components \textit{ErrorDetection}, \textit{TreatmentAnalysis} and \textit{CourseAnalysis} must remain unchanged, since they share a single depersonalised interface as data source. The deployment must remain legal.
 
 \begin{figure}[h]
 	\centering
@@ -271,9 +283,11 @@ As a second trigger, we deploy the GovStatistics component onto Server2. The com
 	\end{minipage}
 \end{figure}
 
-The result is \textit{unbiased}. The trigger is correctly processed due to the \textit{Jaccard Coefficient} of \textit{1.0}. The \autoref{fig:eval:pa:base_tag} shows the initial component categorization. \autoref{fig:eval:pa:categorized} shows the categorization analysis result. Both states fulfil the expectations. The deployment analysis reports a legal deployment.
+After the execution we calculated a \textit{Jaccard Coefficient} of \textit{1.0}. This shows us that the pipeline trigger was correctly processed. \autoref{fig:eval:pa:base_tag} shows the initial component categorization, \autoref{fig:eval:pa:categorized} shows the categorization analysis result. This states show, that our expectations on the  component categorization were met. The deployment analysis reports a legal deployment, which is also what we anticipated. The results in general are unbiased.
 
-The second trigger, the component deployment on \textit{Server2}, reports a privacy violation. The cause is a joining data stream on Server2. This is what we provoked and expected. The \textit{Jaccard Coefficient} for the trigger processing is \textit{1.0}, again.
+To trigger the pipeline another time, we will deploy the GovStatistics component onto Server2. The component must be tagged depersonalised and the deployment analysis must report a \textit{joining data stream} on Server2.
+
+The execution of the second pipeline trigger, reports a privacy violation. The cause is a joining data stream on Server2. This is what we provoked and expected. The \textit{Jaccard Coefficient} for the trigger processing is \textit{1.0}, again.
 
 \begin{figure}[h]
 	\centering

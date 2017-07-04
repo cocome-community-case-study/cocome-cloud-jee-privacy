@@ -228,7 +228,8 @@
 \setkeys{Gin}{draft=false}
 
 % % Mathematics package
-% \RequirePackage{amsmath}
+\RequirePackage{amsmath}
+\RequirePackage{empheq}
 % \let\openbox\relax
 % \RequirePackage{amsthm}
 % \RequirePackage{amssymb}

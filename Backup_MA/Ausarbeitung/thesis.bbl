@@ -159,6 +159,43 @@
       \endverb
       \keyw{calendar;commissioners;contact;eu;europa;european commission;european union;institutions;news;organisation;president;recruitment;services}
     \endentry
+    \entry{Dar.2012}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6a3266c8b9710cfc0c61239db1a9f00a}{%
+           family={Dar},
+           familyi={D\bibinitperiod},
+           given={Kashif},
+           giveni={K\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=194fd76eac2c80b91d30651b30097b05}{%
+           family={{University of Oslo}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Oslo}%
+      }
+      \strng{namehash}{6a3266c8b9710cfc0c61239db1a9f00a}
+      \strng{fullhash}{6a3266c8b9710cfc0c61239db1a9f00a}
+      \strng{authornamehash}{6a3266c8b9710cfc0c61239db1a9f00a}
+      \strng{authorfullhash}{6a3266c8b9710cfc0c61239db1a9f00a}
+      \strng{editornamehash}{194fd76eac2c80b91d30651b30097b05}
+      \strng{editorfullhash}{194fd76eac2c80b91d30651b30097b05}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MAPE-K ada MAPE-K adaption control loop}
+      \field{urlday}{6}
+      \field{urlmonth}{11}
+      \field{urlyear}{2016}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.uio.no/studier/emner/matnat/ifi/INF5360/v12/undervisningsmateriale/MAPE-K%20adap%20control%20loop.pdf
+      \endverb
+    \endentry
     \entry{DavidChernicoff.2015}{misc}{}
       \name{author}{1}{}{%
         {{hash=34a0544fec807279a250c877e898fd0e}{%

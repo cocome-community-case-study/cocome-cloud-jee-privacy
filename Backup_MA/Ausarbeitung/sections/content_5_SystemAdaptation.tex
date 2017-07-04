@@ -3,7 +3,7 @@
 
 In the system adaptation stage of the iObserve Privacy pipeline the current software system is modified to match the re-deployment PCM. This filer stage represents part of the planning and the complete execution phase of the MAPE loop (\autoref{sec:Foundations:mape}).
 
-The remainder of this chapter is structured into adaptation planning and the actual adaptation execution. It closes with a look onto the implementation.
+The remainder of this chapter is divided into the calculation of an adaptation plan (\textit{Adaptation Planning}, \autoref{sec:SysAdap:plan}) and the execution of this adaptation plan (\textit{Adaptation Execution}, \autoref{sec:SysAdap:exec}). It closes with a look onto the implementation (\autoref{sec:SysAdap:impl}).
 
 
 \section{Adaptation Planning}
@@ -11,16 +11,19 @@ The remainder of this chapter is structured into adaptation planning and the act
 
 The planning phases job is to calculate what actions are required to bring the observed software system into the state defined by the redeployment model. While the task is pretty clear, the available source of informations are quite uncertain.
 
-There are multiple potential sources of information that can be used to calculate adaptation steps. For example the \textit{Design Decisions} file used and modified by PerOpteryx (\autoref{ch:PerOpt}). This file contains all choices made during generation of the redeployment model. These informations are a viable source for action computation, however create a strong dependency on PerOpteryx. This means, if PerOpteryx would be exchanged for another model optimization tool, the complete adaptation planning needs to be rewritten.
+There are multiple potential sources of information that can be used to calculate adaptation steps. For example, the \textit{Design Decisions} file used and modified by PerOpteryx (see \autoref{ch:PerOpt}). This file contains all choices made during generation of the redeployment model. These informations are a viable source for the action computation. However, this source create a strong dependency on PerOpteryx. This means, when PerOpteryx would be exchanged for another model optimization tool, the complete adaptation planning needs to be re-thought and developed.
 
-Another information source for the adaptation planning could be the close observation of the candidate calculation/generation. This could be achieved by logging decisions made by the evolutionary algorithm. When considering, that the starting point of an evolutionary algorithms is usually a given input, the modification steps could be traced and remodelled for the system adaptation. However, evolutionary algorithms usually don't take the shortest path onto their end result and also random mutations are an valid generation factor. This means, the results needs to be analysed and optimized, while also injecting observations probes. While being a good potential information source, the effort for post-generation analysis and the resulting dependencies make it a bad choice.
+Another information source for the adaptation planning could be the close observation of the candidate calculation/generation. This could be achieved by logging decisions made by the evolutionary algorithm. When considering that the starting point of an evolutionary algorithms is usually a given input, the modification steps could be traced and remodelled for the system adaptation. However, evolutionary algorithms usually don't take the shortest path onto their end result and also random mutations are an valid generation factor. This means, the results needs to be analysed and optimized, while also injecting observations probes. While being a good potential information source, the effort for post-generation analysis and the resulting dependencies make it a bad choice.
 
-We decided to make a direct comparison of the runtime PCM and the redeployment PCM. This builds up no further dependencies and the shortest adaptation path can be found. However, the information preprocessing and the comparison algorithm can be more complex than the other options.
+We decided to make a direct comparison of the architectural runtime model and the architectural redeployment model. This builds up no further dependencies and the shortest adaptation path can be found. However, the information preprocessing and the comparison algorithm can be more complex than the other options. The comparison itself is based around identifier and content equality. The \textit{Adaptation Caluclation} compares the model graphs (see \autoref{sec:PrivacyAnalysis:implementation:prepro}) whether a component was added, removed or modified, as well as a server was acquired or released. Derived from these differences, \textit{Adaptation Actions} are created.
+
 
 \subsection{Adaptation Actions}
 Palladio models are independent from programming languages, technologies and other specifics. We decided to enforce this characteristic by defining technology independent actions. They contain the required information, without knowing anything about the used technologies.
 
-Further, we designed a set of basic actions which allows us to transform any PCM into another. The actions can be grouped into two major disjunct subgroups: the \textit{Assembly Context Actions} and the \textit{Resource Container Actions}.
+\todo{Add Ref}
+
+Further, we designed a set of basic actions which allows us to transform any PCM runtime instance into any PCM re-deployment instance. These are derived from the runtime changes specified in \textbf{XXX} and the potential variation \textit{PerOpteryx} calculates during its optimization process. The actions can be grouped into two major disjunct subgroups: the \textit{Assembly Context Actions} and the \textit{Resource Container Actions}.
 
 \begin{itemize}
 	\label{enum:SysAdap:plan:actions}
@@ -42,22 +45,23 @@ Further, we designed a set of basic actions which allows us to transform any PCM
 	\end{itemize}
 \end{itemize}
 
-Assembly Context Actions reflect all model changes around a software component. Allocate, Deallocate and Migration Actions are self explaining. The Change Repository Component Action addresses the possibility to exchange a software component with an equivalent one. This can due to better fitting performance characteristics, while required and provided interfaces stay the same. As a result, the structure of the system model stays unchanged, but an encapsulated component gets exchanged for another one.
+\textit{Assembly Context Actions} reflect all model changes around a software component. The Allocate action represents a new or first deployment of a system component, the Deallocate action represents the exact opposite, the deleting or un-deployment of a component. And Migration action moves a component from a server o another. The Change Repository Component action addresses the possibility to exchange a software component with an equivalent one. This can due to better fitting performance characteristics, while required and provided interfaces stay the same. As a result, the structure of the system model stays unchanged, but an encapsulated component gets exchanged for another one.
 
-Resource Container Actions reflect changes around a virtual or physical server. Acquire and Terminate Actions don't need any explanations. A Replicate Action clones a server instance with its containing components.
+\textit{Resource Container Actions} reflect changes around a virtual or physical server. Acquire and Terminate Actions don't need any explanations. A Replicate Action clones a server instance with its containing components.
 
-We decided to model these actions into an EMF model and reference the \textit{PCM meta-model}. This allows us to directly reference the affected resource container or assembly contexts without any technology implications. Writing this code by hand would cause more effort on a PCM meta-model update, however, the generated EMF models perform poorly during debugging. Nevertheless, EMF meta-models are easily extendable and modifiable and therefore perfect for the task at hand.
+We decided to model these actions into an EMF model and reference the \textit{PCM meta-model}. This allows us to directly reference the affected resource container or assembly contexts without any technology implications. Writing this code by hand would cause more effort on a PCM meta-model update, however, the generated EMF models perform poorly during debugging. Nevertheless, EMF meta-models are easily extendable and modifiable and therefore perfect for the task at hand. These actions were designed and developed in cooperation with \cite{TobiasPoppke.20170626}.
 
 \subsection{Action Ordering}
 
-For each action a set of pre-execution-conditions can be determined. Out of this set, a universal order can be derived. However, we need two assumptions for this order to be valid:
-\begin{enumerate}
+For each action a set of pre-execution-conditions can be determined. Using this sets, a universal order can be derived. However, we need two assumptions for this order to be valid:
+\begin{itemize}
 	\setlength\itemsep{0em}
-	\item Each component is affected by an action only once, except the \textit{ComonentExchangeAction}.
-	\item A server never gets acquired an terminated in one sequence.
-\end{enumerate}
+	\item Each component is affected by an action only once. 
+	\item The \textit{Change Repository Component Action} does not affect a component.
+	\item A server never gets acquired a terminated in one sequence.
+\end{itemize}
 
-If this two assumptions are true, a component always get directly allocated, migrated or terminated without any transitive movements. This means, the order inside a set of actions from the same type does not matter. Further, it states, that the order within all \textit{Assembly Context Actions} does not matter. The change component action is an exception.
+The assumptions state, that neither assembly contexts, nor resource container are affected by transitive actions. These assumptions are true, since the \textit{Adaptation Caluculation} (\autoref{sec:SysAdap:plan}) is designed to calculate a direct transition into an entities final (re-deployment) state. As a result, the order inside a set of actions from the same type does not matter. Further, the order within all \textit{Assembly Context Actions} does not matter. The pre-execution-condition per action are:
 
 \begin{table}[h]
 	\centering
@@ -68,6 +72,7 @@ If this two assumptions are true, a component always get directly allocated, mig
 		Allocate & execute after \textit{Acquire} \\
 		Deallocate & execute before \textit{Terminate} \\
 		Migrate & execute after \textit{Acquire} \& before \textit{Terminate} \\
+		Change Repository Component & execute before \textit{Migrate} \\
 		Acquire & -- \\
 		Terminate & -- \\
 		Replicate & -- \\
@@ -77,14 +82,16 @@ If this two assumptions are true, a component always get directly allocated, mig
 	\label{tab:SysAdap:cond}
 \end{table}
 
-The \textit{Change Repository Component Action} is missing, since it doesn't have a hard constraint. However, for execution it is more simple, to have a \textit{execute before Migrate} condition. The following order satisfies all the constraints (\autoref{tab:SysAdap:cond}):
+Note, that the change repository component condition is not a "hard" condition, since the encapsulated component could be exchanged even after the migration is performed. However, the appended action data reference the hosting resource container and assembly context \textit{before} the component is migrated. Without this condition, the action execution would have to check, whether the component was migrated.
+
+Based on the pre-execution-conditions of \autoref{tab:SysAdap:cond} the following order was calculated:
 
 \begin{table}[h]
 	\centering
 	\begin{tabular}{ r | c}
 		\hline
 		1 & Acquire\\
-		2 & Change Component\\
+		2 & Change Repository Component\\
 		3 & Deallocate \& Allocate \& Migrate \\
 		4 & Terminate \& Replicate\\
 		\hline
@@ -93,15 +100,17 @@ The \textit{Change Repository Component Action} is missing, since it doesn't hav
 	\label{tab:SysAdap:order}
 \end{table}
 
-Due to our way of calculating the actions, by directly comparing the runtime and re-deployment model, our initially made assumptions are true. We therefore can use the order in \autoref{tab:SysAdap:order} as the universal action order.
+This order is a universal execution order for the actions calculated by the \textit{Adaptation Calculation}. When the actions are executed in this order no dependency conflicts will occur. Note, execution errors are not considered, since the are independent form planning.
 
 
 \section{Adaptation Execution}
 \label{sec:SysAdap:exec}
 
-The adaptation execution is as straight forward as it gets. The actions get executed - in order determined by adaptation planning (\autoref{sec:SysAdap:plan}) - by calling equivalent scripts, which wrap the technological side of the action. The technological implications are not considered by this thesis and are therefore not further discussed. However, the separation of technology independent and dependent part of the execution is very futile to the whole iObserve principle.
+The adaptation executions task is to execute the adaptation sequence calculated by \textit{adaptation planning}. Since the actions are technology independent, we require a technological dependent script/function that represents the action. A scripts can be considered the implementation of an action. These scripts are given to iObserve Privacy via input parameter.
 
-It is recommended to execute the action according scripts asynchronous to be able to track the changes while they happen. This allows for post-adaptation evaluation. This means, iObserve (privacy) can check, whether the \textit{runtime model} is now semantically equivalent to the \textit{re-deployment model}. Further details on the execution of the adaptation actions can be found in \cite{TobiasPoppke.20170626}.
+The technological implications are not considered by this thesis and are therefore not further discussed. However, the separation of technology independent and dependent part of the execution is very futile to the whole iObserve principle.
+
+We recommended to execute the scripts asynchronous. This enables iObserve privacy to track the changes in real-time. This allows for post-adaptation evaluation. This means, iObserve (privacy) can check, whether the \textit{runtime model} is now semantically equivalent to the \textit{re-deployment model}. Further details on the execution of the adaptation actions can be found in \cite{TobiasPoppke.20170626}.
 
 
 \section{Implementation}
@@ -109,6 +118,12 @@ It is recommended to execute the action according scripts asynchronous to be abl
 
 
 The implementation is split into three parts: the action calculation, the action ordering and the action execution. The calculation is based on the same graph as used during the \textit{Privacy Analysis} (\autoref{fig:privacy_graph_mm}). The Assembly Context Actions get calculated independently from the Resource Container Actions, the principle however is the same. See Algorithm \autoref{algo:action_calc} for the pseudo code.
+
+Initially the algorithm adds all assembly components to a dictionary. In the main procedure, the algorithm iterates over all redeployment assembly components and tries to find a matching one in the runtime model. If no match as found, it is a new assembly component and needs to be allocated. If an equivalent was found, different comparison are made, to check whether adjustments have to made. Keep in mind, that the migration of a assembly component and the exchange of encapsulated repository component do not exclude each other. At the end of every iteration, the found runtime components get removed from the dictionary. At the end of the algorithm all remaining runtime assembly components are no longer required and can be deallocated. We need to point out, that the comparing operators are simplified for the purpose of a pseudo-code.
+
+The calculation of the Resource Container Actions is implemented similar. Initially all servers get added to a dictionary, all redeployment servers get compared against those and the actions calculated accordingly.
+
+The whole calculation is build around the stability of IDs on Palladio model elements. If the redeployment model creates a completely new system model, while changing only minor details, the calculation will deallocate the old system and allocate a totally new one. PerOpteryx modifies the system model, keeping the assembly context IDs - as intended - stable and therefore produces only minimal actions.
 
 \begin{algorithm}[H]
 	\caption{Action Calculation algorithm}
@@ -120,40 +135,34 @@ The implementation is split into three parts: the action calculation, the action
 		\State
 		
 		\Procedure{Init}{List<Components> $runtimeComponents$}
-			\ForAll{$runComponent\gets runtimeComponents$}\State
-			$components.$\Call{put}{$runComponent.AssemblyContextID$, $runComponent$ }
-			\EndFor
+		\ForAll{$runComponent\gets runtimeComponents$}\State
+		$components.$\Call{put}{$runComponent.AssemblyContextID$, $runComponent$ }
+		\EndFor
 		\EndProcedure
 		\State
 		\State
 		\Procedure{CalculateActions}{List<Components> $reDeplComponents$}\State
-			\ForAll{$reDeplComp\gets reDeplComponents$}\State
-				$runComp\gets $ \Call{get}{$reDeplComp.AssemblyContextID$}
-				
-				\If {$runComp ==$ Null} \State
-					$actions.$\Call{add}{ new $AllocateAction($\dots$)$ }
-				\Else
-					\If { $runComp.ComponentID$ != $reDeplComp.ComponentID$ }
-						\State $actions.$\Call{add}{ new $ChangeRepoAction($\dots$)$ }
-					\EndIf
-					\If { $runComp.ResContainerID$ != $reDeplComp.ResContainerID$ }
-						\State $actions.$\Call{add}{ new $MigrateAction($\dots$)$ }
-					\EndIf
-				\EndIf
-				\State $components.$\Call{remove}{$reDeplComp.AssemblyContextID$}
-			\EndFor
-			\State
-			\ForAll{$runComp\gets components$}
-				\State $actions.$\Call{add}{ new $DeallocateAction($\dots$)$ }
-			\EndFor
+		\ForAll{$reDeplComp\gets reDeplComponents$}\State
+		$runComp\gets $ \Call{get}{$reDeplComp.AssemblyContextID$}
+		
+		\If {$runComp ==$ Null} \State
+		$actions.$\Call{add}{ new $AllocateAction($\dots$)$ }
+		\Else
+		\If { $runComp.ComponentID$ != $reDeplComp.ComponentID$ }
+		\State $actions.$\Call{add}{ new $ChangeRepoAction($\dots$)$ }
+		\EndIf
+		\If { $runComp.ResContainerID$ != $reDeplComp.ResContainerID$ }
+		\State $actions.$\Call{add}{ new $MigrateAction($\dots$)$ }
+		\EndIf
+		\EndIf
+		\State $components.$\Call{remove}{$reDeplComp.AssemblyContextID$}
+		\EndFor
+		\State
+		\ForAll{$runComp\gets components$}
+		\State $actions.$\Call{add}{ new $DeallocateAction($\dots$)$ }
+		\EndFor
 		\EndProcedure
 	\end{algorithmic}
 \end{algorithm}
-
-Initially the algorithm adds all assembly components to a dictionary. In the main procedure, the algorithm iterates over all redeployment assembly components and tries to find a matching one in the runtime model. If no match as found, it is a new assembly component and needs to be allocated. If an equivalent was found, different comparison are made, to check whether adjustments have to made. Keep in mind, that the migration of a assembly component and the exchange of encapsulated repository component do not exclude each other. At the end of every iteration, the found runtime components get removed from the dictionary. At the end of the algorithm all remaining runtime assembly components are no longer required and can be deallocated. We need to point out, that the comparing operators are simplified for the purpose of a pseudo-code.
-
-The calculation of the Resource Container Actions is implemented similar. Initially all servers get added to a dictionary, all redeployment servers get compared against those and the actions calculated accordingly.
-
-The whole calculation is build around the stability of IDs on Palladio model elements. If the redeployment model creates a completely new system model, while changing only minor details, the calculation will deallocate the old system and allocate a totally new one. PerOpteryx modifies the system model, keeping the assembly context IDs - as intended - stable and therefore produces only minimal actions.
 
 

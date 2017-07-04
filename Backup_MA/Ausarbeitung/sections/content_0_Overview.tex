@@ -13,7 +13,7 @@
 \chapter{Overview}
 \label{ch:Overview}
 
-In this chapter we will give an overview on the approach developed during this thesis and the according research. The system is massively extending iObserve, while keeping its original purpose, see \autoref{sec:Foundations:iobserve} for the fundamentals. All extensions are made for accomplishing the goals, defined in \autoref{sec:Introduction:goals}. The extended iObserve is referred to as \textit{iObserve Privacy} during this thesis. iObserve Privacys architecture is a filter pipeline, where each filter represents one stage of the MAPE feedback loop (\autoref{sec:Foundations:mape}).
+In this chapter we will give an overview on the approach developed during this thesis and the according research. The system is massively extending iObserve, while keeping its original purpose. For the fundamentals on iObserve see \autoref{sec:Foundations:iobserve}. All extensions are made for accomplishing the goals, defined in \autoref{sec:Introduction:goals}. The extended iObserve is referred to as \textit{iObserve Privacy} during this thesis. iObserve Privacys architecture is a filter pipeline, where each filter represents one stage of the MAPE feedback loop (\autoref{sec:Foundations:mape}).
 
 
 \begin{figure}[h]
@@ -23,14 +23,14 @@ In this chapter we will give an overview on the approach developed during this t
 	\label{fig:pipeline}
 \end{figure}
 
-The initial step, monitoring, is provided by the original iObserve. However, it doesn't support any information on the components geo-location. This extension is made directly in the original iObserve and Kieker. Upon detected geo-location or deployment changes, the runtime model gets updated and the next filter stage is invoked. We have determined the required data for a privacy analysis and provide a suited transformation of these information onto the PCM Privacy runtime model.
+The initial step, monitoring, is provided by the original iObserve. However, it doesn't support any information on the components' geo-location. This extension is made directly in the original iObserve and Kieker. Upon detected geo-location or deployment changes, the runtime model gets updated and the next filter stage is invoked. We have determined the required data for a privacy analysis and provide a suited transformation of these information onto the PCM Privacy runtime model.
 
 The compliance checker, mostly referenced as \textit{Privacy Analysis}, represents the analysis phase in the MAPE loop. It analyses the current runtime model for privacy violations. The fundamental principles were discussed in \autoref{ch:PrivacyConcept}. When a privacy violation is detected, the MAPE Planning phase gets activated.
 
 The planning stages task is to find a privacy compliant redeployment model. For this job PerOpteryx is used. PerOpteryx (\autoref{sec:Foundations:peropteryx}) is a complex model generation and optimization framework. However, PerOpteryx doesn't support privacy or deployment constraints and therefore needs an extension. Furthermore, an output model needs to be selected as the final redeployment candidate, which gets transmitted to the final pipeline filter stage.
 \todo{Add research accomplishments}
 
-The execute phase of the MAPE loop compares the redeployment model to the runtime model. Based on this, a migration plan gets calculated and finally executed. The execution exists of several parametrized function and script calls. After the stages execution the observed software system needs to be in privacy compliant state.
+The execute phase of the MAPE loop compares the architectural re-deployment model to the architectural runtime model. Based on comparison, a migration adaptation sequence is calculated. The adaptation sequence is technology independent and consists of individual adaptation actions. Finally, the adaptation sequence is executed. The execution is based on scripts, that represent a technology dependent implementation of the individual adaptation actions. After the execution the observed software system needs to be in privacy compliant state.
 \todo{Add research accomplishments}
 
 

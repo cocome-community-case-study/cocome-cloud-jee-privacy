@@ -13,23 +13,23 @@
 \chapter{Introduction}
 \label{ch:Introduction}
 
-During the introduction we will \textit{motivate} (\autoref{sec:Introduction:motivation}) for the topic at hand and introduce the \textit{problems} (\autoref{sec:Introduction:problems}) arising from it. Further we will introduce the \textit{goal and research questions} (\autoref{sec:Introduction:goals}) handled in this thesis. Finally we will give a short \textit{outline} (\autoref{sec:Introduction:outline}) about the remainder chapters.
+During the introduction we will \textit{motivate} (\autoref{sec:Introduction:motivation}) for the topic at hand and introduce the \textit{problems} (\autoref{sec:Introduction:problems}) arising from it. Further, we will introduce the \textit{goal and research questions} (\autoref{sec:Introduction:goals}) handled in this thesis. Finally, we will give a short \textit{outline} (\autoref{sec:Introduction:outline}) about the remainder chapters.
 
 
 \section{Motivation}
 \label{sec:Introduction:motivation}
 
-Over the last years, cloud computing has become more and more popular. This is a result of its business advantages, the continuing simplification of usage and the abundance of own data centres. Netflix, for example, closed all its owned data centre in 2015 and moved completely to Amazons AWS\cite{DavidChernicoff.2015}. This trend results in the expected revenue of about 200 Billion \$ in 2016\cite{statista.com.2016}. The high degree of elasticity, automation, self-service, flexibility in payment and, as a result, lower cost are only some of the many advantageous points of cloud computing.\cite{Binz.2014}
+Over the last years, cloud computing has become more and more popular. This is a result of its business advantages, the continuing simplification of its usage and the abundance of own data centres. Netflix, for example, closed all its owned data centre in 2015 and moved completely to Amazons AWS\cite{DavidChernicoff.2015}. This trend results in the expected revenue of about 200 Billion \$ in 2016\cite{statista.com.2016}. The high degree of elasticity, automation, self-service, flexibility in payment and, as a result, lower cost are only some of the many advantageous points of cloud computing.\cite{Binz.2014}
 
-However, many – especially European - companies fear dependencies, loss of data control, industrial espionage or privacy law violations. Precautionary measures like encryption or data splitting - among data centres - is not enough to prevent a public relations disaster, due to complex EU Data Protective Regulations\cite{personaldata.2011} or the US HIPAA act\cite{OfficeforCivilRights.20130726}. To tell the whole truth, the complexity, the hidden services usages and the therefore resulting unawareness of many EU citizens (and law enforcement institutes) makes it very unlikely for current law violators to face any consequences. Nevertheless, citizens start to be more aware and the law enforcement point of attention tends to change quickly, like the Max Schrems' "Facebook Process" showed \cite{JuliaBahr.20150923}. Further, in 2018 the "reform of EU data protection rules" will come into force, which states severe punishments for privacy violations\cite{personaldata.2011}. As a result, entrepreneurs, companies and institutions need to be more aware of privacy compliance to prevent major monetary and reputation losses. 
+However, many – especially European - companies fear dependencies, loss of data control, industrial espionage or privacy law violations. Precautionary measures like encryption or data splitting - among data centres - is not enough to prevent a public relations disaster, due to complex EU Data Protective Regulations\cite{personaldata.2011} or the US HIPAA act\cite{OfficeforCivilRights.20130726}. To tell the whole truth, the complexity, the hidden usage of services and the therefore resulting unawareness of many EU citizens (and law enforcement institutes) makes it very unlikely for current law violators to face any consequences. Nevertheless, citizens start to be more aware and the law enforcement point of attention tends to change quickly, like the Max Schrems' "Facebook Process" showed \cite{JuliaBahr.20150923}. Further, in 2018 the "reform of EU data protection rules" will come into force, which states severe punishments for privacy violations\cite{personaldata.2011}. As a result, entrepreneurs, companies and institutions need to be more aware of privacy compliance to prevent major monetary and reputation losses. 
 
-The EU General Data Protection Regulations sets the legal boundaries for European companies. It defines multiple regulations about data handling, data trading, personal advertising and more. One rule sets the boundaries for personal data processing and saving. It states for example, that the processing of personal data is only allowed in data centres inside the EU or certain certified countries with equivalent privacy laws. As a result, software systems require a pre-deployment law compliance checking, considering especially the hosts geo-locations. The problem comes to a head with the ease of migration of whole cloud services during runtime with next to no downtime. With this in mind a potential privacy violation could occur even after the initial deployment was law compliant. This requires a non-stop observation of the applications geo-location and automatic, law compliant redeployment onto other cloud providers.
+The \textit{EU General Data Protection Regulations} sets the legal boundaries for European companies. It defines multiple regulations about data handling, data trading, personal advertising and more. One rule sets the boundaries for personal data processing and saving. It states, for example, that the processing of personal data is only allowed in data centres inside the EU or certain certified countries with equivalent privacy laws. As a result, software systems require a pre-deployment law compliance checking, considering especially the hosts geo-locations. The problem comes to a head with the ease of migration of whole cloud services during runtime with next to no downtime. With this in mind a potential privacy violation could occur even though the initial deployment was law compliant. This requires a non-stop observation of the applications geo-location and automatic, law compliant redeployment onto other cloud providers.
 
 
 \section{Problems}
 \label{sec:Introduction:problems}
 
-To create such a privacy aware system adaptor, a couple of non-trivial problems need to be solved. The major ones will be outlined shortly, categorized after the MAPE-K feedback loop:
+To create such a privacy aware system adaptor, a couple of non-trivial problems need to be solved. The major ones will be outlined shortly, categorized after the MAPE-K feedback loop \cite{Dar.2012}:
 
 \begin{itemize}
 	\setlength\itemsep{0em}
@@ -83,12 +83,12 @@ The remainder of this thesis is structured as follows: The thesis continues by i
 \chapter{Foundations}
 \label{ch:Foundations}
 
-In this chapter we introduce applications and principles, this thesis is based on. This introduction aims for a general understanding. Some aspects my be discussed in more detail in the corresponding section of this thesis.
+In this chapter we will introduce applications and principles on which this thesis is based on. This introduction aims for a general understanding. We would like to point out that some topics may be discussed in more detail in the corresponding section.
 
 \section{MAPE-K loop}
 \label{sec:Foundations:mape}
 
-MAPE-K or MAPE was first introduced by IBM for automatic computing and later discussed in the context of self-adaptive systems. A MAPE system is usually a stand alone application, which is specially build for optimizing and adapting a monitored system. MAPE-K is an acronym, consisting of the first letters of the loops stages: Monitor, Analyse, Plan, Execute and Knowledgebase. These stages are sequentially ordered in a pipeline structure, each one has a well defined task:
+MAPE-K or MAPE was first introduced by IBM for automatic computing and later discussed in the context of self-adaptive systems. A MAPE system is usually a stand alone application, which is specially build for optimizing and adapting a monitored system. MAPE-K is an acronym, consisting of the first letters of the loops stages: Monitor, Analyse, Plan, Execute and Knowledgebase. These stages are sequentially ordered in a pipeline structure, each one has a well defined task \cite{Dar.2012}:
 
 \begin{itemize}
 	\setlength\itemsep{0em}
@@ -99,7 +99,7 @@ MAPE-K or MAPE was first introduced by IBM for automatic computing and later dis
 	\item \textbf{Knowledgebase}: Additional or advanced information that are shared among all stages.
 \end{itemize}
 
-The monitored system runs independently from the MAPE application. However, the desired monitoring information are usually explicitly provided via specially designed APIs, intefaces or probes.
+The monitored system runs independently from the MAPE application. However, the desired monitoring information are usually explicitly provided via specially designed APIs, intefaces or probes \cite{Dar.2012}.
 
 
 \section{Palladio Component Model}
@@ -140,7 +140,7 @@ For the initial MAPE step, monitoring, iObserve uses Kieker. The gathered inform
 	\label{fig:intro:iObserve}
 \end{figure}
 
-Currently, iObserve goes as far as updating the model. iObserve uses the Teetime framework \cite{teetime.16.05.2017}, a pipeline-filter-framework with signal based stage invocation. More details on iObserve can be found in \cite{Heinrich.2016b}\cite{Heinrich.2016}.
+Currently, iObserve goes as far as updating the model. iObserve uses the TeeTime framework \cite{teetime.16.05.2017}, a pipeline-filter-framework with signal based stage invocation. More details on iObserve can be found in \cite{Heinrich.2016b}\cite{Heinrich.2016}.
 
 \section{PerOpertyx}
 \label{sec:Foundations:peropteryx}
@@ -169,15 +169,12 @@ R-PRIS (\autoref{sec:RelatedWork:privacyanalysis}) and Kieker are application mo
 
 R-PRIS is a monitoring and analysing tool for distributed cloud systems. Like iObserve, R-PRIS updates a runtime model by monitoring the cloud systems. During the analysis phase the model is checked for (potential) privacy violations.
 
-R-PRIS combines push-based heartbeat monitoring with event processing, and graph grammars for efficiently updating those models.\cite{Schmieders.}
-\todo{Add more details?}
-
-R-PRIS uses a formal specification for geo-location policies. These consists of data classification $S$, data content types $T$ and geo-locations $L$. Every specified policy $p = (S, T, L)$ is forbidden.
-During privacy analysis R-PRIS checks whether a privacy protected information can be accessed from an non-privacy compliant location. This can be transformed into an st-connectivity problem, a standard problem in graph theory and analysis. Based on the runtime model (\autoref{fig:rpris_model}) - with its meta-model (\autoref{fig:rpris_metamodel}) - R-PRIS performs a reachability check.\cite{Schmieders.2015} 
+Like Kieker, R-PRIS combines push-based heartbeat monitoring with event processing, and graph grammars for efficiently updating those models \cite{Schmieders.}. R-PRIS uses a formal specification for geo-location policies. These consists of data classification $S$, data content types $T$ and geo-locations $L$. Every specified policy $p = (S, T, L)$ is forbidden. This means, a data modelling is required with a \textit{Classification} and the containing \textit{ContentType} (see \autoref{fig:rpris_metamodel}). During privacy analysis R-PRIS checks whether a privacy protected information can be accessed from an non-privacy compliant location. This can be transformed into an st-connectivity problem, a standard problem in graph theory and analysis. Based on the runtime model (\autoref{fig:rpris_model}) - with its meta-model (\autoref{fig:rpris_metamodel}) - R-PRIS performs a reachability check \cite{Schmieders.2015}. 
 
 \begin{figure}[h]
 	\centering
-	\begin{minipage}[b]{0.48\textwidth}		\includegraphics[width=\textwidth]{pictures/rpris_metamodel.jpg}
+	\begin{minipage}[b]{0.48\textwidth}		
+		\includegraphics[width=\textwidth]{pictures/rpris_metamodel.jpg}
 		\caption{R-PRIS meta-model}
 		\label{fig:rpris_metamodel}
 	\end{minipage}
