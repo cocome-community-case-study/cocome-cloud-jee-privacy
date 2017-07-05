@@ -20,39 +20,37 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 7.1}{\ignorespaces Minimal information for privacy analysis}}{21}{table.7.1}
+\contentsline {table}{\numberline {\relax 7.1}{\ignorespaces Minimal information for privacy analysis}}{23}{table.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 7.2}{\ignorespaces iObserves information for runtime privacy checks}}{22}{table.7.2}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {\relax 7.2}{\ignorespaces iObserves information for runtime privacy checks}}{24}{table.7.2}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 9.1}{\ignorespaces Pre-Execution-Conditions for adaptation actions}}{35}{table.9.1}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 9.2}{\ignorespaces Universal action execution order}}{35}{table.9.2}
+\contentsline {table}{\numberline {\relax 9.1}{\ignorespaces Pre-Execution-Conditions for adaptation actions}}{37}{table.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\relax 9.2}{\ignorespaces Universal action execution order}}{37}{table.9.2}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 10.1}{\ignorespaces The correct execution set}}{44}{table.10.1}
+\contentsline {table}{\numberline {\relax 10.1}{\ignorespaces The correct execution set}}{46}{table.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 10.2}{\ignorespaces The error execution set}}{45}{table.10.2}
+\contentsline {table}{\numberline {\relax 10.2}{\ignorespaces The error execution set}}{47}{table.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 10.3}{\ignorespaces Component categorization, runtime deployment and re-deployment}}{51}{table.10.3}
+\contentsline {table}{\numberline {\relax 10.3}{\ignorespaces Component categorization, runtime deployment and re-deployment}}{53}{table.10.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 10.4}{\ignorespaces The ordered adaptation sequence}}{52}{table.10.4}
+\contentsline {table}{\numberline {\relax 10.4}{\ignorespaces The ordered adaptation sequence}}{54}{table.10.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 10.5}{\ignorespaces iObserve input event translated adaptation sequence}}{53}{table.10.5}
+\contentsline {table}{\numberline {\relax 10.5}{\ignorespaces iObserve input event translated adaptation sequence}}{55}{table.10.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 10.6}{\ignorespaces Expected adaptation sequence for Scenario \#4}}{54}{table.10.6}
+\contentsline {table}{\numberline {\relax 10.6}{\ignorespaces Expected adaptation sequence for Scenario \#4}}{56}{table.10.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 10.7}{\ignorespaces Expected adaptation sequence for Scenario \#4}}{55}{table.10.7}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\relax 11.1}{\ignorespaces R-PRIS information for runtime privacy checks \cite {Schmieders.2015}}}{60}{table.11.1}
+\contentsline {table}{\numberline {\relax 10.7}{\ignorespaces Expected adaptation sequence for Scenario \#4}}{57}{table.10.7}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\relax 11.1}{\ignorespaces R-PRIS information for runtime privacy checks \cite {Schmieders.2015}}}{62}{table.11.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

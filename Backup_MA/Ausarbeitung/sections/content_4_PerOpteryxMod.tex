@@ -1,7 +1,9 @@
 \chapter{PerOpteryx Extension}
 \label{ch:PerOpt}
 
-PerOpteryx, briefly introduced in \autoref{sec:Foundations:peropteryx}, is a model optimization framework. It is designed to calculate performance and cost optimised PCM models. For this purpose PerOpetryx uses an evolutionary algorithm to generate new PCM candidates. Every candidate needs to be evaluated in order to decide if the decisions made during its constructions lead to a good results. Each evaluator can produce multiple results per analysis runs. Each result belongs to a certain QML dimension. A dimension can have \textit{Objectives} and/or \textit{Constraints}, which help the evolutionary algorithm to find the Pareto-optimal candidates. Every evaluator is encapsulated in an \textit{Eclipse Plug-in} \cite{PerOpteryx.b}. Since we need another evaluator, we need to create a new plug-in.
+PerOpteryx, briefly introduced in \autoref{sec:Foundations:peropteryx}, is a model optimization framework. It is designed to calculate performance and cost optimised PCM models. For this purpose PerOpetryx uses an evolutionary algorithm to generate new PCM candidates. PerOpteryx uses a \textit{Design Decisions} EMF model to create a \textit{Design Space}. The design space is defined via \textit{Degrees Of Freedom}. Every degree of freedom allows for a finite amount of \textit{Decisions}. A \textit{Candidate} consists of one choice per degree of freedom and represents a PCM instance. 
+
+Every candidate needs to be evaluated in order to decide if the \textit{Decisions} made during its constructions lead to a good results. Each evaluator can produce multiple results per analysis run. Each result belongs to a certain \textit{QML dimension}. A dimension has \textit{Objectives} and/or \textit{Constraints}, which helps the evolutionary algorithm to find the Pareto-optimal candidates. Every evaluator is encapsulated in an \textit{Eclipse Plug-in} \cite{PerOpteryx.b}. Since we need another evaluator, we need to create a new plug-in.
 
 \section{Plug-in Design}
 \label{sec:PerOpt:design}

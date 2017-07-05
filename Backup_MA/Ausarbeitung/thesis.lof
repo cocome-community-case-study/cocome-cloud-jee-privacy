@@ -10,81 +10,43 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces iObserve cloud application life cycle \cite {Heinrich.2016b}}}{5}{figure.2.1}
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces iObserve cloud application life cycle \cite {Heinrich.2016b}}}{7}{figure.2.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Privacy violating deployment}}{9}{figure.3.1}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Privacy violating deployment}}{11}{figure.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Privacy violating deployment}}{9}{figure.3.2}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Privacy violating deployment}}{11}{figure.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Privacy compliant deployment}}{9}{figure.3.3}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces iObserve Privacy pipeline}}{13}{figure.4.1}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Privacy compliant deployment}}{11}{figure.3.3}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces PCM Privacy meta-model}}{16}{figure.5.1}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces iObserve Privacy pipeline}}{15}{figure.4.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Server Geo-Location Record and Sampler}}{17}{figure.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces iObserve Privacy Filter}}{18}{figure.6.2}
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces PCM Privacy meta-model}}{18}{figure.5.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.1}{\ignorespaces Initial component categorization}}{24}{figure.7.1}
+\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Server Geo-Location Record and Sampler}}{19}{figure.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.2}{\ignorespaces Post categorization analysis - basic example}}{24}{figure.7.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.3}{\ignorespaces Post categorization analysis - advanced example}}{24}{figure.7.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.4}{\ignorespaces Deployment analysis example}}{26}{figure.7.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.5}{\ignorespaces PCM Privacy information spread}}{27}{figure.7.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 7.6}{\ignorespaces Graphs meta-model for Privacy Analysis}}{27}{figure.7.6}
+\contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces iObserve Privacy Filter}}{20}{figure.6.2}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 7.1}{\ignorespaces Initial component categorization}}{26}{figure.7.1}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 7.2}{\ignorespaces Post categorization analysis - basic example}}{26}{figure.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 10.1}{\ignorespaces Initial component categorization}}{43}{figure.10.1}
+\contentsline {figure}{\numberline {\relax 7.3}{\ignorespaces Post categorization analysis - advanced example}}{26}{figure.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 10.2}{\ignorespaces Transformation runtime \& Standard Deviation}}{46}{figure.10.2}
+\contentsline {figure}{\numberline {\relax 7.4}{\ignorespaces Deployment analysis example}}{28}{figure.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 10.3}{\ignorespaces Initial system state}}{47}{figure.10.3}
+\contentsline {figure}{\numberline {\relax 7.5}{\ignorespaces PCM Privacy information spread}}{29}{figure.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 10.4}{\ignorespaces Initial categorization}}{47}{figure.10.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 10.5}{\ignorespaces Categorization analysis result}}{47}{figure.10.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 10.6}{\ignorespaces Deployment analysis result (1)}}{48}{figure.10.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 10.7}{\ignorespaces Deployment analysis result (2)}}{48}{figure.10.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 10.8}{\ignorespaces Privacy Analysis runtime}}{49}{figure.10.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 10.9}{\ignorespaces Privacy Analysis runtime standard deviation}}{50}{figure.10.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 10.10}{\ignorespaces Runtime model}}{53}{figure.10.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 10.11}{\ignorespaces Redeployment model}}{54}{figure.10.11}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 10.12}{\ignorespaces Adaptation runtime}}{55}{figure.10.12}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 10.13}{\ignorespaces Adaptation runtime SD}}{56}{figure.10.13}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 11.1}{\ignorespaces R-PRIS meta-model}}{60}{figure.11.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 11.2}{\ignorespaces R-PRIS runtime model}}{60}{figure.11.2}
+\contentsline {figure}{\numberline {\relax 7.6}{\ignorespaces Graphs meta-model for Privacy Analysis}}{29}{figure.7.6}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -92,4 +54,38 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax A.1}{\ignorespaces A figure}}{69}{figure.A.1}
+\contentsline {figure}{\numberline {\relax 10.1}{\ignorespaces Initial component categorization}}{45}{figure.10.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 10.2}{\ignorespaces Transformation runtime \& Standard Deviation}}{48}{figure.10.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 10.3}{\ignorespaces Initial system state}}{49}{figure.10.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 10.4}{\ignorespaces Initial categorization}}{49}{figure.10.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 10.5}{\ignorespaces Categorization analysis result}}{49}{figure.10.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 10.6}{\ignorespaces Deployment analysis result (1)}}{50}{figure.10.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 10.7}{\ignorespaces Deployment analysis result (2)}}{51}{figure.10.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 10.8}{\ignorespaces Privacy Analysis runtime}}{52}{figure.10.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 10.9}{\ignorespaces Privacy Analysis runtime standard deviation}}{53}{figure.10.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 10.10}{\ignorespaces Runtime model}}{55}{figure.10.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 10.11}{\ignorespaces Redeployment model}}{56}{figure.10.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 10.12}{\ignorespaces Adaptation runtime}}{58}{figure.10.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 10.13}{\ignorespaces Adaptation runtime SD}}{59}{figure.10.13}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 11.1}{\ignorespaces R-PRIS meta-model}}{62}{figure.11.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 11.2}{\ignorespaces R-PRIS runtime model}}{62}{figure.11.2}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

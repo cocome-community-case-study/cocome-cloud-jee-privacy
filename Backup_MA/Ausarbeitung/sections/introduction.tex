@@ -29,19 +29,28 @@ The \textit{EU General Data Protection Regulations} sets the legal boundaries fo
 \section{Problems}
 \label{sec:Introduction:problems}
 
-To create such a privacy aware system adaptor, a couple of non-trivial problems need to be solved. The major ones will be outlined shortly, categorized after the MAPE-K feedback loop \cite{Dar.2012}:
+To create such a privacy aware system adaptor, a couple of non-trivial problems need to be solved. The major ones will be outlined shortly, categorized after the MAPE-K feedback loop \cite{Dar.2012}.
 
-\begin{itemize}
-	\setlength\itemsep{0em}
-	\item \textbf{Monitoring}\newline
-	Acquiring and transforming geo-location information onto an architecture description language
-	\item \textbf{Analysing}\newline
-	Privacy compliance analysis on a software architecture basis
-	\item \textbf{Planning}\newline
-	Computation of constraint and privacy compliant redeployments
-	\item \textbf{Executing}\newline
-	Technology independent, dynamic adaptation routine computation and execution
-\end{itemize}
+Initially, we need to \textit{acquire} the geo-location information of a cloud server. This is the fundamental task to be able to determine whether a system is compliant to the \textit{EU General Data Protection Regulations} or the \textit{HIPAA} act. Further, we need to \textit{store} this information adequately in the available information sources. In our case that is the \textit{Palladio Component Model} (PCM), an architecture description language. However, the PCM is not designed to store geo-information of any kind.
+
+After the acquisition of the geo-location information, we need to determine, whether the observed system is in a privacy compliant state. We refer to this task as \textit{privacy analysis}. The major obstacles for the privacy analysis are the limited information about the system and the complicated legal regulations. So, the problem is to gain a meaningful result, without significantly extending the information sources or increasing the PCM complexity.
+
+During the planning phase, a privacy \textit{alternative system deployment} needs to be calculated. While automated performance optimization was achieved in the past, the privacy compliance has never been considered during this task. Depending on the parameters, alternative generation and evaluators this is a considerable problem and optimization task.
+
+To regain a privacy compliant system state, the system needs to be modified towards the generated alternative. For this task, the \textit{system adaptation} steps need to be calculated and ordered. The migration of a live system usually inflicts man dependencies and ripple effects that have to be considered before executing these steps.
+
+We provided a rough overview of the problems at hand. Further details and the according solution will be explained in the according chapters of this thesis.
+%\begin{itemize}
+%	\setlength\itemsep{0em}
+%	\item \textbf{Monitoring}\newline
+%	Acquiring and transforming geo-location information onto an architecture description language
+%	\item \textbf{Analysing}\newline
+%	Privacy compliance analysis on a software architecture basis
+%	\item \textbf{Planning}\newline
+%	Computation of constraint and privacy compliant redeployments
+%	\item \textbf{Executing}\newline
+%	Technology independent, dynamic adaptation routine computation and execution
+%\end{itemize}
 
 %Transformation for geo-location into ADL
 %Privacy analysis on architecture lvl
@@ -63,13 +72,36 @@ This thesis' goal is to contribute and outline a piece of software, that ensures
 
 \begin{itemize}
 	\setlength\itemsep{0em}
-	\item \textbf{Monitor}: How can information, required for privacy violation detection, be monitored? How can we transform this information onto our architecture model?
-	\item \textbf{Analyse}: How to analyse the model for privacy violation detection? And how good does this analysis scale?
-	\item \textbf{Plan}: How can the runtime model and analysis results be used to reacquire policy compliance?
-	\item \textbf{Execute}: How can the plan automatically be executed and policy compliance established? How much human interaction is necessary?
-\end{itemize}
+	\item \textbf{Monitoring} %How can information, required for privacy violation detection, be monitored? How can we transform this information onto our architecture model?
+	\begin{itemize}
+		\setlength\itemsep{0em}
+		\item \textbf{RQ-M1}: How can the required information be monitored and transformed into the architectural description language?
+		\item \textbf{RQ-M2}: How accurate is the monitoring and transformation?
+		\item \textbf{RQ-M3}: How good does the monitoring and transformation scale?
+	\end{itemize}
+		\item \textbf{Analysing} %How to analyse the model for privacy violation detection? And how good does this analysis scale?
+	\begin{itemize}
+		\setlength\itemsep{0em}
+		\item \textbf{RQ-A1}: How can we detect privacy violations on a architectural level?
+		\item \textbf{RQ-A2}: Are there scenarios that can not be detect?
+		\item \textbf{RQ-A3}: How good does the privacy analysis scale with the system size?
+	\end{itemize}
 
-\todo{Individual goals for the MAPE loop? Feels redundant, doesn't it?}
+	\item \textbf{Planning} %How can the runtime model and analysis results be used to reacquire policy compliance?
+	\begin{itemize}
+		\setlength\itemsep{0em}
+		\item \textbf{RQ-P1}: How can we generate an alternative, privacy compliant deployment?
+		\item \textbf{RQ-P2}: How accurate is the alternative generation?
+	\end{itemize}
+
+	\item \textbf{Executing} %How can the plan automatically be executed and policy compliance established? How much human interaction is necessary?
+	\begin{itemize}
+		\setlength\itemsep{0em}
+		\item \textbf{RQ-E1}: How can we calculate an automated system adaptation sequence?
+		\item \textbf{RQ-E2}: How good does the adaptation calculation work?
+		\item \textbf{RQ-E3}: How good does the adaptation scale with the system size and the potential modifications?
+	\end{itemize}
+\end{itemize}
 
 
 \section{Outline}

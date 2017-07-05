@@ -18,7 +18,7 @@ In this chapter we will wrap up this thesis with the \textit{limitations} and th
 \section{Limitations \& Assumptions}
 \label{sec:Conculsion:limits}
 
-Like every other scientific work, we can't build a universal, world ready system. We need to accept and sometimes even require limitations to produce meaningful results for certain aspects.
+Like every other scientific work, we can not build a universal, world ready system. We need to accept and sometimes even require limitations to produce meaningful results for certain aspects.
 
 \begin{description}
 	\item[Cloud Provider objectives]
@@ -75,10 +75,23 @@ During the work on iObserve Privacy a couple of future oriented tasks and develo
 	Due to a missing distributed test system, iObserve Privacy could not be tested in a real situation. Even though many test were run during the evaluation (see \autoref{ch:Evaluation}) and proven \textit{Kiker} concepts were used, a live test provides further reassurance and validity to the system as a whole. 
 \end{description}
 
+% Better choise of Re-Deployment Model
+\begin{description}
+	\item[Re-deployment model choice]
+	PerOpteryx chooses the \textit{most cost efficient model} in the set of privacy compliant models as the re-deployment model. This selection can be improved by adding more factors to the decision process. Potential factors could be the amount of potential migrations, more performance characteristics or the communication links.
+\end{description}
 
+% Categorization via interfaces analysis
+\begin{description}
+	\item[(Semi-)automated Assembly Connector Privacy categorization]
+	We are using a manual approach for the \textit{Assembly Connectory Privacy} data privacy level categorization. Further, we don't have any tool support, except the EMF editors. A heuristic-based or neuronal network-based approach could support during the connector categorization or even categorize the connector automatically. The potential angles of approach are as wide as the imagination goes: from signature analysis to structure analysis.
+\end{description}
 
-
-
+% Data modelling
+\begin{description}
+	\item[Data modelling]
+	The \textit{Palladio Component Model} does not support data modelling. However, Schmieders et al. based his complete privacy analysis around a data model with geo-location access \cite{Schmieders.2015}\cite{Schmieders.}. By modelling the system data a more accurate approach could be created. However, the current extension to the base PCM meta-model are as minimal as possible. The modelling of the data used by the system would change this and increase the model complexity significantly.
+\end{description}
 
 
 

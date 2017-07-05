@@ -255,6 +255,31 @@
       \field{year}{2008}
       \keyw{Computersicherheit;Datensicherung;Internet;Kryptosystem;Rechnernetz;Sicherheitsprotokoll;Systemverwaltung}
     \endentry
+    \entry{eclipse.org.2009}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8d14d134f9e25d930f3ef5ef5d4b8fdb}{%
+           family={eclipse.org},
+           familyi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d14d134f9e25d930f3ef5ef5d4b8fdb}
+      \strng{fullhash}{8d14d134f9e25d930f3ef5ef5d4b8fdb}
+      \strng{authornamehash}{8d14d134f9e25d930f3ef5ef5d4b8fdb}
+      \strng{authorfullhash}{8d14d134f9e25d930f3ef5ef5d4b8fdb}
+      \field{sortinit}{e}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Eclipse Community Forums: EMF {\frqq} EMF performance with big models}
+      \field{urlday}{5}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.eclipse.org/forums/index.php/t/126826/
+      \endverb
+      \keyw{Discussion;Eclipse;Forums;Help;Question;Questions;Support}
+    \endentry
     \entry{Enck.2014}{article}{}
       \name{author}{7}{}{%
         {{hash=723230c856c5e4798ec2a9edfa54406e}{%
@@ -989,6 +1014,37 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb http://de.statista.com/statistik/daten/studie/195760/umfrage/umsatz-mit-cloud-computing-weltweit-seit-2009/
+      \endverb
+    \endentry
+    \entry{Steinberg.20050706}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=122b4e099dc38ce376f0c1ce73c50fa6}{%
+           family={Steinberg},
+           familyi={S\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fc698bcdc8231884f07aa4798a82dffd}{%
+           family={Litani},
+           familyi={L\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{58ebeab7c735ffdf53b396ed9c46734b}
+      \strng{fullhash}{58ebeab7c735ffdf53b396ed9c46734b}
+      \strng{authornamehash}{58ebeab7c735ffdf53b396ed9c46734b}
+      \strng{authorfullhash}{58ebeab7c735ffdf53b396ed9c46734b}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{EMF Performance Tips}
+      \field{urlday}{5}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.eclipse.org/modeling/emf/docs/performance/EMFPerformanceTips.html
       \endverb
     \endentry
     \entry{Strittmatter.2015}{inproceedings}{}
