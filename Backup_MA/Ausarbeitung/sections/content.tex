@@ -33,9 +33,9 @@ As mentioned in \autoref{sec:RelatedWork:dataflow}, the automated data-flow anal
 	\label{sec:PrivacyConcept:dataprivacylevel}
 \end{itemize}
 
-These three categories are used, since many data does not contain any direct or indirect link onto private data, however still contain indicators onto private data. This means, they neither qualify for the type 0 category (Personal), nor for the type 2 category (Anonymous). For example an online shop wants to analyse which products usually get ordered together. The orders got anonymized by removing the customer and shipping address. Nevertheless, the time-stamp is required to get a timed evaluation factor. These data are not personal. However, combining and evaluating these with user-login-times, also non-personal data, privacy relevant data can be extracted. This also disqualifies them for Type 2, completely anonymous data \cite{Schmieders.}\cite{Schmieders.2015}.
+These three categories are used, since many data do not contain any direct or indirect link onto private data, however still contain indicators onto private data. This means, they neither qualify for the type 0 category (Personal), nor for the type 2 category (Anonymous). For example an online shop wants to analyse which products usually get ordered together. The orders got anonymized by removing the customer and shipping address. Nevertheless, the time-stamp is required to get a timed evaluation factor. These data are not personal. However, combining and evaluating these with user-login-times, also non-personal data, privacy relevant data can be extracted. This also disqualifies them for Type 2, completely anonymous data \cite{Schmieders.}\cite{Schmieders.2015}.
 
-Summarizing, a manual, categorized annotation approach to identify the system components privacy level is used. Based on this privacy level the check, whether a systems deployment is privacy compliant, can be performed.
+Summarizing, a manual, categorized annotation approach to identify the system components privacy level is used. Based on this privacy level categorization, the analysis, whether a systems deployment is privacy compliant, can be performed.
 
 
 \section{Deployment Constraints}
@@ -68,7 +68,7 @@ We are aware, that these rules are over-approximations towards legal compliance.
 	\label{fig:example_depl:1}
 \end{figure}
 
-The deployment shown in \autoref{fig:example_depl:1} is illegal. Server\#3 contains components with data streams from two different components, where one is a type 1 and one is a type 0 component. Even though they have a communication path, Component A could send different information to Component B and C. As a result, \textit{Server \#3} hosts two type 1 components, which don't contain privacy relevant data by themselves. However, after combination, the data could be privacy relevant. So, this deployment is considered illegal.
+The deployment shown in \autoref{fig:example_depl:1} is illegal. Server\#3 contains components with data streams from two different components, where one is a type 1 and one is a type 0 component. Even though A and C receives its data transitively from the same source, component A. This source is categorized as personal (type 0). Further, the data passes via different initial communication edges. As a result, \textit{Server \#3} hosts two type 1 components, which don't contain privacy relevant data by themselves. However, after combination, the data could be privacy relevant. So, this deployment is considered illegal.
 
 \begin{figure}[h]
 	\centering

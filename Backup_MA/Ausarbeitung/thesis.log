@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.18)  6 JUL 2017 15:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.18)  6 JUL 2017 17:26
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2262,8 +2262,8 @@ Package pdftex.def Info: graphs/deployment_example_3.pdf used on input line 84.
 
 (pdftex.def)             Requested size: 259.4918pt x 108.75218pt.
  [11 <./graphs/deployment_example_1.pdf> <./graphs/deployment_example_2.pdf> <.
-/graphs/deployment_example_3.pdf>])
-(sections/content_0_Overview.tex [12] [13] [14
+/graphs/deployment_example_3.pdf>]
+[12]) (sections/content_0_Overview.tex [13] [14
 
 
 ]
@@ -2376,20 +2376,25 @@ Package pdftex.def Info: graphs/deployment_example_implementation_eval.pdf used
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [27] [28 <./graphs/deployment_example_implementation_eval.pdf>]
-<pictures/pcm_info_spread.jpg, id=400, 837.1275pt x 343.2825pt>
-File: pictures/pcm_info_spread.jpg Graphic file (type jpg)
+<graphs/PCM_Info_spread.pdf, id=400, 844.65562pt x 596.98032pt>
+File: graphs/PCM_Info_spread.pdf Graphic file (type pdf)
 
-<use pictures/pcm_info_spread.jpg>
-Package pdftex.def Info: pictures/pcm_info_spread.jpg used on input line 194.
-(pdftex.def)             Requested size: 216.24097pt x 88.6699pt.
+<use graphs/PCM_Info_spread.pdf>
+Package pdftex.def Info: graphs/PCM_Info_spread.pdf used on input line 194.
+(pdftex.def)             Requested size: 367.61229pt x 273.48764pt.
 
-<pictures/modelGraph_metamodel.pdf, id=401, 844.65562pt x 596.98032pt>
+<pictures/modelGraph_metamodel.pdf, id=402, 844.65562pt x 596.98032pt>
 File: pictures/modelGraph_metamodel.pdf Graphic file (type pdf)
 
 <use pictures/modelGraph_metamodel.pdf>
 Package pdftex.def Info: pictures/modelGraph_metamodel.pdf used on input line 2
 01.
 (pdftex.def)             Requested size: 367.61229pt x 51.92607pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29 <./graphs/PCM_Info_spread.pdf>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 214.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
@@ -2403,11 +2408,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package hyperref Warning: No autoref name for `algorithm' on input line 259.
 
-[29 <./pictures/modelGraph_metamodel.pdf> <./pictures/pcm_info_spread.jpg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (sections/content_4_PerOpteryxMod.tex [30] [31] [32]
+) (sections/content_4_PerOpteryxMod.tex [30 <./pictures/modelGraph_metamodel.pd
+f>] [31] [32]
 chapter 8.
 [33
 
@@ -2436,7 +2441,7 @@ Overfull \hbox (14.14919pt too wide) in paragraph at lines 143--144
 ple com-pos-ite com-po-nents. As a re-sult, CoCoME-
  []
 
-<graphs/medSystem_noserver.pdf, id=461, 963.6pt x 542.025pt>
+<graphs/medSystem_noserver.pdf, id=470, 963.6pt x 542.025pt>
 File: graphs/medSystem_noserver.pdf Graphic file (type pdf)
 
 <use graphs/medSystem_noserver.pdf>
@@ -2450,7 +2455,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 3525) has occurred while \output is active []
 
  [45 <./graphs/medSystem_noserver.pdf>] [46]
-<graphs/Runtime_Transformation.pdf, id=487, 597.55246pt x 845.07718pt>
+<graphs/Runtime_Transformation.pdf, id=496, 597.55246pt x 845.07718pt>
 File: graphs/Runtime_Transformation.pdf Graphic file (type pdf)
 
 <use graphs/Runtime_Transformation.pdf>
@@ -2458,7 +2463,7 @@ Package pdftex.def Info: graphs/Runtime_Transformation.pdf used on input line 2
 49.
 (pdftex.def)             Requested size: 389.23111pt x 198.72313pt.
  [47]
-<graphs/medSys_eval_pa_init.pdf, id=492, 963.6pt x 542.025pt>
+<graphs/medSys_eval_pa_init.pdf, id=501, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_init.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_init.pdf>
@@ -2466,7 +2471,7 @@ Package pdftex.def Info: graphs/medSys_eval_pa_init.pdf used on input line 273.
 
 (pdftex.def)             Requested size: 324.36145pt x 163.29514pt.
  [48 <./graphs/Runtime_Transformation.pdf>] <graphs/medSys_eval_pa_tagging_init
-.pdf, id=510, 963.6pt x 542.025pt>
+.pdf, id=519, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_tagging_init.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_tagging_init.pdf>
@@ -2474,7 +2479,7 @@ Package pdftex.def Info: graphs/medSys_eval_pa_tagging_init.pdf used on input l
 ine 285.
 (pdftex.def)             Requested size: 205.51471pt x 125.74316pt.
 
-<graphs/medSys_eval_pa_tagging_analysis.pdf, id=512, 963.6pt x 542.025pt>
+<graphs/medSys_eval_pa_tagging_analysis.pdf, id=521, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_tagging_analysis.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_tagging_analysis.pdf>
@@ -2483,14 +2488,14 @@ ut line 290.
 (pdftex.def)             Requested size: 205.51471pt x 125.74316pt.
  [49 <./graphs/medSys_eval_pa_init.pdf> <./graphs/medSys_eval_pa_tagging_init.p
 df> <./graphs/medSys_eval_pa_tagging_analysis.pdf>]
-<graphs/medSys_eval_pa_da.pdf, id=560, 963.6pt x 542.025pt>
+<graphs/medSys_eval_pa_da.pdf, id=569, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_da.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_da.pdf>
 Package pdftex.def Info: graphs/medSys_eval_pa_da.pdf used on input line 302.
 (pdftex.def)             Requested size: 389.23111pt x 195.95416pt.
 
-<graphs/medSys_eval_pa_da_2.pdf, id=562, 963.6pt x 542.025pt>
+<graphs/medSys_eval_pa_da_2.pdf, id=571, 963.6pt x 542.025pt>
 File: graphs/medSys_eval_pa_da_2.pdf Graphic file (type pdf)
 
 <use graphs/medSys_eval_pa_da_2.pdf>
@@ -2502,7 +2507,7 @@ Package pdftex.def Info: graphs/medSys_eval_pa_da_2.pdf used on input line 313.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [50 <./graphs/medSys_eval_pa_da.pdf>]
-<graphs/Runtime_pa.pdf, id=582, 597.55246pt x 845.07718pt>
+<graphs/Runtime_pa.pdf, id=591, 597.55246pt x 845.07718pt>
 File: graphs/Runtime_pa.pdf Graphic file (type pdf)
 
 <use graphs/Runtime_pa.pdf>
@@ -2512,7 +2517,7 @@ Package pdftex.def Info: graphs/Runtime_pa.pdf used on input line 333.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/Runtime_pa_sd.pdf, id=584, 845.07718pt x 597.55246pt>
+<graphs/Runtime_pa_sd.pdf, id=593, 845.07718pt x 597.55246pt>
 File: graphs/Runtime_pa_sd.pdf Graphic file (type pdf)
 
 <use graphs/Runtime_pa_sd.pdf>
@@ -2530,7 +2535,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/medSystem_adap_calc_all_runtime.pdf, id=636, 963.6pt x 542.025pt>
+<graphs/medSystem_adap_calc_all_runtime.pdf, id=645, 963.6pt x 542.025pt>
 File: graphs/medSystem_adap_calc_all_runtime.pdf Graphic file (type pdf)
 
 <use graphs/medSystem_adap_calc_all_runtime.pdf>
@@ -2541,7 +2546,7 @@ ut line 465.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/medSystem_adap_calc_all_redepl.pdf, id=641, 963.6pt x 542.025pt>
+<graphs/medSystem_adap_calc_all_redepl.pdf, id=650, 963.6pt x 542.025pt>
 File: graphs/medSystem_adap_calc_all_redepl.pdf Graphic file (type pdf)
 
 <use graphs/medSystem_adap_calc_all_redepl.pdf>
@@ -2564,7 +2569,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [56 <./graphs/medSystem_adap_calc_all_runtime.pdf> <./graphs/medSystem_adap_cal
 c_all_redepl.pdf>]
-<graphs/Runtime_adapt.pdf, id=677, 597.55246pt x 845.07718pt>
+<graphs/Runtime_adapt.pdf, id=686, 597.55246pt x 845.07718pt>
 File: graphs/Runtime_adapt.pdf Graphic file (type pdf)
 
 <use graphs/Runtime_adapt.pdf>
@@ -2574,7 +2579,7 @@ Package pdftex.def Info: graphs/Runtime_adapt.pdf used on input line 536.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/Runtime_adapt_sd.pdf, id=679, 845.07718pt x 597.55246pt>
+<graphs/Runtime_adapt_sd.pdf, id=688, 845.07718pt x 597.55246pt>
 File: graphs/Runtime_adapt_sd.pdf Graphic file (type pdf)
 
 <use graphs/Runtime_adapt_sd.pdf>
@@ -2587,14 +2592,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [57] [58 <./graphs/Runtime_adapt.pdf>] [59 <./graphs/Runtime_adapt_sd.pdf>])
 (sections/content_6_RelatedWork.tex [60]
 chapter 11.
-<pictures/rpris_metamodel.jpg, id=720, 799.48688pt x 409.53pt>
+<pictures/rpris_metamodel.jpg, id=729, 799.48688pt x 409.53pt>
 File: pictures/rpris_metamodel.jpg Graphic file (type jpg)
 
 <use pictures/rpris_metamodel.jpg>
 Package pdftex.def Info: pictures/rpris_metamodel.jpg used on input line 26.
 (pdftex.def)             Requested size: 207.58948pt x 106.33156pt.
 
-<pictures/rpris_model.jpg, id=721, 636.12656pt x 438.8897pt>
+<pictures/rpris_model.jpg, id=730, 636.12656pt x 438.8897pt>
 File: pictures/rpris_model.jpg Graphic file (type jpg)
 
 <use pictures/rpris_model.jpg>
@@ -2730,10 +2735,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
  ) 
 Here is how much of TeX's memory you used:
- 33221 strings out of 493333
- 611678 string characters out of 3139188
- 1172731 words of memory out of 3000000
- 36039 multiletter control sequences out of 15000+200000
+ 33215 strings out of 493333
+ 611547 string characters out of 3139188
+ 1173584 words of memory out of 3000000
+ 36033 multiletter control sequences out of 15000+200000
  172627 words of font info for 154 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  80i,13n,80p,8820b,3200s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2756,9 +2761,9 @@ s/type1/public/txfonts/rtxmi.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/txfonts/rtxr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/txsy
 c.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/newtx/zxlri.pfb>
-Output written on thesis.pdf (87 pages, 8495976 bytes).
+Output written on thesis.pdf (87 pages, 8587622 bytes).
 PDF statistics:
- 812 PDF objects out of 1000 (max. 8388607)
+ 821 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 317 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
