@@ -5,6 +5,8 @@ PerOpteryx, briefly introduced in \autoref{sec:Foundations:peropteryx}, is a mod
 
 Every candidate needs to be evaluated in order to decide if the \textit{Decisions} made during its constructions lead to a good results. Each evaluator can produce multiple results per analysis run. Each result belongs to a certain \textit{QML dimension}. A dimension has \textit{Objectives} and/or \textit{Constraints}, which helps the evolutionary algorithm to find the Pareto-optimal candidates. Every evaluator is encapsulated in an \textit{Eclipse Plug-in} \cite{PerOpteryx.b}. Since we need another evaluator, we need to create a new plug-in.
 
+Some plug-ins require additional data. The \textit{cost analysis} for example uses a \textit{cost model} to provide a cost result for a resource containers allocation or usage costs. 
+
 \section{Plug-in Design}
 \label{sec:PerOpt:design}
 

@@ -13,7 +13,7 @@
 \chapter{Evaluation}
 \label{ch:Evaluation}
 
-This chapter is structured as follows: Initially the concept is elaborated (\autoref{sec:Evaluation:concept}), followed by evaluation scenarios (\autoref{sec:Evaluation:scenarios}) and the evaluation of the single tasks: monitoring (\autoref{sec:Evaluation:monitoring}), privacy analysis (\autoref{sec:Evaluation:monitoring}), model generation (\autoref{sec:Evaluation:privacyanalysis}) and  adaptation planning (\autoref{sec:Evaluation:planning}). Finally we are analysing the threats of validity (\autoref{sec:eval:threats}). Note, all evaluation models, test data and results can be found at \cite{privacy.PW}.
+This chapter is structured as follows: Initially the concept is elaborated (\autoref{sec:Evaluation:concept}), followed by evaluation scenarios (\autoref{sec:Evaluation:scenarios}) and the evaluation models (\autoref{sec:Evaluation:models}). The actual evaluation starts consists of the single tasks: monitoring (\autoref{sec:Evaluation:monitoring}), privacy analysis (\autoref{sec:Evaluation:monitoring}), model generation (\autoref{sec:Evaluation:privacyanalysis}) and  adaptation planning (\autoref{sec:Evaluation:planning}). Finally we are analysing the threats of validity (\autoref{sec:eval:threats}). Note, all evaluation models, test data and results can be found at \cite{privacy.PW}.
 
 \section{Evaluation Design}
 \label{sec:Evaluation:concept}
@@ -21,10 +21,10 @@ This chapter is structured as follows: Initially the concept is elaborated (\aut
 iObserve Privacy is a complex approach with many depending tasks. Evaluating the program as a whole is next to impossible due to the multiplexing dependencies. The evaluation factors would not be manageable and inconclusive results would make the evaluation itself pointless. So we decided to evaluate every task independently. The order and structure was inspired by the iObserve pipeline.
 
 %Accuracy => Scenarios => unbiased
-The task evaluation is generally split into an \textit{Accuracy} evaluation and a \textit{Scalability} evaluation. The accuracy evaluation aims for the correct functionality, testing whether the actual results are conform to expected results. For the evaluation we are creating a set of \textit{Evaluation Scenarios}, which reflect real world situations by defining a starting point and an expected endpoint. If the systems result differs from the endpoint, the reasons must be found and analysed.
+The task evaluation is generally split into an \textit{Accuracy} evaluation and a \textit{Scalability} evaluation. The accuracy evaluation aims for the correct functionality. This means, we are testing whether the actual results are equal to expected results. For the evaluation we are creating a set of \textit{Evaluation Scenarios}, which reflect real-world situations by defining a starting point and an expected endpoint. If the systems result differs from the endpoint, the reasons must be found and analysed.
 
 %Scalability => Runtime behaviour, automatic generated PCMs, 1 > 10 > 100 > 1000 ... logarithmic scale
-The scalability evaluation aims for the systems runtime characteristic, based on an increasing work load. The actual accuracy result of the task is of no evaluated during this analysis. The primary measurement is the task response time, dependent on the assembly context count and resource container count. Both axis are logarithmic scaled, so the response behaviour is clearly visible. The individual models are randomly generated, based on a repository model input.
+The scalability evaluation aims for the systems runtime characteristic, based on an increasing work load. The actual accuracy result of the task is of no interest during the analysis. The primary measurement is the tasks response time, dependent on the assembly context count and resource container count. Both axis are logarithmic scaled, so the response behaviour is clearly visible. The individual models are randomly generated, based on a repository model input.
 
 We will use the \textit{Jaccard Coefficient} to evaluate model changes during the accuracy evaluation. Prior to the execution a target model is created, representing the desired post-execution state. The runtime model is compared to the target model, differences are calculated, as well as the jaccard coefficient. The coefficient is defined as the \textit{intersection set} of runtime and target model \textit{divided} through the \textit{union set} of these models:
 
@@ -51,7 +51,7 @@ The following scenarios are derived from the \textit{runtime changes} mentioned 
 % POST: Migration Monitored, Privacy Analysis started
 %					=> IF OK:	Do nothing 
 %					=> IF BAD:	Calculate Alternative (Privacy Compliant) => Plan => Adapt => Evaluate!
-This scenario describes the "default" setting, it is used to evaluate the \textit{geo-location transformation}, the \textit{privacy analysis}, a successful execution of the \textit{re-deployment generation} and the \textit{adaptation planning}.
+This scenario describes the "default" setting. It is used to evaluate the \textit{geo-location transformation}, the \textit{privacy analysis}, a successful execution of the \textit{re-deployment generation} and the \textit{adaptation planning}.
 
 \begin{itemize}
 	\setlength\itemsep{0em}
@@ -108,7 +108,7 @@ This scenario is used to evaluate the \textit{operator-in-the-loop} during the \
 	\setlength\itemsep{0em}
 	\item \textbf{PRE}: All components of the software system are hosted by multiple server instances of a cloud resellers. 
 	\item \textbf{EVENT}: The reseller starts migrating his servers to another cloud provider.
-	\item \textbf{REACTION}: iObserve Privacy monitors the migration and starts a privacy analysis. The privacy analysis shows a privacy violation. An alternative privacy compliant deployment can not be computed. iObserver privacy detects that the re-deployment model is missing or not privacy compliant. The \textit{operator} is notified about the situation.
+	\item \textbf{REACTION}: iObserve Privacy monitors the migration and starts a privacy analysis. The privacy analysis shows a privacy violation. The computation of an alternative privacy compliant deployment fails. iObserver privacy detects that the re-deployment model is missing or not privacy compliant. The \textit{operator} is notified about the situation.
 	\item \textbf{POST}: iObserve Privacy notifies the operator about the missing privacy compliant re-deployment model.
 \end{itemize}
 
@@ -140,7 +140,7 @@ In the previous sections we defined a couple of scenarios for the evaluation. In
 \subsection{CoCoME-Cloud}
 \label{sec:eval:models:cocome}
 
-The \textit{CoCoME Cloud} PCM model is a representation of the CoCoME system as a distributed cloud variant. It is a representation of a supermarket IT infrastructure. It consists of six individual deployed components:  \textit{logic.webservice.cashdeskline.cashdeskservice}, \textit{Cloud.Web}, \textit{traidingsystem.inventory}, \textit{traidingsystem.cashdeskline}, \textit{webservice.inventory} and \textit{traidingsystem.external.bank}. The system design is oriented on real distributed software systems with dozens of interfaces and multiple composite components. As a result, CoCoME-Cloud is very complex and not suited for the evaluation of specific aspects like the component categorization or the deployment analysis. However, it is as the only available model fully specified and "PerOpteryx ready". See \cite{Heinrich.2015} for detailed information on CoCoME.
+The \textit{CoCoME Cloud} PCM model is a representation of the CoCoME system as a distributed cloud variant. It is a representation of a supermarket IT infrastructure. It consists of six individual deployed components:  \textit{logic.webservice.cashdeskline.cashdeskservice}, \textit{cloud.web}, \textit{traidingsystem.inventory}, \textit{traidingsystem.cashdeskline}, \textit{webservice.inventory} and \textit{traidingsystem.external.bank}. The system design is oriented on real distributed software systems with dozens of interfaces and multiple composite components. As a result, CoCoME-Cloud is very complex and not suited for the evaluation of specific aspects like the component categorization or the deployment analysis. However, it is as the only available model fully specified and "PerOpteryx ready". See \cite{Heinrich.2015} for detailed information on CoCoME.
 
 
 \subsection{Medi System}
@@ -178,7 +178,7 @@ The Transformation evaluation consists of an accuracy and a scalability evaluati
 
 For the accuracy evaluation we are using the CoCoME-Cloud model (\autoref{sec:eval:models:cocome}), since it is completely specified and reflects a real-world system the most appropriate way available. We need to show, that the TDeployment, TUndeployment and TGeoLocation Transformations apply the sent data correctly onto the PCM model. Potential errors must be handled and processed. For this purpose we will use two executions. First, we will execute a logically valid input set of events, to show the correctness of the transformation. In a second execution we will show, that logically wrong inputs are processed correctly. Both runs start with an empty allocation model.
 
-\autoref{tab:valid_run} shows the initial input event sequence. Initially all components get deployed, followed by a geo-location update on all servers, followed by a re-deployment of the \textit{cloud.web} component from \textit{Server1-EU} to \textit{Server5-EU} and finally a geo-location update on \textit{Server4-EU} to Ukraine.
+\autoref{tab:valid_run} shows the initial input event sequence. Initially all components are being deployed, followed by a geo-location update for each server and a re-deployment of the \textit{cloud.web} component from \textit{Server1-EU} to \textit{Server5-EU} and finally a geo-location update on \textit{Server4-EU} to Ukraine.
 
 \begin{table}[h]
 	\centering
@@ -209,7 +209,7 @@ For the accuracy evaluation we are using the CoCoME-Cloud model (\autoref{sec:ev
 
 We expect a run without any errors, an allocation model, which represents the described deployment and a design decisions model, with the according degree of freedoms.
 
-The results are unbiased. The system reports no errors and the models represent the system exactly as intended. The \textit{Jaccard Coefficient} is \textit{1.0}.
+The results are true to our expectations. The system reports no errors and the models represent the system exactly as intended. The \textit{Jaccard Coefficient} is \textit{1.0}.
 
 \begin{table}[h]
 	\centering
@@ -235,10 +235,10 @@ The results are unbiased. The system reports no errors and the models represent 
 To test the error behaviour, we need to input logically false events. To gain a valid system state, we are starting with the valid order (\autoref{tab:valid_run}) and append illegal orders. \autoref{tab:error_run} shows the exact execution sequence. Illegal events are marked with a *. We expect these orders to give a warning and to be ignored. The system must continue running. The test includes the following cases: Deployment of an already deployed component, deployment or undeployed on a non-existing server, geo-location record from a non-existing server, un-deployment of a non-existing deployment.
 
 
-The error run shows ends up to be exactly as intended. All faulty commands got ignored and the \textit{Jaccard Coefficient} is \textit{1.0}. Both Jaccard coefficients show, that the (un-)deployment and geo-location transformation works as anticipated. As a consequence we argue, that the \textit{monitoring} research question (\autoref{sec:Introduction:goals}) was successfully answered.
+The error run ends up to be exactly as intended. All faulty commands got ignored and the \textit{Jaccard Coefficient} is \textit{1.0}. Both Jaccard coefficients show, that the (un-)deployment and geo-location transformation works as anticipated. As a consequence we argue, that the \textit{monitoring} research question, \textbf{RQ-M1}, was successfully answered. Further, we argue, that we have a very accuracy (see \textbf{RQ-M2}), since no case could be identified that did not work as intended.
 
 
-\subsection{Transformation: Scalability Evaluation}
+\subsection{Transformation: Scalability Evaluation},
 
 For the scalability analysis we are using the Medi-System model with generated input. The Medi-Model is chosen due to its less generic characteristic then the Gen-Model and therefore more realistic result. Further, the Medi-Model as complex as the CoCoME model in the field to test, while easier to understand and less error prone during input generation.
 
@@ -251,7 +251,7 @@ The inputs are logically and syntactically valid. 30\% of the inputs are deploym
 	\label{fig:eval:trans:runtime}
 \end{figure}
 
-The results (\autoref{fig:eval:trans:runtime}) show a linear runtime behaviour, for the maximum input size of 1 million events the execution takes about 820 seconds. The according standard deviation of 22 makes it a stable and fast result.
+The results (\autoref{fig:eval:trans:runtime}) show a linear runtime behaviour, for the maximum input size of 1 million events the execution takes about 820 seconds. The according standard deviation of 22 makes it a stable and fast result, concerning \textbf{RQ-M3}.
 
 \section{Privacy Analysis}
 \label{sec:Evaluation:privacyanalysis}
@@ -262,7 +262,7 @@ The \textit{Privacy Analysis} was discussed in \autoref{ch:PrivacyConcept} (Priv
 
 We will show, that the \textit{Component Classification} categorizes components correctly. This includes a correct initial categorization $(C1)$, finding a \textit{joining data streams} $(C2)$ and the finding of a \textit{single data stream} $(C3)$. Further, we will show, that the \textit{Deployment Analysis} finds illegally deployed personal components on un-save geo-locations $(D1)$, \textit{joining data streams} on the deployment level $(D2)$ and ignores \textit{joining data streams} on a save geo-location $(D3)$. As a result, we demonstrate the correctness of our privacy analysis, as specified in the goal section (\autoref{sec:Introduction:goals}).
 
-The scenarios \#1 (\autoref{eval:scenario:1}) and \#2 (\autoref{eval:scenario:1}) aim to trigger a privacy analysis and describe different privacy violations. We showed in \autoref{sec:Evaluation:monitoring}, that both trigger, the deployment event and the geo-location event are correctly processed and the information are successfully transformed to the PCM model. Both triggers lead to the same privacy analysis and are therefore equivalent for this accuracy evaluation. 
+The scenarios \#1 (\autoref{eval:scenario:1}) and \#2 (\autoref{eval:scenario:1}) aim to trigger a privacy analysis and describe different privacy violations. We showed in \autoref{sec:Evaluation:monitoring}, that both trigger, the deployment event and the geo-location event are correctly processed and the information, are successfully transformed to the PCM model. Both pipeline triggers lead to the same privacy analysis and are therefore equivalent for this accuracy evaluation. 
 
 % Effects to show
 % Categorization: Initial Categorization + JDS + Single DS
@@ -293,7 +293,7 @@ We expect the initial component categorization to be equal to the most personal 
 	\end{minipage}
 \end{figure}
 
-After the execution we calculated a \textit{Jaccard Coefficient} of \textit{1.0}. This shows us that the pipeline trigger was correctly processed. \autoref{fig:eval:pa:base_tag} shows the initial component categorization, \autoref{fig:eval:pa:categorized} shows the categorization analysis result. This states show, that our expectations on the component categorization, $C1, C2$ and $C3$, were met. The deployment analysis reports a legal deployment, which is also what we anticipated. So, the results in general are true to our expectations.
+After the execution we calculated a \textit{Jaccard Coefficient} of \textit{1.0}. This shows us that the pipeline trigger was correctly processed. \autoref{fig:eval:pa:base_tag} shows the initial component categorization, \autoref{fig:eval:pa:categorized} shows the categorization analysis result. This states show, that our expectations on the component categorization, $C1, C2$ and $C3$, were met. The deployment analysis reports a legal deployment, which is also what we anticipated. So, the results are true to our expectations.
 
 To trigger the pipeline another time, we will deploy the \textit{GovStatistics} component onto \textit{Server2}. The component must be tagged depersonalised and the deployment analysis must report a \textit{joining data stream} on \textit{Server2} $(D2)$.
 
@@ -317,7 +317,7 @@ For the final pipeline trigger, we will migrate \textit{Server2} into the EU, to
 
 \autoref{fig:eval:pa:depl_ana_2} shows the final trigger result. As expected, the \textit{Marketing Analysis} deployment on \textit{Server4} is reported as privacy violation. Further, \textit{Server2} is now privacy compliant. The \textit{Jaccard Coefficient} is \textit{1.0}, so the geo-location transformation was successfully executed. The result is true to our expectations, this means, we have successfully shown $D1$ and $D3$.
 
-We have shown, that the \textit{Component Classification} algorithm and the \textit{Deployment Analysis} works as intended. Further, we proofed the concept of a privacy analysis on an architectural level as intended in \autoref{sec:Introduction:goals}. We exemplary showed the correctness of the component categorization and the deployment analysis. This includes the two major tasks of detecting joining data streams on component categorization and deployment analysis level. Further, we showed the correct identification of a set of components, located on a server, sharing a single depersonalised component as a data source. Further exemplary privacy violations will be used in the other accuracy evaluations.
+We have shown, that the \textit{Component Classification} algorithm and the \textit{Deployment Analysis} works as intended. Further, we proofed the concept of a privacy analysis on an architectural level as intended in \autoref{sec:Introduction:goals} (\textbf{RQ-A1}). We exemplary showed the correctness of the component categorization and the deployment analysis. This includes the two major tasks of detecting joining data streams on component categorization and deployment analysis level. Further, we showed the correct identification of a set of components, located on a server, sharing a single depersonalised component as a data source. So, concerning \textbf{RQ-A2}, we have a perfect accuracy. Further, exemplary privacy violations will be used in the other accuracy evaluations.
 
 \subsection{Privacy Analysis: Scalability Evaluation}
 \label{sec:Evaluation:privacyanalysis:scale}
@@ -326,7 +326,7 @@ For the scalability evaluation of the privacy analysis, we will use the generate
 
 The time measurement starts before the graph is constructed from the model. Time measures are taken for the component classification and the deployment analysis. Complex console outputs, like the system structure, are deactivated to minimise random performance influences.
 
-We measure a graph size of 10 to one million nodes on a logarithmic scale. The model set-up was described in \autoref{sec:Evaluation:models:generated}. The \textit{legal} geo-locations consist of 40 random chosen countries, while the server geo-locations are distributed among roughly 200 countries. This proportion was chosen to provoke many privacy violations and a significant amount of \textit{joining data stream} analysis. Each model measurement is repeated ten times to minimize variation effects.
+We measure a graph size of 10 to one million nodes on a logarithmic scale. The model set-up was described in \autoref{sec:Evaluation:models:generated}. The \textit{legal} geo-locations consist of 40 random chosen countries, while the server geo-locations are distributed among roughly 200 countries. This proportion was chosen to provoke many privacy violations and a significant amount of \textit{joining data stream} analysis. Each model measurement is repeated ten times to minimize runtime effects.
 
 \begin{figure}[h]
 	\centering
@@ -343,9 +343,9 @@ We measure a graph size of 10 to one million nodes on a logarithmic scale. The m
 	\label{fig:eval:pa:runtime_sd}
 \end{figure}
 
-\autoref{fig:eval:pa:runtime} shows the accumulated runtime in the order the tasks are executed. Initially, the graph for the privacy analysis is created, followed by the component classification and finally the deployment analysis. The graph shows a nearly linear increasing runtime. The major time is consumed by the graph construction, while the component classification and deployment analysis only show minor size effects. The accumulated runtime for one million nodes is still significantly below ten seconds. The limiting resource for further scalability tests is the graph generation due to memory limitations and java \textit{HashMap} overflow errors. However, graphs with the size of 1000 and more nodes are already very unlikely.
+\autoref{fig:eval:pa:runtime} shows the accumulated runtime in the order the tasks are executed. Initially, the graph for the privacy analysis is created, followed by the component classification and finally the deployment analysis. The graph shows a nearly linear increasing runtime. The major time is consumed by the graph construction, while the component classification and deployment analysis only show minor size effects. The accumulated runtime for one million nodes is still significantly below ten seconds. The limiting task for further scalability tests is the graph generation due to memory limitations and java \textit{HashMap} overflow errors. However, graphs with the size of 1000 and more nodes are already very unlikely.
 
-The standard deviation \autoref{fig:eval:pa:runtime_sd} is increasing - in general - linear with the model size. The deployment analysis however, shows some irregular behaviour. This could be due to the randomly selected save countries. A standard deviation of three times the actual mean runtime shows significantly runtime computation differences. Nevertheless, a maximum deployment analysis time of ten seconds on a one million nodes graph is still considered very fast. And an overall privacy analysis runtime of maximum 15 seconds is also very quick.
+The standard deviation \autoref{fig:eval:pa:runtime_sd} is increasing - in general - linear with the model size. The deployment analysis however, shows some irregular behaviour. This could be due to the randomly selected save countries. A standard deviation of three times the actual mean runtime shows significantly runtime computation differences. Nevertheless, a maximum deployment analysis time of ten seconds on a one million nodes graph is still considered very fast. And an overall privacy analysis runtime of maximum 15 seconds is also very quick. So, concerning the research question \textbf{RQ-A3}, we can argue, that the privacy analysis has good scaling characteristics and a very fast execution time.
 
 
 \section{Model Generation}
@@ -355,7 +355,7 @@ The privacy compliant model generation is only evaluated under the \textit{Accur
 
 For this evaluation we use the CoCoME model (\autoref{sec:eval:models:cocome}) together with the scenarios \#2 (\autoref{eval:scenario:2}) and \#4 (\autoref{eval:scenario:4}). Scenario \#2 describes a complete iObserve Privacy execution, including the successful execution of PerOpteryx for the re-deployment model generation. Scenario \#4 describes the case, in which PerOpteryx fails to generate a privacy compliant candidate. We will start with Scenario \#2.
 
-We deploy the CoCoME components on one EU server each and adjust the individual server costs to reflect EU and Non-EU status. We will trigger the pipeline by moving the \textit{Server4-EU}, which hosts the component, categorised as personal, \textit{webservice.inventory}, to Ukraine.
+We deploy the CoCoME components on one EU server each and adjust the individual server costs to reflect EU and Non-EU status (see \autoref{ch:PerOpt}). We will trigger the pipeline by moving the \textit{Server4-EU}, which hosts the component, categorised as personal, \textit{webservice.inventory}, to Ukraine.
 
 After the execution of our model generation framework, \textit{PerOpteryx}, we expect the re-deployment model to be privacy compliant. This is the major concern and primary focus. However, we further anticipate a deployment with fewer server in use, as well as a migration of multiple \textit{depersonalised} components to Non-EU servers.
 
@@ -380,11 +380,13 @@ PerOpteryx is configured to execute \textit{four iterations} with \textit{20 can
 	\label{tab:eval:gen:execution}
 \end{table}
 
-\autoref{tab:eval:gen:execution} shows the component, their data privacy level classification, the initial deployment and the generated re-deployment. An re-deployment model privacy analysis shows, that the model is privacy compliant. The major goal (see \autoref{sec:Introduction:goals}) was accomplished. Further, depersonalised components were moved to more cheap Non-EU severs and two components were deployed onto the same server. Both deployment goals indicate, that the \textit{most cost efficient} model was chosen - as intended. However, no component stays at this original server, which produces (unnecessary) migration costs. The execution time of PerOpteryx was about 30 seconds and elven of 80 candidates were privacy compliant.
+The \autoref{tab:eval:gen:execution} shows the components, their data privacy level classification, the initial deployment and the generated re-deployment. A performed privacy analysis on the re-deployment model shows, that the model is privacy compliant. So, the major goal (see \autoref{sec:Introduction:goals}) was accomplished. Further, depersonalised components were moved to more cheap Non-EU severs and two components were deployed onto the same server. Both deployment goals indicate, that the \textit{most cost efficient} model was chosen - as intended. However, no component stays at this original server, which produces (unnecessary) migration costs. The execution time of PerOpteryx was about 30 seconds and elven of 80 candidates were privacy compliant.
 
-In scenario \#4, no privacy compliant re-deployment model can be found, PerOpteryx crashes or any kind of error occurs. However, the end result stays unchanged, no valid re-deployment model is available after the PerOpteryx execution. We will provoke this situation by deploying all components onto a single server and moving this server to a Non-EU geo-location. We expect iObserve Privacy to report, that no privacy compliant PCM model was found. Basically, we expect, that iObserve invokes the \textit{operator-in-the-loop} for manual error treatment.
+In scenario \#4, no privacy compliant re-deployment model can be found, PerOpteryx crashes or any kind of error occurs. However, the end result stays unchanged, no valid re-deployment model is available after the PerOpteryx execution. We are provoking this situation by deploying all components onto a single server. As the pipeline trigger we are moving this server to a Non-EU geo-location. We expect iObserve Privacy to report, that no privacy compliant PCM model was found. Basically, we expect, that iObserve invokes the \textit{operator-in-the-loop} for manual error treatment.
 
-The execution shows an error, which states, that the given re-deployment model is not privacy compliant. If a listener would be registered, the listener would have been notified. The execution lives up to our expectations. 
+The execution shows an error, which states, that the given re-deployment model is not privacy compliant. If a listener would be registered, the listener would have been notified. The execution lives up to our expectations.
+
+Concerning the research questions in \autoref{sec:Introduction:goals}, we have shown that we are able to generate a privacy compliant re-deployment model (\textbf{RQ-P1}) and that we have are able to invoke the \textit{operator-in-the-loop} on an error situation (\textbf{RQ-P2}).
 
 \section{Adaptation Planning}
 \label{sec:Evaluation:planning}
@@ -394,11 +396,11 @@ The Adaptation Planing, described in \autoref{ch:SysAdap}, aims for calculating 
  
 \subsection{Adaptation: Accuracy Evaluation}
 
-We will continue with scenario \#2 from the generation evaluation (\autoref{sec:Evaluation:generation}). This means, we use the input model from model generation, as well as the calculated re-deployment model to calculate the adaptation sequence. As a result we will show the correct adaptation sequence calculation, by translating the adaptation order to an equivalent iObserve privacy input event sequence. After iObserve privacy processed the events, the \textit{Jaccard Coefficient} - between the computed re-deployment model from PerOpteryx and the iObserve runtime model - must be \textit{1.0}. As mentioned, this example shows the continues MAPE loop and is therefore as close as possible to a real world example.
+We will continue with scenario \#2 from the generation evaluation (\autoref{sec:Evaluation:generation}). This means, we use the input model from model generation, as well as the calculated re-deployment model to calculate the adaptation sequence. We will show the correctness of the adaptation sequence calculation, by translating the adaptation order to an equivalent iObserve privacy input event sequence. After iObserve privacy processed the events, the \textit{Jaccard Coefficient} - between the computed re-deployment model from PerOpteryx and the iObserve runtime model - must be \textit{1.0}. As mentioned, this example shows the continues MAPE loop and is therefore as close as possible to a real world example.
 
 %re-establishing the privacy compliance. to show the MAPE loop validity. To show, that the given adaptation order leads to a privacy compliant system, we will simulate the adaptation. This will be achieved by 
 
-We expect the calculated adaptation sequence to represent a series of adaptation actions that migrates the runtime model towards the re-deployment model. Further, we anticipate the order to be sorted after the \textit{Unversal Action Order} specified in \textit{tab:SysAdap:order}.
+We expect the calculated adaptation sequence to represent a series of adaptation actions that migrates the runtime model towards the re-deployment model. Further, we anticipate the order to be sorted after the \textit{Unversal Action Order} specified in \autoref{tab:SysAdap:order}.
 This means, the sequence is initially \textit{acquiring} the newly used servers, followed by a series of \textit{migration} actions, that move the components to their new servers. Finally there should be three \textit{terminate} actions to release the servers, that are no longer needed. 
 
 \begin{table}[h]
@@ -456,7 +458,7 @@ This means, the sequence is initially \textit{acquiring} the newly used servers,
 \end{table}
 
 
-The execution of the transformed adaptation sequence (\autoref{tab:eval:adapt:action_input_result}) results in a privacy compliant PCM model and the \textit{Jaccard Coefficient} of the post-execution runtime model and the calculated redeployment model is \textit{1.0}. So, the result fulfills our expectations and solves the in \autoref{sec:Introduction:problems} specified problem of \textit{automated privacy compliance re-establishment}.
+The execution of the transformed adaptation sequence (\autoref{tab:eval:adapt:action_input_result}) results in a privacy compliant PCM model and the \textit{Jaccard Coefficient} of the post-execution runtime model and the calculated redeployment model is \textit{1.0}. So, the result fulfills our expectations and solves the in \autoref{sec:Introduction:problems} stated research question \textbf{RQ-E1} concerning \textit{automated privacy compliance re-establishment}.
 
 \begin{figure}[h]
 	\centering
@@ -496,7 +498,7 @@ For this scenario the Medi-Sys is used. We will modify the Medi-Sys model to pro
 	\label{tab:eval:adapt:4:action_provoke}
 \end{table}
 
-The execution of the adaptation calculation shows the expected result (see \autoref{tab:eval:adapt:4:action_result}). The replicate action is split into the expected \textit{acquire} and \textit{allocate} actions (marked with an *).
+The execution of the adaptation calculation shows the expected result (see \autoref{tab:eval:adapt:4:action_result}). The replicate action is split into the expected \textit{acquire} and \textit{allocate} actions (marked with an *). To summarize, the results are true to our expectations.
 
 \begin{table}[h]
 	\centering
@@ -518,7 +520,9 @@ The execution of the adaptation calculation shows the expected result (see \auto
 	\label{tab:eval:adapt:4:action_result}
 \end{table}
 
-\todo{what is not automatically executable?}
+Scenario \#4 intends to invoke the \textit{operator-in-the-loop}. We are unable to evaluate this scenario, since no technology dependent scripts (see \autoref{sec:SysAdap:exec}) for the actual execution are available to decide whether an action is automatically executable. This depends strongly on the used system binary management tools.
+
+Concerning the research questions stated in \autoref{sec:Introduction:goals}, we have proved the concept of calculating an automated system adaptation sequence (\textbf{RQ-E1}). However, not all defined corner cases could be detected correctly. Nevertheless, the default real-world CoCoME example was successfully calculated and proven to be correct. Overall, \textbf{RQ-E2} shows a moderate to good accuracy.
 
 
 \subsection{Adaptation: Scalability Evaluation}
@@ -541,11 +545,11 @@ The initial model is constructed as described in \autoref{sec:Evaluation:models:
 	\label{fig:eval:adap:runtime_sd}
 \end{figure}
 
-\autoref{fig:eval:adap:runtime} shows the runtime results. The graph creation shows a linear runtime behaviour, like in \autoref{sec:Evaluation:privacyanalysis:scale} already noticed. The adaptation calculation consumes an increasingly amount of time. This can be explained with the increasing model size, since the actual action calculation is optimized for $O(1)$ operations, while the action creation operates with PCM model elements directly. The EMF framework in general shows poor performance characteristics, which can also be seen at the failed 100000 changes evaluation \cite{eclipse.org.2009}\cite{Steinberg.20050706}. The adaptation planning needs next to no time, shown by adding next to no runtime on top the adaptation calculation.
+\autoref{fig:eval:adap:runtime} shows the runtime results. The graph creation shows a linear runtime behaviour, like in \autoref{sec:Evaluation:privacyanalysis:scale} already noticed. The adaptation calculation consumes an increasingly amount of time. This can be explained with the increasing model size, since the actual action calculation is optimized for $O(1)$ operations, while the action creation operates with PCM model elements directly. The EMF framework in general shows poor performance characteristics, which can also be seen at the failed 100000 changes evaluation \cite{eclipse.org.2009}\cite{Steinberg.20050706}. The adaptation planning needs next to no time, shown by the time line on top of the adaptation calculation line.
 
 The standard deviation (\autoref{fig:eval:adap:runtime_sd}) shows mostly constant deviations. However, the adaptation calculation increases significantly on the last evaluation run. We assume this is due to JVM memory management and EMF effects. However, a standard deviation of roughly 3 seconds to a runtime of 30 seconds is within an acceptable ratio, considering that two models and graphs of 30000 nodes have to be managed.
 
-The adaptation runtime in general shows satisfying results. The calculation can be considered very fast with an acceptable variance.
+The \textit{Adaptation Planning} scalability evaluation shows satisfying results. Concerning the research question \textbf{RQ-E3} it is considered very fast with an acceptable variance.
 
 
 \section{Threats to validity}
@@ -559,7 +563,7 @@ Like in any scientific publications, the evaluation has threats to its validity.
 Our decision to evaluate every major iObserve Privacy task independently is a key stone to the internal validity. It allowed us to provoke every possible reaction and effect without potential side effects. As a result, we could perfectly track cause and result of certain effects.
 
 % Scalability: Runtime effekts and test-restructuring make test a little "unsharper", however still viable
-Scalability tests often require an even more isolated and specialised testing. In our case the individual task had to be called from outside their ordinary call scheme, the teetime framework. This was necessary so enable tests of the performed size. This blurs the results in the context of the whole system, however, sharpens the individual tasks runtime behaviour.  
+Scalability tests often require an even more isolated and specialised testing. In our case the individual task had to be called from outside their ordinary call scheme, the \textit{TeeTime framework}. This was necessary so enable tests of the performed size. This blurs the results in the context of the whole system, however, sharpens the individual tasks runtime behaviour.  
 
 \subsection{External Validity} %Generalization
 
