@@ -22,7 +22,7 @@ Like every other scientific work, we can not build a universal, world ready syst
 
 \begin{description}
 	\item[Cloud Provider objectives]
-	A cloud provider, like any other person or company, hast own objectives. In the most cases \textit{profit maximization} can be assumed as the primary goal. This can be interpreted in multiple ways, from law in-compliant behaviour over SLA violations to premium prices for extended services. Nevertheless, in general the assumption stands, that Cloud Providers want to stay SLA and law compliant to avoid lawsuits and reputation loss. Based on this, we assume our providers are law and SLA compliant.
+	A cloud provider, like any other person or company, has his own objectives. In the most cases \textit{profit maximization} can be assumed as the primary goal. This can be interpreted in multiple ways, from law in-compliant behaviour over SLA violations to premium prices for extended services. Nevertheless, in general the assumption stands, that Cloud Providers want to stay SLA and law compliant to avoid lawsuits and reputation loss. Based on this, we assume our providers are law and SLA compliant.
 \end{description}	
 %Even with the assumption that the provider is law and SLA compliant, it is not possible, with the resources at hand, to consider all privacy laws for each country individually. We argue, that these assumptions are a fair trade-off between the reality of a reputable cloud provider and still gaining meaningful results
 
@@ -49,7 +49,7 @@ Like every other scientific work, we can not build a universal, world ready syst
 
 \begin{description}
 	\item[(In-)Correct Component Based Architecture]
-	Modern software systems and distributed cloud applications in particular, are designed after the \textit{separation of concern} principle. Systems designed after this principle encapsulate cohesive functionality in a component. If a system ignores this basic design principle, it is possible that our approach does not detect a privacy violation. Since a component gets its data privacy level from the \textit{Assembly Connector}, a component that saves personal data, but does not communicate them via an Assembly Connector can receive a incorrect data privacy level. An example is a component that receives personal information via an user interface (e.g. Graphical User Interface) and saves or processes them itself breaks this principle. We argue that such a monolithic system stands contrary to the fundamental idea of distributed cloud systems and were ignored during this thesis.
+	Modern software systems and distributed cloud applications in particular, are designed after the \textit{separation of concern} principle. Systems designed after this principle encapsulate cohesive functionality in a component. If a system ignores this basic design principle, it is possible that our approach does not detect a privacy violation. Since a component gets its data privacy level from the \textit{Assembly Connector}, a component that saves personal data, but does not communicate them via an Assembly Connector can receive a incorrect data privacy level. An example is a component, that receives personal information via an user interface (e.g. Graphical User Interface) and saves or processes them itself. We argue that such a monolithic system stands contrary to the fundamental idea of distributed cloud systems. As a result, we ignored this case during this thesis.
 \end{description}
 
 \section{Future Work}
@@ -60,7 +60,7 @@ During the work on iObserve Privacy a couple of future oriented tasks and develo
 % Merge with work of Tobias Poeppke
 \begin{description}
 	\item[Thesis merge]
-	\textit{B. Sc. Tobias Pöppke} developed in his master thesis, \textit{Design Space Exploration for Adaptation Planning in Cloud-based Applications}, another iObserve modification. His modification aims for the automated support of modern cloud system. The development of our iObserve systems happened under close cooperation and is therefore well aligned for merging.
+	\textit{B. Sc. Tobias Pöppke} developed in his master thesis, \textit{Design Space Exploration for Adaptation Planning in Cloud-based Applications} \cite{TobiasPoppke.20170626}, another iObserve modification. His modification aims for the automated support of modern cloud system. The development of our iObserve systems happened under close cooperation and is therefore well aligned for merging.
 \end{description}
 
 % Integrate PerOpteryx

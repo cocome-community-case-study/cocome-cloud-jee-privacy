@@ -802,6 +802,39 @@
       \verb http://www.dataversity.net/introduction-to-open-world-assumption-vs-closed-world-assumption/
       \endverb
     \endentry
+    \entry{TobiasPoppke.20170626}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=99c8bfb07c9060631995805e90360416}{%
+           family={Pöppke},
+           familyi={P\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Karlsruher Institut für Technology}%
+      }
+      \list{location}{1}{%
+        {Karlsruhe}%
+      }
+      \list{publisher}{1}{%
+        {Institut für Programmstrukturen und Datenorganisation; Chair SDQ}%
+      }
+      \strng{namehash}{99c8bfb07c9060631995805e90360416}
+      \strng{fullhash}{99c8bfb07c9060631995805e90360416}
+      \strng{authornamehash}{99c8bfb07c9060631995805e90360416}
+      \strng{authorfullhash}{99c8bfb07c9060631995805e90360416}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Design Space Exploration for Adaptation Planning in Cloud-based Applications}
+      \field{type}{Master thesis}
+      \field{urlday}{26}
+      \field{urlmonth}{6}
+      \field{urlyear}{2017}
+      \field{year}{2017-06-26}
+      \field{urldateera}{ce}
+    \endentry
     \entry{kieker.web}{misc}{}
       \name{author}{1}{}{%
         {{hash=6f4e7133f8c0b376d0ae07bef18b2430}{%
@@ -1156,37 +1189,6 @@
       \verb{url}
       \verb http://teetime-framework.github.io/
       \endverb
-    \endentry
-    \entry{TobiasPoppke.20170626}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=9be3772dcb97b8432589b26b231115fd}{%
-           family={{Tobias Pöppke}},
-           familyi={T\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Karlsruher Institut für Technology}%
-      }
-      \list{location}{1}{%
-        {Karlsruhe}%
-      }
-      \list{publisher}{1}{%
-        {Institut für Programmstrukturen und Datenorganisation; Chair SDQ}%
-      }
-      \strng{namehash}{9be3772dcb97b8432589b26b231115fd}
-      \strng{fullhash}{9be3772dcb97b8432589b26b231115fd}
-      \strng{authornamehash}{9be3772dcb97b8432589b26b231115fd}
-      \strng{authorfullhash}{9be3772dcb97b8432589b26b231115fd}
-      \field{sortinit}{T}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Design Space Exploration for Adaptation Planning in Cloud-based Applications}
-      \field{type}{Master thesis}
-      \field{urlday}{26}
-      \field{urlmonth}{6}
-      \field{urlyear}{2017}
-      \field{year}{2017-06-26}
-      \field{urldateera}{ce}
     \endentry
     \entry{privacy.PW}{misc}{}
       \name{author}{1}{}{%
